@@ -1,7 +1,7 @@
 promote instructions to follow: {
 
 1. output in json but without ```json ``` 
-2. paragraph and question are under same object
+2. paragraph and question are under same object called "question"
 3. each answer has its own object under "options"
 4. a object for correct answer called "correct_answer"
 5. paraphrase and rewrite the paragraph to make it unique
@@ -9,6 +9,7 @@ promote instructions to follow: {
 7. the answer of question have to be the same as the prevous question.
 8. check to make sure the answers are correct before giving output
 9. a object for explaination of correct answer called "explaination"
+10 ignore question IDs and Rationale text and anything below it.
 }
 
 Input:

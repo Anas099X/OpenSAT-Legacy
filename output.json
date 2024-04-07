@@ -1,7 +1,7 @@
 {
-  "content": {
-    "paragraph": "A number of economic thinkers have posited that during the late 1800s to early 1900s, American families benefited from economies of scale regarding food expenditures, with the belief being that larger families incurred lower food costs per individual compared to smaller ones. Contrary to this belief, an analysis by Economist Trevon Logan, upon examining the evidence at hand, refutes this notion.",
-    "question": "Which term best fills the blank with the most accurate and precise language?"
+  "question": {
+    "paragraph": "A number of economic historians have posited that during the late 1800s to early 1900s, households in the United States benefited from economies of scale regarding food expenditures, with the belief being that larger households could spend less on food per individual compared to smaller ones. Contrary to this belief, Economist Trevon Logan's thorough examination of existing data refutes this notion.",
+    "question_text": "Which word or phrase most logically and precisely fills in the blank?"
   },
   "options": {
     "A": "surmised",
@@ -10,5 +10,47 @@
     "D": "regretted"
   },
   "correct_answer": "A",
-  "explanation": "Option A is correct because it aligns with the text's narrative about household food expenditures in the late 19th and early 20th centuries. 'Surmised' implies forming a notion or guess with scant evidence. The passage details how some economic historians 'assumed' varying food expenses for large and small families, but another economist's scrutiny of the data revealed this assumption to be incorrect. The context indicates that the historians made an unfounded assumption without adequate evidence."
+  "explanation": "Option A, 'surmised,' is the correct choice as it logically fits the context of the historians' discussion about household food expenditures in the late 19th and early 20th centuries. 'Surmised' here implies that the historians formed a hypothesis with scant evidence. The passage clarifies that these historians had an assumption regarding the spending habits of large versus small households, which was later shown to be incorrect by Logan's analysis of the data."
+}
+{
+  "question": {
+    "paragraph": "In the eerie night, as the carriage traversed a secluded area, the howling of wolves grew increasingly intense, as if they were encircling us from all directions. My heart was seized by terror, a sentiment echoed by the horses. Yet, the coachman remained utterly unfazed; despite his frequent glances into the shadowy abyss, nothing was discernible.",
+    "query": "In the context of the passage, what is the closest meaning of the term 'disturbed'?"
+  },
+  "options": {
+    "A": "Disorganized",
+    "B": "Alarmed",
+    "C": "Offended",
+    "D": "Interrupted"
+  },
+  "correct_answer": "B",
+  "explanation": "Option B is correct as 'disturbed' in the passage most closely aligns with 'alarmed.' The narrative contrasts the reactions of the narrator and the horses, who are filled with terror, with the calm demeanor of the coachman, who is not 'disturbed,' or alarmed, by the encroaching wolves."
+}
+{
+  "question": {
+    "paragraph": "In the 1894 narrative 'The Fatal Garland' by Srimati Svarna Kumari Devi, translated by A. Christina Albers in 1910, we follow Shakti as she traverses a familiar riverside from her youth. Venturing through the forest, the branches of the trees reached out as if to greet her with open arms, a gesture of old friendship. Shortly thereafter, she arrived at the riverbank.",
+    "query": "What is the best description of the role of the highlighted section within the overall context of the passage?"
+  },
+  "options": {
+    "A": "It implies that Shakti is uneasy near the river.",
+    "B": "It suggests that Shakti is disoriented within the forest.",
+    "C": "It underscores Shakti's connection to the natural surroundings.",
+    "D": "It reflects Shakti's gratitude towards enduring friendships."
+  },
+  "correct_answer": "C",
+  "explanation": "Option C is correct as it most accurately captures the essence of the highlighted sentence within the context of the passage. The initial sentence establishes Shakti's deep knowledge of the woods. The highlighted sentence further accentuates her intimacy and comfort with the woods, depicting the tree branches as personified entities that welcome her with open arms. The passage continues to portray Shakti as being at ease and familiar with the woods, akin to an old friend of the trees. Therefore, the highlighted section's role is to reinforce Shakti's sense of belonging to the wooded environment she is revisiting."
+}
+{
+  "question": {
+    "paragraph": "Research by economist Marco Castillo and his team has revealed that the burdens of time and effort required for charitable contributions—termed nuisance costs—tend to decrease the overall amount of donations. To counter this, charities could offer compensation for these nuisance costs. However, since these expenses are generally not connected to the size of the donation, it's probable that charities would opt to draw in fewer, but larger, donations rather than a greater number of smaller ones.",
+    "query": "What is the most logical and precise word or phrase to fill in the blank, indicating the relationship between nuisance costs and donation size?"
+  },
+  "options": {
+    "A": "supplemental to",
+    "B": "predictive of",
+    "C": "independent of",
+    "D": "subsumed in"
+  },
+  "correct_answer": "C",
+  "explanation": "Option C is correct because the passage indicates that charities compensating for nuisance costs tend to attract larger donations, implying that nuisance costs do not vary with the size of the donation."
 }
