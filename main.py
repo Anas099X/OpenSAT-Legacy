@@ -14,11 +14,11 @@ importfile = open("input.txt", "r+")
 outputfile = open("output.json", "w+")
 
 #auto question converter and exporter
-page = reader.pages
-for x in page:
+sat_pdf = reader.pages
+for page in sat_pdf:
  response = client.chat.completions.create(
     model="gpt-4-turbo",
-    messages=[{"role": "user", "content": promptfile + "\n" + x.extract_text()}],
+    messages=[{"role": "user", "content": promptfile + "\n" + page.extract_text()}],
    )
  
  outputfile.write(response.choices[0].message.content)

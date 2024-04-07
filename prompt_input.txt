@@ -10,6 +10,7 @@ promote instructions to follow: {
 8. check to make sure the answers are correct before giving output
 9. a object for explaination of correct answer called "explaination"
 10 ignore question IDs and Rationale text and anything below it.
+11. make sure to not left out blank(____) so that users can answer questions later
 }
 
 Input:
