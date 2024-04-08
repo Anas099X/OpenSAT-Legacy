@@ -8,7 +8,7 @@ reader = PdfReader("test.pdf")
 
 
 #import prompt for instuctions
-promptfile = open("prompt_input.txt", "r+").read()
+promptfile = open("reformat_prompt.txt", "r+").read()
 
 importfile = open("input.txt", "r+")
 outputfile = open("output.json", "w+")
@@ -22,8 +22,8 @@ for page in sat_pdf:
    )
  
  outputfile.write(response.choices[0].message.content)
- add_question("sat_question_test","questions",response.choices[0].message.content)
+ #add_question("sat_question_test","questions",response.choices[0].message.content)
  time.sleep(0.55)
  print("Question Added!")
- #print(response.choices[0].message.content)
+ print(response.choices[0].message.content)
 

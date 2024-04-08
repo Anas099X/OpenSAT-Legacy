@@ -12,4 +12,4 @@ response = requests.request("GET", url, headers=headers, data=payload)
 
 data = json.loads(response.text)
 
-print(data['questions'][0])
+print(f" {data['questions'][0]['question']['paragraph']} \n{data['questions'][0]['question']['query']}")
