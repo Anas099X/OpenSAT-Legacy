@@ -1,14 +1,56 @@
 {
   "question": {
-    "paragraph": "In the late 1800s to early 1900s, it was commonly believed that larger households in the United States benefited from economies of scale regarding food expenditures, meaning they spent less on food per capita compared to smaller households. However, an analysis by economist Trevon Logan contradicts this belief, indicating that the data does not support the assumption.",
-    "question_text": "What is the most accurate and precise word to fill in the blank in the following statement? 'Economic historians ___ that larger households spent less per person on food than smaller households.'"
-  },
-  "options": {
-    "A": "surmised",
-    "B": "contrived",
-    "C": "questioned",
-    "D": "regretted"
-  },
-  "correct_answer": "A",
-  "explanation": "Option A, 'surmised,' is correct because it means to suppose something is true without having evidence to confirm it. This fits the context where economic historians made an assumption about household spending without sufficient evidence, which was later challenged by Trevon Logan's analysis."
+    "paragraph": "Numerous scholars of economic history have ______ that during the late 1800s to early 1900s, American households benefited from economies of scale regarding food expenditures—believing that food costs per individual were lower in larger households compared to smaller ones. However, Economist Trevon Logan's detailed analysis of existing data refutes this belief.",
+    "question": "Which choice fills in the blank with the most accurate and precise term?",
+    "choices": {
+      "A": "hypothesized",
+      "B": "fabricated",
+      "C": "disputed",
+      "D": "lamented"
+    },
+    "correct_answer": "A",
+    "explanation": "Option A is correct as it best fits the context of the paragraph, indicating that the scholars formed a theory with insufficient evidence. 'Hypothesized' implies that an idea was proposed based on limited proof. The paragraph details how scholars 'believed' in different spending habits between large and small households, but Logan's examination of the data showed this belief to be incorrect. The other options are not suitable as they either imply deceit (B), challenge the claim (C), or express sorrow (D), none of which align with the scholars' original assertion."
+  }
+}
+{
+  "question": {
+    "paragraph": "Extracted from the classic 1897 gothic novel Dracula by Bram Stoker, the following passage describes the protagonist's eerie journey at night. The howling of the wolves grew increasingly louder, as if they were encircling us from all directions. My fear escalated tremendously, and the horses seemed to empathize with my terror. The coachman, on the other hand, appeared completely unfazed; he continued to glance around into the pitch-black night, but I couldn't make out anything.",
+    "question": "In the context of the passage, the term 'unfazed' could best be substituted with which word?",
+    "choices": {
+      "A": "Unorganized",
+      "B": "Unalarmed",
+      "C": "Unoffended",
+      "D": "Uninterrupted"
+    },
+    "correct_answer": "B",
+    "explanation": "Option B is the correct answer because within the context of the passage, 'unfazed' is synonymous with unalarmed. The narrative sets a scene where the protagonist is in a carriage surrounded by the ominous sounds of wolves in the dark. It contrasts the protagonist's and the horses' intense fear with the coachman's lack of reaction: while the protagonist and the horses are 'tremendously scared,' the coachman is 'completely unfazed.' This implies that the coachman is not worried or startled by the proximity of the wolves."
+  }
+}
+{
+  "question": {
+    "paragraph": "Extracted from the 1894 narrative 'The Inevitable Diadem' by Srimati Svarna Kumari Devi, translated in 1910 by A. Christina Albers, the protagonist, Shakti, revisits a riverbank, a place of many childhood memories. Venturing through the familiar forest, the trees appeared to reach out with arms of welcome, recognizing her as a cherished acquaintance. Shortly after, she found herself by the river's edge.",
+    "question": "What role does the highlighted section play within the context of the passage?",
+    "choices": {
+      "A": "It implies Shakti's unease in the vicinity of the river.",
+      "B": "It suggests that Shakti is disoriented within the forest.",
+      "C": "It underscores Shakti's deep-rooted connection to the natural surroundings.",
+      "D": "It reflects Shakti's gratitude towards enduring personal relationships."
+    },
+    "correct_answer": "C",
+    "explanation": "Option C is the most fitting response, as it accurately captures the essence of the highlighted sentence within the passage. The initial sentence establishes Shakti's intimate knowledge of the forest. The subsequent highlighted sentence reinforces her comfort and familiarity with the woods, portraying the tree branches as hospitable and 'welcoming,' akin to open arms greeting her. The passage continues to depict Shakti's ease and contentment in the forest, likening her to 'a cherished acquaintance' of the trees. Therefore, the highlighted section's purpose is to accentuate Shakti's ingrained connection with the forest she frequents."
+  }
+}
+{
+  "question": {
+    "paragraph": "Research by economist Marco Castillo and his team indicates that the inconvenience costs—effort and time required to contribute—diminish philanthropic contributions. Nonprofits can lessen this impact by reimbursing these inconvenience costs to benefactors. However, these expenses, while fluctuating, are mostly ____ in relation to the size of the donation, leading nonprofits that reimburse to prefer securing several substantial donations rather than numerous smaller ones.",
+    "question": "Which option fills in the blank with the most accurate and precise term?",
+    "choices": {
+      "A": "proportional to",
+      "B": "reflective of",
+      "C": "disconnected from",
+      "D": "incorporated into"
+    },
+    "correct_answer": "C",
+    "explanation": "Option C is the correct answer. The passage suggests that nonprofits seeking to offset inconvenience costs tend to attract larger donations rather than many smaller ones, implying that these costs do not correlate with the size of donations."
+  }
 }

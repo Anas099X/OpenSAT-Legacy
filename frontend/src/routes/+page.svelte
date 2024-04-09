@@ -1,8 +1,20 @@
 <script lang="ts">
 import { AppBar, AppShell } from '@skeletonlabs/skeleton';
 
+async function test() {
+  try {
+    const res = await fetch("https://getpantry.cloud/apiv1/pantry/018074c8-1891-4995-9fd6-2d8b5cf4eb17/basket/sat_question_test");
+    if (!res.ok) {
+      throw new Error(`Error fetching data: ${res.status}`);
+    }
+    const data = await res.json();
+    return // Log the data directly
+  } catch (error) {
+    console.error('Error fetching data:', error);
+  }
+}
 
-
+test();
 
 </script>
 
@@ -12,10 +24,7 @@ import { AppBar, AppShell } from '@skeletonlabs/skeleton';
 	<svelte:fragment slot="sidebarLeft">
 		<div class="card p-4" style=" position:relative; height:auto; width:550px;  background: transparent;  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0);">
 		<h class=h5><p>
-			A number of economic thinkers have posited that during the late 1800s to early 1900s, American families benefited from economies of scale concerning food expenditures, with the belief being that larger families incurred lower food costs per individual compared to smaller ones. Contrary to this belief, an in-depth examination of the data by Economist Trevon Logan reveals that this notion is unfounded.
-		    A number of economic thinkers have posited that during the late 1800s to early 1900s, American families benefited from economies of scale concerning food expenditures, with the belief being that larger families incurred lower food costs per individual compared to smaller ones. Contrary to this belief, an in-depth examination of the data by Economist Trevon Logan reveals that this notion is unfounded.
-			A number of economic thinkers have posited that during the late 1800s to early 1900s, American families benefited from economies of scale concerning food expenditures, with the belief being that larger families incurred lower food costs per individual compared to smaller ones. Contrary to this belief, an in-depth examination of the data by Economist Trevon Logan reveals that this notion is unfounded.
-			A number of economic thinkers have posited that during the late 1800s to early 1900s, American families benefited from economies of scale concerning food expenditures, with the belief being that larger families incurred lower food costs per individual compared to smaller ones. Contrary to this belief, an in-depth examination of the data by Economist Trevon Logan reveals that this notion is unfounded.
+			
 		</p>
 	    </h>
 
