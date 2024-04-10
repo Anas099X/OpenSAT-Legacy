@@ -9,11 +9,14 @@
 - output the json directly dont output anything else
 - output it in text form not in ```json ``` form
 - ignore question IDs and Rationale text and anything below it.
+- for a "for fill in blank question" make sure there is a ____ where reader can fill
+- check that output is relevent to answers to avoid mistakes
 
 
 # Instructions
-- paraphrase and rewrite the input question and to make it unique and make sure it is related to the question
-- make sure to have ____ for blank areas in output questions for Which choice fills in the blank with the most accurate and precise term?
+- create a new unqiue SAT question with simillar style to input questions(provide new characters, context, vocab etc.)
+- make sure to have ____ for fill in blank questions.
+- while writing explanation, consider making it not too long.
 - follow following pattern:
 {
   "question": {
