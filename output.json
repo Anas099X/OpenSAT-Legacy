@@ -1,0 +1,53 @@
+{
+  "question": {
+    "paragraph": "In examining the economic history of late nineteenth- and early twentieth-century households in the United States, some scholars have debated whether there was an economy of scale when it came to food purchases. Economist Trevon Logan challenged the prevailing notion, demonstrating through data analysis that this assumption was unfounded.",
+    "question": "Which term best describes the approach taken by some scholars towards the food purchases of late nineteenth- and early twentieth-century households?",
+    "choices": {
+      "A": "speculated",
+      "B": "fabricated",
+      "C": "scrutinized",
+      "D": "lamented"
+    },
+    "correct_answer": "A",
+    "explanation": "Choice A is the correct answer because it accurately reflects the actions of the scholars discussed in the paragraph. They 'speculated' or formed assumptions about the economy of scale in food purchases, which were later challenged by economist Trevon Logan. Choice B, 'fabricated,' suggests that the scholars made up false information, which is not supported by the context. Choice C, 'scrutinized,' implies that the scholars carefully examined the data, whereas the paragraph indicates that they made assumptions without sufficient evidence. Choice D, 'lamented,' implies expressing regret or sorrow, which is not relevant to the scholars' actions."
+  }
+}{
+  "question": {
+    "paragraph": "As the night enveloped the remote region, the baying of the wolves grew louder, echoing ominously through the darkness. A sense of dread gripped me, and the horses seemed to share my fear. However, our driver remained unfazed, calmly scanning the surroundings although nothing was visible in the impenetrable darkness.",
+    "question": "As used in the text, what does the word “ominously” most nearly mean?",
+    "choices": {
+      "A": "Joyfully",
+      "B": "Predictably",
+      "C": "Threateningly",
+      "D": "Eerily"
+    },
+    "correct_answer": "C",
+    "explanation": "Choice C is the best answer because in the context of the passage, 'ominously' means threateningly. The word portrays the increasing danger implied by the howling of the wolves, contributing to the sense of foreboding in the scene. The narrator describes the night as enveloped in darkness, with the sound of wolves growing louder, creating a menacing atmosphere. Choice A is incorrect. 'Joyfully' does not capture the sense of impending danger conveyed by 'ominously.' Choice B is incorrect. 'Predictably' does not align with the sense of uncertainty and threat in the passage. Choice D is incorrect. 'Eerily' shares some similarity with 'ominously,' but it does not fully convey the sense of imminent threat present in the text."
+  }
+}{
+  "question": {
+    "paragraph": "As she walked near the riverbank, Shakti reminisced about her childhood visits to the woods. The familiar trees stretched out their branches, seeming to welcome her like an old friend. She felt a deep sense of belonging in the landscape.",
+    "question": "Which choice best describes Shakti's feelings towards the landscape?",
+    "choices": {
+      "A": "She feels uncomfortable near the river.",
+      "B": "She has lost her sense of direction in the woods.",
+      "C": "She emphasizes her sense of belonging in the landscape.",
+      "D": "She appreciates her long-term friendships."
+    },
+    "correct_answer": "C",
+    "explanation": "Choice C best describes Shakti's feelings towards the landscape. The paragraph highlights her deep connection and sense of belonging to the familiar woods, symbolized by the welcoming trees. This emphasizes her comfort and attachment to the natural environment."
+  }
+}{
+  "question": {
+    "paragraph": "In a study conducted by economist Marco Castillo and his team, it was demonstrated that nuisance costs, which refer to the time and effort individuals expend in making donations, have a detrimental impact on charitable giving. However, charities have the potential to alleviate this effect by reimbursing donors for these nuisance costs. Nonetheless, these costs, though they vary, are largely ______ donation size. Consequently, charities that opt to compensate donors for these costs are likely to prefer attracting a few large donors over many small donors.",
+    "question": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": {
+      "A": "supplemental to",
+      "B": "predictive of",
+      "C": "independent of",
+      "D": "subsumed in"
+    },
+    "correct_answer": "C",
+    "explanation": "Choice C is the best answer. Given the context provided, it's evident that nuisance costs are not directly related to donation size. Therefore, they can be considered independent of donation size. This aligns with the notion that compensating donors for nuisance costs would lead to a preference for large donors over small ones, indicating that donation size is not a determining factor for these costs.\n\nChoice A is incorrect because if nuisance costs were supplemental to donation size, compensating donors for these costs wouldn't necessarily result in a preference for large donors.\n\nChoice B is incorrect because if nuisance costs were predictive of donation size, compensating donors for these costs wouldn't necessarily lead to favoring large donors over small ones.\n\nChoice D is incorrect because if nuisance costs were subsumed in donation size, compensating donors for these costs wouldn't necessarily lead to favoring large donors over small ones."
+  }
+}
