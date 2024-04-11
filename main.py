@@ -17,12 +17,12 @@ outputfile = open("output.json", "w+")
 sat_pdf = reader.pages
 for page in sat_pdf:
  response = client.chat.completions.create(
-    model="gpt-4-turbo",
+    model="gpt-3.5-turbo",
     messages=[{"role": "user", "content": promptfile + "\n" + page.extract_text()}],
    )
  
  outputfile.write(response.choices[0].message.content)
- #add_question("sat_question_test","questions",response.choices[0].message.content)
+ add_question("sat_question_test","questions",response.choices[0].message.content)
  time.sleep(0.55)
  print("Question Added!")
  print(response.choices[0].message.content)

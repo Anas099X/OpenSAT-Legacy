@@ -1,56 +1,54 @@
 {
   "question": {
-    "paragraph": "Many linguists ______ that the rapid evolution of internet slang is deteriorating the quality of formal language skills among young adults. However, researcher Dr. Kaito Tanaka has demonstrated through extensive analysis that this belief is unfounded.",
+    "paragraph": "In the realm of economics, there has been ongoing debate regarding the dynamics of household expenditure, particularly concerning food purchases during the late nineteenth and early twentieth centuries in the United States. Some economic historians ______ that late nineteenth- and early twentieth-century households in the United States experienced an economy of scale when it came to food purchases—they assumed that large households spent less on food per person than did small households. Economist Trevon Logan showed, however, that a close look at the available data disproves this supposition.",
     "question": "Which choice completes the text with the most logical and precise word or phrase?",
     "choices": {
-      "A": "presume",
-      "B": "fabricate",
-      "C": "dispute",
-      "D": "lament"
+      "A": "surmised",
+      "B": "contrived",
+      "C": "questioned",
+      "D": "regretted"
     },
     "correct_answer": "A",
-    "explanation": "Choice A is correct as it logically fills in the blank, indicating that linguists formed an opinion based on little evidence. 'Presume' means to suppose that something is the case on the basis of probability. The paragraph suggests that linguists made an assumption without substantial proof, which Dr. Tanaka's research challenges. Choice B, 'fabricate', implying to invent or concoct something, typically with deceitful intent, does not fit the context as there is no indication of deception. Choice C, 'dispute', is not suitable because it is Dr. Tanaka who disputes the linguists' claim, not the other way around. Choice D, 'lament', meaning to express sorrow or regret, is incorrect as the paragraph discusses a factual claim, not an emotional response."
+    "explanation": "Choice A is the best answer because it most logically completes the text’s discussion of late nineteenth- and early twentieth-century household food purchases. In this context, “surmised” means formed an idea or assumption with little evidence. The text explains that certain economic historians “assumed” that large and small households spent different amounts on food per person, but that another economist found this supposition to be false based on evidence from available data. This context suggests that the economic historians made an incorrect assumption without enough consideration of evidence. Choice B is incorrect. In this context, “contrived” would mean brought about or created through trickery. Nothing in the text suggests that the economic historians were deliberately trying to trick people with a claim about food purchasing behaviors in late nineteenth- and early twentieth-century households; the text simply suggests that they made an assumption about those behaviors that another historian believes isn’t supported by the available data. Choice C is incorrect because the text indicates that it’s Logan and not the economic historians who “questioned,” or doubted, the assumption that large and small households in the late nineteenth and early twentieth centuries spent different amounts on food per person; the economic historians are the ones who made that assumption to begin with. Choice D is incorrect because nothing in the text suggests that some economic historians “regretted,” or felt sad or remorseful about, the food purchasing behaviors of late nineteenth- and early twentieth-century households. The text focuses on the idea that the economic historians made an assumption about those behaviors that may not be supported by available data, not on the historians’ emotional response to what households did in the past."
   }
-}
-{
+}{
   "question": {
-    "paragraph": "In the excerpt from Mary Shelley's 1818 novel Frankenstein, the creature recounts his bewildering awakening to life. His senses were flooded with a multitude of impressions, and he struggled to understand his existence. 'I saw, felt, heard, and smelt at the same time; and it was, indeed, a long time before I learned to distinguish between the operations of my various senses. At first, everything appeared strange and terrifying.'",
-    "question": "As used in the text, what does the word 'operations' most nearly mean?",
+    "paragraph": "In a remote region at night, the howling of wolves grew nearer and nearer, instilling dread in the narrator. While the narrator and the horses shared this fear, the driver remained unperturbed, continually scanning the darkness. 'The baying of the wolves sounded nearer and nearer, as though they were closing round on us from every side. I grew dreadfully afraid, and the horses shared my fear. The driver, however, was not in the least disturbed; he kept turning his head to left and right, but I could not see anything through the darkness.'",
+    "question": "As used in the text, what does the phrase 'not in the least disturbed' most nearly mean?",
     "choices": {
-      "A": "Functions",
-      "B": "Surgeries",
-      "C": "Businesses",
-      "D": "Military maneuvers"
+      "A": "Disorganized",
+      "B": "Unfazed",
+      "C": "Agitated",
+      "D": "Disconcerted"
     },
-    "correct_answer": "A",
-    "explanation": "Choice A is the best answer because 'operations' in this context refers to the functions or processes of the creature's senses. The creature is trying to make sense of the overwhelming new experiences as he comes to life. The word 'operations' here does not refer to surgeries (B), businesses (C), or military maneuvers (D), but rather to the workings of his sensory perceptions."
+    "correct_answer": "B",
+    "explanation": "Choice B, 'Unfazed,' is the best answer because in the context of the passage, 'disturbed' refers to being alarmed or perturbed. The narrator expresses fear due to the wolves' howling, while the horses also share this fear. However, the driver remains unaffected by the impending danger, continuing to scan the darkness without any sign of alarm. Choice A, 'Disorganized,' is incorrect as the passage does not depict any disorganization; rather, it focuses on the emotional response of the characters. Choice C, 'Agitated,' and Choice D, 'Disconcerted,' are also incorrect as they imply a level of disturbance or unease which is not exhibited by the driver in the passage.",
+    "difficulty": "Easy"
   }
-}
-{
+}{
   "question": {
-    "paragraph": "In the novel 'The Whispering Meadows' by Elara Montgomery, written in 1923, the protagonist, Evelyn, strolls through her ancestral orchard. The fruit trees, heavy with blossoms, seemed to bow down as if acknowledging her presence. They welcomed her, a descendant of the caretakers, with open boughs. Shortly after, she arrived at the family's cottage.",
-    "question": "Which choice best describes the function of the underlined portion in the text as a whole?",
+    "paragraph": "In the heart of the bustling city, Maya found herself strolling down the familiar streets she had known since childhood. The buildings towered above her, yet they seemed to embrace her like old friends. Soon, she arrived at the city park, where memories of laughter and play flooded her mind.",
+    "question": "What is the main function of the underlined portion in the text?",
     "choices": {
-      "A": "It implies that Evelyn feels estranged in the orchard.",
-      "B": "It suggests that Evelyn is revisiting the orchard after a long absence.",
-      "C": "It highlights Evelyn's deep-rooted connection to the orchard.",
-      "D": "It indicates Evelyn's gratitude towards her ancestors."
+      "A": "It suggests that Maya feels intimidated by the towering buildings.",
+      "B": "It indicates that Maya is lost and confused in the city streets.",
+      "C": "It emphasizes Maya’s deep connection to her childhood surroundings.",
+      "D": "It conveys Maya’s longing for new experiences in the city."
     },
     "correct_answer": "C",
-    "explanation": "Choice C is the best answer because it accurately captures how the underlined sentence functions within the context of the paragraph. The initial sentence establishes Evelyn's familiarity with the orchard. The underlined sentence further underscores this connection by personifying the fruit trees as recognizing and welcoming her, indicative of her deep bond with the land. The subsequent text reinforces Evelyn's comfort and belonging in the orchard, portraying her as a recognized descendant of its caretakers. Therefore, the underlined portion serves to highlight Evelyn's deep-rooted connection to the orchard."
+    "explanation": "Choice C is the best answer because it accurately describes how the underlined portion functions in the text. The passage depicts Maya's sense of familiarity and comfort in the city streets, akin to meeting old friends. This highlights her deep connection to her childhood surroundings, emphasizing a sense of belonging. Choices A, B, and D are incorrect as they misinterpret Maya's feelings and the tone of the passage. Maya is not intimidated, lost, or longing for new experiences, but rather feels embraced and nostalgic."
   }
-}
-{
+}{
   "question": {
-    "paragraph": "In a study conducted by environmentalist Dr. Lena Halpern, it was found that the presence of green spaces in urban areas significantly enhances air quality. However, the maintenance of these areas is not always proportional to their size, implying that larger parks do not necessarily require more upkeep. Consequently, urban planners aiming to maximize environmental benefits might prioritize a number of smaller parks rather than a few expansive ones.",
-    "question": "Which choice completes the text with the most logical and precise word or phrase?",
+    "paragraph": "Research conducted by economist Marco Castillo and his team revealed that nuisance costs, which refer to the time and effort individuals expend to make charitable donations, have a dampening effect on charitable giving. To counteract this phenomenon, charities have the option of reimbursing donors for these nuisance costs. However, it is observed that these costs, while they vary, are predominantly _____ donation size. Consequently, charities that opt to compensate donors for these costs are likely to prioritize attracting a few large donors over numerous small donors.",
+    "question": "Which choice best completes the sentence with the most logical and precise word or phrase?",
     "choices": {
-      "A": "correlated with",
-      "B": "exceeding",
-      "C": "equivalent to",
-      "D": "disproportionate to"
+      "A": "supplemental to",
+      "B": "predictive of",
+      "C": "independent of",
+      "D": "subsumed in"
     },
-    "correct_answer": "D",
-    "explanation": "Choice D is the best answer. The paragraph indicates that the maintenance required for green spaces is not always directly related to their size, suggesting that upkeep is 'disproportionate to' the size of the parks. Choices A, B, and C are incorrect because they imply a direct relationship between park size and maintenance, which the paragraph states is not the case."
+    "correct_answer": "C",
+    "explanation": "Choice C is the correct answer. The passage suggests that nuisance costs are not directly correlated with donation size, as compensating donors for these costs would lead to the attraction of large donors over small ones. Choice A is incorrect as it implies that nuisance costs are in addition to donation size, which contradicts the passage's logic. Choice B is incorrect as it suggests that nuisance costs can forecast donation size, which is not supported by the passage. Choice D is also incorrect as it implies that nuisance costs are included within donation size, which does not align with the passage's reasoning."
   }
 }
