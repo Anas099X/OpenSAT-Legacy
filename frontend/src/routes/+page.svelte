@@ -1,20 +1,19 @@
 <script lang="ts">
 import { AppBar, AppShell } from '@skeletonlabs/skeleton';
 
-async function test() {
-  try {
-    const res = await fetch("https://getpantry.cloud/apiv1/pantry/018074c8-1891-4995-9fd6-2d8b5cf4eb17/basket/sat_question_test");
-    if (!res.ok) {
-      throw new Error(`Error fetching data: ${res.status}`);
-    }
-    const data = await res.json();
-    return // Log the data directly
-  } catch (error) {
-    console.error('Error fetching data:', error);
-  }
-}
+import { onMount } from 'svelte';
 
-test();
+let downloadData: any;
+
+async function fetchData() {
+  const response = await fetch('https://getpantry.cloud/apiv1/pantry/018074c8-1891-4995-9fd6-2d8b5cf4eb17/basket/sat_question_test');
+  if (!response.ok) {
+	throw new Error(`Error fetching data: ${response.status}`);
+  }
+  const data = await response.json();
+  downloadData = data.questions[0];
+}
+onMount(fetchData);
 
 </script>
 
@@ -24,7 +23,9 @@ test();
 	<svelte:fragment slot="sidebarLeft">
 		<div class="card p-4" style=" position:relative; height:auto; width:550px;  background: transparent;  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0);">
 		<h class=h5><p>
-			
+			{#if downloadData}
+              {JSON.stringify(downloadData.question.paragraph)}
+			{/if}
 		</p>
 	    </h>
 
@@ -37,7 +38,7 @@ test();
 	
 	
 
-	<div class="card p-4" style=" position:relative; left:20%; top: 6%; height:500px; width:600px;">
+	<div class="card p-4 shadowed-box" style=" position:relative; left:20%; top: 6%; height:500px; width:600px;">
         
 		<h class=h5>What is the most logical and precise word or phrase to fill in the blank?</h>
 

@@ -17,7 +17,7 @@ outputfile = open("output.json", "w+")
 sat_pdf = reader.pages
 for page in sat_pdf:
  response = client.chat.completions.create(
-    model="gpt-3.5-turbo",
+    model="gpt-4-turbo",
     messages=[{"role": "user", "content": promptfile + "\n" + page.extract_text()}],
    )
  
