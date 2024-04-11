@@ -24,7 +24,7 @@ onMount(fetchData);
 		<div class="card p-4" style=" position:relative; height:auto; width:550px;  background: transparent;  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0);">
 		<h class=h5><p>
 			{#if downloadData}
-              {JSON.stringify(downloadData.question.paragraph)}
+              {downloadData.question.paragraph}
 			{/if}
 		</p>
 	    </h>
