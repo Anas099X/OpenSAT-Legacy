@@ -1,7 +1,7 @@
 <script lang="ts">
 import { AppBar, AppShell } from '@skeletonlabs/skeleton';
 
-import { onMount } from 'svelte';
+import { onMount, onDestroy } from 'svelte';
 
 let question_data: any;
 
@@ -15,13 +15,46 @@ async function fetchData() {
 }
 onMount(fetchData);
 
+let initialTime = 500; // Change this to your desired starting time in seconds
+  let minutes = Math.floor(initialTime / 60);
+  let seconds = initialTime % 60;
+  let intervalId: string | number | NodeJS.Timeout | undefined;
+
+  function startTimer() {
+    intervalId = setInterval(() => {
+      if (seconds > 0) {
+        seconds--;
+      } else if (minutes > 0) {
+        minutes--;
+        seconds = 59;
+      } else {
+        clearInterval(intervalId);
+        // Handle timer completion (optional)
+      }
+    }, 1000); // Update every second
+  }
+
+  function stopTimer() {
+    clearInterval(intervalId);
+  }
+
+  onMount(startTimer);
+  onDestroy(stopTimer); // Cleanup the interval on component unmount
+
 </script>
 
 <!-- svelte-ignore missing-declaration -->
 <AppShell slotSidebarLeft="w-50">
-	<svelte:fragment slot="header"><AppBar><h1 class="h2">
-		<span class="bg-gradient-to-br from-pink-500 to-violet-500 bg-clip-text text-transparent box-decoration-clone">SAT test project</span>
-	</h1></AppBar></svelte:fragment>
+	<svelte:fragment slot="header">
+		<AppBar gridColumns="grid-cols-3" slotDefault="place-self-center" slotTrail="place-content-end">
+			<svelte:fragment slot="lead"><h1 class="h3"><span class="bg-gradient-to-br from-pink-500 to-violet-500 bg-clip-text text-transparent box-decoration-clone">SAT test project</span></h1></svelte:fragment>
+			<div class="countdown" style="position:relative;">
+				<h1 class="h3">{minutes}m {seconds.toString().padStart(2, '0')}s</h1>
+			  </div>
+			<svelte:fragment slot="trail">(actions)</svelte:fragment>
+		</AppBar>
+
+	</svelte:fragment>
 	<svelte:fragment slot="sidebarLeft">
 		<div class="card p-4" style=" position:relative; height:auto; width:550px;  background: transparent;  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0);">
 		<h class=h5><p>
@@ -33,6 +66,9 @@ onMount(fetchData);
 
 	</div>
 	</svelte:fragment>
+	
+
+
 	<!-- (sidebarRight) -->
 	<!-- (pageHeader) -->
 	<!-- Router Slot -->
