@@ -11,7 +11,7 @@ async function fetchData() {
 	throw new Error(`Error fetching data: ${response.status}`);
   }
   const data = await response.json();
-  question_data = data.questions[0];
+  question_data = data.questions[6];
 }
 onMount(fetchData);
 
@@ -42,12 +42,12 @@ onMount(fetchData);
 
 	<div class="card p-4 shadowed-box" style=" position:relative; left:20%; top: 6%; height:500px; width:600px;">
         {#if question_data}
-		<h class=h5>{question_data.question.question}</h>
+		<h class=h5 >{question_data.question.question}</h>
 	
-        <a href="/elements/logo-clouds" class="logo-item" style="position:relative; border-radius: 10px; margin-bottom: 10px;">{question_data.question.choices.A}</a>
-	    <a href="/elements/logo-clouds" class="logo-item">{question_data.question.choices.B}</a>
-	    <a href="/elements/logo-clouds" class="logo-item">{question_data.question.choices.C}</a>
-		<a href="/elements/logo-clouds" class="logo-item">{question_data.question.choices.D}</a>
+        <a href="/elements/logo-clouds" class="logo-item variant-soft" style="position:relative; border-radius: 10px; margin-bottom: 10px;">{question_data.question.choices.A}</a>
+	    <a href="/elements/logo-clouds" class="logo-item variant-soft" style="position:relative; border-radius: 10px; margin-bottom: 10px;">{question_data.question.choices.B}</a>
+	    <a href="/elements/logo-clouds" class="logo-item variant-soft" style="position:relative; border-radius: 10px; margin-bottom: 10px;">{question_data.question.choices.C}</a>
+		<a href="/elements/logo-clouds" class="logo-item variant-soft" style="position:relative; border-radius: 10px; margin-bottom: 10px;">{question_data.question.choices.D}</a>
         {/if}
 	</div>
 
