@@ -4,18 +4,29 @@ import { AppBar, AppShell } from '@skeletonlabs/skeleton';
 import { onMount, onDestroy } from 'svelte';
 
 let question_data: any;
+let page_num: any = 1
+let question_db_input: any
+let question_list_input: any;
+
+if (page_num === 1){
+
+question_list_input = 2
+question_db_input = "sat_question_test"
+
+}
+
 
 async function fetchData() {
-  const response = await fetch('https://getpantry.cloud/apiv1/pantry/018074c8-1891-4995-9fd6-2d8b5cf4eb17/basket/sat_question_test');
+  const response = await fetch('https://getpantry.cloud/apiv1/pantry/018074c8-1891-4995-9fd6-2d8b5cf4eb17/basket/' + question_db_input);
   if (!response.ok) {
 	throw new Error(`Error fetching data: ${response.status}`);
   }
   const data = await response.json();
-  question_data = data.questions[6];
+  question_data = data.questions[question_list_input];
 }
 onMount(fetchData);
 
-let initialTime = 500; // Change this to your desired starting time in seconds
+let initialTime = 10; // Change this to your desired starting time in seconds
   let minutes = Math.floor(initialTime / 60);
   let seconds = initialTime % 60;
   let intervalId: string | number | NodeJS.Timeout | undefined;
@@ -29,7 +40,7 @@ let initialTime = 500; // Change this to your desired starting time in seconds
         seconds = 59;
       } else {
         clearInterval(intervalId);
-        // Handle timer completion (optional)
+        //console.log('TEST')
       }
     }, 1000); // Update every second
   }
@@ -43,6 +54,7 @@ let initialTime = 500; // Change this to your desired starting time in seconds
 
 </script>
 
+{#if page_num == 1}
 <!-- svelte-ignore missing-declaration -->
 <AppShell slotSidebarLeft="w-50">
 	<svelte:fragment slot="header">
@@ -90,3 +102,4 @@ let initialTime = 500; // Change this to your desired starting time in seconds
 	<svelte:fragment slot="pageFooter"></svelte:fragment>
 	<!-- (footer) -->
 </AppShell>
+{/if}
