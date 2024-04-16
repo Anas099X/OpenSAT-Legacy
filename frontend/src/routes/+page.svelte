@@ -4,29 +4,45 @@ import { AppBar, AppShell } from '@skeletonlabs/skeleton';
 import { onMount, onDestroy } from 'svelte';
 
 let question_data: any;
-let page_num: any = 1
-let question_db_input: any
-let question_list_input: any;
+let page_num: number = 0; // Set a specific type (number)
+let question_db_input: string = ""; // Set a specific type (string)
+let question_list_input: number; // Set a specific type (number)
+let isFetchingData: boolean = false; // Flag for loading state
 
-if (page_num === 1){
-
-question_list_input = 2
-question_db_input = "sat_question_test"
-
+function updateQuestionData() {
+  isFetchingData = true; // Set loading state to true
+  setTimeout(() => {
+    if (page_num === 0) {
+      question_list_input = 4;
+      question_db_input = "sat_question_test";
+    } else if (page_num === 1) {
+      question_list_input = 6;
+      question_db_input = "sat_question_test";
+    } else if (page_num === 2) {
+      question_list_input = 3;
+      question_db_input = "sat_question_test";
+    }
+    fetchData(); // Call the function to fetch data based on the updated inputs
+  }, 200); // Adjust delay in milliseconds (here, 200ms)
 }
-
 
 async function fetchData() {
-  const response = await fetch('https://getpantry.cloud/apiv1/pantry/018074c8-1891-4995-9fd6-2d8b5cf4eb17/basket/' + question_db_input);
-  if (!response.ok) {
-	throw new Error(`Error fetching data: ${response.status}`);
+  try {
+    const response = await fetch('https://getpantry.cloud/apiv1/pantry/018074c8-1891-4995-9fd6-2d8b5cf4eb17/basket/' + question_db_input);
+    if (!response.ok) {
+      throw new Error(`Error fetching data: ${response.status}`);
+    }
+    const data = await response.json();
+    question_data = data.questions[question_list_input];
+  } catch (error) {
+    console.error('Error fetching data:', error);
+    // Handle the error gracefully (e.g., display an error message)
+  } finally {
+    isFetchingData = false; // Set loading state to false after fetching
   }
-  const data = await response.json();
-  question_data = data.questions[question_list_input];
 }
-onMount(fetchData);
 
-let initialTime = 10; // Change this to your desired starting time in seconds
+let initialTime = 1000; // Change this to your desired starting time in seconds
   let minutes = Math.floor(initialTime / 60);
   let seconds = initialTime % 60;
   let intervalId: string | number | NodeJS.Timeout | undefined;
@@ -54,7 +70,7 @@ let initialTime = 10; // Change this to your desired starting time in seconds
 
 </script>
 
-{#if page_num == 1}
+
 <!-- svelte-ignore missing-declaration -->
 <AppShell slotSidebarLeft="w-50">
 	<svelte:fragment slot="header">
@@ -98,8 +114,9 @@ let initialTime = 10; // Change this to your desired starting time in seconds
 		<a href="/elements/logo-clouds" class="logo-item variant-soft" style="position:relative; border-radius: 10px; margin-bottom: 10px;">{question_data.question.choices.D}</a>
         {/if}
 	</div>
-
+	{page_num}
+	<button type="button" class="btn variant-filled" on:click={() => { page_num++; updateQuestionData(); }}>Next</button>
+	<button type="button" class="btn variant-filled" on:click={() => { page_num--; updateQuestionData(); }}>Back</button>
 	<svelte:fragment slot="pageFooter"></svelte:fragment>
 	<!-- (footer) -->
 </AppShell>
-{/if}
