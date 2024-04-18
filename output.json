@@ -1,0 +1,57 @@
+{
+  "id": "e35d481c",
+  "question": {
+    "paragraph": "Some economic historians ______ that late nineteenth- and early twentieth-century households in the United States experienced an economy of scale when it came to food purchases—they assumed that large households spent less on food per person than did small households. Economist Trevon Logan showed, however, that a close look at the available data disproves this supposition.",
+    "question": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": {
+      "A": "surmised",
+      "B": "contrived",
+      "C": "questioned",
+      "D": "regretted"
+    },
+    "correct_answer": "A",
+    "explanation": "Choice A is the best answer because it most logically completes the text’s discussion of late nineteenth- and early twentieth-century household food purchases. In this context, “surmised” means formed an idea or assumption with little evidence. The text explains that certain economic historians “assumed” that large and small households spent different amounts on food per person, but that another economist found this supposition to be false based on evidence from available data. This context suggests that the economic historians made an incorrect assumption without enough consideration of evidence. Choice B is incorrect. In this context, “contrived” would mean brought about or created through trickery. Nothing in the text suggests that the economic historians were deliberately trying to trick people with a claim about food purchasing behaviors in late nineteenth- and early twentieth-century households; the text simply suggests that they made an assumption about those behaviors that another historian believes isn’t supported by the available data. Choice C is incorrect because the text indicates that it’s Logan and not the economic historians who “questioned,” or doubted, the assumption that large and small households in the late nineteenth and early twentieth centuries spent different amounts on food per person; the economic historians are the ones who made that assumption to begin with. Choice D is incorrect because nothing in the text suggests that some economic historians “regretted,” or felt sad or remorseful about, the food purchasing behaviors of late nineteenth- and early twentieth-century households. The text focuses on the idea that the economic historians made an assumption about those behaviors that may not be supported by available data, not on the historians’ emotional response to what households did in the past."
+  }
+}{
+  "id": "5d3b4e7",
+  "question": {
+    "paragraph": "In a bustling metropolis, amidst the cacophony of honking horns and bustling crowds, Sarah found solace in the quiet corner of a quaint cafe. She sipped her steaming latte, lost in thought as she watched the world rush by outside the window.",
+    "question": "As used in the text, what does the word 'quaint' most nearly mean?",
+    "choices": {
+      "A": "Busy",
+      "B": "Noisy",
+      "C": "Peaceful",
+      "D": "Modern"
+    },
+    "correct_answer": "C",
+    "explanation": "Choice C is the best answer because 'quaint' in this context refers to something charmingly old-fashioned or picturesque. The paragraph describes Sarah finding solace in a 'quiet corner of a quaint cafe,' suggesting that the cafe has a peaceful and charming atmosphere. Choices A, B, and D are incorrect. The paragraph does not describe the cafe as busy, noisy, or modern; instead, it emphasizes the peaceful and serene environment of the cafe."
+  }
+}{
+  "id": "c966ad55",
+  "question": {
+    "paragraph": "In a quaint village nestled by a serene lake, Maya strolled along the familiar path she had traversed countless times before. The cottages she passed whispered tales of bygone eras, and the cobblestone streets echoed with the laughter of generations past. As she neared the water's edge, a sense of tranquility enveloped her, like a warm embrace from an old friend.",
+    "question": "What is the primary function of the underlined portion in the passage?",
+    "choices": {
+      "A": "It suggests Maya's discomfort with her surroundings.",
+      "B": "It indicates Maya's confusion about her whereabouts.",
+      "C": "It emphasizes Maya's deep connection to the village and its history.",
+      "D": "It conveys Maya's gratitude for the hospitality of the villagers."
+    },
+    "correct_answer": "C",
+    "explanation": "Choice C is the best answer because it accurately captures the essence of the underlined portion in the passage. The passage portrays Maya's profound connection to the village and its rich history through the imagery of familiar sights and sounds. The use of phrases like 'familiar path,' 'whispered tales,' and 'warm embrace from an old friend' suggests a deep-rooted sense of belonging and connection. Choices A, B, and D are incorrect because they misinterpret the tone and context of the passage. Maya is depicted as experiencing tranquility and nostalgia, not discomfort, confusion, or gratitude."
+  }
+}{
+  "id": "785dhf3e",
+  "question": {
+    "paragraph": "Economist Lily Chen and her research team discovered that the cost of transportation—the expenses and time individuals allocate for commuting—affects their decision to accept job offers. Companies can address this issue by providing transportation subsidies to employees. However, these costs, though variable, are largely ______ the overall employment package, so companies that offer transportation subsidies may prefer attracting individuals with specific commuting needs over those with different preferences.",
+    "question": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": {
+      "A": "irrelevant to",
+      "B": "disconnected from",
+      "C": "independent of",
+      "D": "contradictory to"
+    },
+    "correct_answer": "C",
+    "explanation": "Choice C is the best answer. The paragraph suggests that the costs of transportation are not directly tied to the overall employment package. Offering transportation subsidies doesn't necessarily influence the overall package, which implies that transportation costs are independent of the package.\nChoice A is incorrect because if transportation costs were irrelevant to the overall employment package, providing subsidies wouldn't have any bearing on attracting individuals with specific commuting needs. Choice B is incorrect because if transportation costs were disconnected from the overall package, providing subsidies wouldn't necessarily affect the preference for individuals with certain commuting needs. Choice D is incorrect because if transportation costs were contradictory to the overall package, providing subsidies wouldn't make sense as a strategy for attracting individuals with specific commuting needs."
+  }
+}

@@ -23,7 +23,7 @@ function updateQuestionData() {
       question_db_input = "sat_question_test";
     }
     fetchData(); // Call the function to fetch data based on the updated inputs
-  }, 200); // Adjust delay in milliseconds (here, 200ms)
+  }, 700); // Adjust delay in milliseconds (here, 200ms)
 }
 
 async function fetchData() {
