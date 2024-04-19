@@ -13,7 +13,7 @@
 
 
 # Instructions
-- create a new unqiue SAT question with simillar style to input questions(include new characters, context, vocab etc.)
+- create a new unqiue SAT question with simillar style to input questions(use new characters, context, vocab etc.)
 - make sure to have ____ for fill in blank questions.
 - for underline portion question inputs, rewrite it and point out underline portion so the user can know which part is being talked about
 - while writing explanation, consider making it as summerized as possible

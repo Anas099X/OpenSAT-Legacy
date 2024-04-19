@@ -4,7 +4,7 @@ from PyPDF2 import PdfReader
 import time
 
 client = Client()
-reader = PdfReader("test.pdf")
+reader = PdfReader("test2.pdf")
 
 
 #import prompt for instuctions
