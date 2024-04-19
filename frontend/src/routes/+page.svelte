@@ -9,7 +9,7 @@
   let question_db_input: string = "sat_question_test"; // Set a specific type (string)
   let isFetchingData: boolean = false; // Flag for loading state
   
-  async function fetchData(pageNumber: number) {
+  async function fetchData() {
     try {
       isFetchingData = true; // Set loading state to true before fetching
       const response = await fetch(`https://getpantry.cloud/apiv1/pantry/018074c8-1891-4995-9fd6-2d8b5cf4eb17/basket/${question_db_input}?page=${pageNumber}`);
@@ -26,7 +26,7 @@
     }
   }
   
-  onMount(fetchData(1)); // Fetch data on component mount with initial page
+  onMount(fetchData); // Fetch data on component mount with initial page
   
   
   
