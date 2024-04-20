@@ -68,13 +68,21 @@
       {#if isFetchingData}
         <p>Loading data...</p>
       {:else if question_data}
-        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">  
-
-                               
-                <h class="h4">{question_data[test1].question.paragraph}</h>
-
-        
+      <div class="card grid-cols-2 md:grid-cols-3 gap-4" style="height: auto; width: 1100px; position: absolute; top: 45%; left: 35%; transform: translate(-30%, -30%);">
+        <div class="card-content p-4">  <h1 class="h3">Question #{question_data[question_id].id}</h1>
+          <br>
+          <p>{question_data[question_id].question.paragraph}</p>
+          <br>
+          <p>{question_data[question_id].question.question}</p>
+          <br>
+          <p>A. {question_data[question_id].question.choices.A}</p>
+          <p>B. {question_data[question_id].question.choices.A}</p>
+          <p>C. {question_data[question_id].question.choices.A}</p>
+          <p>D. {question_data[question_id].question.choices.A}</p>
+          <br>
         </div>
+      </div>
+      
       {:else}
         <p>No data available yet.</p>
       {/if}
