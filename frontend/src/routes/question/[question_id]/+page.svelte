@@ -68,16 +68,20 @@
       {#if isFetchingData}
         <p>Loading data...</p>
       {:else if question_data}
-      <div class="card grid-cols-2 md:grid-cols-3 gap-4" style="height: auto; width: 1100px; position: absolute; top: 45%; left: 35%; transform: translate(-30%, -30%);">
-        <div class="card-content p-4">  <h1 class="h3">Question #{question_data[question_id].id}</h1>
+      <div class="card grid-cols-2 md:grid-cols-3 gap-4" style="height: auto; width: 800px; position: absolute; top: 40%; left: 45%; transform: translate(-40%, -40%);">
+        <div class="card-content p-4">  <h class="h3"><b>Question #{question_data[question_id].id}</b></h>
+          <br>
           <br>
           <p>{question_data[question_id].question.paragraph}</p>
           <br>
-          <p>{question_data[question_id].question.question}</p>
+          <b><p>{question_data[question_id].question.question}</p></b>
           <br>
           <p>A. {question_data[question_id].question.choices.A}</p>
+          <br>
           <p>B. {question_data[question_id].question.choices.A}</p>
+          <br>
           <p>C. {question_data[question_id].question.choices.A}</p>
+          <br>
           <p>D. {question_data[question_id].question.choices.A}</p>
           <br>
         </div>
