@@ -67,20 +67,19 @@
 	</svelte:fragment>
         </AppRail>
     </svelte:fragment>
-    <input class="input" title="Input (text)" type="text" placeholder="input text" style="position: absolute; top: 20%; left: 18%; transform: translate(-20%, -18%); width:300px; margin-bottom: 2%;" />
-    <div class="card-container p-4 overflow-y-auto !bg-transparent" style="height: 400px; width: 1100px; position: absolute; top: 45%; left: 35%; transform: translate(-30%, -30%);">
+    <div class="card-container p-4 overflow-y-auto !bg-transparent" style="height: 500px; width: 1200px; position: absolute; top: 45%; left: 35%; transform: translate(-30%, -30%);">
       {#if isFetchingData}
       <ProgressBar />
         {:else if question_data}
         <div class="grid grid-cols-2 md:grid-cols-3 gap-4">  
-          {#each question_data as x, index}
+          {#each question_data as data, index}
             <div class="card p-4" style="height:20vh">
               <section class="p-2">
-                <h class="h4">Question #{x.id}</h>
+                <h class="h4">Question #{data.id}</h>
               </section>
               <!-- svelte-ignore a11y-no-static-element-interactions -->
               <!-- svelte-ignore a11y-click-events-have-key-events -->
-              <footer class="p-4 flex justify-start items-center space-x-4"><small>English Section</small><span class="chip variant-filled" on:click={() => open_question(index + 1)}>open</span></footer>
+              <footer class="p-4 flex justify-start items-center space-x-4"><small>{data.domain}</small><span class="chip variant-ghost-tertiary" on:click={() => open_question(index + 1)}>open</span></footer>
             </div>
             
           {/each}

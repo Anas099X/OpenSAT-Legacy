@@ -29,6 +29,7 @@
   },
   "type": "module",
   "dependencies": {
+    "fontawesome-svelte": "^2.0.1",
     "pantry-node": "^0.1.3"
   }
 }
