@@ -46,7 +46,7 @@
     <svelte:fragment slot="sidebarLeft">
       <AppRail height='h-full' gap='gap-1'>
         <svelte:fragment slot="lead">
-		<AppRailAnchor href="/" ><img></AppRailAnchor>
+		<AppRailAnchor href="/" >placeholder</AppRailAnchor>
 	</svelte:fragment>
 	<!-- --- -->
 	<AppRailTile bind:group={currentTile} name="tile-1" value={0} title="tile-1">

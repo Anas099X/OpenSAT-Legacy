@@ -78,11 +78,11 @@
           <br>
           <p>A. {question_data[question_id].question.choices.A}</p>
           <br>
-          <p>B. {question_data[question_id].question.choices.A}</p>
+          <p>B. {question_data[question_id].question.choices.B}</p>
           <br>
-          <p>C. {question_data[question_id].question.choices.A}</p>
+          <p>C. {question_data[question_id].question.choices.C}</p>
           <br>
-          <p>D. {question_data[question_id].question.choices.A}</p>
+          <p>D. {question_data[question_id].question.choices.D}</p>
           <br>
         </div>
       </div>
