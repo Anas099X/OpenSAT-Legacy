@@ -9,7 +9,6 @@
    export let data 
      const {question_id} = data
 
-     let test1:any = question_id
 
   let question_db_input: string = "sat_question_test"; // Set a specific type (string)
   let isFetchingData: boolean = false; // Flag for loading state
@@ -71,6 +70,8 @@
       <div class="card grid-cols-2 md:grid-cols-3 gap-4" style="height: auto; width: 800px; position: absolute; top: 40%; left: 45%; transform: translate(-40%, -40%);">
         <div class="card-content p-4">  <h class="h3"><b>Question #{question_data[question_id].id}</b></h>
           <br>
+          <br>
+          <hr class="!border-dashed" />
           <br>
           <p>{question_data[question_id].question.paragraph}</p>
           <br>
