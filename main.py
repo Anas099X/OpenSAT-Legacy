@@ -20,10 +20,12 @@ for page in sat_pdf:
     model="gpt-3.5-turbo",
     messages=[{"role": "user", "content": promptfile + "\n" + page.extract_text()}],
    )
- 
- outputfile.write(response.choices[0].message.content)
- add_question("sat_question_test","questions",response.choices[0].message.content)
- time.sleep(0.55)
- print("Question Added!")
- print(response.choices[0].message.content)
+ try:
+  outputfile.write(response.choices[0].message.content)
+  add_question("sat_question_test","questions",response.choices[0].message.content)
+  time.sleep(0.55)
+  print("Question Added!")
+  print(response.choices[0].message.content)
+ except:
+  print("Skipped for invalid input")  
 

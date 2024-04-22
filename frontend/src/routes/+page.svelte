@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { AppBar, AppRail, AppRailAnchor, AppRailTile, AppShell, TreeView, TreeViewItem } from '@skeletonlabs/skeleton';
+  import { AppBar, AppRail, AppRailAnchor, AppRailTile, AppShell, ProgressBar, TreeView, TreeViewItem } from '@skeletonlabs/skeleton';
   
   import { onMount, onDestroy } from 'svelte';
   
@@ -26,6 +26,12 @@
       isFetchingData = false; // Set loading state to false after fetching
     }
   }
+
+  function open_question(question_id:any){
+    window.location.href = '/question/' + question_id
+   
+
+  }
   
   onMount(() => fetchData(0)); // Fetch data on component mount with initial page
   
@@ -40,7 +46,7 @@
     <svelte:fragment slot="sidebarLeft">
       <AppRail height='h-full' gap='gap-1'>
         <svelte:fragment slot="lead">
-		<AppRailAnchor href="/" >(icon)</AppRailAnchor>
+		<AppRailAnchor href="/" ><img></AppRailAnchor>
 	</svelte:fragment>
 	<!-- --- -->
 	<AppRailTile bind:group={currentTile} name="tile-1" value={0} title="tile-1">
@@ -64,15 +70,17 @@
     <input class="input" title="Input (text)" type="text" placeholder="input text" style="position: absolute; top: 20%; left: 18%; transform: translate(-20%, -18%); width:300px; margin-bottom: 2%;" />
     <div class="card-container p-4 overflow-y-auto !bg-transparent" style="height: 400px; width: 1100px; position: absolute; top: 45%; left: 35%; transform: translate(-30%, -30%);">
       {#if isFetchingData}
-        <p>Loading data...</p>
-      {:else if question_data}
+      <ProgressBar />
+        {:else if question_data}
         <div class="grid grid-cols-2 md:grid-cols-3 gap-4">  
-          {#each question_data as x}
+          {#each question_data as x, index}
             <div class="card p-4" style="height:20vh">
               <section class="p-2">
-                <h class="h4">English Section</h>
+                <h class="h4">Question #{x.id}</h>
               </section>
-              <footer class="p-4 flex justify-start items-center space-x-4"><small>Question #{x.id}</small></footer>
+              <!-- svelte-ignore a11y-no-static-element-interactions -->
+              <!-- svelte-ignore a11y-click-events-have-key-events -->
+              <footer class="p-4 flex justify-start items-center space-x-4"><small>English Section</small><span class="chip variant-filled" on:click={() => open_question(index + 1)}>open</span></footer>
             </div>
             
           {/each}

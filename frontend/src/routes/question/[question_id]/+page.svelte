@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { AppBar, AppRail, AppRailAnchor, AppRailTile, AppShell, TreeView, TreeViewItem } from '@skeletonlabs/skeleton';
+  import { AppBar, AppRail, AppRailAnchor, AppRailTile, AppShell, ProgressBar, TreeView, TreeViewItem } from '@skeletonlabs/skeleton';
   
   import { onMount, onDestroy } from 'svelte';
   
@@ -66,7 +66,7 @@
         </AppRail>
     </svelte:fragment>
       {#if isFetchingData}
-        <p>Loading data...</p>
+      <ProgressBar />
       {:else if question_data}
       <div class="card grid-cols-2 md:grid-cols-3 gap-4" style="height: auto; width: 800px; position: absolute; top: 40%; left: 45%; transform: translate(-40%, -40%);">
         <div class="card-content p-4">  <h class="h3"><b>Question #{question_data[question_id].id}</b></h>
