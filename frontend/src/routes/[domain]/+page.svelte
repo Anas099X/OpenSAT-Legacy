@@ -146,7 +146,7 @@ function toggle_math(domain: string): void {
               </section>
               <!-- svelte-ignore a11y-no-static-element-interactions -->
               <!-- svelte-ignore a11y-click-events-have-key-events -->
-              <footer class="p-4 flex justify-start items-center space-x-4"><small>{data.domain}</small><span class="chip variant-ghost-tertiary" on:click={() => open_question(index + 1)}>open</span></footer>
+              <footer class="p-4 flex justify-start items-center space-x-4"><small>{data.domain}</small><span class="chip variant-filled" on:click={() => open_question(index + 1)}>open</span></footer>
             </div>
             
           {/each}
@@ -157,5 +157,6 @@ function toggle_math(domain: string): void {
  
   
     <slot />
+
   </AppShell>
   
