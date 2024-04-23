@@ -1,6 +1,6 @@
 <script lang="ts">
   import { AppBar, AppRail, AppRailAnchor, AppRailTile, AppShell, ProgressBar, TreeView, TreeViewItem } from '@skeletonlabs/skeleton';
-  
+  import { IconBrandDatabricks, IconDatabase, IconHeart } from '@tabler/icons-svelte';
   import { onMount, onDestroy } from 'svelte';
   
   let question_data: any;
@@ -46,7 +46,7 @@
     <svelte:fragment slot="sidebarLeft">
       <AppRail height='h-full' gap='gap-1'>
         <svelte:fragment slot="lead">
-		<AppRailAnchor href="/" >placeholder</AppRailAnchor>
+		<AppRailAnchor href="/" > <IconBrandDatabricks size="45" stroke={1.5} /></AppRailAnchor>
 	</svelte:fragment>
 	<!-- --- -->
 	<AppRailTile bind:group={currentTile} name="tile-1" value={0} title="tile-1">

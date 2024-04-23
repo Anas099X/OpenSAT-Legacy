@@ -1,5 +1,6 @@
 <script lang="ts">
   import { AppBar, AppRail, AppRailAnchor, AppRailTile, AppShell, ProgressBar, TreeView, TreeViewItem } from '@skeletonlabs/skeleton';
+    import { IconAdjustmentsSearch, IconCheck, IconFilter, IconFlagCheck } from '@tabler/icons-svelte';
   
   import { onMount, onDestroy } from 'svelte';
   
@@ -38,7 +39,20 @@
   
   onMount(() => fetchData(0)); // Fetch data on component mount with initial page
   
+  let sat_section = 'English';
+
   
+let flavors: Record<string, boolean> = {
+	vanilla: true,
+	chocolate: false,
+	strawberry: false
+};
+
+
+function toggle(flavor: string): void {
+	flavors[flavor] = !flavors[flavor];
+}
+
   
   </script>
   
@@ -47,37 +61,54 @@
     
   <AppShell slotSidebarLeft="h-auto">
     <svelte:fragment slot="sidebarLeft">
-      <AppRail height='h-full' gap='gap-1'>
-        <svelte:fragment slot="lead">
-		<AppRailAnchor href="/" >placeholder</AppRailAnchor>
-	</svelte:fragment>
-	<!-- --- -->
-	<AppRailTile bind:group={currentTile} name="tile-1" value={0} title="tile-1">
-		<svelte:fragment slot="lead">(icon)</svelte:fragment>
-		<span>Tile 1</span>
-	</AppRailTile>
-	<AppRailTile bind:group={currentTile} name="tile-2" value={1} title="tile-2">
-		<svelte:fragment slot="lead">(icon)</svelte:fragment>
-		<span>Tile 2</span>
-	</AppRailTile>
-	<AppRailTile bind:group={currentTile} name="tile-3" value={2} title="tile-3">
-		<svelte:fragment slot="lead">(icon)</svelte:fragment>
-		<span>Tile 3</span>
-	</AppRailTile>
-	<!-- --- -->
-	<svelte:fragment slot="trail">
-		<AppRailAnchor href="/" target="_blank" title="Account">(icon)</AppRailAnchor>
-	</svelte:fragment>
-        </AppRail>
+      <div class="card p-4" style="width: 300px; height:100vh;">
+        <h2 class="h2 d-flex justify-content-space-between align-items-center">
+          <IconFilter stroke={1.5} size="30" />
+          <span>Filters</span>
+        </h2>
+        
+    <br> 
+    <br> 
+  <h class="h3">Sections</h>
+  <br>
+       
+{#each ['English', 'Math'] as c}
+<button
+  class="chip {sat_section === c ? 'variant-filled' : 'variant-soft'} mr-2"
+  on:click={() => sat_section = c}
+  on:keypress
+>
+  {#if sat_section === c}<IconFlagCheck stroke={1.5} size="14" />{/if}
+  <span>{c}</span>
+</button>
+{/each}
+<br>
+<br>
+<h class="h3">Domains</h>
+<br>
+{#each Object.keys(flavors) as f}
+	<button
+		class="chip {flavors[f] ? 'variant-filled' : 'variant-soft'} mr-2"
+		on:click={() => { toggle(f); }}
+		on:keypress
+	>
+	
+		<span class="capitalize">{f}</span>
+	</button>
+{/each}
+
+
+      </div>
     </svelte:fragment>
 
-    <h2 class="h1" style="position: absolute; top: 10%; left: 35%;">{domain_id}</h2>
-    
-    <div class="card-container p-4 overflow-y-auto !bg-transparent" style="height: 500px; width: 1270px; position: absolute; top: 45%; left: 34%; transform: translate(-30%, -30%);">
+
+
+      tttt
       {#if isFetchingData}
       <ProgressBar />
         {:else if question_data}
-        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">  
+        <hr class="!border-t-2" />
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-5" style="position:relative; left:3%; top:8%; width:95%;">  
           {#each question_data as data, index}
             <div class="card p-4" style="height:20vh">
               <section class="p-2">
@@ -93,7 +124,7 @@
       {:else}
         <p>No data available yet.</p>
       {/if}
-    </div>
+ 
   
     <slot />
   </AppShell>
