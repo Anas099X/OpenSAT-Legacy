@@ -41,16 +41,29 @@
   
   let sat_section = 'English';
 
-  
-let flavors: Record<string, boolean> = {
-	vanilla: true,
-	chocolate: false,
-	strawberry: false
+
+let sat_domains_english: Record<string, boolean> = {
+	Information_and_Ideas: true,
+	Craft_and_Structure: false,
+	Expression_of_Ideas: false,
+  Standard_English_Conventions: false
 };
 
+let sat_domains_math: Record<string, boolean> = {
+	Algebra: true,
+	Advanced_Math: false,
+	Problem_Solving_and_Data_Analysis: false,
+  Geometry_and_Trigonometry: false
+};
 
-function toggle(flavor: string): void {
-	flavors[flavor] = !flavors[flavor];
+function toggle_english(domain: string): void {
+	sat_domains_english[domain] = !sat_domains_english[domain];
+  
+}
+
+function toggle_math(domain: string): void {
+	sat_domains_math[domain] = !sat_domains_math[domain];
+  
 }
 
   
@@ -63,7 +76,7 @@ function toggle(flavor: string): void {
     <svelte:fragment slot="sidebarLeft">
       <div class="card p-4" style="width: 300px; height:100vh;">
         <h2 class="h2 d-flex justify-content-space-between align-items-center">
-          <IconFilter stroke={1.5} size="30" />
+          <IconFilter stroke={1.5} size="40" />
           <span>Filters</span>
         </h2>
         
@@ -86,30 +99,47 @@ function toggle(flavor: string): void {
 <br>
 <h class="h3">Domains</h>
 <br>
-{#each Object.keys(flavors) as f}
+
+{#if sat_section == 'English'}
+{#each Object.keys(sat_domains_english) as f}
 	<button
-		class="chip {flavors[f] ? 'variant-filled' : 'variant-soft'} mr-2"
-		on:click={() => { toggle(f); }}
+		class="chip {sat_domains_english[f] ? 'variant-filled' : 'variant-soft'} mr-2"
+		on:click={() => { toggle_english(f); }}
 		on:keypress
+    style="position:relative; margin-bottom:2%; "
 	>
-	
+		{#if sat_domains_english[f]}<span><IconCheck stroke={1.5} size="14"/></span>{/if}
 		<span class="capitalize">{f}</span>
 	</button>
 {/each}
+{/if}
 
+{#if sat_section == 'Math'}
+{#each Object.keys(sat_domains_math) as f}
+	<button
+		class="chip {sat_domains_math[f] ? 'variant-filled' : 'variant-soft'} mr-2"
+		on:click={() => { toggle_math(f); }}
+		on:keypress
+    style="position:relative; margin-bottom:2%; "
+	>
+		{#if sat_domains_math[f]}<span><IconCheck stroke={1.5} size="14"/></span>{/if}
+		<span class="capitalize">{f}</span>
+	</button>
+{/each}
+{/if}
 
       </div>
     </svelte:fragment>
 
 
 
-      tttt
+
       {#if isFetchingData}
       <ProgressBar />
         {:else if question_data}
-        <hr class="!border-t-2" />
-        <div class="grid grid-cols-2 md:grid-cols-3 gap-5" style="position:relative; left:3%; top:8%; width:95%;">  
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-3" style="position:relative; left:3%; top:2%; width:95%;">  
           {#each question_data as data, index}
+           
             <div class="card p-4" style="height:20vh">
               <section class="p-2">
                 <h class="h4">Question #{data.id}</h>
