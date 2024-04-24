@@ -86,6 +86,7 @@
           <br>
           <p>D. {question_data[question_id].question.choices.D}</p>
           <br>
+          <hr class="!border-dashed" />
           <Accordion>
             <AccordionItem>
               <svelte:fragment slot="lead"><IconChecks stroke={2} /></svelte:fragment>
