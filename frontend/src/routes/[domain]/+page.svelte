@@ -1,6 +1,6 @@
 <script lang="ts">
   import { AppBar, AppRail, AppRailAnchor, AppRailTile, AppShell, ProgressBar, TreeView, TreeViewItem } from '@skeletonlabs/skeleton';
-    import { IconAdjustmentsSearch, IconCheck, IconFilter, IconFlagCheck } from '@tabler/icons-svelte';
+    import { IconAdjustmentsSearch, IconCheck, IconFilter, IconFilterFilled, IconFlagCheck, IconNotebook } from '@tabler/icons-svelte';
   
   import { onMount, onDestroy } from 'svelte';
   
@@ -76,7 +76,7 @@ function toggle_math(domain: string): void {
     <svelte:fragment slot="sidebarLeft">
       <div class="card p-4" style="width: 300px; height:100vh;">
         <h2 class="h2 d-flex justify-content-space-between align-items-center">
-          <IconFilter stroke={1.5} size="40" />
+          <IconFilterFilled stroke={1.5} size="40" />
           <span>Filters</span>
         </h2>
         
@@ -140,13 +140,17 @@ function toggle_math(domain: string): void {
         <div class="grid grid-cols-2 md:grid-cols-3 gap-3" style="position:relative; left:3%; top:2%; width:95%;">  
           {#each question_data as data, index}
            
-            <div class="card p-4" style="height:20vh">
-              <section class="p-2">
-                <h class="h4">Question #{data.id}</h>
+            <!-- svelte-ignore a11y-no-static-element-interactions -->
+            <!-- svelte-ignore a11y-click-events-have-key-events -->
+            <div class="card card-hover p-4" on:click={() => open_question(index + 1)} style="height:20vh">
+              <section class="p-1">
+                <IconNotebook stroke={2} size=36 />
               </section>
+              <h class="h4">Question #{data.id}</h>
               <!-- svelte-ignore a11y-no-static-element-interactions -->
               <!-- svelte-ignore a11y-click-events-have-key-events -->
-              <footer class="p-4 flex justify-start items-center space-x-4"><small>{data.domain}</small><span class="chip variant-filled" on:click={() => open_question(index + 1)}>open</span></footer>
+              <footer class="p-4 flex justify-end items-end space-x-5"><small style="position:relative; left:8%"><b>{data.domain}</b></small></footer>
+
             </div>
             
           {/each}
