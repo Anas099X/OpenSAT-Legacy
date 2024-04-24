@@ -74,7 +74,7 @@ function toggle_math(domain: string): void {
     
   <AppShell slotSidebarLeft="h-auto">
     <svelte:fragment slot="sidebarLeft">
-      <div class="card p-4" style="width: 300px; height:100vh;">
+      <div class="card p-4 variant-soft" style="width: 300px; height:100vh;">
         <h2 class="h2 d-flex justify-content-space-between align-items-center">
           <IconFilterFilled stroke={1.5} size="40" />
           <span>Filters</span>
@@ -142,7 +142,7 @@ function toggle_math(domain: string): void {
            
             <!-- svelte-ignore a11y-no-static-element-interactions -->
             <!-- svelte-ignore a11y-click-events-have-key-events -->
-            <div class="card card-hover p-4" on:click={() => open_question(index + 1)} style="height:20vh">
+            <div class="card card-hover variant-soft p-4 " on:click={() => open_question(index + 1)} style="height:20vh">
               <section class="p-1">
                 <IconNotebook stroke={2} size=36 />
               </section>
