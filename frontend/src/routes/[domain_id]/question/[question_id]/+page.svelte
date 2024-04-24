@@ -9,6 +9,7 @@
    // Get project id from params
    export let data 
      const {question_id} = data
+     const {domain} = data
 
 
   let question_db_input: string = "sat_question_test"; // Set a specific type (string)
@@ -17,7 +18,7 @@
   async function fetchData(pageNumber: number) {
     try {
       isFetchingData = true; // Set loading state to true before fetching
-      const response = await fetch(`https://getpantry.cloud/apiv1/pantry/018074c8-1891-4995-9fd6-2d8b5cf4eb17/basket/${question_db_input}?page=${pageNumber}`);
+      const response = await fetch(`https://getpantry.cloud/apiv1/pantry/018074c8-1891-4995-9fd6-2d8b5cf4eb17/basket/${domain}`);
       if (!response.ok) {
         throw new Error(`Error fetching data: ${response.status}`);
       }
@@ -42,28 +43,7 @@
     
   <AppShell slotSidebarLeft="h-auto">
     <svelte:fragment slot="sidebarLeft">
-      <AppRail height='h-full' gap='gap-1'>
-        <svelte:fragment slot="lead">
-		<AppRailAnchor href="/" >(icon)</AppRailAnchor>
-	</svelte:fragment>
-	<!-- --- -->
-	<AppRailTile bind:group={currentTile} name="tile-1" value={0} title="tile-1">
-		<svelte:fragment slot="lead">(icon)</svelte:fragment>
-		<span>Tile 1</span>
-	</AppRailTile>
-	<AppRailTile bind:group={currentTile} name="tile-2" value={1} title="tile-2">
-		<svelte:fragment slot="lead">(icon)</svelte:fragment>
-		<span>Tile 2</span>
-	</AppRailTile>
-	<AppRailTile bind:group={currentTile} name="tile-3" value={2} title="tile-3">
-		<svelte:fragment slot="lead">(icon)</svelte:fragment>
-		<span>Tile 3</span>
-	</AppRailTile>
-	<!-- --- -->
-	<svelte:fragment slot="trail">
-		<AppRailAnchor href="/" target="_blank" title="Account">(icon)</AppRailAnchor>
-	</svelte:fragment>
-        </AppRail>
+      
     </svelte:fragment>
       {#if isFetchingData}
       <ProgressBar />
