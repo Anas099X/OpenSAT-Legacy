@@ -1,5 +1,6 @@
 <script lang="ts">
-  import { AccordionItem, AppBar, AppRail, AppRailAnchor, AppRailTile, AppShell, ProgressBar, TreeView, TreeViewItem } from '@skeletonlabs/skeleton';
+  import { Accordion, AccordionItem, AppBar, AppRail, AppRailAnchor, AppRailTile, AppShell, ProgressBar, TreeView, TreeViewItem } from '@skeletonlabs/skeleton';
+    import { IconChecks } from '@tabler/icons-svelte';
   
   import { onMount, onDestroy } from 'svelte';
   
@@ -85,6 +86,17 @@
           <br>
           <p>D. {question_data[question_id].question.choices.D}</p>
           <br>
+          <Accordion>
+            <AccordionItem>
+              <svelte:fragment slot="lead"><IconChecks stroke={2} /></svelte:fragment>
+              <svelte:fragment slot="summary"> Click to reveal the correct answer</svelte:fragment>
+              <svelte:fragment slot="content"><b>Option {question_data[question_id].question.correct_answer} is the correct answer.</b>
+              <br>
+              {question_data[question_id].question.explanation}
+            </svelte:fragment>
+            </AccordionItem>
+            <!-- ... -->
+          </Accordion>
         </div>
       </div>
       
