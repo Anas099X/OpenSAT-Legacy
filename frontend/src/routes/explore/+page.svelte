@@ -156,7 +156,7 @@ function toggle_math(domain: string): void {
             <!-- svelte-ignore a11y-click-events-have-key-events -->
             {#each Object.entries(sat_domains_english) as [domainName, isEnabled]}
                 {#if isEnabled && data.domain === domainName}
-                <div class="card card-hover variant-soft p-4 " on:click={() => open_question("sat_database",index + 1)} style="height:20vh">
+                <div class="card card-hover variant-glass-surface p-4 " on:click={() => open_question("sat_database",index + 1)} style="height:20vh">
                   <section class="p-1">
                     <IconNotebook stroke={2} size=36 />
                   </section>
@@ -168,6 +168,9 @@ function toggle_math(domain: string): void {
                 {/if}
                 {/each}
           {/each}
+          {/if}
+          {#if sat_section === "Math"}
+          <h class="h3">Coming soon!</h>
           {/if}
         
         </div>
