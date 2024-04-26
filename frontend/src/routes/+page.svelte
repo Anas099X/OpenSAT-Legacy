@@ -25,7 +25,7 @@
         </h2>
         <br>
         <p class="text-center h4">
-          OpenSAT, a free and open-source question bank.
+          OpenSAT, a free and open-source SAT question bank.
           Dive into a massive pool of SAT practice problems,<br>
           constantly growing thanks to a dedicated community of contributors.
         </p>
