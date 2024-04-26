@@ -1,6 +1,6 @@
 <script lang="ts">
   import { AppBar, AppRail, AppRailAnchor, AppRailTile, AppShell, ProgressBar, TreeView, TreeViewItem } from '@skeletonlabs/skeleton';
-    import { IconAdjustmentsSearch, IconCheck, IconFilter, IconFilterFilled, IconFlagCheck, IconNotebook } from '@tabler/icons-svelte';
+    import { IconAdjustmentsSearch, IconBalloon, IconBrandGithub, IconCheck, IconFilter, IconFilterFilled, IconFlagCheck, IconNotebook, IconSchool } from '@tabler/icons-svelte';
   
   import { onMount, onDestroy } from 'svelte';
   
@@ -74,98 +74,20 @@ function toggle_math(domain: string): void {
    
     
   <AppShell slotSidebarLeft="h-auto">
-    <svelte:fragment slot="sidebarLeft">
-      <div class="card p-4 variant-soft" style="width: 300px; height:100vh;">
-        <h2 class="h2 d-flex justify-content-space-between align-items-center">
-          <IconFilterFilled stroke={1.5} size="40" />
-          <span>Filters</span>
-        </h2>
-        
-    <br> 
-    <br> 
-  <h class="h3">Sections</h>
-  <br>
-       
-{#each ['English', 'Math'] as c}
-<button
-  class="chip {sat_section === c ? 'variant-filled' : 'variant-soft'} mr-2"
-  on:click={() => sat_section = c}
-  on:keypress
->
-  {#if sat_section === c}<IconFlagCheck stroke={1.5} size="14" />{/if}
-  <span>{c}</span>
-</button>
-{/each}
-<br>
-<br>
-<h class="h3">Domains</h>
-<br>
-
-{#if sat_section == 'English'}
-{#each Object.keys(sat_domains_english) as f}
-	<button
-		class="chip {sat_domains_english[f] ? 'variant-filled' : 'variant-soft'} mr-2"
-		on:click={() => { toggle_english(f); }}
-		on:keypress
-    style="position:relative; margin-bottom:2%; "
-	>
-		{#if sat_domains_english[f]}<span><IconCheck stroke={1.5} size="14"/></span>{/if}
-		<span class="capitalize">{f}</span>
-	</button>
-{/each}
-{/if}
-
-{#if sat_section == 'Math'}
-{#each Object.keys(sat_domains_math) as f}
-	<button
-		class="chip {sat_domains_math[f] ? 'variant-filled' : 'variant-soft'} mr-2"
-		on:click={() => { toggle_math(f); }}
-		on:keypress
-    style="position:relative; margin-bottom:2%; "
-	>
-		{#if sat_domains_math[f]}<span><IconCheck stroke={1.5} size="14"/></span>{/if}
-		<span class="capitalize">{f}</span>
-	</button>
-{/each}
-{/if}
-
-      </div>
-    </svelte:fragment>
-
-
-
-
-      {#if isFetchingData}
-      <ProgressBar />
-      
-        {:else if english_question_data}
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-3" style="position:relative; left:3%; top:2%; width:95%;">  
-          {#if sat_section === "English"}
-          {#each english_question_data as data, index}
-           
-            <!-- svelte-ignore a11y-no-static-element-interactions -->
-            <!-- svelte-ignore a11y-click-events-have-key-events -->
-            {#each Object.entries(sat_domains_english) as [domainName, isEnabled]}
-                {#if isEnabled && data.domain === domainName}
-                <div class="card card-hover variant-soft p-4 " on:click={() => open_question("sat_database",index + 1)} style="height:20vh">
-                  <section class="p-1">
-                    <IconNotebook stroke={2} size=36 />
-                  </section>
-                  <h class="h4">Question #{data.id}</h>
-                  <!-- svelte-ignore a11y-no-static-element-interactions -->
-                  <!-- svelte-ignore a11y-click-events-have-key-events -->
-                  <footer class="p-4 flex justify-end items-end space-x-5"><small style="position:relative; left:8%"><b>{data.domain}</b></small></footer>
-                </div>
-                {/if}
-                {/each}
-          {/each}
-          {/if}
-        
-        </div>
-      {:else}
-        <p>No data available yet.</p>
-        {/if}
+    <svelte:fragment slot="header">
+      <AppBar background="variant-soft-surface">
+        <svelte:fragment slot="lead"><IconSchool stroke={1.5} size="38"/></svelte:fragment>
+        <h class="h3">OpenSAT</h>
+        <svelte:fragment slot="trail"><a class="anchor h5" style="position:relative; left:-20px;" href="/">Home</a> <a class="anchor h5" style="position:relative; left:-20px;" href="/explore">Explore</a><a class="anchor h5" style="position:relative; left:-10px;" href="https://github.com/Anas099X/Omnibook"><IconBrandGithub /></a></svelte:fragment>
+      </AppBar>
+      </svelte:fragment>
      
+      <div class="flex flex-col justify-center items-center">
+        <IconSchool stroke={1.5} size="200" />
+        <h2 class="h2"> Library with Endless Possibilities</h2>
+      </div>
+      
+
  
   
     <slot />
