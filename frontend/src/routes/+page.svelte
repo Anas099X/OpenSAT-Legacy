@@ -4,10 +4,11 @@
   
   import { onMount, onDestroy } from 'svelte';
   
-  let question_data: any;
+  let english_question_data: any;
   let currentTile: number = 0;
 
-  let sat_domain = 'sat_question_test'
+  let sat_section = 'English'
+  
 
   
   let isFetchingData: boolean = false; // Flag for loading state
@@ -15,12 +16,12 @@
   async function fetchData(pageNumber: number) {
     try {
       isFetchingData = true; // Set loading state to true before fetching
-      const response = await fetch(`https://getpantry.cloud/apiv1/pantry/018074c8-1891-4995-9fd6-2d8b5cf4eb17/basket/${sat_domain}`);
+      const response = await fetch(`https://getpantry.cloud/apiv1/pantry/018074c8-1891-4995-9fd6-2d8b5cf4eb17/basket/sat_database`);
       if (!response.ok) {
         throw new Error(`Error fetching data: ${response.status}`);
       }
       const data = await response.json();
-      question_data = data.questions; // Adjust index based on page numbering
+      english_question_data = data.english; // Adjust index based on page numbering
     } catch (error) {
       console.error('Error fetching data:', error);
       // Handle the error gracefully (e.g., display an error message)
@@ -37,30 +38,32 @@
   
   onMount(() => fetchData(0)); // Fetch data on component mount with initial page
   
-  let sat_section = 'English';
 
 
-let sat_domains_english: Record<string, boolean> = {
-	Information_and_Ideas: true,
-	Craft_and_Structure: false,
-	Expression_of_Ideas: false,
-  Standard_English_Conventions: false
+  let sat_domains_english: Record<string, boolean> = {
+  "Information and Ideas": true,
+  "Craft and Structure": true,
+  "Expression of Ideas": true,
+  "Standard English Conventions": true
 };
 
+
 let sat_domains_math: Record<string, boolean> = {
-	Algebra: true,
-	Advanced_Math: false,
-	Problem_Solving_and_Data_Analysis: false,
-  Geometry_and_Trigonometry: false
+	"Algebra": true,
+	"Advanced Math": true,
+	"Problem_Solving_and_Data_Analysis": true,
+  "Geometry_and_Trigonometry": true
 };
 
 function toggle_english(domain: string): void {
 	sat_domains_english[domain] = !sat_domains_english[domain];
+ 
   
 }
 
 function toggle_math(domain: string): void {
 	sat_domains_math[domain] = !sat_domains_math[domain];
+  
   
 }
 
@@ -134,28 +137,35 @@ function toggle_math(domain: string): void {
 
       {#if isFetchingData}
       <ProgressBar />
-        {:else if question_data}
-        <div class="grid grid-cols-2 md:grid-cols-3 gap-3" style="position:relative; left:3%; top:2%; width:95%;">  
-          {#each question_data as data, index}
+      
+        {:else if english_question_data}
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-3" style="position:relative; left:3%; top:2%; width:95%;">  
+          {#if sat_section === "English"}
+          {#each english_question_data as data, index}
            
             <!-- svelte-ignore a11y-no-static-element-interactions -->
             <!-- svelte-ignore a11y-click-events-have-key-events -->
-            <div class="card card-hover variant-soft p-4 " on:click={() => open_question(sat_domain,index + 1)} style="height:20vh">
-              <section class="p-1">
-                <IconNotebook stroke={2} size=36 />
-              </section>
-              <h class="h4">Question #{data.id}</h>
-              <!-- svelte-ignore a11y-no-static-element-interactions -->
-              <!-- svelte-ignore a11y-click-events-have-key-events -->
-              <footer class="p-4 flex justify-end items-end space-x-5"><small style="position:relative; left:8%"><b>{data.domain}</b></small></footer>
-
-            </div>
-            
+            {#each Object.entries(sat_domains_english) as [domainName, isEnabled]}
+                {#if isEnabled && data.domain === domainName}
+                <div class="card card-hover variant-soft p-4 " on:click={() => open_question("sat_database",index + 1)} style="height:20vh">
+                  <section class="p-1">
+                    <IconNotebook stroke={2} size=36 />
+                  </section>
+                  <h class="h4">Question #{data.id}</h>
+                  <!-- svelte-ignore a11y-no-static-element-interactions -->
+                  <!-- svelte-ignore a11y-click-events-have-key-events -->
+                  <footer class="p-4 flex justify-end items-end space-x-5"><small style="position:relative; left:8%"><b>{data.domain}</b></small></footer>
+                </div>
+                {/if}
+                {/each}
           {/each}
+          {/if}
+        
         </div>
       {:else}
         <p>No data available yet.</p>
-      {/if}
+        {/if}
+     
  
   
     <slot />

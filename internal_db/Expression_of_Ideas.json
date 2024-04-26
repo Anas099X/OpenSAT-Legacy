@@ -1,0 +1,462 @@
+{
+  "id": "afec1a70",
+  "domain": "Expression of Ideas",
+  "question": {
+    "paragraph": "While researching a topic, a student has taken the following notes:\nAs engineered structures, many bird nests are uniquely flexible yet cohesive.\nA research team led by Yashraj Bhosale wanted to better understand the mechanics behind these structural properties.\nBhosale’s team used laboratory models that simulated the arrangement of flexible sticks into nest-like structures.\nThe researchers analyzed the points where sticks touched one another.\nWhen pressure was applied to the model nests, the number of contact points between the sticks increased, making the structures stiffer.\nThe student wants to present the primary aim of the research study. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "question": "Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": {
+      "A": "Bhosale’s team wanted to better understand the mechanics behind bird nests’ uniquely flexible yet cohesive structural properties.",
+      "B": "The researchers used laboratory models that simulated the arrangement of flexible sticks and analyzed the points where sticks touched one another.",
+      "C": "After analyzing the points where sticks touched, the researchers found that the structures became stiffer when pressure was applied.",
+      "D": "As analyzed by Bhosale’s team, bird nests are uniquely flexible yet cohesive engineered structures."
+    },
+    "correct_answer": "A",
+    "explanation": "Choice A is the best answer. It describes the reason Bhosale’s team wanted to study the structures of bird nests—that is to say, the study’s primary aim. Choice B is incorrect. This choice doesn’t present the primary aim of the research study. It describes how the study worked, but not why it was done. Choice C is incorrect. This choice doesn’t present the primary aim of the research study. It describes a result of the experiment, but not why it was carried out. Choice D is incorrect. This choice doesn’t present the primary aim of the research study."
+  }
+},{
+  "id": "660d50dc",
+  "domain": "Expression of Ideas",
+  "question": {
+    "paragraph": "Samuel Coleridge-Taylor was a prominent classical music composer from England who toured the US three times in the early 1900s. The child of a West African father and an English mother, Coleridge-Taylor emphasized his mixed-race ancestry. For example, he referred to himself as Anglo-African. ______ he incorporated the sounds of traditional African music into his classical music compositions.",
+    "question": "Which choice completes the text with the most logical transition?",
+    "choices": {
+      "A": "In addition",
+      "B": "Actually",
+      "C": "However",
+      "D": "Regardless"
+    },
+    "correct_answer": "A",
+    "explanation": "Choice A is the best answer. 'In addition' logically signals that the detail in this sentence—that Coleridge-Taylor included traditional African music in his classical compositions—adds to the information in the previous sentence. Specifically, the previous sentence indicates one way in which Coleridge-Taylor emphasized his mixed-race ancestry, and the claim that follows indicates a second, additional way."
+  }
+},{
+  "id": "4d2736f0",
+  "domain": "Expression of Ideas",
+  "question": {
+    "paragraph": "In her poetry collection Thomas and Beulah, Rita Dove interweaves the titular characters’ personal stories with broader historical narratives. She places Thomas’s journey from the American South to the Midwest in the early 1900s within the larger context of the Great Migration. ______  Dove sets events from Beulah’s personal life against the backdrop of the US Civil Rights Movement.",
+    "question": "Which choice completes the text with the most logical transition?",
+    "choices": {
+      "A": "Consequently,",
+      "B": "Hence,",
+      "C": "Nevertheless,",
+      "D": "Similarly,"
+    },
+    "correct_answer": "D",
+    "explanation": "Choice D, 'Similarly,' is the best answer as it logically signals that the information in the sentence about Beulah's personal life being set against the backdrop of the US Civil Rights Movement is similar to the previous information about Thomas and the Great Migration. Both sentences support the first sentence’s claim that Dove portrays her characters in the context of broader historical narratives."
+  }
+},{
+  "id": "39ccb463",
+  "domain": "Expression of Ideas",
+  "question": {
+    "paragraph": "While researching a topic, a student has taken the following notes:
+The Atlantic Monthly  magazine was first published in 1857.
+The magazine focused on politics, art, and literature.
+In 2019, historian Cathryn Halverson published the book Faraway W omen and the 'Atlantic Monthly'.
+Its subject is female authors whose autobiographies appeared in the magazine in the early 1900s.
+One of the authors discussed is Juanita Harrison.
+The student wants to introduce Cathryn Halverson’s book to an audience already familiar with the Atlantic Monthly.",
+    "question": "Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": {
+      "A": "Cathryn Halverson’s Faraway W omen and the 'Atlantic Monthly' discusses female authors whose autobiographies appeared in the magazine in the early 1900s.",
+      "B": "A magazine called the Atlantic Monthly, referred to in Cathryn Halverson’s book title, was first published in 1857.",
+      "C": "Faraway W omen and the 'Atlantic Monthly' features contributors to the Atlantic Monthly, first published in 1857 as a magazine focusing on politics, art, and literature.",
+      "D": "An author discussed by Cathryn Halverson is Juanita Harrison, whose autobiography appeared in the Atlantic Monthly in the early 1900s."
+    },
+    "correct_answer": "A",
+    "explanation": "Choice A is the best answer. The sentence effectively introduces Cathryn Halverson’s book to an audience already familiar with the Atlantic Monthly, noting the title of Halverson’s book and describing its content without providing background information about the Atlantic Monthly."
+  }
+},{
+  "id": "b46e0c8a",
+  "domain": "Expression of Ideas",
+  "question": {
+    "paragraph": "While researching a topic, a student has taken the following notes: Organisms release cellular material into their environment by shedding substances such as hair or skin. The DNA in these substances is known as environmental DNA, or eDNA. Researchers collect and analyze eDNA to detect the presence of species that are difficult to observe. Geneticist Sara Oyler-McCance’s research team analyzed eDNA in water samples from the Florida Everglades to detect invasive constrictor snake species in the area. The study determined a 91% probability of detecting Burmese python eDNA in a given location. The student wants to present the study to an audience already familiar with environmental DNA.",
+    "question": "Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": {
+      "A": "Sara Oyler-McCance’s researchers analyzed eDNA in water samples from the Florida Everglades for evidence of invasive constrictor snakes, which are difficult to observe.",
+      "B": "An analysis of eDNA can detect the presence of invasive species that are difficult to observe, such as constrictor snakes.",
+      "C": "Researchers found Burmese python eDNA, or environmental DNA, in water samples; eDNA is the DNA in released cellular materials, such as shed skin cells.",
+      "D": "Sara Oyler-McCance’s researchers analyzed environmental DNA (eDNA)—that is, DNA from cellular materials released by organisms—in water samples from the Florida Everglades."
+    },
+    "correct_answer": "A",
+    "explanation": "Choice A is the best answer. This choice presents the study in a way that assumes the audience is already familiar with eDNA."
+  }
+},#### Creating a New Unique SAT Question
+
+```json
+{
+  "id": "48d0bb34",
+  "domain": "Expression of Ideas",
+  "question": {
+    "paragraph": "While researching a topic, a student has taken the following notes:\nSam Maloof (1916–2009) was an American woodworker and furniture designer.\nHe was the son of Lebanese immigrants.\nHe received a “genius grant” from the John D. and Catherine T. MacArthur Foundation in 1985.\nThe Museum of Fine Arts in Boston, Massachusetts, owns a rocking chair that Maloof made from walnut wood.\nThe armrests and the seat of the chair are sleek and contoured, and the back consists of seven spindle-like slats.\nThe student wants to describe the rocking chair to an audience unfamiliar with Sam Maloof. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "question": "Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": {
+      "A": "With its sleek, contoured armrests and seat, the walnut rocking chair in Boston’s Museum of Fine Arts is just one piece of furniture created by American woodworker Sam Maloof.",
+      "B": "Sam Maloof was born in 1916 and died in 2009, and during his life, he made a chair that you can see if you visit the Museum of Fine Arts in Boston.",
+      "C": "Furniture designer Sam Maloof was a recipient of one of the John D. and Catherine T. MacArthur Foundation’s “genius grants.”",
+      "D": "The rocking chair is made from walnut, and it has been shaped such that its armrests and seat are sleek and contoured."
+    },
+    "correct_answer": "A",
+    "explanation": "Choice A is the best answer. The sentence effectively describes the rocking chair to an audience unfamiliar with Sam Maloof, noting its sleek, contoured armrests and seat and explaining that Sam Maloof (the walnut chair’s creator) was an American woodworker. Choice B is incorrect. While the sentence explains who Sam Maloof was and mentions a chair, it doesn’t describe the chair. Choice C is incorrect. While the sentence explains who Sam Maloof was, it doesn’t describe the rocking chair. Choice D is incorrect. While the sentence describes the rocking chair, it doesn’t explain who Sam Maloof was."
+  }
+}
+```,{
+  "id": "aa7e10d0",
+  "domain": "Expression of Ideas",
+  "question": {
+    "paragraph": "While researching a topic, a student has taken the following notes: Species belonging to the Orchidaceae (orchid) family can be found in both tropical and temperate environments. Orchidaceae species diversity has not been well studied in temperate forests, such as those in Oaxaca, Mexico. Arelee Estefanía Muñoz-Hernández led a study to determine how many different Orchidaceae species are present in the forests of Oaxaca. Muñoz-Hernández and her team collected orchids each month for a year at a site in Oaxaca. Seventy-four Orchidaceae species were present at the site. The student wants to present the study and its findings. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "question": "Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": {
+      "A": "A study led by Arelee Estefanía Muñoz-Hernández identified a total of 74 Orchidaceae species in the temperate forests of Oaxaca, Mexico.",
+      "B": "There are orchids in many environments, but there are 74 Orchidaceae species in Oaxaca, Mexico.",
+      "C": "Oaxaca, Mexico, is home to temperate forests containing 74 Orchidaceae species.",
+      "D": "Arelee Estefanía Muñoz-Hernández and her team wanted to know how many different Orchidaceae species are present in the forests of Oaxaca, Mexico, so they conducted a study to collect orchids."
+    },
+    "correct_answer": "A",
+    "explanation": "Choice A is the best answer. This choice most effectively presents the study and its findings. It opens with the study and names its lead researcher, then tells us its finding: that they identified 74 Orchidaceae species in the temperate forests of Oaxaca, Mexico."
+  }
+},{
+  "id": "87fb52d",
+  "domain": "Information and Ideas",
+  "question": {
+    "paragraph": "During a recent expedition, a team of archaeologists discovered a hidden tomb in the heart of the Amazon rainforest. The tomb is believed to belong to an ancient warrior queen who ruled over the region centuries ago. The discovery sheds light on the rich history of the indigenous tribes that once thrived in the area.",
+    "question": "What is the main significance of the tomb discovered by the archaeologists?",
+    "choices": {
+      "A": "The tomb offers a glimpse into the daily life of the ancient warrior queen.",
+      "B": "The tomb provides insight into the cultural practices of the indigenous tribes.",
+      "C": "The tomb confirms the existence of valuable artifacts buried in the rainforest.",
+      "D": "The tomb showcases the architectural expertise of ancient civilizations."
+    },
+    "correct_answer": "B",
+    "explanation": "Choice B is the correct answer. The main significance of the tomb discovered by the archaeologists is that it provides insight into the cultural practices of the indigenous tribes. It helps in understanding the customs, traditions, and way of life of the people who lived in the region centuries ago. Choices A, C, and D are incorrect as they do not focus on the cultural aspect of the discovery."
+  }
+},{
+  "id": "e3edc138",
+  "domain": "Expression of Ideas",
+  "question": {
+    "paragraph": "In a heated debate in biogeography, the field is divided between dispersalists and vicariancists. ______  there are those who argue that dispersal is the most crucial determining factor in a species’ distribution, and those who insist that vicariance (separation due to geographic barriers) is. Biogeographer Isabel Sanmartín counts herself among neither.",
+    "question": "Which choice completes the text with the most logical transition?",
+    "choices": {
+      "A": "Furthermore,",
+      "B": "By contrast,",
+      "C": "Similarly,",
+      "D": "That is,"
+    },
+    "correct_answer": "D",
+    "explanation": "Choice D, 'That is,' logically signals that this sentence clarifies the terms of the scientific debate introduced in the previous sentence by explaining the difference between dispersalists and vicariancists."
+  }
+},{
+  "id": "a40c7aa3",
+  "domain": "Expression of Ideas",
+  "question": {
+    "paragraph": "Most of the planets that have been discovered outside our solar system orbit G-type stars, like our Sun. In 2014, ______ researchers identified a planet orbiting KEL T-9, a B-type star more than twice as massive and nearly twice as hot as the Sun. Called KEL T-9b, it is one of the hottest planets ever discovered.",
+    "question": "Which choice completes the text with the most logical transition?",
+    "choices": {
+      "A": "likewise",
+      "B": "however",
+      "C": "therefore",
+      "D": "for example"
+    },
+    "correct_answer": "B",
+    "explanation": "Choice B is the best answer. The word 'however' logically signals that the information in this sentence about the planet KEL T-9b—that it orbits a B-type star—contrasts with the previous information about planets discovered outside our solar system. Most of these planets orbit G-type stars, not B-type stars."
+  }
+},{
+  "id": "8f7e5b01",
+  "domain": "Expression of Ideas",
+  "question": {
+    "paragraph": "In 1815, while in exile in Jamaica, Venezuelan revolutionary Simón Bolívar penned a letter praising England’s republican government and expressing hope that Latin American nations seeking independence from Spain might achieve something similar. The letter was addressed to a local merchant, Henry Cullen; ______ though, Bolívar’s goal was to persuade political leaders from England and Europe to support his cause.",
+    "question": "Which choice completes the text with the most logical transition?",
+    "choices": {
+      "A": "additionally,",
+      "B": "ultimately,",
+      "C": "accordingly,",
+      "D": "consequently,"
+    },
+    "correct_answer": "B",
+    "explanation": "Choice B is the best answer. 'Ultimately' means 'in the long run' or 'at the highest level.' Although Bolívar wrote to a local merchant, his ultimate goal was to send a message to political leaders in Europe. Therefore, 'ultimately' fits perfectly in this context."
+  }
+},{
+  "id": "1a2b3c4d",
+  "domain": "Expression of Ideas",
+  "question": {
+    "paragraph": "In the land of Zorblax, the great ruler Zarvok accomplished many feats. He united all the different tribes and transformed Zorblax into a thriving metropolis. Today, ______ he is primarily known for creating a magnificent garden that spans across the entire city.",
+    "question": "Which choice best completes the paragraph with a logical transition?",
+    "choices": {
+      "A": "thus,",
+      "B": "similarly,",
+      "C": "nevertheless,",
+      "D": "as an illustration, "
+    },
+    "correct_answer": "C",
+    "explanation": "Choice C is the correct answer as 'nevertheless' logically indicates a contrast to the previous information about Zarvok's many achievements. It highlights the shift from his general accomplishments to a specific one. Choice A is incorrect because 'thus' incorrectly implies that the following information is a result of Zarvok's accomplishments. Choice B is incorrect because 'similarly' erroneously suggests that the upcoming information is in line with Zarvok's other achievements. Choice D is incorrect because 'as an illustration' inaccurately conveys that the sentence exemplifies Zarvok's previous achievements, which is not the intended implication."
+  }
+},{
+  "id": "3b9a7f2a",
+  "domain": "Expression of Ideas",
+  "question": {
+    "paragraph": "In a recent study on marine life, researchers have uncovered fascinating information about the behavior of octopuses. These intelligent creatures exhibit remarkable problem-solving skills and have been observed using tools in the wild. One particular octopus even learned how to open a jar to access its favorite treat hidden inside.",
+    "question": "Which statement best summarizes the unique abilities of octopuses as described in the paragraph?",
+    "choices": {
+      "A": "Octopuses are known for their camouflage abilities, which help them hide from predators in various environments.",
+      "B": "Researchers believe that octopuses possess extraordinary intelligence, allowing them to interact with their surroundings in unexpected ways.",
+      "C": "The study reveals that octopuses rely solely on instinct rather than learning new behaviors through observation.",
+      "D": "Many marine animals, including octopuses, demonstrate similar problem-solving skills when faced with challenging tasks."
+    },
+    "correct_answer": "B",
+    "explanation": "Choice B is the correct answer as it accurately captures the key points from the paragraph. It highlights the remarkable problem-solving skills and intelligence of octopuses, as well as their ability to use tools in the wild. Choices A, C, and D either misrepresent or do not address the unique abilities of octopuses as described in the paragraph."
+  }
+},```
+{
+  "id": "e2693197",
+  "domain": "Expression of Ideas",
+  "question": {
+    "paragraph": "While researching a topic, a student has taken the following notes: Oracles o f the Pink Univ erse was a 2021 exhibition at the Denver Museum of Art in Colorado. It featured eight artworks by South African artist Simphiwe Ndzube. One of these works is a painting titled Assertion o f Will. Assertion o f Will depicts three standing figures. The figures wear clothing made of fabric pieces stitched to the painting’s canvas. The student wants to describe how fabric is used in Assertion o f Will. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "question": "The student wants to describe how fabric is used in Assertion o f Will. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": {
+      "A": "In Assertion o f Will, the figures’ clothing is made of fabric pieces stitched to the painting’s canvas.",
+      "B": "The exhibition Oracles o f the Pink Univ erse featured artworks by artist Simphiwe Ndzube.",
+      "C": "Depicting three standing, clothed figures, Assertion o f Will is a painting by Simphiwe Ndzube.",
+      "D": "Simphiwe Ndzube’s Assertion o f Will was one of eight artworks exhibited in Oracles o f the Pink Univ erse at the Denver Museum of Art."
+    },
+    "correct_answer": "A",
+    "explanation": "Choice A is the best answer. This choice directly describes how fabric is used in Assertion of Will, by explaining that the fabric pieces are part of the painting itself."
+  }
+}
+```,{
+  "id": "601b9d18",
+  "domain": "Expression of Ideas",
+  "question": {
+    "paragraph": "Some members of the US Supreme Court have resisted calls to televise the court’s oral arguments, concerned that the participants would be tempted to perform for the cameras (and thus lower the quality of the discourse). ______  the justices worry that most viewers would not even watch the full deliberations, only short clips that could be misinterpreted and mischaracterized.",
+    "question": "Which choice completes the text with the most logical transition?",
+    "choices": {
+      "A": "However,",
+      "B": "Additionally,",
+      "C": "In comparison,",
+      "D": "For example,"
+    },
+    "correct_answer": "B",
+    "explanation": "Choice B is the best answer. 'Additionally' logically signals that the claim in this sentence adds to the information in the previous sentence. Specifically, the previous sentence indicates one concern raised by those opposed to televising the court’s oral arguments, and the claim that follows indicates a second, additional concern."
+  }
+},{
+  "id": "ec3d7605",
+  "domain": "Expression of Ideas",
+  "question": {
+    "paragraph": "Award-winning travel writer Linda W atanabe McFerrin considers the background research she conducts on destinations featured in her travel books to be its own reward. ______  McFerrin admits to finding the research phase of her work just as fascinating and engaging as exploring a location in person.",
+    "question": "Which choice completes the text with the most logical transition?",
+    "choices": {
+      "A": "By contrast,",
+      "B": "Likewise,",
+      "C": "Besides,",
+      "D": "In fact,"
+    },
+    "correct_answer": "D",
+    "explanation": "Choice D, 'In fact,' logically signals that the information in this sentence emphasizes and elaborates on the previous sentence’s point that McFerrin regards background research as a rewarding activity. Choices A, B, and C are incorrect because they illogically signal contrasting, adding a similar point, or providing a separate point, respectively, rather than emphasizing and elaborating on the previous point."
+  }
+},{
+  "id": "a819d8b6",
+  "domain": "Expression of Ideas",
+  "question": {
+    "paragraph": "In 1873, Spanish scientist Santiago Ramón y Cajal observed that brain fibers have distinct boundaries with clear end points, a finding that went against earlier assumptions about the brain. ______  scientists had assumed that the brain was a continuous web of fused fibers, not a vast network of distinct, individual cells.",
+    "question": "Which choice completes the text with the most logical transition?",
+    "choices": {
+      "A": "However,",
+      "B": "Previously,",
+      "C": "As a result,",
+      "D": "Likewise,"
+    },
+    "correct_answer": "B",
+    "explanation": "Choice B is the best answer. 'Previously' logically signals that the fused fiber theory came before Ramón y Cajal’s discovery. Choice A is incorrect because 'However' illogically signals a contrast with the previous sentence, when in fact the fused fiber theory was one of the earlier assumptions that Ramón y Cajal's discovery contradicted. Choice C is incorrect because 'As a result' incorrectly suggests that the fused fiber theory was a result of the discovery, when it actually came before it. Choice D is incorrect because 'Likewise' wrongly implies similarity between the fused fiber theory and the discovery, when they are actually quite different."
+  }
+},{
+  "id": "84e108cf",
+  "domain": "Expression of Ideas",
+  "question": {
+    "paragraph": "While researching a topic, a student has taken the following notes:\nPlatinum is a rare and expensive metal.\nIt is used as a catalyst for chemical reactions.\nPlatinum catalysts typically require a large amount of platinum to be effective.\nResearcher Jianbo T ang and his colleagues created a platinum catalyst that combines platinum with liquid gallium.\nTheir catalyst was highly effective and required only trace amounts of platinum (0.0001% of the atoms in the mixture).\nThe student wants to explain an advantage of the new platinum catalyst developed by Jianbo T ang and his colleagues.",
+    "question": "Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": {
+      "A": "Researcher Jianbo T ang and his colleagues created a platinum catalyst that combines platinum, a rare and expensive metal, with liquid gallium.",
+      "B": "Like other platinum catalysts, the new platinum catalyst requires a particular amount of the metal to be effective.",
+      "C": "Platinum is a rare and expensive metal that is used as a catalyst for chemical reactions; however, platinum catalysts typically require a large amount of platinum to be effective.",
+      "D": "While still highly effective, the new platinum catalyst requires far less of the rare and expensive metal than do other platinum catalysts."
+    },
+    "correct_answer": "D",
+    "explanation": "Choice D is the best answer. The sentence explains an advantage of Tang and his colleagues’ platinum catalyst, noting that it requires far less platinum (which is rare and expensive) than other platinum catalysts do."
+  }
+},{
+  "id": "326017ce",
+  "domain": "Expression of Ideas",
+  "question": {
+    "paragraph": "For years, biologists have experimented with using grime-eating bacteria rather than harsh chemicals to clean artworks, and results have been impressive overall. ______  these bacterial strains—which can metabolize centuries’ worth of oil, glue, dirt, and other surface impurities without creating harmful byproducts—have proven more effective than traditional chemical cleaning methods.",
+    "question": "Which choice completes the text with the most logical transition?",
+    "choices": {
+      "A": "However,",
+      "B": "In many cases,",
+      "C": "As a result,",
+      "D": "Additionally,"
+    },
+    "correct_answer": "B",
+    "explanation": "Choice B is the best answer. The first sentence makes the claim that using grime-eating bacteria has led to “impressive results.” This sentence supports that claim by describing the specific findings of the biologists’ experimentation. The transition “in many cases” fits the context perfectly."
+  }
+},{
+  "id": "c78620ba",
+  "domain": "Expression of Ideas",
+  "question": {
+    "paragraph": "In 1968, US Congressman John Conyers introduced a bill to establish a national holiday in honor of Dr. Martin Luther King Jr. The bill didn’t make it to a vote, but Conyers was determined. He teamed up with Shirley Chisholm, the first Black woman to be elected to Congress, and they resubmitted the bill every session for the next fifteen years. ______ in 1983, the bill passed.",
+    "question": "Which choice completes the text with the most logical transition?",
+    "choices": {
+      "A": "Instead,",
+      "B": "Likewise,",
+      "C": "Finally,",
+      "D": "Additionally,"
+    },
+    "correct_answer": "C",
+    "explanation": "Choice C is the best answer. 'Finally' logically signals that the bill passing—following many attempts between 1968 and 1983—is the final, concluding event in the sequence described in the previous sentences."
+  }
+},{
+  "id": "20733eac",
+  "domain": "Expression of Ideas",
+  "question": {
+    "paragraph": "It has long been thought that humans first crossed a land bridge into the Americas approximately 13,000 years ago. ______ based on radiocarbon dating of samples uncovered in Mexico, a research team recently suggested that humans may have arrived more than 30,000 years ago—much earlier than previously thought.",
+    "question": "Which choice completes the text with the most logical transition?",
+    "choices": {
+      "A": "As a result,",
+      "B": "Similarly,",
+      "C": "However,",
+      "D": "In conclusion,"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. 'However' is the best choice as it logically signals a contrast between the theory discussed in the current sentence and the previously established idea. Choice A, 'As a result,' is incorrect as it implies the current theory is a result of the previous one, which is not the case. Choice B, 'Similarly,' is incorrect as it suggests a similarity between the theories, contradicting the intended contrast. Choice D, 'In conclusion,' is incorrect as it implies a summary or concluding statement, which is not the purpose here."
+  }
+},{
+  "id": "ca4ff52d",
+  "domain": "Expression of Ideas",
+  "question": {
+    "paragraph": "While researching a topic, a student has taken the following notes:\nMuslins are woven cotton fabrics with a variety of uses.\nDhaka muslin is a handmade fabric produced in Dhaka, Bangladesh.\nIt has an extremely fine weave and is primarily used to make luxury clothing.\nSheeting muslin is a machine-made fabric produced in factories.\nIt has a coarse weave and is primarily used to upholster furniture and create backdrops for theater sets.\nThe student wants to emphasize a difference between the two muslins. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "question": "Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": {
+      "A": "Dhaka muslin is a handmade fabric with an extremely fine weave, while sheeting muslin is machine made with a coarse weave.",
+      "B": "Dhaka muslin and sheeting muslin are two different types of woven cotton fabrics.",
+      "C": "Muslins can be used in a variety of ways, from making luxury clothing to upholstering furniture and creating backdrops for theater sets.",
+      "D": "Sheeting muslin is machine made, has a coarse weave, and is used for furniture and theater sets."
+    },
+    "correct_answer": "A",
+    "explanation": "Choice A is the best answer. The difference between the two different kinds of muslin is emphasized. Choice B is incorrect. This choice lists two kinds of muslins, but does not say how they are different from one another. Choice C is incorrect. This choice does not emphasize a difference between the two muslins. Choice D is incorrect. This choice does not emphasize a difference between the two muslins. It only describes sheeting muslin."
+  }
+},{
+  "id": "6c9df5d1",
+  "domain": "Expression of Ideas",
+  "question": {
+    "paragraph": "While researching a topic, a student has taken the following notes: Some powerful works of literature have so influenced readers that new legislation has been passed as a result. The Int eresting Narr ative of the Li fe of Olaudah Equiano  (1789) is the autobiography of a man who endured slavery on both sides of the Atlantic. Equiano’s book contributed to the passage of the Slave T rade Act of 1807. The Jungle  (1906) is a fictional work by Upton Sinclair that describes unsanitary conditions in US meatpacking plants. Sinclair’s book contributed to the passage of the Pure Food and Drug Act in 1906. The student wants to emphasize a difference between the two books. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "question": "Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": {
+      "A": "Although both are powerful works of literature that contributed to new legislation, Equiano’s book is an autobiography, while Sinclair’s is fictional.",
+      "B": "They may have written about different topics, but Equiano and Sinclair both influenced readers.",
+      "C": "The 1807 Slave T rade Act resulted in part from a book by Equiano, while the 1906 Pure Food and Drug Act resulted in part from a book by Sinclair.",
+      "D": "The Int eresting Narr ative of the Li fe of Olaudah Equiano  and The Jungle  are two works of literature that contributed to new legislation (concerning the slave trade and food safety, respectively)."
+    },
+    "correct_answer": "A",
+    "explanation": "Choice A is the best answer. This choice emphasizes a difference between the two books by using relevant information from the notes to contrast their genres."
+  }
+},{
+  "id": "f07570bb",
+  "domain": "Expression of Ideas",
+  "question": {
+    "paragraph": "Researchers believe that pieces of hull found off Oregon’s coast are from a Spanish cargo ship that was lost in 1697. Stories passed down among the area’s Confederated Tribes of Siletz Indians support this belief. ______  Siletz stories describe how blocks of beeswax, an item the ship had been carrying, began washing ashore after the ship was lost.",
+    "question": "Which choice completes the text with the most logical transition?",
+    "choices": {
+      "A": "For this reason,",
+      "B": "For example,",
+      "C": "However,",
+      "D": "Likewise,"
+    },
+    "correct_answer": "B",
+    "explanation": "Choice B is the best answer. 'For example,' logically signals that the Siletz beeswax stories mentioned in this sentence are examples consistent with the previous claim that Siletz stories support the shipwreck theory."
+  }
+},{
+  "id": "221ecf0f",
+  "domain": "Expression of Ideas",
+  "question": {
+    "paragraph": "Alexander Lawrence Posey (1873–1908) varied his focus and tone depending on the genre in which he was writing. In his poetry, he used heartfelt language to evoke the beauty and peacefulness of his natural surroundings; in his journalism, ____ he employed humor and satire to comment on political issues affecting his Muskogee Creek community.",
+    "question": "Which choice completes the text with the most logical transition?",
+    "choices": {
+      "A": "that is,",
+      "B": "granted,",
+      "C": "similarly,",
+      "D": "by contrast"
+    },
+    "correct_answer": "D",
+    "explanation": "Choice D is the best answer. This sentence compares two examples of Posey's tone: the 'heartfelt language' he used in his poetry versus the 'humor and satire' he used in his journalism. We know from these descriptions and from the claim in the previous sentence that the two tones are very different from each other. So the transition 'by contrast' fits the context perfectly.\n\nChoice A is incorrect. This choice uses a transition that indicates a restatement of the same idea in other words. But the text isn't restating the first example here. Instead, it's offering a second, totally different example.\n\nChoice B is incorrect. This choice uses a transition that means 'admittedly.' But the text isn't admitting or conceding anything here. Instead, these two examples work together to support the claim made in the first sentence.\n\nChoice C is incorrect. This choice uses a transition that indicates the addition of an agreeing idea. But these two examples are intentionally very different from each other, so 'similarly' doesn't make sense here."
+  }
+},{
+  "id": "296801d2",
+  "domain": "Expression of Ideas",
+  "question": {
+    "paragraph": "While researching a topic, a student has taken the following notes: The Azores is a group of islands about 870 miles off the coast of Portugal. Historians have long believed that in the fifteenth century Portuguese mariners were the first humans to populate the Azores. A 2015 study coauthored by Sofia Gabriel and Maria da Luz Mathias found that Vikings from Scandinavia may have populated the Azores as early as the ninth century. The researchers found a genetic connection between house mice in the Azores and house mice in Scandinavia. House mice may have traveled from Scandinavia to the Azores on Viking ships. The student wants to specify who may have first populated the Azores, according to the 2015 study. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "question": "The student wants to specify who may have first populated the Azores, according to the 2015 study. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": {
+      "A": "Historians have long believed that the first humans to populate the Azores, a group of islands about 870 miles off the coast of Portugal, arrived in the fifteenth century.",
+      "B": "Portuguese mariners may not have been the first humans to populate the Azores.",
+      "C": "In their 2015 study, the researchers found a genetic connection between house mice in the Azores and those in Scandinavia.",
+      "D": "According to a 2015 study, the first humans to populate the Azores may have been Vikings from Scandinavia, not mariners from Portugal as previously believed."
+    },
+    "correct_answer": "D",
+    "explanation": "Choice D effectively specifies who may have first populated the Azores according to the 2015 study: the Vikings. Choice A is incorrect as it only mentions the historical belief that the Portuguese were first, while the 2015 study drew a different conclusion. Choice B casts doubt on the Portuguese claim but doesn’t name the group of people who may have arrived before the Portuguese. Choice C mentions the evidence that the researchers found but not the conclusion they drew from it. It doesn’t name the possible group of people who may have arrived before the Portuguese."
+,{
+  "id": "97e2e364",
+  "domain": "Expression of Ideas",
+  "question": {
+    "paragraph": "Okot p’Bitek’s poem Song o f Lawino  (1966) explores postcolonial Ugandan life through the eyes of a woman living in a rural village. With its vibrant imagery, bitingly satiric tone, and dexterous use of traditional Acholi song and phraseology, the poem inspired a generation of East African writers. ______  those who adopted its style are often referred to as Okot School poets. ",
+    "question": "Which choice completes the text with the most logical transition?",
+    "choices": {
+      "A": "Nevertheless",
+      "B": "Fittingly",
+      "C": "By comparison",
+      "D": "Instead"
+    },
+    "correct_answer": "B",
+    "explanation": "Choice B is the best answer. 'Fittingly' is a transition that means 'appropriately' or 'suitably,' and it is appropriate that writers who adopted their style from Okot p’Bitek would be known as the Okot School poets."
+  }
+},{
+  "id": "01c8c433",
+  "domain": "Expression of Ideas",
+  "question": {
+    "paragraph": "Before the 1847 introduction of the US postage stamp, the cost of postage was usually paid by the recipient of a letter rather than the sender, and recipients were not always able or willing to pay promptly. ______  collecting this fee could be slow and arduous, and heaps of unpaid-for, undeliverable mail piled up in post offices.",
+    "question": "Which choice completes the text with the most logical transition?",
+    "choices": {
+      "A": "Regardless,",
+      "B": "On the contrary,",
+      "C": "Consequently,",
+      "D": "For example,"
+    },
+    "correct_answer": "C",
+    "explanation": "Choice C, 'Consequently,' logically signals that the postal problems described in this sentence were a consequence of the fee system described in the previous sentence."
+  }
+},{
+  "id": "883493d5",
+  "domain": "Expression of Ideas",
+  "question": {
+    "paragraph": "While researching a topic, a student has taken the following notes:\nAllan Houser was a Chiricahua Warm Springs Apache sculptor, illustrator, and painter. Many of his sculptures featured Native American figures. He depicted this subject matter using abstract, modernist forms, developing a distinctive style that influenced many other artists. His well-known sculpture Sacred Rain Arrow was pictured on the State of Oklahoma license plate. The student wants to describe the distinctive style of Houser’s sculptures. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "question": "The student wants to describe the distinctive style of Houser’s sculptures. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": {
+      "A": "A sculptor, illustrator, and painter, Houser developed a distinctive style for portraying Native American figures.",
+      "B": "Houser’s sculptures employ abstract, modernist forms to depict Native American figures.",
+      "C": "Many other artists have been influenced by the style of Houser’s sculptures.",
+      "D": "The sculpture Sacred Rain Arrow is a well-known example of Houser’s style."
+    },
+    "correct_answer": "B",
+    "explanation": "Choice B is the best answer. The sentence describes the distinctive style of Houser’s sculptures, explaining that the sculptures use abstract, modernist forms to depict Native American figures. Choice A is incorrect. While the sentence indicates that Houser developed a distinctive style for portraying Native American figures, it doesn’t describe this style. Choice C is incorrect. While the sentence states that other artists have been influenced by the style of Houser’s sculptures, it doesn’t describe this style. Choice D is incorrect. While the sentence mentions the name of a sculpture that’s a well-known example of Houser’s style, it doesn’t describe the sculpture’s style."
+  }
+},{
+  "id": "db8fe023",
+  "domain": "Expression of Ideas",
+  "question": {
+    "paragraph": "A potter choosing which type of clay to use for a piece considers two key factors: the desired look of the piece and its intended use. ______ earthenware clay is often used for decorative pieces because of its rustic look. This type of clay is not often used in industrial settings, though, because it is less durable than other clays.",
+    "question": "Which choice completes the text with the most logical transition?",
+    "choices": {
+      "A": "In other words,",
+      "B": "Regardless,",
+      "C": "In conclusion,",
+      "D": "For example,"
+    },
+    "correct_answer": "D",
+    "explanation": "Choice D is the best answer. The previous sentence discusses the factors considered by potters when selecting clay for their pieces. This sentence provides a specific example of a clay type chosen for its appearance, making 'For example' the most suitable transition."
+  }
+},

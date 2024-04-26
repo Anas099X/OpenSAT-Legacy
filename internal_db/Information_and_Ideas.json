@@ -1,0 +1,790 @@
+{
+  "id": "70ced8dc",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "Typically, underlines, scribbles, and notes left in the margins by a former owner lower a book’s ______  when the former owner is a famous poet like W alt Whitman, such markings, known as marginalia, can be a gold mine to literary scholars.",
+    "question": "Which choice completes the text so that it conforms to the conventions of S tandard English?",
+    "choices": {
+      "A": "value, but",
+      "B": "value",
+      "C": "value,",
+      "D": "value but"
+    },
+    "correct_answer": "A",
+    "explanation": "The convention being tested is the coordination of independent clauses within a sentence. An independent clause is a phrase containing a subject and a verb that can stand on its own as a sentence. This choice uses a comma and the coordinating conjunction “but” to join the first independent clause (“underlines…lower a book’s value”) and the second independent clause (“such markings…can be a gold mine to scholars”) to create a compound sentence."
+  }
+},{
+  "id": "3bceeb93",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "When they were first discovered in Australia in 1798, duck-billed, beaver-tailed platypuses so defied categorization that one scientist assigned them the name Ornithor hynchus paradoxus: “paradoxical bird-snout.” The animal, which lays eggs but also nurses ______ young with milk, has since been classified as belonging to the monotremes group.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "they’re",
+      "B": "their",
+      "C": "its",
+      "D": "it’s"
+    },
+    "correct_answer": "C",
+    "explanation": "Choice C is the best answer. The singular possessive pronoun 'its' agrees with the singular antecedent 'the animal' and indicates that the 'young' belong to it. Choice A is incorrect. This choice creates a pronoun-antecedent agreement error. 'They’re' is a contraction of 'they are', a plural pronoun and verb, but the antecedent 'the animal' is singular. Also, we don’t need the extra verb 'are' — we already have a main verb in this clause, so adding 'are' would be confusing and ungrammatical. Choice B is incorrect. This choice creates a pronoun-antecedent agreement error. 'Their' is a plural pronoun, but the subject of the sentence is 'the animal', a singular noun. Choice D is incorrect. This choice creates a confusing and ungrammatical sentence. 'It’s' is a contraction for 'it is'. We already have the verb 'nurses' in this clause, so we shouldn’t add the verb 'is'."
+  }
+},{
+  "id": "8a3998f1",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "After the United Kingdom began rolling out taxes equivalent to a few cents on single-use plastic grocery bags in 2011, plastic-bag consumption decreased by up to ninety ____ taxes are subject to what economists call the “rebound effect”: as the change became normalized, plastic-bag use started to creep back up.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "percent, such",
+      "B": "percent and such",
+      "C": "percent. Such",
+      "D": "percent such"
+    },
+    "correct_answer": "C",
+    "explanation": "Choice C is the best answer. The convention being tested is punctuation use between sentences. In this choice, the period after 'percent' is used correctly to mark the boundary between one sentence ('After ... percent') and another ('Such ... up'). Choice A is incorrect because it results in a comma splice. A comma can't be used in this way to mark the boundary between sentences. Choice B is incorrect. Without a comma preceding it, the conjunction 'and' can't be used in this way to join sentences. Choice D is incorrect because it results in a run-on sentence. The sentences ('After ... percent' and 'Such ... up') are fused without punctuation and/or a conjunction."
+  }
+},{
+  "id": "dab8b8ee",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "Known as Earth’s “living skin,” biocrusts are thin layers of soil held together by surface-dwelling microorganisms such as fungi, lichens, and cyanobacteria. Fortifying soil in arid ecosystems against erosion, ______ Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "a recent study’s estimate is that these crusts reduce global dust emissions by 60 percent each year.",
+      "B": "an estimated 60 percent reduction in global dust emissions each year is due to these crusts, according to a recent study.",
+      "C": "these crusts reduce global dust emissions by an estimated 60 percent each year, according to a recent study.",
+      "D": "a recent study has estimated that these crusts reduce global dust emissions by 60 percent each year."
+    },
+    "correct_answer": "C",
+    "explanation": "The subject of the modifier 'fortifying soil in arid ecosystems against erosion' is 'biocrusts.' Subject-modifier placement requires a modifier and its subject to be next to each other, so 'biocrusts' or some variant meaning 'biocrusts' must begin the missing clause. Choice C is the best answer."
+  }
+},{
+  "id": "4bed4658",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "In order to prevent nonnative fish species from moving freely between the Mediterranean and Red Seas, marine biologist Bella Galil has proposed that a saline lock system be installed along the Suez Canal in Egypt’s Great Bitter Lakes. The lock would increase the salinity of the lakes and ____ a natural barrier of water most marine creatures would be unable to cross.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "creates",
+      "B": "create",
+      "C": "creating",
+      "D": "created"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B. The verb 'create' is the best answer as it aligns with the modal 'would' to describe what the lock would do. Choice A is incorrect as the finite present tense verb 'creates' cannot be used with the modal 'would'. Choice C is incorrect as the present participle 'creating' cannot be used in this context. Choice D is incorrect as the finite past tense verb 'created' is not suitable with the modal 'would'."
+  }
+},{
+  "id": "96953201",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "In her two major series “Memory T est” and “Autobiography,” painter Howardena Pindell explored themes ______ healing,
+self-discovery, and memory by cutting and sewing back together pieces of canvas and inserting personal artifacts, such as
+postcards, into some of the paintings.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "of",
+      "B": "of,",
+      "C": "of—",
+      "D": "of:"
+    },
+    "correct_answer": "A",
+    "explanation": "The correct answer is A. No punctuation is needed between a preposition 'of' and its complement. In this case, 'of' is followed by the noun phrase 'healing, self-discovery, and memory.' Choices B, C, and D are incorrect because no punctuation is necessary in this context."
+  }
+},{
+  "id": "8f6d6ae6",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "Archaeologists have estimated that the pre-Columbian Native American city of Cahokia, located across the Mississippi River from modern-day S t. Louis, Missouri, had as many as 20,000 inhabitants in the year 1150 ______  it one of the largest cities in North America at the time.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "CE making",
+      "B": "CE. Making",
+      "C": "CE, making",
+      "D": "CE; making"
+    },
+    "correct_answer": "C",
+    "explanation": "Choice C is the best answer. The phrase 'making...at the time' provides additional information about Cahokia that’s not required for the sentence to make sense or function grammatically. As a non-essential supplement, this phrase should be separated from the rest of the sentence with a comma."
+  }
+},{
+  "id": "26c8c88c",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "About 70,000 meteorites have been found on Earth. Although most meteorites are fragments of ____ hundred have been identified as being from the Moon or Mars.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "asteroids. Several",
+      "B": "asteroids, several",
+      "C": "asteroids; several",
+      "D": "asteroids: several"
+    },
+    "correct_answer": "B",
+    "explanation": "Choice B is the best answer. This choice uses a comma to correctly separate the dependent clause 'although…asteroids' from the independent clause 'several hundred have been…Mars.' Choice A is incorrect. This choice results in a sentence fragment. 'Although…asteroids' is a dependent clause and can't stand on its own as a sentence. Choice C is incorrect. This choice results in a punctuation error. 'Although…asteroids' is a dependent clause and can't be joined to the independent clause 'several hundred have been…Mars' with a semicolon. A semicolon can only join two independent clauses. Choice D is incorrect. This choice creates a punctuation error. A colon can only come after an independent clause, but 'although…asteroids' is a dependent clause."
+  }
+},#### Creating a New Unique SAT Question
+
+```json
+{
+  "id": "f4fd123c",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "The African Games Co-production Market, one of over 180 annual international conferences supporting video game development, ______  the growth of the African gaming industry by helping start-up studios in Africa find partners.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "promote",
+      "B": "are promoting",
+      "C": "promotes",
+      "D": "have promoted"
+    },
+    "correct_answer": "C",
+    "explanation": "Choice C is the best answer. The subject of the sentence is 'The African Games Co-production Market.' That’s one market, so it’s a singular noun, which means it needs a singular verb. 'Promotes' is the only singular verb among the choices. Choice A is incorrect. This choice creates a subject-verb agreement error. The subject 'The African Games Co-production Market' is singular, but the verb 'promote' is plural. Choice B is incorrect. This choice creates a subject-verb agreement error. The subject 'The African Games Co-production Market' is singular, but the verb 'are promoting' is plural. Choice D is incorrect. This choice creates a subject-verb agreement error. The subject 'The African Games Co-production Market' is singular, but the verb 'have promoted' is plural."
+  }
+}
+```,{
+  "id": "R4T2E7G",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "Anthocyanins are natural pigments ______, give color to fruits and flowers.",
+    "question": "Which choice correctly completes the text following the conventions of Standard English?",
+    "choices": {
+      "A": "that—",
+      "B": "that;",
+      "C": "that,",
+      "D": "that:"
+    },
+    "correct_answer": "C",
+    "explanation": "Choice C is the correct answer. The comma after 'that' pairs with the comma after 'pigments' to separate the supplementary element 'give color to fruits and flowers' from the rest of the sentence. This supplementary element clarifies the role of anthocyanins, and the pair of commas indicates that this element could be removed without affecting the grammatical coherence of the sentence. Choice A is incorrect as a dash should not be paired with a comma in this context. Choice B is incorrect as a semicolon does not appropriately separate the supplementary element. Choice D is incorrect as a colon is not suitable for this separation."
+  }
+},{
+  "id": "7f1df833",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "In 1966, Emmett Ashford became the first African American to umpire a Major League Baseball game. His energetic gestures announcing when a player had struck out and his habit of barreling after a hit ball to see if it would land out of ______ transform the traditionally solemn umpire role into a dynamic one.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "bounds helped",
+      "B": "bounds, helping",
+      "C": "bounds that helped",
+      "D": "bounds to help"
+    },
+    "correct_answer": "A",
+    "explanation": "Choice A is the best answer. The convention being tested is finite verb use in a main clause. A main clause requires a finite verb to perform the action of the subject, and this choice supplies the finite past tense verb “helped” to indicate what Ashford’s gestures and habit helped accomplish. Choice B is incorrect because the non-finite participle “helping” doesn’t supply the main clause with a finite verb. Choice C is incorrect because the relative clause “that helped” doesn’t supply the main clause with a finite verb. Choice D is incorrect because the non-finite to-infinitive “to help” doesn’t supply the main clause with a finite verb."
+  }
+},{
+  "id": "2ee50d41",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "The classic children’s board game Chutes and Ladders is a version of an ancient Nepalese game, Paramapada Sopanapata. In both games, players encounter “good” or “bad” spaces while traveling along a path; landing on one of the good spaces ____ a player to skip ahead and arrive closer to the end goal.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "allows",
+      "B": "are allowing",
+      "C": "have allowed",
+      "D": "allow"
+    },
+    "correct_answer": "A",
+    "explanation": "The correct answer is A - 'allows'. The convention being tested is subject–verb agreement. The singular verb “allows” agrees in number with the singular subject “landing”."
+  }
+},{
+  "id": "15d6d837",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "Literary agents estimate that more than half of all nonfiction books credited to a celebrity or other public figure are in fact written by ghostwriters, professional authors who are paid to write other ____ but whose names never appear on book covers.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "people’s stories",
+      "B": "peoples story’s",
+      "C": "peoples stories",
+      "D": "people’s story’s"
+    },
+    "correct_answer": "A",
+    "explanation": "Choice A is the best answer. The convention being tested is the use of plural and possessive nouns. The plural possessive noun “people’s” and the plural noun “stories” correctly indicate that there are multiple stories from multiple people. Choice B is incorrect because the context requires the plural possessive noun “people’s” and the plural noun “stories,” not the plural noun “peoples” and the singular possessive noun “story’s.” Choice C is incorrect because the context requires the plural possessive noun “people’s,” not the plural noun “peoples.” Choice D is incorrect because the context requires the plural noun “stories,” not the singular possessive noun “story’s.”"
+  }
+},{
+  "id": "59209b6d",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "Based on genetic evidence, archaeologists have generally agreed that reindeer domestication began in the eleventh century CE. However, since uncovering fragments of a 2,000-year-old reindeer training harness in northern Siberia, ____ may have begun much earlier.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "researcher Robert Losey has argued that domestication",
+      "B": "researcher Robert Losey’s argument is that domestication",
+      "C": "domestication, researcher Robert Losey has argued,",
+      "D": "the argument researcher Robert Losey has made is that domestication"
+    },
+    "correct_answer": "A",
+    "explanation": "The convention being tested is subject-modifier placement. Choice A is the best answer. This choice makes the noun phrase 'researcher Robert Losey' the subject of the sentence and places it immediately after the modifying phrase 'since...Siberia.' In doing so, this choice clearly establishes that researcher Robert Losey - and not another noun in the sentence - is who uncovered fragments of a 2,000-year-old reindeer training harness in northern Siberia."
+  }
+},{
+  "id": "9f70e14a",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "In a recent study conducted by Dr. Li Chen, a renowned biologist at Shanghai University, it was revealed that ______ possess an extraordinary genetic trait known as RNA editing, which grants them significant evolutionary advantages.",
+    "question": "Which choice best completes the sentence while conforming to the rules of Standard English?",
+    "choices": {
+      "A": "mollusks—creatures such as snails, clams, and oysters—",
+      "B": "mollusks, creatures such as snails, clams, and oysters",
+      "C": "mollusks—creatures such as snails, clams, and oysters,",
+      "D": "mollusks, creatures such as snails, clams, and oysters,"
+    },
+    "correct_answer": "A",
+    "explanation": "Choice A is the correct answer. The use of em dashes before and after 'creatures such as snails, clams, and oysters' effectively sets off this parenthetical phrase from the rest of the sentence. This punctuation marks it as supplementary information, similar to the original question. Choices B, C, and D are incorrect because they fail to properly punctuate the supplementary element within the sentence."
+  }
+},{
+  "id": "870ae7ec",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "Detroit natives Timothy P aule and Nicole Lindsey have combined their two passions, Detroit and beekeeping, to improve the health of their city’s flowers and other vegetation. In 2017, the couple converted a vacant lot in the city into an ______ in the years that followed they acquired nine additional lots and established more than 35 hives.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "apiary,",
+      "B": "apiary, and",
+      "C": "apiary and",
+      "D": "apiary"
+    },
+    "correct_answer": "B",
+    "explanation": "Choice B is the best answer. Both clauses in this sentence could stand alone as complete sentences, which means they are both independent clauses. This choice uses a comma plus a coordinating conjunction to link them together, which is one of the correct ways to link two independent clauses."
+  }
+},#### Creating a New Unique SAT Question
+
+```json
+{
+  "id": "fcaff694",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "The city of Pompeii, which was buried in ash following the eruption of Mount Vesuvius in 79 CE, continues to be studied by archaeologists. Unfortunately, as ______  attest, archaeological excavations have disrupted ash deposits at the site, causing valuable information about the eruption to be lost.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "researchers, Roberto Scandone and Christopher Kilburn,",
+      "B": "researchers, Roberto Scandone and Christopher Kilburn",
+      "C": "researchers Roberto Scandone and Christopher Kilburn",
+      "D": "researchers Roberto Scandone, and Christopher Kilburn"
+    },
+    "correct_answer": "C",
+    "explanation": "Choice C is the best answer. The convention being tested is the punctuation of a restrictive coordinated noun phrase. No punctuation is needed within or around the coordinated noun phrase 'researchers Roberto Scandone and Christopher Kilburn' because it would create an illogical separation between the noun 'researchers' and the coordinated noun phrase 'Roberto Scandone and Christopher Kilburn.'"
+  }
+}
+```,{
+  "id": "1a5fd2b9",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "In the realm of classical music, composers such as Ludwig van Beethoven and Johannes Brahms have left an indelible mark on history. While Beethoven's symphonies are renowned for their emotional depth and intensity, Brahms' compositions exude a sense of intricate precision and meticulous craftsmanship. Both musicians, however, share a common dedication to their art that has solidified their places in the pantheon of musical geniuses.",
+    "question": "Which word best describes Brahms' compositions?",
+    "choices": {
+      "A": "Emotional",
+      "B": "Precise",
+      "C": "Complex",
+      "D": "Innovative"
+    },
+    "correct_answer": "B",
+    "explanation": "Choice B, 'Precise,' is the correct answer. The paragraph contrasts Beethoven's emotional depth with Brahms' sense of intricate precision, indicating that 'Precise' is the most fitting description for Brahms' compositions. Choices A, C, and D do not accurately capture the specific quality attributed to Brahms in the paragraph."
+  }
+},{
+  "id": "790fc366",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "Using satellite remote sensing, Dr. Catherine Nakalembe, director of NASA’s Harvest Africa initiative, gathers important data on crop health. Nakalembe doesn’t just compile the ____ she also shares her findings with African farmers, enabling them to make data-driven decisions about managing critical food crops.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "information, though;",
+      "B": "information, though,",
+      "C": "information; though",
+      "D": "information though,"
+    },
+    "correct_answer": "A",
+    "explanation": "Choice A is the best answer. This choice uses a semicolon to join two independent clauses ('Nakalembe doesn’t just…though;' and 'she also shares...'). The use of 'though' in the first clause is appropriate and maintains logical flow. Choice B is incorrect due to a comma splice error. Choice C results in a punctuation error because a semicolon cannot be used to link an independent clause after 'information.' Choice D is also incorrect due to a comma splice error."
+  }
+},{
+  "id": "a3b2f5e7",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "From afar, African American fiber artist Bisa Butler’s portraits look like paintings, their depictions of human faces, bodies, and clothing so intricate that it seems only a fine brush could have rendered them. When viewed up close, however, the portraits reveal themselves to be ____ stitching barely visible among the thousands of pieces of printed, microcut fabric.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "quilts, and the",
+      "B": "quilts, the",
+      "C": "quilts; the",
+      "D": "quilts. The"
+    },
+    "correct_answer": "B",
+    "explanation": "Choice B is the best answer. It correctly uses a comma to mark the boundary between the main clause ('the portraits...quilts') and the supplementary noun phrase ('the stitching...fabric') that provides a further description of how the portraits can be identified as quilts."
+  }
+},{
+  "id": "2bb7416a",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "In paleontology, the term “Elvis taxon” gets applied to a newly identified living species that was once presumed to be extinct. Like an Elvis impersonator who might bear a striking resemblance to the late musical icon Elvis Presley himself, an Elvis taxon is not the real thing, ______ is a misidentified look-alike.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "however but it",
+      "B": "however it",
+      "C": "however, it",
+      "D": "however. It"
+    },
+    "correct_answer": "D",
+    "explanation": "Choice D is the best answer. The clause “Like an Elvis impersonator … real thing” and the clause “it is … look-alike” are both independent clauses, so making them into two separate sentences is grammatically correct."
+  }
+},{
+  "id": "97b62fab",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "Smaller than poppy seeds, tardigrades are tiny, but they are tough. These minuscule animals can survive for thirty years without food or water, and ______ can withstand extreme temperatures as low as minus 328 degrees and as high as 304 degrees Fahrenheit.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "that",
+      "B": "it",
+      "C": "they",
+      "D": "he"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. The convention being tested is pronoun-antecedent agreement. The plural pronoun 'they' agrees in number with the plural antecedent 'animals,' which refers to tardigrades. Choices A, B, and D are incorrect because the singular pronouns 'that,' 'it,' and 'he' do not agree in number with the plural antecedent 'animals.'"
+  }
+},{
+  "id": "89ab0d46",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "After the printing press was introduced in 1440, handwritten manuscripts from Europe’s medieval period were often destroyed and the paper used for other purposes. In one instance, pages ____ a collection of Norse tales dating to 1270 were discovered lining a bishop’s miter (hat).",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "from:",
+      "B": "from,",
+      "C": "from",
+      "D": "from—"
+    },
+    "correct_answer": "C",
+    "explanation": "Choice C is the best answer. The word 'from' introduces a prepositional phrase that modifies the noun 'pages' and provides essential information about their origin. No additional punctuation is needed after 'from' in this context. Choices A, B, and D are incorrect because they result in punctuation errors, either illogically separating the preposition 'from' from the rest of the prepositional phrase or using incorrect punctuation marks."
+  }
+},{
+  "id": "b0a525be",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "Santa Clara Pueblo artist Roxanne Swentzell’s sculpture Mud Woman Rolls On consists of five human figures made of clay and plant fiber and arranged in descending size; each figure holds the smaller one in front of it. The arrangement of the figures, according to ______ represents her idea that 'we all come from the Earth, generation after generation.'",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "Swentzell",
+      "B": "Swentzell,",
+      "C": "Swentzell:",
+      "D": "Swentzell—"
+    },
+    "correct_answer": "B",
+    "explanation": "Choice B is the best answer. The phrase 'according to Swentzell' is an aside that interrupts the flow of the sentence, so it needs to be separated from the sentence with a pair of matching punctuation marks: two commas, two dashes, or a pair of parentheses. We already have a comma before 'according,' so we must add a comma after 'Swentzell.' Choice A is incorrect. This choice creates a punctuation error. The phrase 'according to Swentzell' is an aside that interrupts the flow of the sentence, so it needs to be separated from the sentence with a pair of matching punctuation marks: one before and one after the phrase. Choice C is incorrect. This choice creates a punctuation error. 'The arrangement of the figures, according to Swentzell' is not an independent clause, so it can't come before a colon. Choice D is incorrect. This choice creates a punctuation error. The phrase 'according to Swentzell' is an aside that interrupts the flow of the sentence, so it needs to be separated from the sentence with a pair of matching punctuation marks. We already have a comma at the beginning, so we have to use another comma here to match. We can't just switch to a dash."
+  }
+},{
+  "id": "eef91a50",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "Nine months before R osa P arks made history by refusing to comply with the segregated seating policy on a Montgomery, Alabama, bus, a fifteen-year-old Montgomery girl named Claudette Colvin was arrested for the same ______ to some historians, Colvin’s arrest led to P arks’s action and eventually to the desegregation of Montgomery’s bus system.",
+    "question": "Which choice completes the text so that it conforms to the conventions of S tandard English?",
+    "choices": {
+      "A": "offense. According",
+      "B": "offense, according",
+      "C": "offense according",
+      "D": "offense and according"
+    },
+    "correct_answer": "A",
+    "explanation": "Choice A is the best answer. 'Nine months...offense' and 'according to...system' are both independent clauses. Separating them with a period and turning them into their own sentences is the only grammatically correct choice among the provided options."
+  }
+},#### Creating a Unique SAT Question
+
+To create a new unique SAT question based on the provided input, we will follow the given instructions and use the search results to ensure the relevance and accuracy of the question.
+
+Here is the new unique SAT question:
+
+```json
+{
+  "id": "01a32c84",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "The first computerized spreadsheet, Dan Bricklin’s VisiCalc, improved financial recordkeeping not only by providing users with an easy means of adjusting data in spreadsheets but also by automatically updating all calculations that were dependent on these ______. Prior to VisiCalc’s release, changing a paper spreadsheet often required redoing the entire sheet by hand, a process that could take days.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "adjustments prior",
+      "B": "adjustments, prior",
+      "C": "adjustments. Prior",
+      "D": "adjustments and prior"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C. The convention being tested is punctuation use between sentences. In this choice, the period is used correctly to mark the boundary between the first sentence ('The...adjustments') and the second sentence ('Prior...days'). Because the adverbial phrase beginning with 'prior' indicates when changing a spreadsheet required redoing the sheet by hand, that phrase belongs with the second sentence. Choice A is incorrect because it results in a run-on sentence. Two sentences are fused without punctuation and/or a conjunction. Choice B is incorrect because it results in a comma splice. A comma can't be used in this way to mark the boundary between sentences. Choice D is incorrect. Without a comma preceding it, the conjunction 'and' can't be used in this way to join the sentences."
+  }
+}
+```
+
+In this question, we have assigned a random ID of "01a32c84" and the domain as "Standard English Conventions". The paragraph and question are based on the provided input, and the choices (A, B, C, D) are given as options. The correct answer is option C, and the explanation provides a summary of why it is the correct choice.
+
+Please note that the sources provided do not contain specific information about this particular question. However, the question is created based on the given input and follows the conventions of the SAT format.
+
+Let me know if there is anything else I can help you with!,{
+  "id": "de55ec71",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "Generations of mystery and horror ____ have been influenced by the dark, gothic stories of celebrated American author Edgar Allan Poe (1809–1849).",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "writers",
+      "B": "writers,",
+      "C": "writers—",
+      "D": "writers;"
+    },
+    "correct_answer": "A",
+    "explanation": "The correct answer is A. The convention being tested is punctuation between a subject and a verb. When a subject ('Generations of mystery and horror writers') is immediately followed by a verb ('have been influenced'), no punctuation is needed. Choice B, C, and D are incorrect as no punctuation is needed between the subject and the verb."
+  }
+},{
+  "id": "e38b3e4f",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "The radiation that ____ during the decay of radioactive atomic nuclei is known as gamma radiation.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "occurs",
+      "B": "have occurred",
+      "C": "occur",
+      "D": "are occurring"
+    },
+    "correct_answer": "A",
+    "explanation": "Choice A is the best answer. The convention being tested is subject-verb agreement. The singular verb 'occurs' agrees in number with the singular subject 'radiation.' Choice B is incorrect because the plural verb 'have occurred' doesn’t agree in number with the singular subject 'radiation.' Choice C is incorrect because the plural verb 'occur' doesn’t agree in number with the singular subject 'radiation.' Choice D is incorrect because the plural verb 'are occurring' doesn’t agree in number with the singular subject 'radiation.'"
+  }
+},{
+  "id": "f7a8b2d1",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "The Galactic Exploration Program, which was established by the Intergalactic Council in 2050, aimed to enhance the technological capabilities of outdated spacecraft and improve communication systems with other planetary ____. It focused on upgrading navigation tools, enhancing fuel efficiency, and developing language translation devices for interstellar communication.",
+    "question": "Which choice best completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "neighbors.",
+      "B": "neighbors",
+      "C": "neighbors;",
+      "D": "neighbors,"
+    },
+    "correct_answer": "C",
+    "explanation": "Choice C is the correct answer. The convention being tested is the coordination of main clauses within a sentence. This choice uses a semicolon to correctly join the first main clause ('...planetary') and the second main clause that begins with 'It.' Choice A is incorrect as it lacks proper punctuation between the two main clauses. Choice B is incorrect because it results in a run-on sentence. Choice D is incorrect as it leads to a comma splice, which is not appropriate for joining two main clauses without a conjunction."
+  }
+},{
+  "id": "7b2f4a8e",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "A recent study tracked the number of butterfly species present in twenty-seven Florida gardens over a five-year period. ______ found that when native plants near a garden were removed, the diversity of butterfly species visiting the garden decreased.",
+    "question": "Which choice best completes the text so that it adheres to Standard English conventions?",
+    "choices": {
+      "A": "Biologist Maria Cruz:",
+      "B": "Biologist, Maria Cruz,",
+      "C": "Biologist Maria Cruz",
+      "D": "Biologist Maria Cruz,"
+    },
+    "correct_answer": "C",
+    "explanation": "Choice C is correct as it maintains the appropriate format for introducing a name and profession without unnecessary punctuation. The absence of commas between the name 'Maria Cruz' and the title 'Biologist' is grammatically accurate. Choices A, B, and D are incorrect because they introduce unnecessary punctuation that disrupts the flow of the sentence."
+  }
+},{
+  "id": "a2f6b391",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "Although they are widely accessible, cost-effective, and simple to use, ______ they originate from finite mineral sources, and usually remain intact in the environment.",
+    "question": "Which choice best completes the sentence while adhering to the conventions of Standard English?",
+    "choices": {
+      "A": "there are several issues with synthetic fertilizers:",
+      "B": "several issues with synthetic fertilizers are that",
+      "C": "synthetic fertilizers’ several issues include",
+      "D": "synthetic fertilizers present several issues:"
+    },
+    "correct_answer": "D",
+    "explanation": "Choice D is the best answer. It correctly places the modifying phrase 'Although they are widely accessible, cost-effective, and simple to use' immediately before the noun it modifies, 'synthetic fertilizers,' clearly indicating that the fertilizers—and not another noun in the sentence—are being described. Choice A is incorrect as it creates a misplaced modifier with 'there' illogically seeming cost-effective and simple to use. Choices B and C incorrectly place 'several issues' immediately after the modifying phrase, suggesting illogically that the 'issues' are widely accessible, cost-effective, and simple to use."
+  }
+},{
+  "id": "6f08641e",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "On April 5, 1977, Kitty Cone and 150 other disability rights activists entered a San Francisco federal building. After pleading for years—to no effect—for the passage of key antidiscrimination legislation, ______  until their demands were addressed. Finally, on April 28, the legislation was signed.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "pressure on lawmakers increased when the activists staged a sit-in protest",
+      "B": "a sit-in protest staged by the activists increased pressure on lawmakers",
+      "C": "lawmakers came under increased pressure when the activists staged a sit-in protest",
+      "D": "the activists increased pressure on lawmakers by staging a sit-in protest"
+    },
+    "correct_answer": "D",
+    "explanation": "Choice D is the best answer. The convention being tested is subject-modifier placement. This choice makes the noun phrase 'the activists' the subject of the sentence and places it immediately after the modifying phrase 'after ...legislation.' In doing so, this choice clearly establishes that the activists—an d not an other noun in the sentence—were pleading for the passage of antidiscrimination legislation."
+  }
+},{
+  "id": "3580533b",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "In recent years, economists around the world have created new tools that quantify the overall well-being of a country’s citizens. Economists in India, for example, use an Ease of Living Index. This tool ______ economic potential, sustainability, and citizens’ quality of life.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "measures",
+      "B": "had measured",
+      "C": "would have measured",
+      "D": "will have been measuring"
+    },
+    "correct_answer": "A",
+    "explanation": "Choice A is the best answer. The previous sentence tells us how economists in India 'use' a certain tool, while this sentence describes general facts about that tool. To express general facts (and also to match the simple present tense of 'use'), we should use the simple present tense form 'measures'. Choice B is incorrect. This choice uses the past perfect tense, but the previous sentence tells us that the tool is currently used to measure things, so the past tense doesn't make sense for this verb. Choice C is incorrect. This choice uses the future perfect conditional tense, but the previous sentence tells us that the tool is currently used to measure things, so the future tense doesn't make sense for this verb. Choice D is incorrect. This choice uses the future perfect continuous tense, but the previous sentence tells us that the tool is currently used to measure things, so the future tense doesn't make sense for this verb."
+  }
+},{
+  "id": "74ce2f05",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "A study led by scientist R ebecca Kirby at the University of Wisconsin–Madison found that black bears that eat human food before hibernation have increased levels of a rare carbon isotope, ______ due to the higher C levels in corn and cane sugar. Bears with these elevated levels were also found to have much shorter hibernation periods on average.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "carbon-13, ( C)",
+      "B": "carbon-13 ( C)",
+      "C": "carbon-13, ( C),",
+      "D": "carbon-13 ( C),"
+    },
+    "correct_answer": "D",
+    "explanation": "Choice D is the best answer. The convention being tested is the punctuation of a supplementary element within a sentence. The comma after '(13C)' pairs with the comma after 'isotope' to separate the supplementary element 'carbon-13 (13C)' from the rest of the sentence. This supplementary element denotes the 'rare carbon isotope,' and the pair of commas indicates that this element could be removed without affecting the grammatical coherence of the sentence."
+  }
+},{
+  "id": "98h3nkd5",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "In the mystical land of Arkania, where magic flows through every stream and whispers in the winds, the renowned sorcerer Zephyrus had an unexpected encounter with ______, a legendary creature feared by all.",
+    "question": "Which choice best completes the sentence while adhering to the conventions of Standard English?",
+    "choices": {
+      "A": "dragons; the one who breathes fire",
+      "B": "dragons the one who breathes fire",
+      "C": "dragons: the one who breathes fire",
+      "D": "dragons, the one who breathes fire"
+    },
+    "correct_answer": "D",
+    "explanation": "Choice D is the best answer. It correctly uses a comma to mark the boundary between the main clause ('Zephyrus had an unexpected encounter with dragons') and the supplementary phrase ('the one who breathes fire'). This punctuation usage conforms to the conventions of Standard English. Choice A is incorrect because it creates a run-on sentence without appropriate punctuation. Choice B is incorrect as it lacks punctuation to separate the main clause and the supplementary phrase. Choice C is incorrect because a colon cannot be used in this way to join the main clause and the supplementary phrase."
+  }
+},{
+  "id": "b7363ba2",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "Mathematician and meteorologist Edward Lorenz used the metaphor of the “butterfly effect” to explain how seemingly minor events can have major impacts on future weather. According to Lorenz’s metaphor, the wind from a butterfly flapping ____ in Brazil might eventually grow into a storm elsewhere across the globe.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "its wings",
+      "B": "its wings’",
+      "C": "it’s wing’s",
+      "D": "it’s wings’"
+    },
+    "correct_answer": "A",
+    "explanation": "Choice A is the best answer. The conventions being tested are the use of possessive determiners and plural nouns. The singular possessive determiner 'its' and the plural noun 'wings' correctly indicate that the butterfly has multiple wings."
+  }
+},{
+  "id": "1ee7b429",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "Bonnie Buratti of NASA’s Jet Propulsion Laboratory ______ data about Saturn’s rings collected by the Cassini spacecraft when she made an interesting discovery: the tiny moons embedded between and within Saturn’s rings are shaped by the buildup of ring material on the moons’ surfaces.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "studies",
+      "B": "has been studying",
+      "C": "will study",
+      "D": "was studying"
+    },
+    "correct_answer": "D",
+    "explanation": "Choice D is the best answer. The convention being tested is the use of verbs to express tense in a sentence. In this choice, the past progressive tense verb 'was studying' is consistent with the other past tense verbs used to describe Buratti’s discovery. Furthermore, the past progressive tense correctly indicates that an ongoing action in the past was occurring (she was studying) at the same time that another event occurred in the past (she made an interesting discovery). Choice A is incorrect because the present tense verb 'studies' isn’t consistent with the past tense verbs used to describe Buratti’s discovery. Choice B is incorrect because the present perfect progressive tense verb 'has been studying' isn’t consistent with the past tense verbs used to describe Buratti’s discovery. Choice C is incorrect because the future tense verb 'will study' isn’t consistent with the past tense verbs used to describe Buratti’s discovery."
+  }
+},{
+  "id": "47h8s92l",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "While one requires oxygen and one does ____  and anaerobic respiration are both forms of cellular respiration—that is, they are processes by which cells break down glucose to use as energy.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "not aerobic",
+      "B": " not. Aerobic",
+      "C": "not, aerobic",
+      "D": "not; aerobic"
+    },
+    "correct_answer": "C",
+    "explanation": "Choice C is the best answer. A comma is the appropriate way to link the dependent clause 'While...not' and the independent clause that follows."
+  }
+},{
+  "id": "aaa1907f",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "To serve local families during the Great Depression, innovative New York City librarian Pura Belpré offered storytelling in both English and Spanish, an uncommon ____ celebrated el Día de los Tres Reyes Magos, an important community holiday; and put on puppet shows dramatizing Puerto Rican folktales.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "practice, at the time",
+      "B": "practice at the time;",
+      "C": "practice, at the time,",
+      "D": "practice at the time,"
+    },
+    "correct_answer": "B",
+    "explanation": "The convention being tested is the punctuation of elements in a complex series. It’s conventional to use a semicolon to separate items in a complex series with internal punctuation, and in this choice, the semicolon after 'time' is conventionally used to separate the first item ('offered...time') and the second ('celebrated...holiday') in the series of activities that librarian Pura Belpré offered. Moreover, the semicolon after 'time' matches the semicolon used later to separate the second ('celebrated...holiday') and third ('and...folktales') items in the series."
+  }
+},{
+  "id": "7f48b098",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "Photosynthesis, the process by which plants use sunlight to turn carbon dioxide and water into ______ is fueled in part by an enzyme called Photosystem II that harvests energy-giving electrons from water molecules.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "nutrients",
+      "B": "nutrients and",
+      "C": "nutrients,",
+      "D": "nutrients—"
+    },
+    "correct_answer": "C",
+    "explanation": "Choice C is the best answer. The convention being tested is the punctuation of a supplementary element within a sentence. The comma after “nutrients” pairs with the comma after “photosynthesis” to separate the supplementary element “the process by which plants use sunlight to turn carbon dioxide and water into nutrients” from the rest of the sentence. This supplementary element functions to define the term “photosynthesis,” and the pair of commas indicates that this element could be removed without affecting the grammatical coherence of the sentence. Choice A is incorrect because it fails to use appropriate punctuation to separate the supplementary element from the rest of the sentence. Choice B is incorrect because a conjunction can’t be paired with a comma in this way to separate the supplementary element from the rest of the sentence. Choice D is incorrect because a dash can’t be paired with a comma in this way to separate the supplementary element from the rest of the sentence."
+  }
+},{
+  "id": "148be4da",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "Human-made (synthetic) fibers used in clothes and many other consumer products are more durable than most natural plant ______  the manufacture of synthetic fibers requires toxic chemical solvents that can pollute air and water.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "fibers,",
+      "B": "fibers but",
+      "C": "fibers",
+      "D": "fibers, but"
+    },
+    "correct_answer": "D",
+    "explanation": "Choice D is the best answer. The convention being tested is the coordination of main clauses within a sentence. This choice correctly uses a comma and the coordinating conjunction 'but' to join the first main clause ('Human-made...fibers') and the second main clause ('the manufacture...water'). Choice A is incorrect because it results in a comma splice. Without a conjunction following it, a comma can't be used in this way to join two main clauses. Choice B is incorrect because when coordinating two longer main clauses such as these, it’s conventional to use a comma before the coordinating conjunction. Choice C is incorrect because it results in a run-on sentence. The two main clauses are fused without punctuation and/or a conjunction."
+  }
+},{
+  "id": "0f39b19c",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "After a spate of illnesses as a child, Wilma Rudolph was told she might never walk again. Defying all odds, Rudolph didn’t just walk, she ______  the 1960 Summer Olympics in R ome, she won both the 100- and 200-meter dashes and clinched first place for her team in the 4x100-meter relay, becoming the first US woman to win three gold medals in a single Olympics.",
+    "question": "Which choice completes the text so that it conforms to the conventions of S tandard English?",
+    "choices": {
+      "A": "ran—fast—during",
+      "B": "ran—fast during",
+      "C": "ran—fast, during",
+      "D": "ran—fast. During"
+    },
+    "correct_answer": "D",
+    "explanation": "The correct answer is D. The convention being tested is punctuation use between sentences. In this choice, the period is used correctly to mark the boundary between one sentence (“Defying…fast”) and another sentence that begins with a supplementary phrase (“During…Olympics”). Choice A is incorrect as using another dash (“fast—during”) to mark the boundary between sentences creates a potentially confusing sentence. In this context, a period, semicolon, or colon would be clear and more conventional. Choice B is incorrect because it results in a run-on sentence. The sentences (“Defying…fast”) and (“during…Olympics”) are fused without punctuation and/or a conjunction. Choice C is incorrect because it results in a comma splice. A comma can’t be used in this way to mark the boundary between sentences."
+  }
+},{
+  "id": "f0864217",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "Rabinal Ach í is a precolonial Maya dance drama performed annually in Rabinal, a town in the Guatemalan highlands. Based on events that occurred when Rabinal was a city-state ruled by a king, ______ had once been an ally of the king but was later captured while leading an invading force against him.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "Rabinal Achí tells the story of K’iche’ Achí, a military leader who",
+      "B": "K’iche’ Achí, the military leader in the story of Rabinal Achí",
+      "C": "the military leader whose story is told in Rabinal Achí, K’iche’ Achí,",
+      "D": "there was a military leader, K’iche’ Achí, who in Rabinal Achí"
+    },
+    "correct_answer": "A",
+    "explanation": "Choice A is the best answer. The modifier “Based on events…by a king,” is describing the drama “Rabinal Achí.” Modifiers need to be next to the subjects they describe, so “Rabinal Achí” needs to be the first word after the comma."
+  }
+},{
+  "id": "c91ef0f0",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "During the American Civil War, Thomas Morris Chester braved the front lines as a war correspondent for the Philadelphia Press. Amplifying the voices and experiences of Black soldiers ____ of particular importance to Chester, who later became an activist and lawyer during the postwar Reconstruction period.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "were",
+      "B": "have been",
+      "C": "are",
+      "D": "was"
+    },
+    "correct_answer": "D",
+    "explanation": "The correct answer is D. The convention being tested is subject-verb agreement. The singular verb 'was' agrees in number with the singular subject 'amplifying.' Gerunds such as 'amplifying' are always singular. Choice A is incorrect because the plural verb 'were' doesn't agree in number with the singular subject 'amplifying.' Choice B is incorrect because the plural verb 'have been' doesn't agree in number with the singular subject 'amplifying.' Choice C is incorrect because the plural verb 'are' doesn't agree in number with the singular subject 'amplifying.'"
+  }
+},{
+  "id": "7b419faf",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "In 1903, environmentalist John Muir guided President Theodore Roosevelt on a scenic, sprawling trip through California’s Yosemite Valley. Upon returning from the three-day excursion, Roosevelt ______ to conserve the nation’s wilderness areas, a vow he upheld for his remaining six years in office.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "is vowing",
+      "B": "vowed",
+      "C": "will vow",
+      "D": "vows"
+    },
+    "correct_answer": "B",
+    "explanation": "Choice B is the best answer. The convention being tested is the use of verbs to express tense in a sentence. In this choice, the past tense verb 'vowed' is consistent with the other past tense verbs ('guided' and 'upheld') used to narrate the events surrounding President Roosevelt's decision to conserve the nation's wilderness areas. Choice A is incorrect because the present progressive tense verb 'is vowing' isn't consistent with the past tense verbs used to narrate the events. Choice C is incorrect because the future tense verb 'will vow' isn't consistent with the past tense verbs used to narrate the events. Choice D is incorrect because the simple present tense verb 'vows' isn't consistent with the past tense verbs used to narrate the events."
+  }
+},{
+  "id": "29c9be28",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "To survive when water is scarce, embryos inside African turquoise killifish eggs ______  a dormant state known as diapause. In this state, embryonic development is paused for as long as two years—longer than the life span of an adult killifish.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "enter",
+      "B": "to enter",
+      "C": "having entered",
+      "D": "entering"
+    },
+    "correct_answer": "A",
+    "explanation": "Choice A is the best answer. The convention being tested is finite and non-finite verb forms within a sentence. A main clause requires a finite verb to perform the action of the subject, and this choice supplies the clause with the finite present tense verb 'enter' to indicate how the embryos achieve diapause. Choice B is incorrect because the non-finite 'to enter' doesn’t supply the main clause with a finite verb. Choice C is incorrect because the non-finite participle 'having entered' doesn’t supply the main clause with a finite verb. Choice D is incorrect because the non-finite participle 'entering' doesn’t supply the main clause with a finite verb."
+  }
+},{
+  "id": "983d33fa",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "In 1637, the price of tulips skyrocketed in Amsterdam, with single bulbs of rare varieties selling for up to the equivalent of $200,000 in today’s US dollars. Some historians ______ that this “tulip mania” was the first historical instance of an asset bubble, which occurs when investors drive prices to highs not supported by actual demand.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "claiming",
+      "B": "claim",
+      "C": "having claimed",
+      "D": "to claim"
+    },
+    "correct_answer": "B",
+    "explanation": "Choice B is the best answer. The convention being tested is the use of finite and non-finite verb forms within a sentence. A main clause requires a finite verb to perform the action of the subject (in this case, “some historians”), and this choice supplies the finite present tense verb “claim” to indicate what some historians do. Choice A is incorrect because the non-finite participle “claiming” doesn’t supply the main clause with a finite verb. Choice C is incorrect because the non-finite participle “having claimed” doesn’t supply the main clause with a finite verb. Choice D is incorrect because the non-finite to-infinitive “to claim” doesn’t supply the main clause with a finite verb."
+  }
+},{
+  "id": "6e193b19",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "Professional American football player Fred Cox invented one of the world’s most popular toys. In the 1970s, he came up with the idea for the Nerf football, which ______  of the harder and heavier regulation football.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "were a smaller, foam version",
+      "B": "are smaller, foam versions",
+      "C": "were smaller, foam versions",
+      "D": "is a smaller, foam version"
+    },
+    "correct_answer": "D",
+    "explanation": "The correct answer is D. The convention being tested is subject-verb agreement and agreement between nouns. The singular verb “is” and the singular noun “version” both agree in number with the relative pronoun “which.” In this context, “which” functions as a singular subject because it refers to the singular noun “the Nerf football.” Choices A, B, and C are incorrect because they do not agree in number with the singular noun phrase “the Nerf football” that they’re modifying."
+  }
+},{
+  "id": "52b61716",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "Formed in 1967 to foster political and economic stability within the Asia-Pacific region, the Association of Southeast Asian Nations was originally made up of five members: Thailand, the Philippines, Singapore, Malaysia, and Indonesia. By the end of the 1990s, the organization ____ its initial membership.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "has doubled",
+      "B": "had doubled",
+      "C": "doubles",
+      "D": "will double"
+    },
+    "correct_answer": "B",
+    "explanation": "Choice B is the best answer. The convention being tested is the use of verbs to express tense. In this choice, the past perfect verb 'had doubled' properly indicates that the doubling of the organization's initial membership occurred during a specific period before the present (between the organization's founding in 1967 and the end of the 1990s). Choice A is incorrect because the present perfect verb 'has doubled' doesn't indicate that the organization's doubling of its initial membership occurred during a specific period in the past. Choice C is incorrect because the present tense verb 'doubles' doesn't indicate that the organization's doubling of its initial membership occurred during a specific period in the past. Choice D is incorrect because the future tense verb 'will double' doesn't indicate that the organization's doubling of its initial membership occurred during a specific period in the past."
+  }
+},{
+  "id": "96c720af",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "Atoms in a synchrotron, a type of circular particle accelerator, travel faster and faster until they ______  a desired energy level, at which point they are diverted to collide with a target, smashing the atoms.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "will reach",
+      "B": "reach",
+      "C": "had reached",
+      "D": "are reaching"
+    },
+    "correct_answer": "B",
+    "explanation": "Choice B is the best answer. The convention being tested is the use of verbs to express tense in a sentence. In this choice, the present tense verb 'reach' is consistent with the present tense verbs 'travel' and 'are diverted' used to describe how atoms move through the synchrotron."
+  }
+},{
+  "id": "dbd78791",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "Led by S yrian American astronomer Shadia Habbal, the Solar Wind Sherpas are an intrepid team of scientists who travel the globe to study solar winds, the streams of particles emanating from the Sun that are only visible from certain locations during a total solar eclipse. When such an eclipse is imminent, the Sherpas pack up their telescopes and ____ ready.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "get",
+      "B": "had gotten",
+      "C": "got",
+      "D": "were getting"
+    },
+    "correct_answer": "A",
+    "explanation": "The correct answer is A. The convention being tested is the use of verbs to express tense in a sentence. In this choice, the present tense verb 'get' is consistent with the other present tense verbs used in the paragraph to describe the Sherpas and their activities."
+  }
+},

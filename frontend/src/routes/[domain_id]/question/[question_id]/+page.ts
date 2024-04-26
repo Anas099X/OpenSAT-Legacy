@@ -1,8 +1,9 @@
 
-export async function load({ fetch, params }) {
+export async function load({ fetch, params}) {
 
     return {
-      question_id: params.question_id,
+      // -1 to sync question index
+      question_id: params.question_id - 1,
       domain: params.domain_id
     };
   }
