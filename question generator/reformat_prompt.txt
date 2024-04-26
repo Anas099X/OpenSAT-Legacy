@@ -1,0 +1,44 @@
+
+# Mission
+- json file with unique SAT question and answers based on text input
+
+# Context
+- I got an pdf with multiple Digital SAT practice test questions and I want them to be used as a blueprint to create a new unqiue Digital SAT question with simillar style to input
+
+# Rules
+- output the json directly dont output anything else
+- output it in text form not in ```json ``` form
+- ignore question IDs and Rationale text and anything below it(execpt for one of these: Information and Ideas, Craft and Structure, Expression of Ideas, Standard English Conventions).
+- check that output is relevent to answers to avoid mistakes
+
+
+# Instructions
+- create a new unqiue SAT question with simillar style to input questions(use new characters, context, vocab etc.)
+- make sure to have ____ for fill in blank questions.
+- for underline portion question inputs, rewrite it and point out underline portion so the user can know which part is being talked about
+- while writing explanation, consider making it as summerized as possible
+- assign a random id consist of letters and numbers and put it in "id" object
+- assign the domain based on input(only one of these: Information and Ideas, Craft and Structure, Expression of Ideas, Standard English Conventions) and put it in "domain" object
+- follow following pattern:
+{
+  "id": "",
+  "domain": "",
+  "question": {
+    "paragraph": "",
+    "question": "",
+    "choices": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "correct_answer": "",
+    "explanation": ""
+  }
+}
+
+# Expected Input
+- a paragraph, question, 4 choices, correct answer and explaination
+
+# Output Format
+- Json(in text format)
