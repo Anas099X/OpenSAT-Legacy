@@ -84,7 +84,17 @@ function toggle_math(domain: string): void {
      
       <div class="flex flex-col justify-center items-center">
         <IconSchool stroke={1.5} size="200" />
-        <h2 class="h2"> Library with Endless Possibilities</h2>
+        <h2 class="h2">
+          Question Bank with <span class="text-glow">Endless</span> Possibilities
+        </h2>
+        <br>
+        <p class="text-center h4">
+          OpenSAT, a free and open-source question bank.
+          Dive into a massive pool of SAT practice problems,<br>
+          constantly growing thanks to a dedicated community of contributors.
+        </p>
+        
+       
       </div>
       
 
@@ -94,3 +104,23 @@ function toggle_math(domain: string): void {
 
   </AppShell>
   
+
+
+
+
+  
+
+<style>.text-glow {
+  animation: glow 1.5s ease-in-out infinite alternate;
+  -webkit-animation: glow 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 0 rgba(255, 255, 255, 0.0);
+  }
+  to {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+  }
+}
+</style>
