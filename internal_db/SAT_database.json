@@ -1,0 +1,121 @@
+{
+  "id": "4f2c1b8a",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "In a manuscript, edits and annotations made by a previous reader typically reduce a document’s _____. However, if the annotations are by a renowned scientist like Marie Curie, these notes, referred to as annotations, become invaluable to historians.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "clarity, however",
+      "B": "clarity",
+      "C": "clarity,",
+      "D": "clarity however"
+    },
+    "correct_answer": "A",
+    "explanation": "Choice A is the best answer. The coordination of independent clauses within a sentence is tested here. An independent clause is a phrase containing a subject and a verb that can stand on its own as a sentence. This choice uses a comma and the coordinating conjunction 'however' to link the first independent clause ('edits and annotations made by a previous reader typically reduce a document’s clarity') with the second independent clause ('these notes become invaluable to historians') to create a compound sentence. Choice B results in a run-on sentence by fusing two independent clauses without adequate punctuation or a conjunction. Choice C results in a comma splice, where a comma alone cannot be used to separate two independent clauses. Choice D is incorrect because it lacks the comma needed to properly separate the two coordinated independent clauses."
+  }
+},{
+  "id": "b3x29d7",
+  "domain": "Expression of Ideas",
+  "question": {
+    "paragraph": "In a recent academic endeavor, a group led by Dr. Elina Kim explored the resilience of coral structures under oceanic conditions. Dr. Kim's team created synthetic models mimicking the coral networks to study their behavior under stress. Observations were made regarding the interaction points within the models. When subjected to environmental stressors, these interaction points multiplied, enhancing the rigidity of the structures.",
+    "question": "The student plans to outline the central objective of Dr. Kim's research. Which option most accurately utilizes information from the notes to achieve this?",
+    "choices": {
+      "A": "Dr. Kim's group sought to deepen understanding of the resilience behind coral structures' unique flexibility and cohesiveness.",
+      "B": "The team deployed synthetic models that replicated coral networks and monitored interaction points within these models.",
+      "C": "Upon examining interaction points, the team observed increased rigidity in structures when subjected to environmental stressors.",
+      "D": "As determined by Dr. Kim's research, coral structures exhibit unique flexibility and cohesiveness as engineered systems."
+    },
+    "correct_answer": "A",
+    "explanation": "Choice A is the correct answer as it clearly states the main goal of Dr. Kim's research, which was to explore the resilience mechanisms of coral structures. Choice B describes the methodology used, not the research goal. Choice C mentions a finding from the research, not its objective. Choice D simply restates the observed qualities of coral structures, not the purpose of the study."
+  }
+},{
+  "id": "x8c941v3",
+  "domain": "Craft and Structure",
+  "question": {
+    "paragraph": "Craftsman Jacob Marley weaves intricate patterns into his rugs using ____ wool and organic cotton. Employing traditional Scottish methods, Marley delicately spins the cotton thread through loops of wool, using an old spindle to achieve a design that modern machinery can't match.",
+    "question": "Which choice completes the sentence with the most logical and precise word or phrase?",
+    "choices": {
+      "A": "dyed with",
+      "B": "crafted from",
+      "C": "modeled on",
+      "D": "bundled with"
+    },
+    "correct_answer": "B",
+    "explanation": "Choice B is the best answer because it logically completes the description of Jacob Marley's rug-making process. Saying the rugs are 'crafted from' specific materials indicates that Marley personally creates them using these materials, without mechanical help. The description that Marley 'spins the cotton thread through loops of wool' supports that the rugs are handcrafted from these materials. Choice A is incorrect because while the materials might be dyed, the text emphasizes the crafting process, not the dyeing. Choice C is incorrect as it suggests the rugs are replicas or imitations, which the text does not imply. Lastly, Choice D, 'bundled with', is incorrect because it implies the materials are merely gathered together, which does not adequately describe the careful, manual process of making the rugs."
+  }
+},{
+  "id": "6bc0e595",
+  "domain": "Information and Ideas",
+  "question": {
+    "paragraph": "One aspect of in-person shopping that online shopping can’t replicate is the opportunity to touch a product before buying it. Does this difference matter? In an experiment, researchers asked one group of participants to touch a mug and a toy, while another group was prohibited from touching the two items. The participants were then asked how much money they’d pay for the items. People who got to touch the items were willing to pay much more money for them than were people who weren’t allowed to touch the items. This finding suggests that ______",
+    "question": "Which choice most logically completes the text?",
+    "choices": {
+      "A": "people who mainly shop online probably spend more money every month than people who mainly shop in person do.",
+      "B": "in-person shopping may make products seem more valuable than they seem if only viewed online.",
+      "C": "retailers with in-person and online stores should charge the same price for a given product in both places.",
+      "D": "online retailers may be able to raise the prices they charge for products that are only available online."
+    },
+    "correct_answer": "B",
+    "explanation": "Choice B is the best answer. The text tells us that 'people who got to touch the items were willing to pay much more money for them than people who weren’t allowed to touch.' This suggests that being able to interact with a product in person may make it seem more valuable to a shopper."
+  }
+},{
+  "id": "3bceeb93",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "When they were first discovered in Australia in 1798, duck-billed, beaver-tailed platypuses so defied categorization that one scientist assigned them the name Ornithorhynchus paradoxus: “paradoxical bird-snout.” The animal, which lays eggs but also nurses ______ young with milk, has since been classified as belonging to the monotremes group.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "they’re",
+      "B": "their",
+      "C": "its",
+      "D": "it’s"
+    },
+    "correct_answer": "C",
+    "explanation": "Choice C is the best answer. The singular possessive pronoun 'its' agrees with the singular antecedent 'the animal' and indicates that the 'young' belong to it. Choice A is incorrect. This choice creates a pronoun-antecedent agreement error. 'They’re' is a contraction of 'they are,' a plural pronoun and verb, but the antecedent 'the animal' is singular. Also, we don’t need the extra verb 'are' — we already have a main verb in this clause, so adding 'are' would be confusing and ungrammatical. Choice B is incorrect. This choice creates a pronoun-antecedent agreement error. 'Their' is a plural pronoun, but the subject of the sentence is 'the animal,' a singular noun. Choice D is incorrect. This choice creates a confusing and ungrammatical sentence. 'It’s' is a contraction for 'it is.' We already have the verb 'nurses' in this clause, so we shouldn’t add the verb 'is'."
+  }
+},{
+  "id": "e7918f0b",
+  "domain": "Expression of Ideas",
+  "question": {
+    "paragraph": "Samuel Coleridge-Taylor was a prominent classical music composer from England who toured the US three times in the early 1900s. The child of a West African father and an English mother, Coleridge-Taylor emphasized his mixed-race ancestry. For example, he referred to himself as Anglo-African. ____ he incorporated the sounds of traditional African music into his classical music compositions.",
+    "question": "Which choice completes the text with the most logical transition?",
+    "choices": {
+      "A": "In addition,",
+      "B": "Actually,",
+      "C": "However,",
+      "D": "Regardless,"
+    },
+    "correct_answer": "A",
+    "explanation": "Choice A is the best answer. 'In addition,' logically signals that the detail in this sentence—that Coleridge-Taylor included traditional African music in his classical compositions—adds to the information in the previous sentence. Specifically, the previous sentence indicates one way in which Coleridge-Taylor emphasized his mixed-race ancestry, and the claim that follows indicates a second, additional way."
+  }
+},{
+  "id": "7d5b9e4f",
+  "domain": "Craft and Structure",
+  "question": {
+    "paragraph": "In a quaint village nestled amidst the rolling hills, there stood a peculiar old cottage. Within its walls, an eccentric inventor toiled away, his latest creation resting on the cluttered workbench. The contraption, a peculiar amalgamation of gears and wires, emitted a soft hum as it awaited its final adjustment.",
+    "question": "As used in the text, what does the phrase “a peculiar” most nearly mean?",
+    "choices": {
+      "A": "A common",
+      "B": "A mysterious",
+      "C": "An ordinary",
+      "D": "An unusual"
+    },
+    "correct_answer": "D",
+    "explanation": "Choice D is the best answer because as used in the text, “peculiar” most nearly means unusual. The paragraph describes a quaint village and an eccentric inventor, suggesting a setting and character that are out of the ordinary. The phrase 'peculiar old cottage' and 'peculiar amalgamation of gears and wires' further emphasize the unusual nature of the scene. Choice A is incorrect because 'peculiar' means unusual, not common. Choice B is incorrect because 'peculiar' does not imply mystery in this context; it simply denotes something out of the ordinary. Choice C is incorrect because 'peculiar' means unusual, not ordinary."
+  }
+},{
+  "id": "c538954d",
+  "domain": "Information and Ideas",
+  "question": {
+    "paragraph": "Sense and Sensibility is an 1811 novel by Jane Austen. In the novel, Austen describes Marianne Dashwood’s ability to persuade others of the rightness of her artistic judgments, as is evident when Marianne visits with John Willoughby, a potential suitor: ______",
+    "question": "Which quotation from Sense and Sensibility most effectively illustrates the claim?",
+    "choices": {
+      "A": "“Above all, when she heard him declare, that of music and dancing he was passionately fond, she gave him such a look of approbation as secured the largest share of his discourse to herself for the rest of his stay.”",
+      "B": "“Their taste was strikingly alike. The same books, the same passages were idolized by each—or if any difference appeared, any objection arose, it lasted no longer than till the force of her arguments and the brightness of her eyes could be displayed.”",
+      "C": "“It was only necessary to mention any favourite amusement to engage her to talk. She could not be silent when such points were introduced, and she had neither shyness nor reserve in their discussion.”",
+      "D": "“They speedily discovered that their enjoyment of dancing and music was mutual, and that it arose from a general conformity of judgment in all that related to either. Encouraged by this to a further examination of his opinions, she proceeded to question him on the subject of books.”"
+    },
+    "correct_answer": "B",
+    "explanation": "Choice B is the best answer. By showing that 'any difference' in taste was quickly overcome by 'the force of [Marianne’s] arguments,' this choice effectively demonstrates Marianne’s ability to persuade others. Choice A is incorrect. This choice doesn’t effectively illustrate the claim. This choice shows that Marianne and John share an interest in music and dancing, but it doesn’t provide evidence of Marianne’s ability to persuade others. Choice C is incorrect. This choice doesn’t effectively illustrate the claim. This choice shows that Marianne enjoys talking about her interests, but it doesn’t provide evidence of Marianne’s ability to persuade others. Choice D is incorrect. This choice doesn’t effectively illustrate the claim. This choice shows that Marianne and John share many interests and generally agree on music and dancing, but it doesn’t provide evidence of Marianne’s ability to persuade others."
+  }
+},
