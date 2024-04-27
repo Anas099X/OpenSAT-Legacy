@@ -13,7 +13,7 @@
     <svelte:fragment slot="header">
       <AppBar background="variant-glass-surface">
         <svelte:fragment slot="lead"><IconSchool stroke={1.5} size="38"/></svelte:fragment>
-        <h class="h3">OpenSAT</h>
+        <h class="h3" style="position:relative; left:-1%;">OpenSAT</h>
         <svelte:fragment slot="trail"><a class="anchor h5" style="position:relative; left:-20px;" href="/">Home</a> <a class="anchor h5" style="position:relative; left:-20px;" href="/explore">Explore</a><a class="anchor h5" style="position:relative; left:-10px;" href="https://github.com/Anas099X/Omnibook"><IconBrandGithub /></a></svelte:fragment>
       </AppBar>
       </svelte:fragment>

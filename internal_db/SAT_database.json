@@ -1,47 +1,47 @@
 {
-  "id": "4f2c1b8a",
+  "id": "70ced8dc",
   "domain": "Standard English Conventions",
   "question": {
-    "paragraph": "In a manuscript, edits and annotations made by a previous reader typically reduce a document’s _____. However, if the annotations are by a renowned scientist like Marie Curie, these notes, referred to as annotations, become invaluable to historians.",
+    "paragraph": "Typically, underlines, scribbles, and notes left in the margins by a former owner lower a book’s ____ when the former owner is a famous poet like Walt Whitman, such markings, known as marginalia, can be a gold mine to literary scholars.",
     "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": {
-      "A": "clarity, however",
-      "B": "clarity",
-      "C": "clarity,",
-      "D": "clarity however"
+      "A": "value, but",
+      "B": "value",
+      "C": "value,",
+      "D": "value but"
     },
     "correct_answer": "A",
-    "explanation": "Choice A is the best answer. The coordination of independent clauses within a sentence is tested here. An independent clause is a phrase containing a subject and a verb that can stand on its own as a sentence. This choice uses a comma and the coordinating conjunction 'however' to link the first independent clause ('edits and annotations made by a previous reader typically reduce a document’s clarity') with the second independent clause ('these notes become invaluable to historians') to create a compound sentence. Choice B results in a run-on sentence by fusing two independent clauses without adequate punctuation or a conjunction. Choice C results in a comma splice, where a comma alone cannot be used to separate two independent clauses. Choice D is incorrect because it lacks the comma needed to properly separate the two coordinated independent clauses."
+    "explanation": "Choice A is the best answer. The convention being tested is the coordination of independent clauses within a sentence. An independent clause is a phrase containing a subject and a verb that can stand on its own as a sentence. This choice uses a comma and the coordinating conjunction “but” to join the first independent clause (“underlines…lower a book’s value”) and the second independent clause (“such markings…can be a gold mine to scholars”) to create a compound sentence."
   }
 },{
-  "id": "b3x29d7",
+  "id": "b3g7u4p1",
   "domain": "Expression of Ideas",
   "question": {
-    "paragraph": "In a recent academic endeavor, a group led by Dr. Elina Kim explored the resilience of coral structures under oceanic conditions. Dr. Kim's team created synthetic models mimicking the coral networks to study their behavior under stress. Observations were made regarding the interaction points within the models. When subjected to environmental stressors, these interaction points multiplied, enhancing the rigidity of the structures.",
-    "question": "The student plans to outline the central objective of Dr. Kim's research. Which option most accurately utilizes information from the notes to achieve this?",
+    "paragraph": "In an investigative project, a student compiled the following notes: Most spider webs exhibit remarkable tensile strength and flexibility. Led by researcher Emma Carlton, a group aimed to explore the underlying mechanics of these qualities. Carlton's group crafted synthetic webs in their lab that mimicked the structural design of natural spider webs. They specifically examined intersections where threads meet. Upon applying force to these synthetic webs, the points of intersection increased, enhancing the web's overall rigidity.",
+    "question": "What was the primary objective of the research project as outlined by the student's notes?",
     "choices": {
-      "A": "Dr. Kim's group sought to deepen understanding of the resilience behind coral structures' unique flexibility and cohesiveness.",
-      "B": "The team deployed synthetic models that replicated coral networks and monitored interaction points within these models.",
-      "C": "Upon examining interaction points, the team observed increased rigidity in structures when subjected to environmental stressors.",
-      "D": "As determined by Dr. Kim's research, coral structures exhibit unique flexibility and cohesiveness as engineered systems."
+      "A": "Carlton’s group sought to understand the mechanics behind spider webs' remarkable tensile strength and flexibility.",
+      "B": "The team created synthetic webs to examine thread intersections and observed how they reacted under stress.",
+      "C": "The researchers observed that adding force to the webs increased their rigidity at the intersections of threads.",
+      "D": "According to the notes, spider webs are known for their flexibility and tensile strength as natural structures."
     },
     "correct_answer": "A",
-    "explanation": "Choice A is the correct answer as it clearly states the main goal of Dr. Kim's research, which was to explore the resilience mechanisms of coral structures. Choice B describes the methodology used, not the research goal. Choice C mentions a finding from the research, not its objective. Choice D simply restates the observed qualities of coral structures, not the purpose of the study."
+    "explanation": "Choice A accurately summarizes the primary goal of the research project, which is to understand the underlying mechanics of spider webs’ tensile strength and flexibility. Choice B describes the methodology rather than the objective. Choice C details a finding from the study rather than its primary aim. Choice D merely restates a noted property of spider webs without addressing the research objective."
   }
 },{
-  "id": "x8c941v3",
+  "id": "7e9a6f1d",
   "domain": "Craft and Structure",
   "question": {
-    "paragraph": "Craftsman Jacob Marley weaves intricate patterns into his rugs using ____ wool and organic cotton. Employing traditional Scottish methods, Marley delicately spins the cotton thread through loops of wool, using an old spindle to achieve a design that modern machinery can't match.",
-    "question": "Which choice completes the sentence with the most logical and precise word or phrase?",
+    "paragraph": "Artisan Monica Jenkins creates exquisite, handcrafted pottery using a unique blend of clay sourced from local quarries. Employing a technique passed down through generations, Jenkins meticulously molds each piece by hand, ensuring that no two items are exactly alike. Her commitment to traditional craftsmanship shines through in every delicate detail.",
+    "question": "In the passage, the word 'exquisite' is used to describe Jenkins' pottery. What does this word suggest about her creations?",
     "choices": {
-      "A": "dyed with",
-      "B": "crafted from",
-      "C": "modeled on",
-      "D": "bundled with"
+      "A": "Expensive and mass-produced",
+      "B": "Large and sturdy",
+      "C": "Beautiful and finely crafted",
+      "D": "Unremarkable and ordinary"
     },
-    "correct_answer": "B",
-    "explanation": "Choice B is the best answer because it logically completes the description of Jacob Marley's rug-making process. Saying the rugs are 'crafted from' specific materials indicates that Marley personally creates them using these materials, without mechanical help. The description that Marley 'spins the cotton thread through loops of wool' supports that the rugs are handcrafted from these materials. Choice A is incorrect because while the materials might be dyed, the text emphasizes the crafting process, not the dyeing. Choice C is incorrect as it suggests the rugs are replicas or imitations, which the text does not imply. Lastly, Choice D, 'bundled with', is incorrect because it implies the materials are merely gathered together, which does not adequately describe the careful, manual process of making the rugs."
+    "correct_answer": "C",
+    "explanation": "Choice C is the correct answer because the word 'exquisite' implies that Jenkins' pottery is beautiful and finely crafted. The passage describes her pottery as handcrafted, with each piece meticulously molded by hand, indicating a high level of craftsmanship. This aligns with the idea of something being exquisite, suggesting that Jenkins' creations are of exceptional quality and beauty."
   }
 },{
   "id": "6bc0e595",
@@ -56,10 +56,10 @@
       "D": "online retailers may be able to raise the prices they charge for products that are only available online."
     },
     "correct_answer": "B",
-    "explanation": "Choice B is the best answer. The text tells us that 'people who got to touch the items were willing to pay much more money for them than people who weren’t allowed to touch.' This suggests that being able to interact with a product in person may make it seem more valuable to a shopper."
+    "explanation": "Choice B is the best answer. The text suggests that 'people who got to touch the items were willing to pay much more money for them than people who weren’t allowed to touch the items.' This implies that being able to interact with a product in person may make it seem more valuable to a shopper."
   }
 },{
-  "id": "3bceeb93",
+  "id": "8e4a7f1",
   "domain": "Standard English Conventions",
   "question": {
     "paragraph": "When they were first discovered in Australia in 1798, duck-billed, beaver-tailed platypuses so defied categorization that one scientist assigned them the name Ornithorhynchus paradoxus: “paradoxical bird-snout.” The animal, which lays eggs but also nurses ______ young with milk, has since been classified as belonging to the monotremes group.",
@@ -71,13 +71,13 @@
       "D": "it’s"
     },
     "correct_answer": "C",
-    "explanation": "Choice C is the best answer. The singular possessive pronoun 'its' agrees with the singular antecedent 'the animal' and indicates that the 'young' belong to it. Choice A is incorrect. This choice creates a pronoun-antecedent agreement error. 'They’re' is a contraction of 'they are,' a plural pronoun and verb, but the antecedent 'the animal' is singular. Also, we don’t need the extra verb 'are' — we already have a main verb in this clause, so adding 'are' would be confusing and ungrammatical. Choice B is incorrect. This choice creates a pronoun-antecedent agreement error. 'Their' is a plural pronoun, but the subject of the sentence is 'the animal,' a singular noun. Choice D is incorrect. This choice creates a confusing and ungrammatical sentence. 'It’s' is a contraction for 'it is.' We already have the verb 'nurses' in this clause, so we shouldn’t add the verb 'is'."
+    "explanation": "Choice C is the best answer. The singular possessive pronoun 'its' agrees with the singular antecedent 'the animal' and indicates that the 'young' belong to it."
   }
 },{
-  "id": "e7918f0b",
+  "id": "660d50dc",
   "domain": "Expression of Ideas",
   "question": {
-    "paragraph": "Samuel Coleridge-Taylor was a prominent classical music composer from England who toured the US three times in the early 1900s. The child of a West African father and an English mother, Coleridge-Taylor emphasized his mixed-race ancestry. For example, he referred to himself as Anglo-African. ____ he incorporated the sounds of traditional African music into his classical music compositions.",
+    "paragraph": "Samuel Coleridge-Taylor was a prominent classical music composer from England who toured the US three times in the early 1900s. The child of a West African father and an English mother, Coleridge-Taylor emphasized his mixed-race ancestry. For example, he referred to himself as Anglo-African. ______ he incorporated the sounds of traditional African music into his classical music compositions.",
     "question": "Which choice completes the text with the most logical transition?",
     "choices": {
       "A": "In addition,",
@@ -86,36 +86,36 @@
       "D": "Regardless,"
     },
     "correct_answer": "A",
-    "explanation": "Choice A is the best answer. 'In addition,' logically signals that the detail in this sentence—that Coleridge-Taylor included traditional African music in his classical compositions—adds to the information in the previous sentence. Specifically, the previous sentence indicates one way in which Coleridge-Taylor emphasized his mixed-race ancestry, and the claim that follows indicates a second, additional way."
+    "explanation": "Choice A is the best answer. 'In addition,' logically signals that the detail in this sentence—that Coleridge-Taylor included traditional African music in his classical compositions—adds to the information in the previous sentence. Specifically, the previous sentence indicates one way in which Coleridge-Taylor emphasized his mixed-race ancestry, and the claim that follows indicates a second, additional way. Choice B is incorrect because 'actually' illogically signals that the detail in this sentence is surprising in light of the information in the previous sentence. Instead, the detail adds to the information, indicating a second, additional way in which Coleridge-Taylor emphasized his mixed-race ancestry. Choice C is incorrect because 'however' illogically signals that the detail in this sentence contrasts with the information in the previous sentence. Instead, the detail adds to the information, indicating a second, additional way in which Coleridge-Taylor emphasized his mixed-race ancestry. Choice D is incorrect because 'regardless' illogically signals that the detail in this sentence is true despite the information in the previous sentence. Instead, the detail adds to the information, indicating a second, additional way in which Coleridge-Taylor emphasized his mixed-race ancestry."
   }
 },{
-  "id": "7d5b9e4f",
+  "id": "7d1f39b",
   "domain": "Craft and Structure",
   "question": {
-    "paragraph": "In a quaint village nestled amidst the rolling hills, there stood a peculiar old cottage. Within its walls, an eccentric inventor toiled away, his latest creation resting on the cluttered workbench. The contraption, a peculiar amalgamation of gears and wires, emitted a soft hum as it awaited its final adjustment.",
-    "question": "As used in the text, what does the phrase “a peculiar” most nearly mean?",
+    "paragraph": "In a remote village nestled deep in the mountains, a mysterious alchemist conducted a peculiar experiment with a withered orchid. Initially, the flower seemed unaffected by the elixir, merely resting atop the liquid's surface. But soon, a remarkable alteration began to unfold. The shriveled petals stirred and gradually assumed a richer hue, as if awakening from a dormant state.",
+    "question": "As used in the passage, what does the word 'peculiar' most likely mean?",
     "choices": {
-      "A": "A common",
-      "B": "A mysterious",
-      "C": "An ordinary",
-      "D": "An unusual"
-    },
-    "correct_answer": "D",
-    "explanation": "Choice D is the best answer because as used in the text, “peculiar” most nearly means unusual. The paragraph describes a quaint village and an eccentric inventor, suggesting a setting and character that are out of the ordinary. The phrase 'peculiar old cottage' and 'peculiar amalgamation of gears and wires' further emphasize the unusual nature of the scene. Choice A is incorrect because 'peculiar' means unusual, not common. Choice B is incorrect because 'peculiar' does not imply mystery in this context; it simply denotes something out of the ordinary. Choice C is incorrect because 'peculiar' means unusual, not ordinary."
-  }
-},{
-  "id": "c538954d",
-  "domain": "Information and Ideas",
-  "question": {
-    "paragraph": "Sense and Sensibility is an 1811 novel by Jane Austen. In the novel, Austen describes Marianne Dashwood’s ability to persuade others of the rightness of her artistic judgments, as is evident when Marianne visits with John Willoughby, a potential suitor: ______",
-    "question": "Which quotation from Sense and Sensibility most effectively illustrates the claim?",
-    "choices": {
-      "A": "“Above all, when she heard him declare, that of music and dancing he was passionately fond, she gave him such a look of approbation as secured the largest share of his discourse to herself for the rest of his stay.”",
-      "B": "“Their taste was strikingly alike. The same books, the same passages were idolized by each—or if any difference appeared, any objection arose, it lasted no longer than till the force of her arguments and the brightness of her eyes could be displayed.”",
-      "C": "“It was only necessary to mention any favourite amusement to engage her to talk. She could not be silent when such points were introduced, and she had neither shyness nor reserve in their discussion.”",
-      "D": "“They speedily discovered that their enjoyment of dancing and music was mutual, and that it arose from a general conformity of judgment in all that related to either. Encouraged by this to a further examination of his opinions, she proceeded to question him on the subject of books.”"
+      "A": "Common",
+      "B": "Strange",
+      "C": "Beautiful",
+      "D": "Familiar"
     },
     "correct_answer": "B",
-    "explanation": "Choice B is the best answer. By showing that 'any difference' in taste was quickly overcome by 'the force of [Marianne’s] arguments,' this choice effectively demonstrates Marianne’s ability to persuade others. Choice A is incorrect. This choice doesn’t effectively illustrate the claim. This choice shows that Marianne and John share an interest in music and dancing, but it doesn’t provide evidence of Marianne’s ability to persuade others. Choice C is incorrect. This choice doesn’t effectively illustrate the claim. This choice shows that Marianne enjoys talking about her interests, but it doesn’t provide evidence of Marianne’s ability to persuade others. Choice D is incorrect. This choice doesn’t effectively illustrate the claim. This choice shows that Marianne and John share many interests and generally agree on music and dancing, but it doesn’t provide evidence of Marianne’s ability to persuade others."
+    "explanation": "Choice B is the correct answer because in the context of the passage, 'peculiar' suggests something unusual or out of the ordinary. The passage describes an alchemist conducting an experiment with a withered orchid, indicating an unconventional or strange occurrence. The word 'peculiar' aligns with the idea of the experiment being unusual or unfamiliar."
+  }
+},{
+  "id": "m42x8d2q",
+  "domain": "Information and Ideas",
+  "question": {
+    "paragraph": "In Charles Dickens' novel 'Great Expectations', the narrative skillfully depicts Estella Havisham's influence on those around her, especially evident during her interactions with Pip, a young gentleman enamored by her. ______",
+    "question": "Which excerpt from Great Expectations best demonstrates Estella's capacity to sway others' opinions?",
+    "choices": {
+      "A": "\"Her cold demeanor only intensified Pip's affection, leading him to seek her gaze often during their conversations about literature and art.\"",
+      "B": "\"Whenever disagreement arose about the interpretation of a piece of art, it seldom lasted beyond the moment her articulate reasoning and intense stare came into play.\"",
+      "C": "\"Mere mention of her favorite pastimes was enough to spur lengthy discussions, with Estella taking charge with neither hesitation nor modesty.\"",
+      "D": "\"Finding they both appreciated similar styles of music and theater, Pip was quickly encouraged by Estella to explore deeper into her views on varied subjects.\""
+    },
+    "correct_answer": "B",
+    "explanation": "Choice B is the correct answer as it shows Estella's arguments overcoming any initial disagreement, directly showcasing her ability to influence opinions, aligned with her described influence in the narrative."
   }
 },

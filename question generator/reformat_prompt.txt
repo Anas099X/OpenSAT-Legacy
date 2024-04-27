@@ -17,7 +17,7 @@
 - make sure to have ____ for fill in blank questions.
 - for underline portion question inputs, rewrite it and point out underline portion so the user can know which part is being talked about
 - while writing explanation, consider making it as summerized as possible
-- check that output result of question, choices, correct answer and explainations are related and correct to each other.
+- check that output result is grammatically correct interm of setences and that questions are properly made so that students can answer them.
 - assign a random id consist of letters and numbers and put it in "id" object
 - assign the domain based on input(only one of these: Information and Ideas, Craft and Structure, Expression of Ideas, Standard English Conventions) and put it in "domain" object
 - follow following pattern:
