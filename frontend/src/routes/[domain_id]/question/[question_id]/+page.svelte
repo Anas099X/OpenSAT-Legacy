@@ -1,6 +1,6 @@
 <script lang="ts">
   import { Accordion, AccordionItem, AppBar, AppRail, AppRailAnchor, AppRailTile, AppShell, ProgressBar, TreeView, TreeViewItem } from '@skeletonlabs/skeleton';
-    import { IconAlertTriangle, IconChecks, IconMessageReport } from '@tabler/icons-svelte';
+  import { IconAlertTriangle, IconChecks, IconMessageReport } from '@tabler/icons-svelte';
   
   import { onMount, onDestroy } from 'svelte';
   

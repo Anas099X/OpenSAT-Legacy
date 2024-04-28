@@ -1,7 +1,7 @@
 <script lang="ts">
   import { AppBar, AppRail, AppRailAnchor, AppRailTile, AppShell, ProgressBar, TreeView, TreeViewItem } from '@skeletonlabs/skeleton';
-    import { IconAdjustmentsSearch, IconBalloon, IconBrandGithub, IconCheck, IconFilter, IconFilterFilled, IconFlagCheck, IconNotebook, IconSchool } from '@tabler/icons-svelte';
-  
+  import { IconAdjustmentsSearch, IconBalloon, IconBrandGithub, IconCheck, IconFilter, IconFilterFilled, IconFlagCheck, IconNotebook, IconSchool } from '@tabler/icons-svelte';
+  export const prerender = true
   import { onMount, onDestroy } from 'svelte';
   
   let english_question_data: any;
