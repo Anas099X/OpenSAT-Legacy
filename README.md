@@ -1,4 +1,4 @@
-## OpenSAT: Free SAT Question Databank
+## 🎓OpenSAT: Free SAT Question Databank
 
 OpenSAT is a collaborative project dedicated to providing a comprehensive and freely accessible database of SAT practice questions. Our mission is to ensure equal access to high-quality educational resources for all students preparing for the SAT exam.
 
@@ -10,7 +10,7 @@ OpenSAT is a collaborative project dedicated to providing a comprehensive and fr
 - **Free to Use and Modify:** OpenSAT is accessible to everyone, free of charge.
 
 **Public JSON Database:**
-- Explore our public JSON database containing SAT practice questions [here](https://api.jsonsilo.com/public/942c3c3b-3a0c-4be3-81c2-12029def19f5).
+- Explore our public JSON database containing SAT practice questions [here](https://api.jsonsilo.com/public/942c3c3b-3a0c-4be3-81c2-12029def19f5). 📚
 
 ```
 {
@@ -28,9 +28,7 @@ OpenSAT is a collaborative project dedicated to providing a comprehensive and fr
     "correct_answer": "A",
     "explanation": "Choice A is the best answer. The convention being tested is the coordination of independent clauses within a sentence. An independent clause is a phrase containing a subject and a verb that can stand on its own as a sentence. This choice uses a comma and the coordinating conjunction 'but' to join the first independent clause ('underlines…lower a book’s value') and the second independent clause ('such markings…can be a gold mine to scholars') to create a compound sentence."
   }
-
 }
-
 ```
 
 ## How to Contribute:
@@ -48,11 +46,4 @@ Join us in improving OpenSAT:
 3. **Contribute:** Make changes to the question bank or codebase as needed.
 4. **Submit a Pull Request:** Once you're satisfied with your changes, submit a pull request to the main OpenSAT repository for review and potential inclusion.
 
-**Your support helps make OpenSAT a valuable resource for students worldwide!**
-
-**Additional Information:**
-
-- **Contribution Guidelines:** Detailed guidelines, formatting requirements, and testing procedures can be found in the CONTRIBUTING.md file within the repository.
-- **Community Forum:** Join our online forum (link if available) to discuss SAT preparation strategies, share resources, and connect with other students and contributors.
-
-**Let's collaborate to build a comprehensive SAT practice platform accessible to all!**
+**Let's collaborate to build a comprehensive SAT practice platform accessible to all!** 🌟
