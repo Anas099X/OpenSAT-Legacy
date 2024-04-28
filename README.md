@@ -9,6 +9,9 @@ OpenSAT is a collaborative project dedicated to providing a comprehensive and fr
 - **Open Source:** The entire question bank and codebase are openly available on GitHub, allowing for continuous improvement and community contributions.
 - **Free to Use and Modify:** OpenSAT is accessible to everyone, free of charge.
 
+**Public JSON Database:**
+- Explore our public JSON database containing SAT practice questions [here](https://api.jsonsilo.com/public/942c3c3b-3a0c-4be3-81c2-12029def19f5).
+
 ## How to Contribute:
 
 Join us in improving OpenSAT:
