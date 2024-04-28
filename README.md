@@ -45,5 +45,7 @@ Join us in improving OpenSAT:
 2. **Clone Your Fork:** Clone your forked repository to your local machine using Git.
 3. **Contribute:** Make changes to the question bank or codebase as needed.
 4. **Submit a Pull Request:** Once you're satisfied with your changes, submit a pull request to the main OpenSAT repository for review and potential inclusion.
+> [!TIP]
+>   For any questions, Message `Anas099` on Discord.
 
 **Let's collaborate to build a comprehensive SAT practice platform accessible to all!** 🌟
