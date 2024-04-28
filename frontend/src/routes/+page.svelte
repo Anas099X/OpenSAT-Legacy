@@ -11,10 +11,10 @@
     
   <AppShell slotSidebarLeft="h-auto">
     <svelte:fragment slot="header">
-      <AppBar background="variant-glass-surface">
-        <svelte:fragment slot="lead"><IconSchool stroke={1.5} size="38"/></svelte:fragment>
-        <h class="h3" style="position:relative; left:-1%;">OpenSAT</h>
-        <svelte:fragment slot="trail"><a class="anchor h5" style="position:relative; left:-20px;" href="/">Home</a> <a class="anchor h5" style="position:relative; left:-20px;" href="/explore">Explore</a><a class="anchor h5" style="position:relative; left:-10px;" href="https://github.com/Anas099X/Omnibook"><IconBrandGithub /></a></svelte:fragment>
+      <AppBar background="variant-soft-surface">
+        <svelte:fragment slot="lead"><IconSchool stroke={1.5} size="38"/><h class="h3" style="position:relative; left:3.5%;">OpenSAT</h></svelte:fragment>
+        
+        <svelte:fragment slot="trail"><a class="anchor h5" style="position:relative; left:-20px;" href="/">Home</a> <a class="anchor h5" style="position:relative; left:-20px;" href="/explore">Explore</a><a class="anchor h5" style="position:relative; left:-10px;" href="https://github.com/Anas099X/OpenSAT"><IconBrandGithub /></a></svelte:fragment>
       </AppBar>
       </svelte:fragment>
      
@@ -36,7 +36,7 @@
           <span> Explore</span>
         </a>
     
-        <a type="button" class="btn variant-filled" href="https://github.com/Anas099X/Omnibook">
+        <a type="button" class="btn variant-filled" href="https://github.com/Anas099X/OpenSAT">
           <span><IconBrandGithub /></span>
           <span>Contribute</span>
         </a>

@@ -18,7 +18,7 @@
   async function fetchData(pageNumber: number) {
     try {
       isFetchingData = true; // Set loading state to true before fetching
-      const response = await fetch(`https://getpantry.cloud/apiv1/pantry/018074c8-1891-4995-9fd6-2d8b5cf4eb17/basket/sat_database`);
+      const response = await fetch(`https://api.jsonsilo.com/public/942c3c3b-3a0c-4be3-81c2-12029def19f5`);
       if (!response.ok) {
         throw new Error(`Error fetching data: ${response.status}`);
       }

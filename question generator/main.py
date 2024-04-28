@@ -18,9 +18,9 @@ outputfile = open("internal_db/SAT_database.json", "w+")
 sat_pdf = reader.pages
 for page in sat_pdf:
  response = client.chat.completions.create(
-    model="gpt-4",
+    model="gpt-3.5-turbo",
     messages=[{"role": "user", "content": promptfile + "\n" + page.extract_text()}],
-    provider=g4f.Provider.Liaobots
+    provider=g4f.Provider.Ecosia
    )
  try:
   add_question("sat_database","english",response.choices[0].message.content)

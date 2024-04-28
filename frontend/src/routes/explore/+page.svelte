@@ -16,7 +16,7 @@
   async function fetchData(pageNumber: number) {
     try {
       isFetchingData = true; // Set loading state to true before fetching
-      const response = await fetch(`https://getpantry.cloud/apiv1/pantry/018074c8-1891-4995-9fd6-2d8b5cf4eb17/basket/sat_database`);
+      const response = await fetch(`https://api.jsonsilo.com/public/942c3c3b-3a0c-4be3-81c2-12029def19f5`);
       if (!response.ok) {
         throw new Error(`Error fetching data: ${response.status}`);
       }
@@ -76,9 +76,9 @@ function toggle_math(domain: string): void {
   <AppShell slotSidebarLeft="h-auto">
     <svelte:fragment slot="header">
       <AppBar background="variant-soft-surface">
-        <svelte:fragment slot="lead"><IconSchool stroke={1.5} size="38"/></svelte:fragment>
-        <h class="h3">OpenSAT</h>
-        <svelte:fragment slot="trail"><a class="anchor h5" style="position:relative; left:-20px;" href="/">Home</a> <a class="anchor h5" style="position:relative; left:-20px;" href="/explore">Explore</a><a class="anchor h5" style="position:relative; left:-10px;" href="https://github.com/Anas099X/Omnibook"><IconBrandGithub /></a></svelte:fragment>
+        <svelte:fragment slot="lead"><IconSchool stroke={1.5} size="38"/><h class="h3" style="position:relative; left:3.5%;">OpenSAT</h></svelte:fragment>
+       
+        <svelte:fragment slot="trail"><a class="anchor h5" style="position:relative; left:-20px;" href="/">Home</a> <a class="anchor h5" style="position:relative; left:-20px;" href="/explore">Explore</a><a class="anchor h5" style="position:relative; left:-10px;" href="https://github.com/Anas099X/OpenSAT"><IconBrandGithub /></a></svelte:fragment>
       </AppBar>
       </svelte:fragment>
     <svelte:fragment slot="sidebarLeft">
