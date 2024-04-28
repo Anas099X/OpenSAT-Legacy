@@ -12,6 +12,27 @@ OpenSAT is a collaborative project dedicated to providing a comprehensive and fr
 **Public JSON Database:**
 - Explore our public JSON database containing SAT practice questions [here](https://api.jsonsilo.com/public/942c3c3b-3a0c-4be3-81c2-12029def19f5).
 
+```
+{
+  "id": "70ced8dc",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "Typically, underlines, scribbles, and notes left in the margins by a former owner lower a book’s ______ when the former owner is a famous poet like Walt Whitman, such markings, known as marginalia, can be a gold mine to literary scholars.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "value, but",
+      "B": "value",
+      "C": "value,",
+      "D": "value but"
+    },
+    "correct_answer": "A",
+    "explanation": "Choice A is the best answer. The convention being tested is the coordination of independent clauses within a sentence. An independent clause is a phrase containing a subject and a verb that can stand on its own as a sentence. This choice uses a comma and the coordinating conjunction 'but' to join the first independent clause ('underlines…lower a book’s value') and the second independent clause ('such markings…can be a gold mine to scholars') to create a compound sentence."
+  }
+
+}
+
+```
+
 ## How to Contribute:
 
 Join us in improving OpenSAT:
