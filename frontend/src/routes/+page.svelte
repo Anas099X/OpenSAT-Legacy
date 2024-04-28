@@ -21,7 +21,7 @@
       <div class="flex flex-col justify-center items-center">
         <IconSchool stroke={1.5} size="200" />
         <h2 class="h2">
-          Question Bank with <span class="text-glow">Endless</span> Possibilities
+          Question Bank with <span class="text-glow">Forever</span> Possibilities
         </h2>
         <br>
         <p class="text-center h4">
