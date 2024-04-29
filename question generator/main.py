@@ -20,12 +20,12 @@ outputfile = open("internal_db/SAT_database.json", "w+")
 #auto question converter and exporter
 sat_pdf = reader.pages
 for page in sat_pdf:
- genai.configure(api_key='AIzaSyAhQgVvkqgJDqY470q9bR-5p0EW4G3NCS0')
+ genai.configure(api_key='')
 
  model = genai.GenerativeModel('gemini-1.0-pro-latest')
  response = model.generate_content(promptfile + "\n" + page.extract_text())
  try:
-  add_question("sat_database","english",response.text)
+  add_question("sat_database","english",response.text.replace('/',''))
   outputfile.write(response.text + ',')
   time.sleep(0.55)
   print("Question Added!")
