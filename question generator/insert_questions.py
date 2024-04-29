@@ -4,7 +4,7 @@ import json
 
 def add_question(bucket_name,array_name,input_question):
     
- url = f"INPUT JSON DATABASE HERE"
+ url = f"https://getpantry.cloud/apiv1/pantry/018074c8-1891-4995-9fd6-2d8b5cf4eb17/basket/sat_database"
 
  headers = {
   'Content-Type': 'application/json'
