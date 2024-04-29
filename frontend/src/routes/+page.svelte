@@ -1,6 +1,6 @@
 <script lang="ts">
   import { AppBar, AppRail, AppRailAnchor, AppRailTile, AppShell, ProgressBar, TreeView, TreeViewItem } from '@skeletonlabs/skeleton';
-  import { IconAdjustmentsSearch, IconBalloon, IconBrandGithub, IconCheck, IconFilter, IconFilterFilled, IconFlagCheck, IconListSearch, IconNotebook, IconSchool } from '@tabler/icons-svelte';
+  import { IconAdjustmentsSearch, IconBalloon, IconFileDatabase, IconBrandGithub, IconCheck, IconFilter, IconFilterFilled, IconFlagCheck, IconListSearch, IconNotebook, IconSchool } from '@tabler/icons-svelte';
     
 
   
@@ -30,7 +30,7 @@
           constantly growing thanks to a dedicated community of contributors.
         </p>
         <br>
-        <div class="flex justify-center space-x-10">   
+        <div class="flex justify-center space-x-11">   
           <a type="button" class="btn variant-filled" href="/explore">
           <span><IconListSearch stroke={2} /></span>
           <span> Explore</span>
@@ -40,7 +40,13 @@
           <span><IconBrandGithub /></span>
           <span>Contribute</span>
         </a>
+
       </div>
+      <br/>
+      <a type="button" class="btn variant-filled-secondary" style="position:relative; left:-0.5%" href="https://api.jsonsilo.com/public/942c3c3b-3a0c-4be3-81c2-12029def19f5">
+        <span><IconFileDatabase /></span>
+        <span>JSON Database</span>
+      </a>
       </div>
       
      
