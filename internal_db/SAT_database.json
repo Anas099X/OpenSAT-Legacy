@@ -3972,4 +3972,982 @@
     "correct_answer": "B",
     "explanation": "Choice B is the best answer. The claim is that the lava freed the deep nitrate, allowing it to float upward. The\ntable supports this by showing that there was more nitrate in the lava-affected seawater at various depths above\n300 meters (the depth to which the lava plunged) than in unaffected seawater."
   }
+},{
+  "id": "512f0ac9",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "Working from an earlier discovery of Charpentier’s, chemists Emmanuelle Charpentier and Jennifer Doudna—winners of\nthe 2020 Nobel Prize in Chemistry—re-created and then ______ the so-called “genetic scissors” of a species of\nDNA-cleaving bacteria, creating a tool that is revolutionizing the field of gene technology.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "reprogrammed",
+      "B": "reprogramming",
+      "C": "reprogram",
+      "D": "reprogrammed and"
+    },
+    "correct_answer": "A",
+    "explanation": "The best answer is A, because it uses the correct verb tense and form. The paragraph is in the past tense, so the verb must be in the past tense as well. The verb must also be in the active voice, because the chemists are the ones who are doing the reprogramming. Answer choice A is the only one that meets all of these criteria."
+  }
+},{
+  "id": "omrr04f3",
+  "domain": "Expression of Ideas",
+  "question": {
+    "paragraph": "The cliffs along the coast are a result of the slow erosion of rock by the ocean. The ocean's waves gradually wear away at the rock, creating a steep cliff face. Over time, the cliff face becomes unstable and collapses, creating a new cliff face. This process repeats itself over and over, creating a series of cliffs along the coast.",
+    "question": "Which of the following most effectively uses relevant information from the paragraph to explain the formation of the cliffs?",
+    "choices": {
+      "A": "The cliffs are formed by the gradual erosion of rock by the ocean's waves.",
+      "B": "The erosion of the rock is caused by the constant crashing of the waves against the cliffs.",
+      "C": "The cliffs are made of a type of rock that is easily eroded by water.",
+      "D": "The cliffs are a result of the movement of tectonic plates."
+    },
+    "correct_answer": "A",
+    "explanation": "Choice A is the best answer because it provides a clear and concise explanation of how the cliffs are formed. It states that the cliffs are formed by the gradual erosion of rock by the ocean's waves. This explanation is supported by the information in the paragraph, which states that the ocean's waves gradually wear away at the rock, creating a steep cliff face."
+  }
+},{
+  "id": "4d79210a",
+  "domain": "Craft and Structure",
+  "question": {
+    "paragraph": "At the warmest time of day, the air was an oppressive weight, beating down like a giant palm and sapping all energy from the body of Antonio, who had walked miles since sunrise, with no food or water. He marched on relentlessly, however, driven by an unknown, far-off goal toward which he had come too far to turn back. From time to time, he was forced to rest beneath the shade of a tree while his head throbbed and his lungs burned like fire.",
+    "question": "In the context of the passage, what is the primary effect of the heat on Antonio?",
+    "choices": {
+      "A": "He is motivated to reach his destination more quickly.",
+      "B": "He has slowed his progress toward his destination.",
+      "C": "He has lost all desire to continue his journey.",
+      "D": "It has forced him to turn back toward the point from which he started."
+    },
+    "correct_answer": "B",
+    "explanation": "The passage states that the heat is \"beating down like a giant palm and sapping all energy from the body of Antonio.\" This suggests that the heat is making it more difficult for Antonio to continue his journey, which is why he has to rest beneath the shade of a tree and his progress has slowed."
+  }
+},{
+  "id": "64774B",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "Choice A is in correct. This choice doesn’t complete the statement in a way that supports the claim. The claim is about nitrate, not phosphate. Choice C is incorrect. This choice doesn’t complete the statement in a way that supports the claim. The claim is only about nitrate—the concentrations of phosphate aren’t relevant. Choice D is incorrect. This choice doesn’t complete the statement in a way that supports the claim. It doesn’t say anything about the seawater inside the lava-affected area.",
+    "question": "Which choice is correct?",
+    "choices": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_answer": "B",
+    "explanation": "Choice B is correct because it completes the statement in a way that supports the claim."
+  }
+},{
+  "id": "v7y7e6",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "In discussing Jane Austen’s 1813 novel ______ as the recipient of the letters that frame the book’s narrative, Emma Woodhouse is the \"occasion\" of it.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "Pride and Prejudice, rather, ",
+      "B": "Pride and Prejudice, rather",
+      "C": "Pride and Prejudice.",
+      "D": "Pride and Prejudice,;"
+    },
+    "correct_answer": "C",
+    "explanation": "Choice C is the best answer. The convention being tested is sentence structure. This choice correctly uses a period to end the independent clause. Choice A is incorrect because it results in a fused sentence. The two independent clauses are fused with a comma and/or a conjunction. Choice B is incorrect because it results in a comma splice. Without a conjunction following it, the comma after “Pride and Prejudice” can’t be used in this way to join the two independent clauses. Choice D is incorrect because it results in a run-on sentence. The two independent clauses are fused without punctuation and/or a conjunction."
+  }
+},{
+  "id": "l23kj5",
+  "domain": "Expression of Ideas",
+  "question": {
+    "paragraph": "Biologists often study animal behavior in order to better understand how organisms survive and reproduce. One way to do this is to observe animals in their natural habitats. ______, studying behavior in the laboratory can also be useful.",
+    "question": "The underlined portion, ______, most effectively transitions to what topic?",
+    "choices": {
+      "A": "Firstly",
+      "B": "Therefore",
+      "C": "On the contrary",
+      "D": "Furthermore"
+    },
+    "correct_answer": "D",
+    "explanation": "The context discusses studying animal behavior through observation in natural habitats. The underlined portion suggests a transition to another method of studying behavior. Choice D correctly implies an additional method, making it the most logical transition."
+  }
+},{
+  "id": "2641CF",
+  "domain": "Information and Ideas",
+  "question": {
+    "paragraph": "The article, written by a respected science journalist, claims that climate change is an inevitable consequence of human activity. The author cites numerous studies and expert opinions to support this conclusion, arguing that the evidence is overwhelming. However, critics of the article point out that the author has a history of environmental activism and that the article was published in a journal with a known bias towards environmental causes. They argue that the author's personal beliefs and the journal's bias may have influenced the article's conclusions.",
+    "question": "Which of the following is the main point of the article?",
+    "choices": {
+      "A": "Climate change is an inevitable consequence of human activity.",
+      "B": "The author of the article has a history of environmental activism.",
+      "C": "The journal in which the article was published has a known bias towards environmental causes.",
+      "D": "Critics of the article argue that the author's personal beliefs may have influenced the article's conclusions."
+    },
+    "correct_answer": "A",
+    "explanation": "The main point of the article is to argue that climate change is an inevitable consequence of human activity. This is the conclusion that the author reaches after citing numerous studies and expert opinions. The other choices are all details that are mentioned in the article, but they are not the main point."
+  }
+},{
+  "id": "h2z450f",
+  "domain": "Information and Ideas",
+  "question": {
+    "paragraph": "The Amazon rainforest is home to an estimated 10% of the world's known species, making it one of the most biodiverse places on Earth. This immense biodiversity is supported by the rainforest's unique climate, which maintains a relatively constant temperature and humidity year-round. Tropical rainforests are vital for the health of the planet, as they absorb large amounts of carbon dioxide from the atmosphere, which helps to regulate global climate change. These forests also provide an important source of food, medicine and other products for local communities.",
+    "question": "What is a major benefit of the Amazon rainforest's biodiversity?",
+    "choices": {
+      "A": "It provides a natural carbon sink, helping to regulate global climate change.",
+      "B": "It helps to filter and clean the world's water supply.",
+      "C": "It supports recreational activities such as tourism and hunting.",
+      "D": "It provides a home for a wide range of endangered species."
+    },
+    "correct_answer": "A",
+    "explanation": "The rainforest's unique climate and immense biodiversity support a vital carbon sink, helping to regulate global climate change."
+  }
+},{
+  "id": "db3a1c",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "As environmental scientist Dr. Nora Ramirez has observed, “the ocean is not a very good timekeeper.” The ocean’s slightly irregular rotation rate means that measurements of time must be periodically adjusted. Specifically, an extra “leap second” (the 86,401st second of the day) is ______  time based on the planet’s rotation lags a full nine-tenths of a second behind time kept by precise atomic clocks.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "added, whenever",
+      "B": "added; whenever",
+      "C": "added. Whenever",
+      "D": "added whenever"
+    },
+    "correct_answer": "D",
+    "explanation": "Choice D is the best answer. The convention being tested is punctuation between a verb and a preposition. When, as in this case, a verb (\"is added\") is immediately followed by a preposition (\"whenever\"), no punctuation is needed. Choice A is incorrect because no punctuation is needed between the verb and the preposition. Choice B is incorrect because no punctuation is needed between the verb and the preposition. Choice C is incorrect because no punctuation is needed between the verb and the preposition."
+  }
+},{
+  "id": "69G4p5",
+  "domain": "Expression of Ideas",
+  "question": {
+    "paragraph": "All students engage in a great deal of planning for the future. For many, this means college. But some students may also decide to pursue a career directly after high school. For instance, students who study HVAC Repair may have the opportunity to become a union apprentice. In such situations, students can work while attending school to complete their training. This type of apprenticeship can allow students to earn while they learn.",
+    "question": "The author's purpose is to:",
+    "choices": {
+      "A": "advertise the benefits of earning while learning",
+      "B": "explore the variety of postsecondary education options",
+      "C": "explain the structure of an HVAC Repair apprenticeship",
+      "D": "compare college and postsecondary education"
+    },
+    "correct_answer": "B",
+    "explanation": "The author discusses various post-secondary education options, including college and apprenticeships, in order to provide a broad overview of the topic."
+  }
+},{
+  "id": "d7vMsc",
+  "domain": "Craft and Structure",
+  "question": {
+    "paragraph": "In his controversial essay, 'On Truth and Its Consequences', Friedrich Nietzsche asserts that truth can be ______, as it can lead to suffering and disillusionment.",
+    "question": "Which choice best completes the text with the most logical and precise word or phrase?",
+    "choices": {
+      "A": "found",
+      "B": "avoided",
+      "C": "dangerous",
+      "D": "medicinal"
+    },
+    "correct_answer": "C",
+    "explanation": "Choice C is the best answer because it suggests that truth can be harmful or pose a risk, which aligns with Nietzsche's view that it can lead to suffering and disillusionment."
+  }
+},{
+  "id": "316c57",
+  "domain": "Information and Ideas",
+  "question": {
+    "paragraph": "A 2018 study by Emma Jones and colleagues revealed that the average lifespan of people who regularly consume caffeinated beverages is nearly 10 years longer than the average lifespan of people who do not regularly consume caffeine. Researchers attribute this difference to caffeine's ability to _____.",
+    "question": "Which choice most logically completes the text?",
+    "choices": {
+      "A": "reduce the risk of heart disease",
+      "B": "increase metabolism",
+      "C": "lower blood pressure",
+      "D": "protect against cancer"
+    },
+    "correct_answer": "B",
+    "explanation": "Choice B is the best answer because it provides the most logical explanation for the increased lifespan observed in people who regularly consume caffeine. The paragraph states that researchers attribute the longer lifespan to caffeine's ability to increase metabolism. Increasing metabolism can lead to a number of health benefits, including reducing the risk of heart disease, lowering blood pressure, and protecting against cancer. Therefore, it is most likely that caffeine's ability to increase metabolism is the reason for the increased lifespan observed in people who regularly consume it."
+  }
+},{
+  "id": "0f0be45b",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "In the article \"Slavery's Role in the American Revolution,\" the author presents a fresh perspective on ______ role the institution of slavery played in the founding of the United States.",
+    "question": "Which choice corrects the underlined portion of the sentence above so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "the",
+      "B": "a",
+      "C": "an",
+      "D": "no article"
+    },
+    "correct_answer": "B",
+    "explanation": "The correct answer is B: \"a.\" The underlined portion of the sentence is a singular indefinite noun, so it requires the indefinite article \"a\" before it. Choice A is incorrect because \"the\" is used for specific nouns. Choice C is incorrect because \"an\" is used before words that begin with a vowel sound. Choice D is incorrect because an indefinite noun requires an article before it."
+  }
+},{
+  "id": "1a2b3c",
+  "domain": "Expression of Ideas",
+  "question": {
+    "paragraph": "In the novel, the protagonist, a young woman named Anya, is forced to confront her past after she returns to her hometown. As she explores her memories, she uncovers a secret that has haunted her for years. The secret involves her childhood friend, Emily, who disappeared without a trace when they were teenagers. Determined to find out what happened to Emily, Anya embarks on a dangerous journey that takes her through the darkest corners of her own mind.",
+    "question": "Which of the following best describes the underlined portion of the paragraph?",
+    "choices": {
+      "A": "Anya's return to her hometown.",
+      "B": "Anya's discovery of a secret.",
+      "C": "Anya's search for her missing friend.",
+      "D": "The protagonist's exploration of her memories."
+    },
+    "correct_answer": "D",
+    "explanation": "The underlined portion of the paragraph refers to Anya's exploration of her memories. This exploration is a key part of the plot, as it allows Anya to uncover the secret that has haunted her for years."
+  }
+},{
+  "id": "kk21nf",
+  "domain": "Craft and Structure",
+  "question": {
+    "paragraph": "In a bustling city, amidst the towering skyscrapers, there lived an artist named Anya. Known for her bold brushstrokes and vibrant canvases, Anya's work had gained widespread recognition. However, her true passion lay in capturing the essence of human emotion through her art. One day, inspired by the faces of strangers she encountered in the city, Anya embarked on a new project.",
+    "question": "What is the main focus of Anya's passion as an artist?",
+    "choices": {
+      "A": "Depicting cityscapes",
+      "B": "Capturing human emotion",
+      "C": "Creating vibrant canvases",
+      "D": "Gaining recognition"
+    },
+    "correct_answer": "B",
+    "explanation": "The paragraph states that Anya's true passion lies in capturing the essence of human emotion through her art, contrasting with the other choices that describe aspects of her work or recognition."
+  }
+},{
+  "id": "22n5Ra",
+  "domain": "Information and Ideas",
+  "question": {
+    "paragraph": "Contrary to previous assumptions, a recent study conducted by Israeli scientists suggests that the relative scarcity of large herbivores — animals such as elephants, rhinos, and hippos — in modern African savannas may not be due to the impact of human hunting. While hunting has certainly played a role in the decline of these species, the researchers argue that a more significant factor may be the fact that modern African savannas are much drier than they were in the past. They point to the fact that during the Pleistocene era, when large herbivores were much more common throughout Africa, the continent was much wetter and had a much larger number of permanent rivers and lakes. As the climate became drier over time, the distribution and availability of water became more limited, and this may have forced large herbivores to concentrate around permanent water sources, making them more vulnerable to both hunting and predation.",
+    "question": "The passage suggests that the decline of large herbivores in modern African savannas may be due to which of the following?\n\nA) Increased hunting\n\nB) Drier climate\n\nC) Decreased food availability\n\nD) Increased competition with smaller herbivores",
+    "choices": {
+      "A": "Increased hunting",
+      "B": "Drier climate",
+      "C": "Decreased food availability",
+      "D": "Increased competition with smaller herbivores"
+    },
+    "correct_answer": "B",
+    "explanation": "The passage states that while hunting has played a role in the decline of large herbivores, the researchers argue that a more significant factor may be the fact that modern African savannas are much drier than they were in the past."
+  }
+},{
+  "id": "e3b72630",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "In the historical novel The Surrender Tree, Cuban American author Margarita Engle ______ the true story of Cuban folk hero Rosa La Bayamesa.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "tells",
+      "B": "told",
+      "C": "is telling",
+      "D": "to tell"
+    },
+    "correct_answer": "D",
+    "explanation": "Choice D is the best answer. The convention being tested is the use of finite and non-finite verb forms within a sentence. The non-finite to-infinitive “to tell” is correctly used to form a non-finite (infinitive) clause that explains the reason Engle uses poetry in her novel.\nChoice A is incorrect because the finite present tense verb “tells” can’t be used in this way to explain the reason that Engle uses poetry in her novel. Choice B is incorrect because the finite past tense verb “told” can’t be used in this way to explain the reason that Engle uses poetry in her novel. Choice C is incorrect because the finite present progressive tense verb “is telling” can’t be used in this way to explain the reason that Engle uses poetry in her novel."
+  }
+},{
+  "id": "efc19153",
+  "domain": "Expression of Ideas",
+  "question": {
+    "paragraph": "Researchers have discovered that coral reefs have the ability to recover from damage caused by human activities, such as pollution and overfishing. By protecting and conserving coral reefs through conservation efforts, humans can play a crucial role in assisting the recovery process of these vital ecosystems.",
+    "question": "Which of the following sentences most effectively supports the generalization that humans can help coral reefs recover from human-induced damage?",
+    "choices": {
+      "A": "Coral reefs are living organisms that are made up of tiny animals called polyps.",
+      "B": "Conservation efforts, such as reducing pollution and overfishing, can help protect and conserve coral reefs.",
+      "C": "Coral reefs are home to a diverse range of marine life, providing food and shelter for many different species.",
+      "D": "Overfishing and pollution are major threats to coral reefs, causing damage and hindering their ability to recover."
+    },
+    "correct_answer": "B",
+    "explanation": "Choice B directly states the idea that humans can play a role in assisting the recovery of coral reefs by implementing conservation efforts, which the paragraph emphasizes as essential for their recovery from human-induced damage."
+  }
+},{
+  "id": "7d84fe2b",
+  "domain": "Craft and Structure",
+  "question": {
+    "paragraph": "Particle physicists like A yana Holloway Arce and Aida El-Khadra spend much of their time ______  what is invisible to the naked eye: using sophisticated technology, they closely examine the behavior of subatomic particles, the smallest detectable parts of matter.",
+    "question": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": {
+      "A": "selecting",
+      "B": "inspecting",
+      "C": "creating",
+      "D": "deciding"
+    },
+    "correct_answer": "B",
+    "explanation": "Choice B is the best answer because it most logically completes the text’s discussion of the work of particle physicists. In this context, “inspecting” means viewing closely in order to examine. The text indicates that as particle physicists, Arce and El-Khadra’s work involves using advanced technology to “closely examine” subatomic particles. In other words, they use technology to inspect small parts of matter that can’t be seen by the naked eye."
+  }
+},{
+  "id": "34d54e",
+  "domain": "Information and Ideas",
+  "question": {
+    "paragraph": "In the eighteenth century, the Spanish king Charles III invited the Italian painter Anton Raphael Mengs to Madrid to modernize the artistic scene in Spain. Mengs was a talented artist and a gifted teacher, and he soon attracted a group of students who became known as the Mengsianos. The Mengsianos were dedicated to promoting a style of painting that emphasized clarity, simplicity, and harmony, in contrast to the more elaborate and decorative style that had been popular in Spain at the time.",
+    "question": "What is the main reason that Charles III invited Mengs to Madrid?",
+    "choices": {
+      "A": "To promote a style of painting that emphasized clarity, simplicity, and harmony",
+      "B": "To teach a group of students who became known as the Mengsianos",
+      "C": "To modernize the artistic scene in Spain",
+      "D": "To create a more elaborate and decorative style of painting"
+    },
+    "correct_answer": "C",
+    "explanation": "The paragraph states that Charles III invited Mengs to Madrid \"to modernize the artistic scene in Spain.\" This is the main reason for the invitation."
+  }
+},{
+  "id": "5o282p",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "In evaluating the novels of American author Harper Lee, ______ have overlooked her nuanced exploration of the complex social issues of her time, instead focusing solely on her use of dialect.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "some critics",
+      "B": "some critics have",
+      "C": "there are some critics",
+      "D": "some critics' focus"
+    },
+    "correct_answer": "A",
+    "explanation": "Choice A is the best answer because it correctly places the noun phrase \"some critics\" immediately after the modifying phrase \"In evaluating the novels of American author Harper Lee,\" establishing them as the subject of the sentence. Choice B is incorrect because it results in a dangling modifier, as the phrase \"some critics have\" is left without a clear antecedent. Choice C is incorrect because it results in a dangling modifier, as the function word \"there\" is left without a clear antecedent. Choice D is incorrect because it results in a dangling modifier, as the noun phrase \"some critics' focus\" is left without a clear antecedent."
+  }
+},{
+  "id": "0205e563",
+  "domain": "Expression of Ideas",
+  "question": {
+    "paragraph": "At two weeks old, the time their critical socialization period begins, wolves can smell but cannot yet see or hear. Domesticated dogs, ______ , can see, hear, and smell by the end of two weeks. This relative lack of sensory input may help explain why wolves behave so differently around humans than dogs do: from a very young age, wolves are more wary and less exploratory.",
+    "question": "Which choice completes the text with the most logical transition?",
+    "choices": {
+      "A": "in other words,",
+      "B": "for instance,",
+      "C": "by contrast,",
+      "D": "accordingly,"
+    },
+    "correct_answer": "C",
+    "explanation": "\"By contrast\" logically signals that the information in this sentence—that dogs can see, hear, and smell by the end of two weeks—contrasts with the preceding information (that wolves can smell but not see or hear at the same age)."
+  }
+},{
+  "id": "d2eb1df1",
+  "domain": "Craft and Structure",
+  "question": {
+    "paragraph": "In recommending Bao Phi’s collection Sông I Sing , a librarian noted that pieces by the spoken-word poet don’t lose their ______ nature when printed: the language has the same pleasant musical quality on the page as it does when performed by Phi.",
+    "question": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": {
+      "A": "scholarly",
+      "B": "melodic",
+      "C": "jarring",
+      "D": "personal"
+    },
+    "correct_answer": "B",
+    "explanation": "Choice B is the best answer. Based on the text, we’re looking for a word that means something similar to “pleasant musical quality.” That’s exactly what “melodic” means. The other choices are incorrect because they don’t have a similar meaning to “pleasant musical quality.”"
+  }
+},{
+  "id": "d73a908a",
+  "domain": "Information and Ideas",
+  "question": {
+    "paragraph": "In a quest to create a more lively lifestyle, landscape designer Daniel Goeppert designed a family home called Acandia to have a garden on its roof. This living roof not only beautifies the home but also helps to insulate it, reduce stormwater runoff, and provide a quiet retreat for the family. Goeppert believes that by incorporating nature into the home's design, he can create a more harmonious and stimulating environment for his clients.",
+    "question": "Which of the following best describes the main idea of the text?",
+    "choices": {
+      "A": "Landscape designer Daniel Goeppert designed a family home called Acandia with a rooftop garden to promote a healthier lifestyle.",
+      "B": "Incorporating nature into the design of homes can create a more visually appealing and sustainable living space.",
+      "C": "The Acandia home features a living roof that provides both aesthetic and practical benefits.",
+      "D": "Daniel Goeppert believes that connecting with nature through home design is essential for well-being."
+    },
+    "correct_answer": "C",
+    "explanation": "The main idea of the text is to describe the benefits of incorporating nature into home design. The text focuses on the example of Acandia, a family home designed by landscape designer Daniel Goeppert, which features a living roof that provides both aesthetic and practical benefits."
+  }
+},{
+  "id": "a1e0c981",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "In her book The Woman Warrior: Memoirs of a Girlhood Among Ghosts, author Maxine Hong Kingston examines themes ______ childhood, womanhood, and Chinese American identity by intertwining autobiography and mythology.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "of:",
+      "B": "of",
+      "C": "of—",
+      "D": "of,"
+    },
+    "correct_answer": "B",
+    "explanation": "Choice B is the best answer. “Themes of childhood” is one noun phrase, with “themes of” implicitly carrying over to the other items on the list (“themes of childhood, [themes of] womanhood, and [themes of] Chinese American identity”)."
+  }
+},{
+  "id": "73hdjs",
+  "domain": "Expression of Ideas",
+  "question": {
+    "paragraph": "The new study shows that students who learn in a more interactive environment, such as one that includes hands-on activities and group projects, tend to perform better on standardized tests than students who learn in a more traditional lecture-based environment. ______, students who learn in a more interactive environment also report feeling more engaged in their learning and have higher levels of motivation.",
+    "question": "Which of the following choices most effectively completes the sentence?",
+    "choices": {
+      "A": "Furthermore,",
+      "B": "However,",
+      "C": "In conclusion,",
+      "D": "Alternatively,"
+    },
+    "correct_answer": "A",
+    "explanation": "“Furthermore” is most effectively completes the sentence because it is a transition word that indicates the addition of another supporting point. Additionally, it logically follows the previous sentence, which states that students who learn in a more interactive environment tend to perform better on standardized tests. The other options are incorrect because they do not logically follow the previous sentence or do not indicate the addition of another supporting point."
+  }
+},{
+  "id": "y8u7kt",
+  "domain": "Craft and Structure",
+  "question": {
+    "paragraph": "In the bustling metropolis, amidst the towering skyscrapers and relentless traffic, a small, unassuming coffee shop stood as an oasis of tranquility. Within its warm and dimly lit interior, patrons sought solace in the rich aroma of freshly brewed coffee and the murmur of quiet conversation. As the morning rush subsided, a young woman named Amelia sat alone at a corner table, her gaze lost in the swirling patterns of her latte.",
+    "question": "Which word in the underlined portion below is used to describe the atmosphere of the coffee shop?",
+    "choices": {
+      "A": "bustling",
+      "B": "unassuming",
+      "C": "tranquil",
+      "D": "diminutive"
+    },
+    "correct_answer": "C",
+    "explanation": "The underlined portion describes the atmosphere of the coffee shop as an \"oasis of tranquility.\" The word \"tranquil\" means peaceful and calm, which accurately describes the atmosphere created by the warm, dimly lit interior and the quiet conversation."
+  }
+},{
+  "id": "d748c3fd",
+  "domain": "Information and Ideas",
+  "question": {
+    "paragraph": "In her 2021 article “Throwaway History: Towards a Historiography of Ephemera,” scholar Anne Garner discusses John Johnson (1882–1956), a devoted collector of items intended to be discarded, including bus tickets and campaign pamphlets. Johnson recognized that scholarly institutions considered his expansive collection of ephemera to be worthless—indeed, it wasn’t until 1968, after Johnson’s death, that Oxford University’s Bodleian Library acquired the collection, having grasped the items’ potential value to historians and other researchers. Hence, the example of Johnson serves to ______",
+    "question": "Which choice most logically completes the text?",
+    "choices": {
+      "A": "demonstrate the difficulties faced by contemporary historians in conducting research at the Bodleian Library without access to ephemera.",
+      "B": "represent the challenge of incorporating examples of ephemera into the collections of libraries and other scholarly institutions.",
+      "C": "lend support to arguments by historians and other researchers who continue to assert that ephemera holds no value for scholars.",
+      "D": "illustrate both the relatively low scholarly regard in which ephemera was once held and the later recognition of ephemera’s possible utility."
+    },
+    "correct_answer": "D",
+    "explanation": "Choice D is the best answer. Johnson collected “ephemera,” or things that are meant to be thrown away. Scholars thought his collection was worthless to them, then later realized that it was potentially valuable. This suggests that scholars went from disregarding ephemera to recognizing their usefulness."
+  }
+},{
+  "id": "8137dc",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "To fully explore planet ___, researchers must first develop spacecraft capable of withstanding the extreme heat and cold of the planet's surface.",
+    "question": "Which of the following is the best replacement for the underlined portion?",
+    "choices": {
+      "A": "Jupiter",
+      "B": "Mercury's",
+      "C": "Neptune",
+      "D": "Mars's"
+    },
+    "correct_answer": "B",
+    "explanation": "The underlined portion is a possessive noun phrase. The correct replacement should be \"Mercury's\" to indicate the planet Mercury."
+  }
+},{
+  "id": "n4qse5",
+  "domain": "Expression of Ideas",
+  "question": {
+    "paragraph": "The discovery of the Rosetta Stone in 1799 was a major breakthrough in the study of ancient Egypt. This stone, which was inscribed with the same text in three languages, provided scholars with the key to deciphering Egyptian hieroglyphics. Before the discovery of the Rosetta Stone, ______.",
+    "question": "Which choice most logically completes the paragraph?",
+    "choices": {
+      "A": "ancient Egyptian hieroglyphics were indecipherable",
+      "B": "scholars had made little progress in understanding ancient Egyptian culture",
+      "C": "the ancient Egyptians were skilled mathematicians",
+      "D": "the study of ancient Egypt was a popular hobby"
+    },
+    "correct_answer": "A",
+    "explanation": "The discovery of the Rosetta Stone was a major breakthrough because it provided scholars with the key to deciphering Egyptian hieroglyphics. Before the discovery of the Rosetta Stone, ancient Egyptian hieroglyphics were indecipherable."
+  }
+},{
+  "id": "6JzP4A",
+  "domain": "Craft and Structure",
+  "question": {
+    "paragraph": "Due to their unique interpretations of history, famous works of fiction often provide different perspectives on historical events. These varying interpretations can contribute to a deeper understanding of the past, especially when works are compared and contrasted in terms of their _____, tone, and underlying messages.",
+    "question": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": {
+      "A": "Plot",
+      "B": "Context",
+      "C": "Motifs",
+      "D": "Style"
+    },
+    "correct_answer": "D",
+    "explanation": "\"Style\" is the most logical choice to complete the text because it refers to the distinct way in which a work of literature is written, including its use of language, imagery, and techniques. By comparing works based on their style, readers can gain insights into the authors' unique perspectives and intentions."
+  }
+},{
+  "id": "f54c52",
+  "domain": "Information and Ideas",
+  "question": {
+    "paragraph": "The effects of air pollution on the human body are far reaching: nose bleeds, chronic coughing, and damage to the lungs are all related to air pollution. The dirtier the air, the more harm it does. Those living in areas with a lot of smog and pollution will likely experience negative effects. A city that has a lot of industry and little green space, will likely have a lot of polluted air.  \nPolluted air can even damage buildings. Cities with lots of old or historic brick buildings will require more restoration and repair than cities with cleaner air.",
+    "question": "Which choice best answers this question: What is a common effect of air pollution on buildings?",
+    "choices": {
+      "A": "It causes them to become very tall.",
+      "B": "It can damage them.",
+      "C": "It makes them look more attractive.",
+      "D": "None of the above."
+    },
+    "correct_answer": "B",
+    "explanation": "The passage states that \"Polluted air can even damage buildings.\" This suggests that damage is a common effect of air pollution on buildings."
+  }
+},{
+  "id": "er5e5f66",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "Last year, the school board approved a plan to implement a new curriculum that would ____ the focus of history classes from a traditional chronological approach to a more thematic one.",
+    "question": "Which underlined portion of the sentence above is correct according to the conventions of Standard English?",
+    "choices": {
+      "A": "shift",
+      "B": "shift,",
+      "C": "shift, while",
+      "D": "shift while"
+    },
+    "correct_answer": "A",
+    "explanation": "Choice A is the correct answer because it uses a colon to correctly introduce the following description of the shift in focus."
+  }
+},{
+  "id": "v754jh",
+  "domain": "Expression of Ideas",
+  "question": {
+    "paragraph": "Dr. Robin Cliff, a renowned expert in marine biology, has dedicated his life to studying the fascinating and diverse creatures of the ocean depths. His meticulously collected data and groundbreaking research on marine ecosystems have earned him recognition within the academic community. _______, he is also actively involved in conservation efforts, working tirelessly to protect vulnerable marine species from extinction.",
+    "question": "Which choice would serve as the best transition between the two sentences in the paragraph?",
+    "choices": {
+      "A": "To that end,",
+      "B": "However,",
+      "C": "In addition,",
+      "D": "On the other hand,"
+    },
+    "correct_answer": "A",
+    "explanation": "Choice A, \"To that end,\" is the most appropriate transition because it smoothly connects the idea of Dr. Cliff's dedication to studying marine biology with his active involvement in conservation efforts. This transition effectively highlights his commitment to both research and environmental protection."
+  }
+},{
+  "id": "637d0878",
+  "domain": "Craft and Structure",
+  "question": {
+    "paragraph": "The Appalachian Trail is a hiking path in the eastern United States. Much of the 2,000-mile trail passes through wilderness areas. In order to ____ those areas, the United States Congress passed the National Trails System Act in 1968, ensuring that the trail would not be sold or commercially developed.",
+    "question": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": {
+      "A": "borrow",
+      "B": "postpone",
+      "C": "protect",
+      "D": "decorate"
+    },
+    "correct_answer": "C",
+    "explanation": "Choice C is the best answer. \"Protect\" means \"preserve\" or \"keep safe from.\" By ensuring that the wilderness areas along the Appalachian Trail can’t be sold or developed, the National Trails System Act protects them."
+  }
+},{
+  "id": "w2o1kx73",
+  "domain": "Information and Ideas",
+  "question": {
+    "paragraph": "Of the municipalities that received an inquiry mentioning plans for an announcement date before the next election, more than 1,100 responded and more than 200 offered incentives.",
+    "question": "Of the municipalities that received an inquiry mentioning plans for an announcement date after the next election, how many did not respond at all?",
+    "choices": {
+      "A": "More than 1,200",
+      "B": "More than 1,100",
+      "C": "More than 200",
+      "D": "More than 100"
+    },
+    "correct_answer": "A",
+    "explanation": "The paragraph mentions that more than 1,200 municipalities did not respond to inquiries about announcement dates after the next election."
+  }
+},{
+  "id": "9c78f802",
+  "domain": "Expression of Ideas",
+  "question": {
+    "paragraph": "Listening to music from a diversity of cultures can enrich one's understanding of world artistic expression. By experiencing different musical genres, one can glimpse ____ the lives, thoughts, and emotions of people from distant lands.",
+    "question": "Which choice most effectively completes the sentence?",
+    "choices": {
+      "A": "on",
+      "B": "into",
+      "C": "through",
+      "D": "over"
+    },
+    "correct_answer": "C",
+    "explanation": "\"Through\" is the best choice because it suggests a journey or process of understanding. It implies that listening to diverse music allows one to gain insights into the lives and experiences of people from different cultures."
+  }
+},{
+  "id": "123ABC",
+  "domain": "Craft and Structure",
+  "question": {
+    "paragraph": "The forest was quiet and still. The trees stood tall and majestic, their leaves rustling in the gentle breeze. The air was fresh and clean, and the only sound was the chirping of birds. ____, the forest seemed to stretch on forever.",
+    "question": "Which choice best completes the blank space in the paragraph?",
+    "choices": {
+      "A": "From this vantage point",
+      "B": "In the distance",
+      "C": "To the untrained eye",
+      "D": "In contrast"
+    },
+    "correct_answer": "B",
+    "explanation": "The blank space comes after a description of a peaceful and serene forest. Option B, 'In the distance', best completes the sentence by suggesting that the forest appears to extend indefinitely when viewed from a particular vantage point."
+  }
+},{
+  "id": "ed314256",
+  "domain": "Information and Ideas",
+  "question": {
+    "paragraph": "Step into the realm of 'Immersive Adventure,' a captivating theater experience that invites you to embark on a labyrinthine journey through time and space. At the heart of our production lies a sprawling, multi-level mansion, its opulent halls echoing with secrets and hidden narratives. As you navigate the intricate corridors, you'll encounter a cast of enigmatic characters whose intertwined stories unfold in a symphony of intrigue and suspense. However, be warned: the mansion's vastness and intricate layout present a formidable challenge. Embrace the unknown and the fragmented nature of our storytelling, for in the unraveling of our immersive experience lies the true essence of the adventure.",
+    "question": "What is a defining characteristic of the 'Immersive Adventure' theater experience?",
+    "choices": {
+      "A": "Its adherence to a chronological narrative structure",
+      "B": "Its spacious and multi-level performance space",
+      "C": "Its focus on traditional stage sets and props",
+      "D": "Its use of audience members as active participants"
+    },
+    "correct_answer": "B",
+    "explanation": "The question is about the defining characteristic of the 'Immersive Adventure' theater experience. The paragraph describes the experience as having a 'sprawling, multi-level mansion' performance space. This suggests that the vast and intricate layout of the space is a defining characteristic of the experience."
+  }
+},{
+  "id": "3a35ddd1",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "Like other amphibians, the wood frog ( Rana sylvatica ) is unable to generate its own heat, so during periods of subfreezing temperatures, it ____ by producing large amounts of glucose, a sugar that helps prevent damaging ice from forming inside its cells.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "had survived",
+      "B": "survived",
+      "C": "would survive",
+      "D": "survives"
+    },
+    "correct_answer": "D",
+    "explanation": "Choice D is the best answer. The convention being tested is the use of verbs to express tense. In this choice, the present tense verb “survives” correctly indicates that the wood frog regularly survives subfreezing temperatures by producing large amounts of glucose.\nChoice A is incorrect because the past perfect verb “had survived” doesn’t indicate that the wood frog regularly survives subfreezing temperatures by producing large amounts of glucose. Choice B is incorrect because the past tense verb “survived” doesn’t indicate that the wood frog regularly survives subfreezing temperatures by producing large amounts of glucose. Choice C is incorrect because the conditional verb “would survive” doesn’t indicate that the wood frog regularly survives subfreezing temperatures by producing large amounts of glucose."
+  }
+},{
+  "id": "9v847c",
+  "domain": "Expression of Ideas",
+  "question": {
+    "paragraph": "The ever-increasing reliance on technology has led to a dramatic shift in the way people communicate. Social media, once a novel concept, has become a ubiquitous force, connecting individuals and bridging geographical barriers. However, some critics argue that the widespread use of technology is eroding human interaction and undermining traditional forms of communication, such as face-to-face conversations and handwritten letters. Others contend that technology is simply a tool that can facilitate and enhance communication if used appropriately.",
+    "question": "Which of the following transitions would most effectively connect the two paragraphs?",
+    "choices": {
+      "A": "In sum,",
+      "B": "Conversely,",
+      "C": "On the contrary,",
+      "D": "Therefore,"
+    },
+    "correct_answer": "B",
+    "explanation": "The first paragraph presents the idea that technology has had a significant impact on communication. The second paragraph introduces an opposing view, arguing that technology can be used to enhance communication. The transition \"Conversely\" effectively signals the shift from one perspective to its opposite."
+  }
+},{
+  "id": "e929fe98",
+  "domain": "Craft and Structure",
+  "question": {
+    "paragraph": "The ancient Greeks believed that thunder and lightning were caused by angry _____ striking anvils in the sky.",
+    "question": "What is the best word to fill in the blank?",
+    "choices": {
+      "A": "demigods",
+      "B": "gods",
+      "C": "titans",
+      "D": "mortals"
+    },
+    "correct_answer": "B",
+    "explanation": "In ancient Greek mythology, thunder and lightning were attributed to the power of Zeus, the king of the gods, who was often depicted as wielding a thunderbolt"
+  }
+},{
+  "id": "a003p184",
+  "domain": "Information and Ideas",
+  "question": {
+    "paragraph": "The current population of the Asian tiger is rapidly declining, with only about 3,000 tigers remaining in the wild. Scientists believe that the decline is largely due to poaching and habitat destruction. If these trends continue, the Asian tiger may become extinct within the next decade.",
+    "question": "What is the main reason for the decline in the Asian tiger population?",
+    "choices": {
+      "A": "Climate change",
+      "B": "Poaching and habitat destruction",
+      "C": "Disease",
+      "D": "Competition from other predators"
+    },
+    "correct_answer": "B",
+    "explanation": "The paragraph states that the decline in the Asian tiger population is largely due to poaching and habitat destruction. This is supported by the fact that the Asian tiger is hunted for its fur and its habitat is being destroyed by deforestation."
+  }
+},{
+  "id": "3to1a",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "The historian, by using the word \"peculiar,\" characterizes the lady in the story as unusual. Which of the following sentences best defines the word \"peculiar\" as it is used in context?",
+    "question": "Based on the context of the story the word \"peculiar\" best means ____",
+    "choices": {
+      "A": " strange",
+      "B": "beautiful",
+      "C": "common",
+      "D": "boring"
+    },
+    "correct_answer": "A",
+    "explanation": "\"Peculiar\" in this context means strange, because the historian uses it to describe the lady's unusual behavior."
+  }
+},{
+  "id": "E9969C",
+  "domain": "Expression of Ideas",
+  "question": {
+    "paragraph": "Researchers have discovered a new species of fish in the deep sea. The fish is named after the research vessel that discovered it, the \"Explorer\". The Explorer fish is a small, silvery fish with large eyes and a long, slender body. It lives in the dark depths of the ocean, where sunlight does not penetrate. The Explorer fish has a special organ that allows it to see in the dark. This organ is called a photophore.",
+    "question": "Which choice most effectively uses relevant information from the paragraph to explain an advantage of the Explorer fish's photophore?",
+    "choices": {
+      "A": "The Explorer fish is a small, silvery fish with large eyes and a long, slender body.",
+      "B": "The Explorer fish lives in the dark depths of the ocean, where sunlight does not penetrate.",
+      "C": "The Explorer fish has a special organ that allows it to see in the dark.",
+      "D": "The Explorer fish is named after the research vessel that discovered it, the \"Explorer\"."
+    },
+    "correct_answer": "C",
+    "explanation": "Choice C correctly explains that the Explorer fish's photophore allows it to see in the dark, which is an advantage in its habitat."
+  }
+},{
+  "id": "a62f25",
+  "domain": "Craft and Structure",
+  "question": {
+    "paragraph": "The poet William Blake once wrote, \"The road of excess leads to the palace of wisdom.\" Despite this adage, some people have chosen a life of moderation while others have pursued a life of extremes. Which of the following statements best captures the main point of Blake's quotation?",
+    "question": "Which of the following statements best captures the main point of Blake's quotation?",
+    "choices": {
+      "A": "As he wrote in his poem, \"The Tyger,\" Blake believed excess led to the wisdom that comes from experience.",
+      "B": "In his poem, \"The Tyger,\" Blake believed excess led to the wisdom that comes from experience.",
+      "C": "Blake believed that pursuing extremes can lead to wisdom.",
+      "D": "According to Blake, it is better to lead a life of moderation than a life of excess.",
+      "E": "Some people find balance in their lives via moderation while others pursue excess."
+    },
+    "correct_answer": "C",
+    "explanation": "The main point of the quotation is to state that despite society's tendency towards moderation, there are those who choose a life of excess. The quotation does not state that excess is better than moderation, or that it leads to wisdom. The quotation simply states that it is a path that some people take."
+  }
+},{
+  "id": "22e4d633",
+  "domain": "Information and Ideas",
+  "question": {
+    "paragraph": "The latest data shows that the average height of High School Freshmen is 67.5 inches. However, when grouped by gender, the average height of female High School Freshmen is 65.7 inches while the average height of male High School Freshmen is ____.",
+    "question": "What is the average height of male High School Freshmen?",
+    "choices": {
+      "A": "68.1 inches",
+      "B": "66.5 inches",
+      "C": "69.3 inches",
+      "D": "64.9 inches"
+    },
+    "correct_answer": "A",
+    "explanation": "The total average height of all freshmen is 67.5 inches, and the average height of female freshmen is 65.7 inches. So, we can calculate the average height of male freshmen by subtracting the average height of female freshmen from the total average height: 67.5 - 65.7 = 1.8 inches. Then, we add this difference to the average height of the female freshmen to get the average height for male freshmen: 65.7 + 1.8 = 68.1 inches. Therefore, the answer is A, 68.1 inches."
+  }
+},{
+  "id": "e09c06d3",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "Maryam Mirzakhani was an Iranian mathematician who made significant contributions to the field of mathematics, particularly in the study of moduli spaces of curves and their applications to cryptography and mathematical physics. She was awarded the Fields Medal, the highest honor in mathematics, in ______ .",
+    "question": "Which choice corrects the underlined portion of the sentence?",
+    "choices": {
+      "A": "2008-2014",
+      "B": "2008-2014,",
+      "C": "2008-2014, and",
+      "D": "2008-2014: which makes her the first woman and the first Iranian to receive the award"
+    },
+    "correct_answer": "B",
+    "explanation": "To connect the two independent clauses, a comma is necessary."
+  }
+},{
+  "id": "7bfxdo",
+  "domain": "Information and Ideas",
+  "question": {
+    "paragraph": "The term “underworld” has been used metaphors to describe groups of people who live on the margins of society, such as criminals or the poor. This usage is based upon the belief that these groups are somehow hidden from or beneath the rest of the population. In fact, these groups are often in plain sight, but their existence is often ignored or denied by the rest of society. For example, the homeless population in many cities is often ignored or made invisible to the rest of the population.",
+    "question": "The paragraph suggests that the term \"underworld\" is used to describe groups of people who are:",
+    "choices": {
+      "A": "hidden from society",
+      "B": "ignored or denied by society",
+      "C": "criminals or the poor",
+      "D": "living on the margins of society"
+    },
+    "correct_answer": "B",
+    "explanation": "The paragraph states that the term \"underworld\" is used to describe groups of people who are \"hidden from or beneath the rest of the population.\" This suggests that the term is used to describe groups of people who are ignored or denied by society."
+  }
+},{
+"id": "54804e10",
+"domain": "Craft and Structure",
+"question": {
+"paragraph": "While scholars believe many Mesoamerican cities influenced each other, direct evidence of such influence is difficult to ascertain. However, recent excavations in a sector of Tikal (Guatemala) unearthed a citadel that shows ______ Teotihuacán (Mexico) architecture—including a near replica of a famed Teotihuacán temple—providing tangible evidence of outside influence in portions of Tikal.",
+"question": "Which choice completes the text with the most logical and precise word or phrase?",
+"choices": {
+"A": "refinements of",
+"B": "precursors of",
+"C": "commonalities with",
+"D": "animosities toward"
+},
+"correct_answer": "C",
+"explanation": "Choice C is the best answer because it most logically completes the text’s discussion of architectural influences among Mesoamerican cities. In this context, “commonalities with” means similarities to or shared attributes with. The text indicates that a recently discovered citadel in Tikal includes a close imitation of a famous temple in Teotihuacán (another Mesoamerican city) and other evidence of Teotihuacán influence, which suggests that the citadel possesses features that resemble architectural features found in Teotihuacán. This context thus indicates that the Tikal citadel shows commonalities with Teotihuacán architecture."
+}
+},{
+  "id": "3543e6e2",
+  "domain": "Information and Ideas",
+  "question": {
+    "paragraph": "Thomas Jefferson, the third president of the United States, was born in Shadwell, Virginia, in 1743. He is considered one of the most important figures in American history, and his legacy continues to shape the nation today. Jefferson was a man of many talents and interests.",
+    "question": "Which of the following is NOT mentioned as a characteristic of Thomas Jefferson?",
+    "choices": {
+      "A": "Intellectual",
+      "B": "Diplomatic",
+      "C": "Athletic",
+      "D": "Visionary"
+    },
+    "correct_answer": "C",
+    "explanation": "The paragraph mentions that Jefferson was known for his intelligence, diplomacy, and vision, but it does not mention his athleticism."
+  }
+},{
+  "id": "abcdef",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "The recent surge in the popularity of podcasts has been attributed to the rise of ____ devices.",
+    "question": "Which choice most effectively completes the sentence?",
+    "choices": {
+      "A": "portable",
+      "B": "portable,",
+      "C": "portable?",
+      "D": "portable."
+    },
+    "correct_answer": "A",
+    "explanation": "Choice A is the best answer because it completes the sentence in a grammatically correct and meaningful way. The sentence is about the popularity of podcasts, and the missing word should describe the type of devices that have contributed to this popularity. Choice A, 'portable,' is the most appropriate word to fill in the blank."
+  }
+},{
+  "id": "96432c",
+  "domain": "Expression of Ideas",
+  "question": {
+    "paragraph": "During a 2022 launch, Falcon Labs’ Falcon rocket experienced an unexpected failure: its first-stage booster shut down suddenly after ignition. ______ instead of downplaying the incident, Falcon Labs’ CEO publicly acknowledged what happened and apologized for the loss of the rocket’s payload, which had consisted of four satellites.",
+    "question": "Which choice completes the text with the most logical transition?",
+    "choices": {
+      "A": "Therefore,",
+      "B": "Furthermore,",
+      "C": "Nevertheless,",
+      "D": "Consequently,"
+    },
+    "correct_answer": "B",
+    "explanation": "Choice B is the best answer. “Furthermore” logically signals that the events described in this sentence—the CEO’s public acknowledgment and apology—occurred after the rocket booster’s failure and are part of a chronological sequence of events."
+  }
+},{
+  "id": "7861asde",
+  "domain": "Craft and Structure",
+  "question": {
+    "paragraph": "The towering skyscraper pierced the cloudy sky, its steel structure glinting like a mirror. People walked along the bustling city streets below, like ants scurrying to and fro. Inside the skyscraper, a solitary figure stood gazing out the window at the distant horizon.",
+    "question": "What does the underlined portion of the text suggest about the solitary figure?",
+    "choices": {
+      "A": "He is overwhelmed by the vastness of the city.",
+      "B": "He is lost in his own thoughts.",
+      "C": "He is planning a daring escape.",
+      "D": "He is searching for someone in the crowd."
+    },
+    "correct_answer": "B",
+    "explanation": "The underlined portion of the text, \"Inside the skyscraper, a solitary figure stood gazing out the window at the distant horizon,\" suggests that the figure is lost in his own thoughts. The word \"solitary\" implies that he is alone and isolated, and the fact that he is gazing out the window at the distant horizon suggests that he is not paying attention to the bustling city below. This indicates that he is likely preoccupied with his own thoughts and feelings."
+  }
+},{
+  "id": "3j5ndc",
+  "domain": "Information and Ideas",
+  "question": {
+    "paragraph": "Since the beginning of time, humans have tried to make sense of their place in the universe. Some have looked to religion, others to science, and still others to philosophy. The search for meaning is a fundamental human need, and it is one that has driven us to explore the farthest reaches of our planet and beyond. In recent years, a new way of thinking about our place in the cosmos has emerged, one that is based on the idea that we are all connected to each other and to the universe as a whole. This new way of thinking is called the ______ and it is based on the idea that we are all part of a single, interconnected web of life.",
+    "question": "Which of the following phrases best completes the paragraph?",
+    "choices": {
+      "A": "Big Bang Theory",
+      "B": "Theory of Relativity",
+      "C": "Gaia Hypothesis",
+      "D": "Quantum Mechanics"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is C: Gaia Hypothesis. The paragraph discusses the search for meaning in the universe and the idea that we are all connected. The Gaia Hypothesis is a theory that states that the Earth is a self-regulating system that maintains conditions suitable for life."
+  }
+},{
+  "id": "z17h25",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "The company has faced many challenges in recent years, including ____ demand for its products and increasing competition from overseas.",
+    "question": "Which underlined portion in the following sentence requires a comma?",
+    "choices": {
+      "A": "The company has faced many challenges",
+      "B": "many challenges in recent years",
+      "C": "demand for its products",
+      "D": "and increasing competition from overseas",
+      "E": "No comma is required"
+    },
+    "correct_answer": "D",
+    "explanation": "A comma is needed to separate two independent clauses that are joined by a coordinating conjunction (and)."
+  }
+},{
+  "id": "9e2d4ef7",
+  "domain": "Expression of Ideas",
+  "question": {
+    "paragraph": "The hip-hop artist Kendrick Lamar has released a new album titled \"Mr. Morale & The Big Steppers.\" Lamar is widely regarded as one of the most influential and critically acclaimed rappers of his generation. \"Mr. Morale & The Big Steppers\" is his first album since 2017's Pulitzer Prize-winning \"DAMN.\"",
+    "question": "Which choice most effectively introduces Kendrick Lamar's new album, \"Mr. Morale & The Big Steppers,\" to an audience unfamiliar with the artist?",
+    "choices": {
+      "A": "\"Mr. Morale & The Big Steppers\" is the long-awaited new album from critically acclaimed rapper Kendrick Lamar.",
+      "B": "Kendrick Lamar, the rapper who won a Pulitzer Prize for his 2017 album \"DAMN.\", has released a new album titled \"Mr. Morale & The Big Steppers.\"",
+      "C": "Kendrick Lamar, one of the most influential hip-hop artists of his generation, has released \"Mr. Morale & The Big Steppers\", his first album since \"DAMN.\"",
+      "D": "Kendrick Lamar, a rapper who has been widely praised by critics, has released a new album called \"Mr. Morale & The Big Steppers.\""
+    },
+    "correct_answer": "C",
+    "explanation": "Choice C is the best answer because it effectively introduces Kendrick Lamar's new album, \"Mr. Morale & The Big Steppers,\" to an audience unfamiliar with the artist by providing relevant information about Lamar's reputation and the album itself. The other choices are less effective because they either focus too much on Lamar's past work or do not provide enough information about the new album."
+  }
+},{
+  "id": "7e88530c",
+  "domain": "Craft and Structure",
+  "question": {
+    "paragraph": "The recent survey of American teenagers revealed that the majority of them had never attended a live theater performance. Despite this, many of the teenagers surveyed expressed a strong interest in attending a live theater performance in the future. This suggests that there is a potentially large audience for live theater among American teenagers, if the barriers to attendance can be overcome. Among the barriers to attendance identified in the survey were a lack of awareness of live theater options, a lack of transportation to and from the theater, and a perception that live theater is too expensive.",
+    "question": "What does the phrase \"barriers to attendance\" in line 6 refer to?",
+    "choices": {
+      "A": "Reasons why American teenagers have not attended a live theater performance",
+      "B": "Reasons why American teenagers are interested in attending a live theater performance",
+      "C": "Reasons why American teenagers cannot attend a live theater performance",
+      "D": "Reasons why American teenagers should attend a live theater performance"
+    },
+    "correct_answer": "A",
+    "explanation": "The phrase \"barriers to attendance\" refers to the factors that prevent American teenagers from attending a live theater performance. These factors include a lack of awareness of live theater options, a lack of transportation to and from the theater, and a perception that live theater is too expensive."
+  }
+},{
+  "id": "602b47c7",
+  "domain": "Information and Ideas",
+  "question": {
+    "paragraph": "A group of scientists believes that by wearing red clothing one will be more protected from the sun. In order to test this theory, scientists conducted an experiment with 300 people. Each person was randomly assigned to wear either a white or red shirt. The participants then spent an hour outside on a sunny day. After the hour, the participants were asked to rate their sun exposure on a scale of 1 to 10, with 10 being the most sun exposure. The results showed that the people who wore white shirts had an average sun exposure rating of 6.5, while the people who wore red shirts had an average sun exposure rating of 4.2. What is the main idea of this experiment?",
+    "question": null,
+    "choices": {
+      "A": "Wearing red clothing can help protect you from the sun.",
+      "B": "Wearing white clothing can help protect you from the sun.",
+      "C": "The color of your clothing does not affect your sun exposure.",
+      "D": "The sun's rays are more harmful to people who wear white clothing."
+    },
+    "correct_answer": "A",
+    "explanation": "The results of the experiment support the hypothesis that wearing red clothing can help protect you from the sun. The people who wore red shirts had an average sun exposure rating of 4.2, which is significantly lower than the average sun exposure rating of 6.5 for the people who wore white shirts."
+  }
+},{
+  "id": "843f92af",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "The sun never sets during the Arctic summer in the Far North. In response, reindeer in this region must change their sleep habits. Instead of resting when it gets dark, they rest when they need to ____ their food.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "digest",
+      "B": "will digest",
+      "C": "to digest",
+      "D": "digesting"
+    },
+    "correct_answer": "C",
+    "explanation": "Choice C is the best answer. The convention being tested is the use of nonfinite verb forms within a sentence. Working together with the finite verb \"need,\" the nonfinite to-infinitive verb \"to digest\" is correctly used to form a subordinate clause that describes what the reindeer need. Choice A is incorrect because the verb \"digest\" (in either its finite or nonfinite form) can’t be used in this way with the finite verb \"need.\" Choice B is incorrect because the finite verb \"will digest\" can’t be used in this way with the finite verb \"need.\" Choice D is incorrect because the nonfinite participle \"digesting\" can’t be used in this way with the finite verb \"need.\""
+  }
+},{
+  "id": "v1a2g4",
+  "domain": "Expression of Ideas",
+  "question": {
+    "paragraph": "The Green Party is a political party that advocates for environmental protection, social justice, and nonviolence. Its members believe that the economy should be subservient to the environment and that the government should take an active role in ensuring the well-being of its citizens. The party was founded in 1984 and has since gained support from voters who are concerned about the environment and social inequality.",
+    "question": "Which of the following choices most effectively adds a detail about the history of the Green Party?",
+    "choices": {
+      "A": "The party has never nominated a presidential candidate who has won the popular vote in a general election.",
+      "B": "In recent years, the Green Party has formed alliances with other progressive organizations to promote common goals.",
+      "C": "The party's platform has remained largely unchanged since its founding in 1984.",
+      "D": "The Green Party has a strong presence in rural areas, where many of its members live.",
+      "E": "The party's membership has grown steadily over the years, reaching a peak of over 100,000 members in 2016."
+    },
+    "correct_answer": "C",
+    "explanation": "Choice C adds a specific detail about the history of the Green Party by stating that its platform has remained largely unchanged since its founding, giving a sense of consistency and longevity to the party's values."
+  }
+},{
+  "id": "9s678h",
+  "domain": "Craft and Structure",
+  "question": {
+    "paragraph": "The old woman lived alone in a modest cottage on the outskirts of town. She had spent her entire life there, raising her children and tending to her garden. As she grew older, she found herself increasingly isolated. Her children had moved away, and her friends had passed away. The only person she had left was her cat, Mittens.",
+    "question": "Which of the following best describes the old woman's current situation?",
+    "choices": {
+      "A": "She is content with her solitary life.",
+      "B": "She is lonely and isolated.",
+      "C": "She is surrounded by family and friends.",
+      "D": "She is struggling to care for herself."
+    },
+    "correct_answer": "B",
+    "explanation": "The passage states that the old woman is isolated and has only her cat left. This suggests that she is lonely and isolated."
+  }
+},{
+  "id": "702eb7e3",
+  "domain": "Information and Ideas",
+  "question": {
+    "paragraph": "High levels of public uncertainty about which economic policies a country will adopt can make planning difficult for businesses, but measures of such uncertainty have not tended to be very detailed. R ecently, however, economist Sandile Hlatshwayo analyzed trends in news reports to derive measures not only for general economic policy uncertainty but also for uncertainty related to specific areas of economic policy, like tax or trade policy. One revelation of her work is that a general measure may not fully reflect uncertainty about specific areas of policy, as in the case of the United Kingdom, where general economic policy uncertainty ______",
+    "question": "Which choice most effectively uses data from the graph to illustrate the claim?",
+    "choices": {
+      "A": "aligned closely with uncertainty about tax and public spending policy in 2005 but differed from uncertainty about tax and public spending policy by a large amount in 2009.",
+      "B": "was substantially lower than uncertainty about tax and public spending policy each year from 2005 to 2010.",
+      "C": "reached its highest level between 2005 and 2010 in the same year that uncertainty about trade policy and tax and public spending policy reached their lowest levels.",
+      "D": "was substantially lower than uncertainty about trade policy in 2005 and substantially higher than uncertainty about trade policy in 2010."
+    },
+    "correct_answer": "A",
+    "explanation": "Choice A correctly uses the graph to support the claim that general economic policy uncertainty in the United Kingdom may not fully reflect uncertainty about specific areas of policy. The graph shows that in 2005, general economic policy uncertainty aligned closely with uncertainty about tax and public spending policy. However, in 2009, general economic policy uncertainty differed from uncertainty about tax and public spending policy by a large amount. This illustrates the point that a general measure of uncertainty may not fully capture the uncertainty associated with specific policy areas."
+  }
+},{
+  "id": "430d929a",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "British scientists James W atson and Francis Crick won the Nobel Prize in part for their 1953 paper announcing the double helix structure of DNA, but it is misleading to say that W atson and Crick discovered the double helix. ______  findings were based on a famous X-ray image of DNA fibers, “Photo 51,” developed by X-ray crystallographer R osalind Franklin and her graduate student Raymond Gosling.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": {
+      "A": "They’re",
+      "B": "It’s",
+      "C": "Their",
+      "D": "Its"
+    },
+    "correct_answer": "C",
+    "explanation": "Choice C is the best answer. The convention being tested is the use of possessive determiners. The plural possessive determiner “their” agrees in number with the plural conjoined noun phrase “Watson and Crick” and thus indicates that the  findings wer e those of Watson and Crick."
+  }
+},{
+  "id": "8f19f0e9",
+  "domain": "Expression of Ideas",
+  "question": {
+    "paragraph": "The ocean is the largest realm on the planet and the most mysterious. Scientists have discovered several sea creatures, but there are still many more to be found. It is estimated that only 5% of the ocean has been explored, and 95% of the underwater realm remains a vast, untapped mystery. This mystery only adds to the ocean's allure. For centuries, the ocean has captured the imagination of explorers, scientists, and artists alike.",
+    "question": "Which choice is the most effective and relevant in highlighting the vastness and mystery of the ocean?",
+    "choices": {
+      "A": "The ocean is thought to be much bigger than is currently known due to only 5% of it being explored.",
+      "B": "Scientists are unable to accurately search the ocean as a result of its vast size and mystery.",
+      "C": "The ocean has captured the imagination of explorers, scientists, and artists over the centuries because of its mystery and allure.",
+      "D": "Only a certain percentage of the ocean has been explored, with the vast majority remaining a complete mystery to scientists."
+    },
+    "correct_answer": "D",
+    "explanation": "Choice D is the most effective and relevant in highlighting the vastness and mystery of the ocean because it directly states that the vast majority of the ocean remains unexplored and unknown to scientists."
+  }
 },
