@@ -128,7 +128,7 @@ function toggle_math(domain: string): void {
     <svelte:fragment slot="footer">
 
       
-    <div class="card p-4 variant-glass" style="width: auto; height:30vh;">
+    <div class="card p-4 variant-soft" style="width:auto; height:30vh; border-radius: 1rem 1rem 0 0;">
       <h2 class="h3 d-flex justify-content-space-between align-items-center">
         <IconFilterFilled stroke={1.5} size="25" />
         
