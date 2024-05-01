@@ -4,6 +4,12 @@
   
   import { onMount, onDestroy } from 'svelte';
 
+  let isMobile: any;
+
+ onMount(() => {
+  isMobile = window.innerWidth < 768;
+ });
+
   
   
   let english_question_data: any;
@@ -41,8 +47,74 @@
   </script>
   
   
-
+  {#if isMobile}
+  
+  <AppShell slotSidebarLeft="h-auto">
+    <svelte:fragment slot="sidebarLeft">
+      
+    </svelte:fragment>
+      {#if isFetchingData}
+      <ProgressBar />
+      {:else if english_question_data}
+      <div class="card grid-cols-2 md:grid-cols-3 gap-4 variant-glass-surface mx-auto" style="height: auto; width: auto; position:relative; top:4%;">
+        <div class="card-content p-4">  
     
+            
+          <h class="h2" style="position:relative; margin-left:1%;">
+            <a type="button" style="position:relative; margin-right:2.5%;" class="btn btn-sm variant-filled" href="/explore">
+            <span><IconArrowBack stroke={2} size="20"/></span>  
+          </a>
+          <b>Question #{english_question_data[question_id].id}</b>
+          <a type="button" style="position:relative; margin-left:2.5%;" href="https://github.com/Anas099X/Omnibook/issues" class="btn btn-sm variant-filled-error">
+            <span><IconMessageReport stroke={1.5} size="20"/></span>
+            </a>
+          </h>
+
+        
+         
+        
+          <br>
+          <br>
+          <hr class="!border-dashed" />
+          <br>
+          <p>{english_question_data[question_id].question.paragraph}</p> 
+          <br>
+          <b><p>{english_question_data[question_id].question.question}</p></b>
+          <br>
+          <p>A. {english_question_data[question_id].question.choices.A}</p>
+          <br>
+          <p>B. {english_question_data[question_id].question.choices.B}</p>
+          <br>
+          <p>C. {english_question_data[question_id].question.choices.C}</p>
+          <br>
+          <p>D. {english_question_data[question_id].question.choices.D}</p>
+          <br>
+          <hr class="!border-dashed" />
+          <Accordion>
+            <AccordionItem>
+              <svelte:fragment slot="lead"><IconChecks stroke={2} /></svelte:fragment>
+              <svelte:fragment slot="summary"> Click to reveal the correct answer</svelte:fragment>
+              <svelte:fragment slot="content"><b>Option {english_question_data[question_id].question.correct_answer} is the correct answer.</b>
+              <br>
+              {english_question_data[question_id].question.explanation}
+            </svelte:fragment>
+            </AccordionItem>
+            <!-- ... -->
+          </Accordion>
+        </div>
+      </div>
+      
+      {:else}
+        <p>No data available yet.</p>
+      {/if}
+
+  
+    <slot />
+  </AppShell>
+
+
+ {:else}
+   
   <AppShell slotSidebarLeft="h-auto">
     <svelte:fragment slot="sidebarLeft">
       
@@ -101,4 +173,4 @@
   
     <slot />
   </AppShell>
-  
+  {/if}
