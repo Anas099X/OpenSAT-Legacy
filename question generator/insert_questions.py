@@ -4,7 +4,7 @@ import json
 
 def add_question(bucket_name,array_name,input_question):
     
- url = f"INPUT JSON DATABASE HERE"
+ url = f""
 
  headers = {
   'Content-Type': 'application/json'
