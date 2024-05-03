@@ -2,6 +2,7 @@
    import { onMount } from 'svelte';
  import Desktop from "./layouts/desktop/desktop_home.svelte"
  import Mobile from "./layouts/mobile/mobile_home.svelte"
+ import Graph from './[domain_id]/question/[question_id]/math_syntax.svelte'
 
 
 let isMobile: any;
@@ -15,5 +16,5 @@ onMount(() => {
 {#if isMobile}
  <Mobile />
 {:else}
-  <Desktop />
+ <Desktop /> 
 {/if}

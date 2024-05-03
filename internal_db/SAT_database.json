@@ -1,151 +1,106 @@
 {
-  "id": "70ced8dc",
-  "domain": "Standard English Conventions",
+  "id": "002dba45",
+  "domain": "Algebra",
   "question": {
-    "paragraph": "Books typically have a higher value when underlined and scribbled on by a previous owner if that owner was also a famous poet. Marginalia, left in the margins by former owners, can be of importance to literary scholars.",
-    "question": "Which choice best completes the first sentence?",
+    "question": "Line  is defined by . Line  is perpendicular to line  in the xy-plane. What is the slope of line ?",
     "choices": {
-      "A": "Value, but",
-      "B": "Value",
-      "C": "Value,",
-      "D": "Value but"
+      "A": ".1764",
+      "B": ".1765",
+      "C": "3/17",
+      "D": "0.176"
     },
-    "correct_answer": "A",
-    "explanation": "Choice A is correct because it uses a comma and the coordinating conjunction \"but\" to join the two independent clauses and create a compound sentence."
+    "correct_answer": "3/17",
+    "explanation": "The correct answer is . It’s given that line  is perpendicular to line  in the xy-plane. This means that the slope of\nline  is the negative reciprocal of the slope of line . The equation of line , , is written in slope-\nintercept form, where  is the slope of the line and  is the y-coordinate of the y-intercept of the line. It\nfollows that the slope of line  is . The negative reciprocal of a number is  divided by the number . Therefore,\nthe negative reciprocal of  is , or . Thus, the slope of line  is . Note that 3/17, .1764, .1765, and 0.176 are\nexamples of ways to enter a correct answer ."
   }
 },{
-  "id": "pyiKfd",
-  "domain": "Expression of Ideas",
+  "id": "",
+  "domain": "Algebra",
   "question": {
-    "paragraph": "The noted astronomer, Tycho Brahe, was a brilliant observer who meticulously recorded his data. His assistant, Johannes Kepler, used Brahe’s data to formulate a set of laws describing planetary motion. These laws were later revised by Isaac Newton, who developed his own theory of gravity. Newton’s theory of gravity has been widely accepted, but the question remains whether Kepler’s laws are still valid.",
-    "question": "What is the main idea of this paragraph?",
+    "question": "The table gives the coordinates of two points on a line in the xy-plane. The y-intercept of the line is, where  and  are constants. What is the value of ?",
     "choices": {
-      "A": "Brahe’s data was used by Kepler to formulate laws describing planetary motion.",
-      "B": "Kepler’s laws are still valid, even though Newton’s theory of gravity has been widely accepted.",
-      "C": "Newton’s theory of gravity is based on Brahe’s data, which was meticulously recorded.",
-      "D": "Tycho Brahe was a brilliant astronomer who recorded his data meticulously."
-    },
-    "correct_answer": "A",
-    "explanation": "The paragraph describes how Tycho Brahe’s data was used by Johannes Kepler to formulate a set of laws describing planetary motion, which were later revised by Isaac Newton."
-  }
-},{
-  "id": "e3f745",
-  "domain": "Craft and Structure",
-  "question": {
-    "paragraph": "The artist, known for his use of vivid colors and bold patterns, has recently expanded his artistic repertoire to include sculptures. His new works explore the ____ of human relationships, using abstract shapes and mixed media to convey complex emotions.",
-    "question": "Which choice most logically completes the paragraph?",
-    "choices": {
-      "A": "complexity",
-      "B": "fragility",
-      "C": "depth",
-      "D": "intricacy"
+      "A": "17",
+      "B": "22",
+      "C": "33",
+      "D": "44"
     },
     "correct_answer": "C",
-    "explanation": "The paragraph describes the artist's exploration of human relationships in his new sculptures. Choice C, \"depth,\" best completes the paragraph by suggesting that the artist is delving into the multifaceted nature of human connections."
+    "explanation": "The y-intercept is another point on the line. The slope computed using any pair of points from the line will be the same. The slope of a line, , between any two points,  and , on the line can be calculated using the slope formula, . It follows that the slope of the line with the given points from the table,  and  , is  , which is equivalent to  , or  . It's given that the  y -intercept of the line is  . Substituting  for  and the coordinates of the points  and  into the slope formula yields , which is equivalent to  , or . Multiplying both sides of this equation by  yields . Subtracting  from both sides of this equation yields . Dividing both sides of this equation by   yields . Therefore, the value of  is ."
   }
 },{
-  "id": "18l0e52m",
-  "domain": "Information and Ideas",
+  "domain": "Algebra",
   "question": {
-    "paragraph": "As the sun began to set, the clouds in the sky transformed into a breathtaking canvas of vibrant colors. The orange glow of the sun illuminated the clouds, making their edges appear as if they were lined with fire. The once-white clouds now resembled a kaleidoscope of shades, ranging from deep crimson to soft pinks and golden hues. As the sun continued to descend, the clouds seemed to dance and twirl, creating a mesmerizing spectacle that left onlookers in awe.",
-    "question": "Which choice best describes the main idea of the paragraph?",
-    "choices": {
-      "A": "The sunset creates a beautiful and colorful display in the sky.",
-      "B": "The clouds change shape and color as the sun sets.",
-      "C": "The sky is a canvas for the sun's artistry.",
-      "D": "The sunset is a reminder of the beauty of nature."
-    },
-    "correct_answer": "A",
-    "explanation": "The paragraph primarily focuses on the vibrant colors and captivating display created by the clouds during sunset."
+    "question": "If \n\n\nsatisfies the system of equations\nabove, what is the value of y ?",
+    "choices": {},
+    "correct_answer": "1.5",
+    "explanation": "The correct answer is 1.5. One method for solving the system of equations for y  is to add corresponding sides of the\ntwo equations. Adding the left-hand sides gives \n, or 4 y. Adding the right-hand sides yields\n. It follows that \n. Finally , dividing both sides of \n by 4 yields \n, or \n. Note that 3/2\nand 1.5 are examples of ways to enter a correct answer."
   }
 },{
-  "id": "f885b9",
-  "domain": "Standard English Conventions",
+  "domain": "Algebra",
   "question": {
-    "paragraph": "The small car swerved to ____ avoid hitting the construction barrels.",
-    "question": "Which choice completes the sentence so that it conforms to the conventions of standard English?",
+    "question": "The system of equations above has solution ( x,\ny). What is the value of x ?",
     "choices": {
-      "A": "it could",
-      "B": "it would",
-      "C": "that it could",
-      "D": "that it would"
-    },
-    "correct_answer": "C",
-    "explanation": "Choice C is the best answer. The sentence is in the past tense, so we need to use the past tense of the verb 'can', which is 'could'. We also need to use the infinitive 'to' before the verb 'avoid'. Therefore, the correct answer is 'that it could'."
-  }
-},{
-  "id": "660d50dc",
-  "domain": "Expression of Ideas",
-  "question": {
-    "paragraph": "Anne Tyler is an accomplished American novelist whose novels frequently explore the theme of family relationships. One of her works, Searching for Caleb, follows an elderly man's road trip across the country to visit his long-lost son. Searching for Caleb exhibits Tyler's signature style and focus. ______, it is a thoughtful and introspective work.",
-    "question": "Which choice most effectively completes the sentence?",
-    "choices": {
-      "A": "Furthermore",
-      "B": "However",
-      "C": "Therefore",
-      "D": "Despite this"
-    },
-    "correct_answer": "A",
-    "explanation": "Choice A is the best answer because it provides a logical transition from the first sentence to the second sentence. The first sentence introduces Anne Tyler and her writing style, and the second sentence provides more detail about one of her novels. Choice B does not make sense in the context of the passage, as it suggests a contrast between the two sentences. Choice C does not work well either, as it suggests a cause-and-effect relationship between the two sentences. Choice D does not fit, as it suggests that the fact that Searching for Caleb exhibits Tyler's signature style and focus is an obstacle to its being thoughtful and introspective."
-  }
-},{
-  "id": "5a5424bc",
-  "domain": "Craft and Structure",
-  "question": {
-    "paragraph": "The bustling city grew rapidly, its tall buildings piercing the sky like a thousand sharp needles. With each passing day, it transformed, becoming more modern and efficient, yet also losing its sense of intimacy and charm.",
-    "question": "What is the implied meaning of the phrase \"piercing the sky\" in the context of the paragraph?",
-    "choices": {
-      "A": "Rises high and majestic",
-      "B": "Causes pain and discomfort",
-      "C": "Protrudes in a hostile manner",
-      "D": "Possesses supernatural abilities"
-    },
-    "correct_answer": "A",
-    "explanation": "Within this urban landscape, the towering buildings are described as \"piercing the sky,\" suggesting their great height and ability to cut through the expanse above. This metaphorical use of \"piercing\" implies a sense of grandeur and dominance, as these buildings stretch towards the heavens."
-  }
-},{
-  "id": "c538954d",
-  "domain": "Information and Ideas",
-  "question": {
-    "paragraph": "The \"\"Butterfly Garden\"\" is a captivating 2015 novel by Dot Hutchison. In the novel, Hutchison expertly portrays the transformative journey of Serena Valentino, a young woman struggling to cope with a traumatic past: ______.",
-    "question": "Which quotation from \"\"The Butterfly Garden\"\" best illustrates the claim?",
-    "choices": {
-      "A": "Serena's nightmares were relentless, vivid recollections of the horrors she had endured, leaving her shattered and unable to find solace.",
-      "B": "Haunted by memories that refused to fade, Serena's spirit slowly withered and died, replaced by a hollow shell of her former self.",
-      "C": "Serena's unwavering determination to heal and reclaim her identity shone through the darkness, guiding her toward a brighter future.",
-      "D": "Finding sanctuary in the solace of nature, Serena discovered a glimmer of hope amidst the despair that threatened to consume her."
-    },
-    "correct_answer": "C",
-    "explanation": "Choice C is the best answer. By showing Serena's \"unwavering determination to heal and reclaim her identity,\" this choice effectively demonstrates her ability to overcome adversity and transform her life."
-  }
-},{
-  "id": "6j23971",
-  "domain": "Standard English Conventions",
-  "question": {
-    "paragraph": "Anyone who has spent an hour on an airplane these days will undoubtedly have seen the fantastic changes that have taken place in the way that passengers stay entertained during flights. In the past, a plastic bag of snacks, a paper-covered puzzle book, and a chorus of screaming children were the dismal norm. Now, it is hard to find a flight where every ______ is watching personal electronic devices.",
-    "question": "Which underlined portion is used incorrectly?",
-    "choices": {
-      "A": "entertained",
-      "B": "flight",
-      "C": "passenger",
-      "D": "is"
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
     },
     "correct_answer": "D",
-    "explanation": "The correct answer is D: “is”. The subject of the sentence is “every passenger”, which is plural, so the verb must be “are”, not “is”."
+    "explanation": "Adding the corresponding sides of the two equations eliminates y and yields x = 4, as shown.\nIf ( x , y ) is a solution to the system, then ( x , y ) satisfies both equations in the system and any equation derived from\nthem. Therefore, .\nChoices A, B, and C are incorrect and may be the result of errors when solving the system."
   }
 },{
-  "id": "w3423r",
-  "domain": "Expression of Ideas",
+  "id": "88e13c8c",
+  "domain": "Algebra",
   "question": {
-    "paragraph": "Poets often infuse their work with personal experiences. Their characters' lives and interactions often parallel their own in many ways. In her collection of riveting short stories, \"The Night Remains\", Sue Monk Kidd explores the theme of nature as a sanctuary. _____ Throughout her collection, she draws on her own experiences in the natural world to craft her poignant tales.",
-    "question": "Which choice most logically completes the paragraph?",
+    "question": "The total cost , in dollars, to lease a car for  months from a particular car dealership is given by , where  is the monthly payment, in dollars. What is the total cost to lease a car when the monthly payment is ?",
     "choices": {
-      "A": "Similarly",
-      "B": "Ultimately",
-      "C": "Alternatively",
-      "D": "Therefore"
+      "A": "500",
+      "B": "1000",
+      "C": "1500",
+      "D": "2000"
+    },
+    "correct_answer": "C",
+    "explanation": "Choice C is correct. It's given that  is the total cost, in dollars, to lease a car from this dealership with a monthly payment of  dollars. Therefore, the total cost, in dollars, to lease the car when the monthly payment is  is represented by the value of  when . Substituting  for  in the equation  yields , or . Thus, when the monthly payment is , the total cost to lease a car is  . "
+  }
+},{
+  "id": "3cdbf026",
+  "domain": "Algebra",
+  "question": {
+    "question": "The graph of the equation \ny = ax + k\nis a line in the xy-plane, where a and k are constants. If the line contains the points\n(0, 2) and (2, 6),\nwhat is the value of\nk?",
+    "choices": {
+      "A": "2",
+      "B": "4",
+      "C": "6",
+      "D": "8"
     },
     "correct_answer": "A",
-    "explanation": "Choice A, \"Similarly\", is the best transition because it signals a parallel between Kidd's personal experiences and her fictional narratives, which is the main idea of the paragraph."
+    "explanation": "Choice A is correct. The value of k can be found using the slope-intercept form of a linear equation, y = mx + b,\nwhere m is the slope and b is the y-coordinate of the y-intercept. The equation \ny = ax + k\ncan be rewritten in the form\ny = a(x) + k.\nOne of the given points, (0, 2), is the y-intercept. Thus, the y-coordinate of the y-intercept\nmust be equal to k. Multiplying both sides by k gives\nk(2) = 2k. Dividing both sides by 2 gives\nk = 1.\nChoices B, C, and D are incorrect and may result from errors made rewriting the given equation."
+  }
+},{
+  "id": "ff501705",
+  "domain": "Algebra",
+  "question": {
+    "question": "In the given system of equations,  is a constant. If the system has no solution, what is the value of ?",
+    "choices": {
+      "A": "2",
+      "B": "4",
+      "C": "6",
+      "D": "8"
+    },
+    "correct_answer": "C",
+    "explanation": "The correct answer is 6. A system of two linear equations in two variables,  and , has no solution if the lines represented by the equations in the xy -plane are parallel and distinct. Lines represented by equations in standard form,  and , are parallel if the coefficients for  and  in one equation are proportional to the corresponding coefficients in the other equation, meaning ; and the lines are distinct if the constants are not proportional, meaning  is not equal to   or . The first equation in the given system is . Multiplying each side of this equation by  yields . Adding  to each side of this equation yields , or . The second equation in the given system is . Multiplying each side of this equation by  yields . Subtracting  from each side of this equation yields . Subtracting  from each side of this equation yields . Therefore, the two equations in the given system, written in standard form, are   and . As previously stated, if this system has no solution, the lines represented by the equations in the xy -plane are parallel and distinct, meaning the proportion  , or  , is true and the proportion  is not true. The proportion  is not true. Multiplying each side of the true proportion, ,  by  yields . Therefore, if the system has no solution, then the value of  is . "
+  }
+},{
+  "id": "8c5e6702",
+  "domain": "Algebra",
+  "question": {
+    "question": "A window repair specialist charges $60 for the first two hours of repair plus an hourly fee for each additional hour. The total cost for 4 hours of repair is $100.\nWhich function gives the total cost, in dollars, for h hours of repair, where h > 2?",
+    "choices": {
+      "A": "f(h) = 60 + 20(h - 2)",
+      "B": "f(h) = 60 + 30(h - 2)",
+      "C": "f(h) = 60 + 25(h - 2)",
+      "D": "f(h) = 60 + 35(h - 2)"
+    },
+    "correct_answer": "A",
+    "explanation": "Let r represent the hourly fee for each additional hour after the first two hours.\nSince it’s given that h is the number of hours of repair, it follows that the charge generated by the hourly fee after the first two hours can be represented by the expression r(h - 2).\nTherefore, the total cost, in dollars, for h hours of repair is 60 + r(h - 2). It’s given that the total cost for 4 hours of repair is $100. Substituting 4 for h and 100 for f(h) into the equation 60 + r(h - 2) yields 60 + r(4 - 2) = 100, or 60 + 2r = 100.\nSubtracting 60 from both sides of this equation yields 2r = 40. Dividing both sides of this equation by 2 yields r = 20.\nSubstituting 20 for r in the equation 60 + r(h - 2) yields 60 + 20(h - 2), which is equivalent to 60 + 20h - 40, or 20h + 20. Therefore, the total cost, in dollars, for h hours of repair is 20h + 20."
   }
 },
