@@ -1,740 +1,151 @@
 {
-  "english": [
-    {
-      "id": "70ced8dc",
-      "domain": "Standard English Conventions",
-      "question": {
-        "choices": {
-          "A": "value, but",
-          "B": "value",
-          "C": "value,",
-          "D": "value but"
-        },
-        "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
-        "paragraph": "Typically, underlines, scribbles, and notes left in the margins by a former owner lower a book’s ______ when the former owner is a famous poet like Walt Whitman, such markings, known as marginalia, can be a gold mine to literary scholars.",
-        "explanation": "Choice A is the best answer. The convention being tested is the coordination of independent clauses within a sentence. An independent clause is a phrase containing a subject and a verb that can stand on its own as a sentence. This choice uses a comma and the coordinating conjunction 'but' to join the first independent clause ('underlines…lower a book’s value') and the second independent clause ('such markings…can be a gold mine to scholars') to create a compound sentence.",
-        "correct_answer": "A"
-      }
+  "id": "70ced8dc",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "Books typically have a higher value when underlined and scribbled on by a previous owner if that owner was also a famous poet. Marginalia, left in the margins by former owners, can be of importance to literary scholars.",
+    "question": "Which choice best completes the first sentence?",
+    "choices": {
+      "A": "Value, but",
+      "B": "Value",
+      "C": "Value,",
+      "D": "Value but"
     },
-    {
-      "id": "afec1a70",
-      "domain": "Expression of Ideas",
-      "question": {
-        "choices": {
-          "A": "Bhosale’s team wanted to better understand the mechanics behind bird nests’ uniquely flexible yet cohesive structural properties.",
-          "B": "The researchers used laboratory models that simulated the arrangement of flexible sticks and analyzed the points where sticks touched one another.",
-          "C": "After analyzing the points where sticks touched, the researchers found that the structures became stiffer when pressure was applied.",
-          "D": "As analyzed by Bhosale’s team, bird nests are uniquely flexible yet cohesive engineered structures."
-        },
-        "question": "Which choice most effectively presents the primary aim of Bhosale's research study?",
-        "paragraph": "As engineered structures, many bird nests are uniquely flexible yet cohesive. A research team led by Y ashraj Bhosale wanted to better understand the mechanics behind these structural properties. Bhosale’s team used laboratory models that simulated the arrangement of flexible sticks into nest-like structures. The researchers analyzed the points where sticks touched one another. When pressure was applied to the model nests, the number of contact points between the sticks increased, making the structures stiffer. The student wants to present the primary aim of the research study. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
-        "explanation": "Choice A effectively presents the primary aim of Bhosale's research study by highlighting the team's goal to understand the mechanics behind the uniquely flexible yet cohesive structural properties of bird nests.",
-        "correct_answer": "A"
-      }
+    "correct_answer": "A",
+    "explanation": "Choice A is correct because it uses a comma and the coordinating conjunction \"but\" to join the two independent clauses and create a compound sentence."
+  }
+},{
+  "id": "pyiKfd",
+  "domain": "Expression of Ideas",
+  "question": {
+    "paragraph": "The noted astronomer, Tycho Brahe, was a brilliant observer who meticulously recorded his data. His assistant, Johannes Kepler, used Brahe�s data to formulate a set of laws describing planetary motion. These laws were later revised by Isaac Newton, who developed his own theory of gravity. Newton�s theory of gravity has been widely accepted, but the question remains whether Kepler�s laws are still valid.",
+    "question": "What is the main idea of this paragraph?",
+    "choices": {
+      "A": "Brahe�s data was used by Kepler to formulate laws describing planetary motion.",
+      "B": "Kepler�s laws are still valid, even though Newton�s theory of gravity has been widely accepted.",
+      "C": "Newton�s theory of gravity is based on Brahe�s data, which was meticulously recorded.",
+      "D": "Tycho Brahe was a brilliant astronomer who recorded his data meticulously."
     },
-    {
-      "id": "84b5125b",
-      "domain": "Craft and Structure",
-      "question": {
-        "choices": {
-          "A": "indicated by",
-          "B": "handmade from",
-          "C": "represented by",
-          "D": "collected with"
-        },
-        "question": "Which choice completes the text with the most logical and precise word or phrase?",
-        "paragraph": "Artist Marilyn Dingle’s intricate, coiled baskets are ______ sweetgrass and palmetto palm. Following a Gullah technique that originated in West Africa, Dingle skillfully winds a thin palm frond around a bunch of sweetgrass with the help of a “sewing bone” to create the basket’s signature look that no factory can reproduce.",
-        "explanation": "Choice B is the best answer because it most logically completes the text’s discussion of Marilyn Dingle’s baskets. In this context, to say that Dingle’s baskets are “handmade from” particular plants means that Dingle creates baskets herself using those plants but without using machines.",
-        "correct_answer": "B"
-      }
+    "correct_answer": "A",
+    "explanation": "The paragraph describes how Tycho Brahe�s data was used by Johannes Kepler to formulate a set of laws describing planetary motion, which were later revised by Isaac Newton."
+  }
+},{
+  "id": "e3f745",
+  "domain": "Craft and Structure",
+  "question": {
+    "paragraph": "The artist, known for his use of vivid colors and bold patterns, has recently expanded his artistic repertoire to include sculptures. His new works explore the ____ of human relationships, using abstract shapes and mixed media to convey complex emotions.",
+    "question": "Which choice most logically completes the paragraph?",
+    "choices": {
+      "A": "complexity",
+      "B": "fragility",
+      "C": "depth",
+      "D": "intricacy"
     },
-    {
-      "id": "6bc0e595",
-      "domain": "Information and Ideas",
-      "question": {
-        "choices": {
-          "A": "people who mainly shop online probably spend more money every month than people who mainly shop in person do.",
-          "B": "in-person shopping may make products seem more valuable than they seem if only viewed online.",
-          "C": "retailers with in-person and online stores should charge the same price for a given product in both places.",
-          "D": "online retailers may be able to raise the prices they charge for products that are only available online."
-        },
-        "question": "Which choice most logically completes the text?",
-        "paragraph": "One aspect of in-person shopping that online shopping can’t replicate is the opportunity to touch a product before buying it. Does this difference matter? In an experiment, researchers asked one group of participants to touch a mug and a toy, while another group was prohibited from touching the two items. The participants were then asked how much money they’d pay for the items. People who got to touch the items were willing to pay much more money for them than were people who weren’t allowed to touch the items. This finding suggests that ______",
-        "explanation": "The text indicates that people who were allowed to touch the items were willing to pay much more money for them, suggesting that in-person shopping may make products seem more valuable than if only viewed online.",
-        "correct_answer": "B"
-      }
+    "correct_answer": "C",
+    "explanation": "The paragraph describes the artist's exploration of human relationships in his new sculptures. Choice C, \"depth,\" best completes the paragraph by suggesting that the artist is delving into the multifaceted nature of human connections."
+  }
+},{
+  "id": "18l0e52m",
+  "domain": "Information and Ideas",
+  "question": {
+    "paragraph": "As the sun began to set, the clouds in the sky transformed into a breathtaking canvas of vibrant colors. The orange glow of the sun illuminated the clouds, making their edges appear as if they were lined with fire. The once-white clouds now resembled a kaleidoscope of shades, ranging from deep crimson to soft pinks and golden hues. As the sun continued to descend, the clouds seemed to dance and twirl, creating a mesmerizing spectacle that left onlookers in awe.",
+    "question": "Which choice best describes the main idea of the paragraph?",
+    "choices": {
+      "A": "The sunset creates a beautiful and colorful display in the sky.",
+      "B": "The clouds change shape and color as the sun sets.",
+      "C": "The sky is a canvas for the sun's artistry.",
+      "D": "The sunset is a reminder of the beauty of nature."
     },
-    {
-      "id": "6f4a2e7d",
-      "domain": "Standard English Conventions",
-      "question": {
-        "choices": {
-          "A": "they’re",
-          "B": "their",
-          "C": "its",
-          "D": "it’s"
-        },
-        "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
-        "paragraph": "When they were first discovered in Australia in 1798, duck-billed, beaver-tailed platypuses so defied categorization that one scientist assigned them the name Ornithorhynchus paradoxus: “paradoxical bird-snout.” The animal, which lays eggs but also nurses ______ young with milk, has since been classified as belonging to the monotremes group.",
-        "explanation": "Choice C is the best answer. The singular possessive pronoun 'its' agrees with the singular antecedent 'the animal' and indicates that the 'young' belong to it.",
-        "correct_answer": "C"
-      }
+    "correct_answer": "A",
+    "explanation": "The paragraph primarily focuses on the vibrant colors and captivating display created by the clouds during sunset."
+  }
+},{
+  "id": "f885b9",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "The small car swerved to ____ avoid hitting the construction barrels.",
+    "question": "Which choice completes the sentence so that it conforms to the conventions of standard English?",
+    "choices": {
+      "A": "it could",
+      "B": "it would",
+      "C": "that it could",
+      "D": "that it would"
     },
-    {
-      "id": "e7a2f9b",
-      "domain": "Expression of Ideas",
-      "question": {
-        "choices": {
-          "A": "Sounds of traditional African music",
-          "B": "New age electronic beats",
-          "C": "Jazz influences",
-          "D": "European folk tunes"
-        },
-        "question": "What did Samuel Coleridge-Taylor incorporate into his classical music compositions?",
-        "paragraph": "Samuel Coleridge-Taylor was a prominent classical music composer from England who toured the US three times in the early 1900s. The child of a West African father and an English mother, Coleridge-Taylor emphasized his mixed-race ancestry. For example, he referred to himself as Anglo-African.",
-        "explanation": "Samuel Coleridge-Taylor incorporated the sounds of traditional African music into his classical music compositions to emphasize his mixed-race ancestry.",
-        "correct_answer": "A"
-      }
+    "correct_answer": "C",
+    "explanation": "Choice C is the best answer. The sentence is in the past tense, so we need to use the past tense of the verb 'can', which is 'could'. We also need to use the infinitive 'to' before the verb 'avoid'. Therefore, the correct answer is 'that it could'."
+  }
+},{
+  "id": "660d50dc",
+  "domain": "Expression of Ideas",
+  "question": {
+    "paragraph": "Anne Tyler is an accomplished American novelist whose novels frequently explore the theme of family relationships. One of her works, Searching for Caleb, follows an elderly man's road trip across the country to visit his long-lost son. Searching for Caleb exhibits Tyler's signature style and focus. ______, it is a thoughtful and introspective work.",
+    "question": "Which choice most effectively completes the sentence?",
+    "choices": {
+      "A": "Furthermore",
+      "B": "However",
+      "C": "Therefore",
+      "D": "Despite this"
     },
-    {
-      "id": "1a3b5c",
-      "domain": "Craft and Structure",
-      "question": {
-        "choices": {
-          "A": "A lonely",
-          "B": "A disagreeable",
-          "C": "An acceptable",
-          "D": "An extraordinary"
-        },
-        "question": "As used in the text, what does the phrase “a singular” most nearly mean?",
-        "paragraph": "The following text is adapted from Nathaniel Hawthorne’s 1837 story “Dr. Heidegger’s Experiment.” The main character, a physician, is experimenting with rehydrating a dried flower. At first [the rose] lay lightly on the surface of the fluid, appearing to imbibe none of its moisture. Soon, however, a singular change began to be visible. The crushed and dried petals stirred and assumed a deepening tinge of crimson, as if the flower were reviving from a deathlike slumber.",
-        "explanation": "The phrase 'a singular' in the text most nearly means 'extraordinary.' The text describes a unique transformation where a dried rose starts to rehydrate and change color, indicating an exceptional change, not a lonely, disagreeable, or merely acceptable one.",
-        "correct_answer": "D"
-      }
+    "correct_answer": "A",
+    "explanation": "Choice A is the best answer because it provides a logical transition from the first sentence to the second sentence. The first sentence introduces Anne Tyler and her writing style, and the second sentence provides more detail about one of her novels. Choice B does not make sense in the context of the passage, as it suggests a contrast between the two sentences. Choice C does not work well either, as it suggests a cause-and-effect relationship between the two sentences. Choice D does not fit, as it suggests that the fact that Searching for Caleb exhibits Tyler's signature style and focus is an obstacle to its being thoughtful and introspective."
+  }
+},{
+  "id": "5a5424bc",
+  "domain": "Craft and Structure",
+  "question": {
+    "paragraph": "The bustling city grew rapidly, its tall buildings piercing the sky like a thousand sharp needles. With each passing day, it transformed, becoming more modern and efficient, yet also losing its sense of intimacy and charm.",
+    "question": "What is the implied meaning of the phrase \"piercing the sky\" in the context of the paragraph?",
+    "choices": {
+      "A": "Rises high and majestic",
+      "B": "Causes pain and discomfort",
+      "C": "Protrudes in a hostile manner",
+      "D": "Possesses supernatural abilities"
     },
-    {
-      "id": "8a3998f1",
-      "domain": "Standard English Conventions",
-      "question": {
-        "choices": {
-          "A": "percent, such",
-          "B": "percent and such",
-          "C": "percent. Such",
-          "D": "percent such"
-        },
-        "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
-        "paragraph": "After the United Kingdom began rolling out taxes equivalent to a few cents on single-use plastic grocery bags in 2011, plastic-bag consumption decreased by up to ninety ______  taxes are subject to what economists call the “rebound effect”: as the change became normalized, plastic-bag use started to creep back up.",
-        "explanation": "Choice C is the best answer. The convention being tested is punctuation use between sentences. In this choice, the period after “percent” is used correctly to mark the boundary between one sentence (“After … percent”) and another (“Such…up”).",
-        "correct_answer": "C"
-      }
+    "correct_answer": "A",
+    "explanation": "Within this urban landscape, the towering buildings are described as \"piercing the sky,\" suggesting their great height and ability to cut through the expanse above. This metaphorical use of \"piercing\" implies a sense of grandeur and dominance, as these buildings stretch towards the heavens."
+  }
+},{
+  "id": "c538954d",
+  "domain": "Information and Ideas",
+  "question": {
+    "paragraph": "The \"\"Butterfly Garden\"\" is a captivating 2015 novel by Dot Hutchison. In the novel, Hutchison expertly portrays the transformative journey of Serena Valentino, a young woman struggling to cope with a traumatic past: ______.",
+    "question": "Which quotation from \"\"The Butterfly Garden\"\" best illustrates the claim?",
+    "choices": {
+      "A": "Serena's nightmares were relentless, vivid recollections of the horrors she had endured, leaving her shattered and unable to find solace.",
+      "B": "Haunted by memories that refused to fade, Serena's spirit slowly withered and died, replaced by a hollow shell of her former self.",
+      "C": "Serena's unwavering determination to heal and reclaim her identity shone through the darkness, guiding her toward a brighter future.",
+      "D": "Finding sanctuary in the solace of nature, Serena discovered a glimmer of hope amidst the despair that threatened to consume her."
     },
-    {
-      "id": "7b9a2e87",
-      "domain": "Expression of Ideas",
-      "question": {
-        "choices": {
-          "A": "Surprisingly,",
-          "B": "Consequently,",
-          "C": "Nevertheless,",
-          "D": "Moreover,"
-        },
-        "question": "Which choice most effectively completes the paragraph above?",
-        "paragraph": "In her novel 'The Secret Garden', Frances Hodgson Burnett beautifully captures the transformation of a young girl named Mary who discovers a hidden, neglected garden on her uncle's estate. _____ Mary nurtures the garden back to life, she also undergoes a personal transformation, blossoming into a happier and more caring individual.",
-        "explanation": "Choice B, 'Consequently,' is the best answer. It logically indicates that the information in the sentence - that Mary nurtures the garden back to life - is a result or outcome of the previous information about her discovering the garden. Both sentences support the idea that as Mary cares for the garden, she also undergoes personal growth.",
-        "correct_answer": "B"
-      }
+    "correct_answer": "C",
+    "explanation": "Choice C is the best answer. By showing Serena's \"unwavering determination to heal and reclaim her identity,\" this choice effectively demonstrates her ability to overcome adversity and transform her life."
+  }
+},{
+  "id": "6j23971",
+  "domain": "Standard English Conventions",
+  "question": {
+    "paragraph": "Anyone who has spent an hour on an airplane these days will undoubtedly have seen the fantastic changes that have taken place in the way that passengers stay entertained during flights. In the past, a plastic bag of snacks, a paper-covered puzzle book, and a chorus of screaming children were the dismal norm. Now, it is hard to find a flight where every ______ is watching personal electronic devices.",
+    "question": "Which underlined portion is used incorrectly?",
+    "choices": {
+      "A": "entertained",
+      "B": "flight",
+      "C": "passenger",
+      "D": "is"
     },
-    {
-      "id": "22a41819",
-      "domain": "Craft and Structure",
-      "question": {
-        "choices": {
-          "A": "proficient",
-          "B": "dogmatic",
-          "C": "ambiguous",
-          "D": "unpretentious"
-        },
-        "question": "Which choice completes the text with the most logical and precise word or phrase?",
-        "paragraph": "Rejecting the premise that the literary magazine Ebony and Topaz (1927) should present a unified vision of Black American identity, editor Charles S. Johnson fostered his contributors’ diverse perspectives by promoting their authorial autonomy. Johnson’s self-effacement diverged from the editorial stances of W.E.B. Du Bois and Alain Locke, whose decisions for their publications were more ______.",
-        "explanation": "Choice B is the best answer. A person who is 'dogmatic' believes strongly that their principles and opinions are true. Because Du Bois and Locke are implied to have one 'unified vision' of Black American identity that they prioritize over the 'diverse perspectives' of different writers, they can be described as dogmatic.",
-        "correct_answer": "B"
-      }
+    "correct_answer": "D",
+    "explanation": "The correct answer is D: �is�. The subject of the sentence is �every passenger�, which is plural, so the verb must be �are�, not �is�."
+  }
+},{
+  "id": "w3423r",
+  "domain": "Expression of Ideas",
+  "question": {
+    "paragraph": "Poets often infuse their work with personal experiences. Their characters' lives and interactions often parallel their own in many ways. In her collection of riveting short stories, \"The Night Remains\", Sue Monk Kidd explores the theme of nature as a sanctuary. _____ Throughout her collection, she draws on her own experiences in the natural world to craft her poignant tales.",
+    "question": "Which choice most logically completes the paragraph?",
+    "choices": {
+      "A": "Similarly",
+      "B": "Ultimately",
+      "C": "Alternatively",
+      "D": "Therefore"
     },
-    {
-      "id": "9debe79a",
-      "domain": "Information and Ideas",
-      "question": {
-        "choices": {
-          "A": "the lowest temperature for both Cameron and Teec Nos Pos was 65°.",
-          "B": "Tuba City’s average highest temperature was 94°, while Teec Nos Pos’s was 93°.",
-          "C": "Ramah’s average highest temperature was 83°, while Cameron’s was 99°.",
-          "D": "the lowest temperature for both Ramah and Tuba City was 50°."
-        },
-        "question": "Which choice most effectively uses data from the table to complete the statement?",
-        "paragraph": "The Navajo Nation has the largest land area of any tribal nation in the United States: over 27,000 square miles in the Southwest. Because this area is so huge and its communities are located at various elevations, the people of the Navajo Nation can experience different climate conditions depending on where they live. For example, in July, ______ Which choice most effectively uses data from the table to complete the statement?",
-        "explanation": "Choice C is the best answer because it effectively uses data from the table to complete the statement, providing an example of how the people of the Navajo Nation can experience different climate conditions depending on where they live. The table shows the average highest temperatures and average lowest temperatures in four locations in the Navajo Nation in July. According to the table, Ramah’s average highest temperature for July was 83°, whereas Cameron’s was much higher, at 99°. This difference illustrates the statement that the people of the Navajo Nation can experience different climate conditions depending on where they live.",
-        "correct_answer": "C"
-      }
-    },
-    {
-      "id": "dab8b8ee",
-      "domain": "Standard English Conventions",
-      "question": {
-        "choices": {
-          "A": "a recent study’s estimate is that these crusts reduce global dust emissions by 60 percent each year.",
-          "B": "an estimated 60 percent reduction in global dust emissions each year is due to these crusts, according to a recent study.",
-          "C": "these crusts reduce global dust emissions by an estimated 60 percent each year, according to a recent study.",
-          "D": "a recent study has estimated that these crusts reduce global dust emissions by 60 percent each year."
-        },
-        "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
-        "paragraph": "Known as Earth’s “living skin,” biocrusts are thin layers of soil held together by surface-dwelling microorganisms such as fungi, lichens, and cyanobacteria. Fortifying soil in arid ecosystems against erosion, ______ Which choice completes the text so that it conforms to the conventions of Standard English?",
-        "explanation": "Choice C is the best answer. The subject of the modifier 'fortifying soil in arid ecosystems against erosion' is 'biocrusts.' Subject-modifier placement requires a modifier and its subject to be next to each other, so 'biocrusts' or some variant meaning 'biocrusts' (in this case, 'these crusts') must begin the missing clause. Choices A, B, and D are incorrect as modifiers and their subjects must go next to each other, and in these choices, the subject is not 'biocrusts.'",
-        "correct_answer": "C"
-      }
-    },
-    {
-      "id": "d7e8f2a",
-      "domain": "Expression of Ideas",
-      "question": {
-        "choices": {
-          "A": "Sarah Adams' 'City Chronicles' explores the history of The New York Times, founded in 1851.",
-          "B": "The New York Times, established in 1851, is the subject of Sarah Adams' book 'City Chronicles'.",
-          "C": "'City Chronicles' by Sarah Adams features individuals associated with The New York Times, a newspaper founded in 1851.",
-          "D": "Emily Thompson, a journalist discussed by Sarah Adams, was a key figure in the history of The New York Times."
-        },
-        "question": "Which choice most effectively incorporates information from the findings to achieve the researcher's goal?",
-        "paragraph": "In a recent study, a researcher compiled the following findings: The New York Times was established in 1851. Initially, the newspaper focused on local news and events. In 2018, journalist Sarah Adams released a book titled 'City Chronicles' which delves into the history of The New York Times. The book highlights key moments and influential figures associated with the newspaper. One of the figures discussed is journalist Emily Thompson. The researcher aims to present Sarah Adams' book to an audience already familiar with The New York Times.",
-        "explanation": "Choice A effectively introduces Sarah Adams' book to an audience familiar with The New York Times by directly linking the content of the book to the newspaper's history without providing unnecessary background information.",
-        "correct_answer": "A"
-      }
-    },
-    {
-      "id": "7b39f1a8",
-      "domain": "Craft and Structure",
-      "question": {
-        "choices": {
-          "A": "It reflects a primary goal that many urban planners have for creating vibrant and dynamic cityscapes.",
-          "B": "It represents a concern of architects who prioritize futuristic city architecture over the liveliness of urban environments.",
-          "C": "It conveys the uncertainty among urban planners about how to design cities that truly reflect the culture and history of the inhabitants.",
-          "D": "It illustrates a reaction that residents typically have to the architecture and design of cities like Metropolis."
-        },
-        "question": "Which choice best describes the function of the underlined question in the text as a whole?",
-        "paragraph": "In a bustling city like Metropolis, where skyscrapers tower over crowded streets and neon lights illuminate the night sky, the question on everyone's mind is, 'How vibrant is the city life?' Urban planners in Metropolis prioritize this question as they aim to create dynamic and lively cityscapes. While the architecture in Metropolis may seem futuristic and exaggerated, the essence of the city is carefully crafted to reflect its unique culture and history. However, some architects, like the renowned designer Mia Sato, are more concerned with a different aspect. Instead of focusing solely on the vibrancy of the city, Sato and others are questioning whether these urban landscapes truly capture the spirit of the city's inhabitants.",
-        "explanation": "Choice A is the best answer because it most accurately describes the function of the underlined question in the text. The question 'How vibrant is the city life?' sets the tone for urban planners in Metropolis, emphasizing the importance of creating dynamic and lively cityscapes. The text further explains that while some focus on futuristic architecture, others like Mia Sato prioritize capturing the spirit of the city's inhabitants, reflecting a primary goal for many urban planners.",
-        "correct_answer": "A"
-      }
-    },
-    {
-      "id": "ABC123",
-      "domain": "Information and Ideas",
-      "question": {
-        "choices": {
-          "A": "It implies that Ramah and Tuba City have different climates.",
-          "B": "It suggests that the study was conducted in July.",
-          "C": "It indicates that the average lowest temperature in Ramah is 50°.",
-          "D": "It highlights a similarity in climate conditions between Ramah and Tuba City."
-        },
-        "question": "Which choice best explains why Choice D is incorrect?",
-        "paragraph": "In a recent study comparing the climate of Ramah and Tuba City, it was found that both locations had the same average lowest temperature of 50° for July.",
-        "explanation": "Choice D is correct because it states that Ramah and Tuba City had the same average lowest temperature for July, indicating a similarity in climate conditions rather than a difference.",
-        "correct_answer": "D"
-      }
-    },
-    {
-      "id": "4bed4658",
-      "domain": "Standard English Conventions",
-      "question": {
-        "choices": {
-          "A": "creates",
-          "B": "create",
-          "C": "creating",
-          "D": "created"
-        },
-        "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
-        "paragraph": "In order to prevent nonnative fish species from moving freely between the Mediterranean and Red Seas, marine biologist Bella Galil has proposed that a saline lock system be installed along the Suez Canal in Egypt’s Great Bitter Lakes. The lock would increase the salinity of the lakes and ______ a natural barrier of water most marine creatures would be unable to cross.",
-        "explanation": "Choice B is the best answer. The convention being tested is the use of non-finite (untensed) verb forms in a sentence. The modal “would,” which indicates the future from a perspective in the past, should be accompanied by a non-finite plain form verb. In this choice, the non-finite plain form verb “create” is used correctly in conjunction with the non-finite plain form verb “increase” to describe what the lock would do.",
-        "correct_answer": "B"
-      }
-    },
-    {
-      "id": "c5f7d2a",
-      "domain": "Expression of Ideas",
-      "question": {
-        "choices": {
-          "A": "Social media has no impact on teenagers' mental well-being.",
-          "B": "Teenagers who use social media excessively may feel more connected to their peers.",
-          "C": "Reducing social media usage can help improve teenagers' mental health.",
-          "D": "Social media is essential for maintaining healthy relationships among teenagers."
-        },
-        "question": "Which statement best summarizes the findings of the researchers?",
-        "paragraph": "A group of researchers conducted a study on the impact of social media on teenagers. They found that excessive use of social media can lead to decreased face-to-face interactions and increased feelings of loneliness. The researchers recommend limiting social media usage to improve mental well-being.",
-        "explanation": "The correct answer is C because it accurately reflects the researchers' findings that limiting social media usage can enhance teenagers' mental well-being by reducing feelings of loneliness and increasing face-to-face interactions.",
-        "correct_answer": "C"
-      }
-    },
-    {
-      "id": "82cb7dda",
-      "domain": "Craft and Structure",
-      "question": {
-        "choices": {
-          "A": "It describes an experimental method of measuring the strength of physiological responses in humans.",
-          "B": "It illustrates processes by which certain insects can express how they are feeling.",
-          "C": "It summarizes a finding suggesting that some mechanisms in the brains of certain insects resemble mechanisms in mammalian brains.",
-          "D": "It presents research showing that certain insects and mammals behave similarly when there is a possibility of a reward for their actions."
-        },
-        "question": "What choice best describes the main purpose of the text?",
-        "paragraph": "The field of study called affective neuroscience seeks instinctive, physiological causes for feelings such as pleasure or displeasure. Because these sensations are linked to a chemical component (for example, the release of the neurotransmitter dopamine in the brain when one receives or expects a reward), they can be said to have a partly physiological basis. These processes have been described in mammals, but Jingnan Huang and his colleagues have recently observed that some behaviors of honeybees (such as foraging) are also motivated by a dopamine-based signaling process.",
-        "explanation": "Choice C is the best answer because it most accurately describes the main purpose of the text, which is to summarize a finding suggesting that some mechanisms in the brains of certain insects resemble mechanisms in mammalian brains. The text explains the link between feelings like pleasure and displeasure and chemical processes in the brain, particularly the release of dopamine. It then discusses how similar processes involving dopamine have been observed in honeybees, indicating a resemblance to mechanisms related to feelings in mammals.",
-        "correct_answer": "C"
-      }
-    },
-    {
-      "id": "b7a3e8f2",
-      "domain": "Information and Ideas",
-      "question": {
-        "choices": {
-          "A": "the whimsical nature of KAWS' artistic vision.",
-          "B": "the boundaries between reality and imagination.",
-          "C": "the commercialization of contemporary art.",
-          "D": "a deeper understanding of societal values and materialism."
-        },
-        "question": "Which choice best completes the text?",
-        "paragraph": "Japanese artist Yayoi Kusama (1929–present) is renowned for her avant-garde approach to art, often using polka dots and mirrors in her installations to create a sense of infinity and self-obliteration. Kusama's impact can be observed in American artist KAWS' recent exhibition: while KAWS' work may initially evoke nostalgia and playfulness, it ultimately aims to challenge societal norms and consumer culture, achieving this by pushing viewers to question their own perceptions and embrace",
-        "explanation": "Choice D is the most fitting answer. Just like Yayoi Kusama's work aims to provoke self-reflection and transcendence through art, KAWS' exhibition challenges viewers to reconsider societal values and materialistic tendencies. By pushing viewers to question their perceptions, KAWS encourages a deeper understanding of the influence of consumer culture on society.",
-        "correct_answer": "D"
-      }
-    },
-    {
-      "id": "A1B2C3D4",
-      "domain": "Standard English Conventions",
-      "question": {
-        "choices": {
-          "A": "of",
-          "B": "of,",
-          "C": "of—",
-          "D": "of:"
-        },
-        "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
-        "paragraph": "In her two major series “Memory Test” and “Autobiography,” painter Howardena Pindell explored themes ____ healing, self-discovery, and memory by cutting and sewing back together pieces of canvas and inserting personal artifacts, such as postcards, into some of the paintings.",
-        "explanation": "Choice A is the best answer. The convention being tested is punctuation between a preposition and its complement. No punctuation is needed between the preposition 'of' and its complement, the noun phrase 'healing, self-discovery, and memory.' Choices B, C, and D are incorrect for the same reason.",
-        "correct_answer": "A"
-      }
-    },
-    {
-      "id": "a7e3b2f9",
-      "domain": "Expression of Ideas",
-      "question": {
-        "choices": {
-          "A": "With its sleek, contoured armrests and seat, the walnut rocking chair in Boston’s Museum of Fine Arts is just one piece of furniture created by American woodworker Sam Maloof.",
-          "B": "Sam Maloof was born in 1916 and died in 2009, and during his life, he made a chair that you can see if you visit the Museum of Fine Arts in Boston.",
-          "C": "Furniture designer Sam Maloof was a recipient of one of the John D. and Catherine T. MacArthur Foundation’s “genius grants.”",
-          "D": "The rocking chair is made from walnut, and it has been shaped such that its armrests and seat are sleek and contoured."
-        },
-        "question": "Which choice most effectively uses relevant information from the notes to describe the rocking chair made by Sam Maloof?",
-        "paragraph": "Sam Maloof (1916–2009) was an American woodworker and furniture designer. He was the son of Lebanese immigrants. He received a “genius grant” from the John D. and Catherine T. MacArthur Foundation in 1985. The Museum of Fine Arts in Boston, Massachusetts, owns a rocking chair that Maloof made from walnut wood. The armrests and the seat of the chair are sleek and contoured, and the back consists of seven spindle-like slats. The student wants to describe the rocking chair to an audience unfamiliar with Sam Maloof. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
-        "explanation": "Choice A effectively describes the rocking chair made by Sam Maloof, highlighting its sleek, contoured armrests and seat, and linking it to the American woodworker. This choice provides a clear and concise description of the chair, making it suitable for an audience unfamiliar with Sam Maloof.",
-        "correct_answer": "A"
-      }
-    },
-    {
-      "id": "e35d481c",
-      "domain": "Craft and Structure",
-      "question": {
-        "choices": {
-          "A": "surmised",
-          "B": "contrived",
-          "C": "questioned",
-          "D": "regretted"
-        },
-        "question": "Which choice completes the text with the most logical and precise word or phrase?",
-        "paragraph": "Some economic historians ______ that late nineteenth- and early twentieth-century households in the United States experienced an economy of scale when it came to food purchases—they assumed that large households spent less on food per person than did small households. Economist Trevon Logan showed, however, that a close look at the available data disproves this supposition.",
-        "explanation": "Choice A is the best answer because it most logically completes the text’s discussion of late nineteenth- and early twentieth-century household food purchases. 'Surmised' means formed an idea or assumption with little evidence. The text explains that certain economic historians 'assumed' large and small households spent different amounts on food per person, but another economist found this supposition to be false based on evidence from available data.",
-        "correct_answer": "A"
-      }
-    },
-    {
-      "id": "f7bd14de",
-      "domain": "Information and Ideas",
-      "question": {
-        "choices": {
-          "A": "Although there are some grounds for believing that Beowulf was composed between the late ninth and early eleventh centuries, advocates for that view tend to rely on evidence that has been called into question by advocates for an earlier date.",
-          "B": "Although several scholars have dated Beowulf to the late ninth through early eleventh centuries, others have argued that doing so privileges a controversial interpretation of the social conditions of the period.",
-          "C": "Although Beowulf fits well with the historical context of England in the late ninth through early eleventh centuries, it fits equally well with the historical context of England in the seventh and eighth centuries.",
-          "D": "Although the claim of a late ninth- through early eleventh-century composition date for Beowulf has some plausibility, advocates for the claim have not compellingly addressed evidence suggesting an earlier date."
-        },
-        "question": "Which choice best states the main idea of the text?",
-        "paragraph": "Several scholars have argued that conditions in England in the late ninth through early eleventh centuries—namely, burgeoning literacy amid running conflicts between England’s Anglo-Saxon kingdoms and Danish invaders—were especially conducive to the production of the Old English epic poem Beowulf, and they have dated the poem’s composition accordingly. It is not inconceivable that Beowulf emerged from such a context, but privileging contextual fit over the linguistic evidence of an eighth- or even seventh-century composition requires a level of justification that thus far has not been presented.",
-        "explanation": "Choice D is the best answer because it most accurately states the main idea of the text. The text suggests that while Beowulf could have been composed in the late ninth through early eleventh centuries, there is linguistic evidence pointing to an earlier composition in the seventh or eighth century. Advocates for the later composition date have not convincingly addressed this evidence, indicating that the main idea is that while a later date is plausible, proponents of this view have not adequately tackled evidence supporting an earlier date.",
-        "correct_answer": "D"
-      }
-    },
-    {
-      "id": "8f6d6ae6",
-      "domain": "Standard English Conventions",
-      "question": {
-        "choices": {
-          "A": "CE making",
-          "B": "CE. Making",
-          "C": "CE, making",
-          "D": "CE; making"
-        },
-        "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
-        "paragraph": "Archaeologists have estimated that the pre-Columbian Native American city of Cahokia, located across the Mississippi River from modern-day S t. Louis, Missouri, had as many as 20,000 inhabitants in the year 1150 ______ it one of the largest cities in North America at the time.",
-        "explanation": "Choice C is the best answer. The phrase 'making…at the time' provides additional information about Cahokia that’s not required for the sentence to make sense or function grammatically. As a non-essential supplement, this phrase should be separated from the rest of the sentence with a comma.",
-        "correct_answer": "C"
-      }
-    },
-    {
-      "id": "aa7e10d0",
-      "domain": "Expression of Ideas",
-      "question": {
-        "choices": {
-          "A": "A study led by Arelee Estefanía Muñoz-Hernández identified a total of 74 Orchidaceae species in the temperate forests of Oaxaca, Mexico.",
-          "B": "There are orchids in many environments, but there are 74 Orchidaceae species in Oaxaca, Mexico.",
-          "C": "Oaxaca, Mexico, is home to temperate forests containing 74 Orchidaceae species.",
-          "D": "Arelee Estefanía Muñoz-Hernández and her team wanted to know how many different Orchidaceae species are present in the forests of Oaxaca, Mexico, so they conducted a study to collect orchids."
-        },
-        "question": "Which choice most effectively uses relevant information from the notes to accomplish the goal of presenting the study and its findings?",
-        "paragraph": "While researching a topic, a student has taken the following notes: Species belonging to the Orchidaceae (orchid) family can be found in both tropical and temperate environments. Orchidaceae species diversity has not been well studied in temperate forests, such as those in Oaxaca, Mexico. Arelee Estefanía Muñoz-Hernández led a study to determine how many different Orchidaceae species are present in the forests of Oaxaca. Muñoz-Hernández and her team collected orchids each month for a year at a site in Oaxaca. Seventy-four Orchidaceae species were present at the site. The student wants to present the study and its findings. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
-        "explanation": "Choice A is the best answer. This choice effectively presents the study and its findings. It introduces the study led by Arelee Estefanía Muñoz-Hernández and states that they identified 74 Orchidaceae species in the temperate forests of Oaxaca, Mexico.",
-        "correct_answer": "A"
-      }
-    },
-    {
-      "id": "7b3c5d2",
-      "domain": "Craft and Structure",
-      "question": {
-        "choices": {
-          "A": "Chaotic",
-          "B": "Peaceful",
-          "C": "Annoyed",
-          "D": "Excited"
-        },
-        "question": "As used in the text, what does the word 'serene' most nearly mean?",
-        "paragraph": "In a bustling city, the honking of cars grew louder and louder, echoing through the streets. People hurried along the sidewalks, but one man remained calm amidst the chaos. He glanced around with a serene expression, unaffected by the noise.",
-        "explanation": "Choice B is the best answer because as used in the text, 'serene' most nearly means peaceful. The text describes a man in a busy city who remains calm and unaffected by the noise, conveying a sense of peace and tranquility. Choice A is incorrect. Although in some contexts 'serene' can mean chaotic, in this passage, it refers to the man's peaceful demeanor amidst the bustling city. Choice C is incorrect. Although in some contexts 'serene' can mean annoyed, the text portrays the man as calm and composed, not irritated. Choice D is incorrect. Although in some contexts, 'serene' can mean excited, in this scenario, it conveys a sense of calmness and tranquility.",
-        "correct_answer": "B"
-      }
-    },
-    {
-      "id": "SAT123",
-      "domain": "Information and Ideas",
-      "question": {
-        "choices": {
-          "A": "It emphasizes the controversy surrounding the interpretation of the poem.",
-          "B": "It highlights the seamless fit of the poem with the historical context of England in the seventh and eighth centuries.",
-          "C": "It argues that the poem aligns perfectly with the historical context of England in the late ninth through early eleventh centuries.",
-          "D": "It suggests that linguistic evidence points to the poem possibly being composed in the seventh or eighth century."
-        },
-        "question": "What is the main point of the text regarding the dating of the poem?",
-        "paragraph": "When was the poem dated to by scholars? The text challenges the common view of the social conditions during that time period and suggests that scholars who date the poem based on its alignment with the historical context of England in the late ninth through early eleventh centuries may have overlooked linguistic evidence indicating an earlier composition.",
-        "explanation": "The text challenges the common view of dating the poem to the late ninth through early eleventh centuries by pointing out linguistic evidence that suggests it may have been composed earlier, possibly in the seventh or eighth century.",
-        "correct_answer": "D"
-      }
-    },
-    {
-      "id": "7f2a9d4b",
-      "domain": "Standard English Conventions",
-      "question": {
-        "choices": {
-          "A": "several",
-          "B": "numerous",
-          "C": "scant",
-          "D": "abundant"
-        },
-        "question": "Which phrase could be used to replace 'a few' in the text without changing the meaning?",
-        "paragraph": "Approximately 50,000 species of plants are known to exist in the Amazon rainforest. While most of these species are native to the region, a few have been introduced from other parts of the world. Despite the vast diversity, only a small percentage of these plants are well-studied by scientists.",
-        "explanation": "Choice A, 'several,' is the most appropriate replacement for 'a few' in the context provided. This maintains the original meaning of indicating a small but notable number of plant species introduced from other regions.",
-        "correct_answer": "A"
-      }
-    },
-    {
-      "id": "5e57efec",
-      "domain": "Craft and Structure",
-      "question": {
-        "choices": {
-          "A": "supplemental to",
-          "B": "predictive of",
-          "C": "independent of",
-          "D": "subsumed in"
-        },
-        "question": "Which choice completes the text with the most logical and precise word or phrase?",
-        "paragraph": "Economist Marco Castillo and colleagues showed that nuisance costs—the time and effort people must spend to make donations—reduce charitable giving. Charities can mitigate this effect by compensating donors for nuisance costs, but those costs, though variable, are largely ______ donation size, so charities that compensate donors will likely favor attracting a few large donors over many small donors.",
-        "explanation": "The correct answer is C. Charities that compensate donors for nuisance costs are largely independent of donation size, meaning they are not directly linked to the size of the donation. This leads to charities favoring attracting a few large donors over many small donors.",
-        "correct_answer": "C"
-      }
-    },
-    {
-      "id": "baef99a5",
-      "domain": "Information and Ideas",
-      "question": {
-        "choices": {
-          "A": "He wants to know Hallward’s opinion of the portrait.",
-          "B": "He is delighted by what he sees in the portrait.",
-          "C": "He prefers portraits to other types of paintings.",
-          "D": "He is uncertain of Hallward’s talent as an artist."
-        },
-        "question": "According to the text, what is true about Dorian?",
-        "paragraph": "The following text is adapted from Oscar Wilde’s 1891 novel The Picture of Dorian Gray. Dorian Gray is taking his first look at a portrait that Hallward has painted of him. Dorian passed listlessly in front of his picture and turned towards it. When he saw it he drew back, and his cheeks flushed for a moment with pleasure. A look of joy came into his eyes, as if he had recognized himself for the first time. He stood there motionless and in wonder, dimly conscious that Hallward was speaking to him, but not catching the meaning of his words. The sense of his own beauty came on him like a revelation. He had never felt it before.",
-        "explanation": "Choice B is the best answer because it presents a statement about Dorian that is directly supported by the text. The narrator describes Dorian as being delighted by what he sees in the portrait, with his cheeks flushing with pleasure and a look of joy in his eyes. Dorian is so enraptured by the portrait that he is hardly aware of Hallward speaking to him. This shows Dorian's delight with what he sees in the portrait.",
-        "correct_answer": "B"
-      }
-    },
-    {
-      "id": "f2e1b7d",
-      "domain": "Standard English Conventions",
-      "question": {
-        "choices": {
-          "A": "single-handedly, however;",
-          "B": "single-handedly; however,",
-          "C": "single-handedly, however,",
-          "D": "single-handedly however"
-        },
-        "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
-        "paragraph": "Sociologist Alton Okinaka sits on the review board tasked with adding new sites to the Hawai‘i Register of Historic Places, which includes Pi‘ilanihale Heiau and the ‘Ōpaeka‘a Road Bridge. Okinaka doesn’t make such decisions ____ all historical designations must be approved by a group of nine other experts from the fields of architecture, archaeology, history, and Hawaiian culture.",
-        "explanation": "Choice A is the best answer. The convention being tested is the punctuation of a supplementary word or phrase between two main clauses. This choice correctly uses a comma to separate the supplementary adverb 'however' from the preceding main clause ('Okinaka doesn’t... single-handedly') and a semicolon to join the next main clause ('all...culture') to the rest of the sentence. Furthermore, placing the semicolon after 'however' correctly indicates that the information in the preceding main clause is contrary to what might be assumed from the information in the previous sentence.",
-        "correct_answer": "A"
-      }
-    },
-    {
-      "id": "f7a9b2d",
-      "domain": "Expression of Ideas",
-      "question": {
-        "choices": {
-          "A": "Furthermore,",
-          "B": "By contrast,",
-          "C": "Similarly,",
-          "D": "That is,"
-        },
-        "question": "Which choice completes the text with the most logical transition?",
-        "paragraph": "In a heated debate in biogeography, the field is divided between dispersalists and vicariancists. ______  there are those who argue that dispersal is the most crucial determining factor in a species’ distribution, and those who insist that vicariance (separation due to geographic barriers) is. Biogeographer Isabel Sanmartín counts herself among neither.",
-        "explanation": "Choice D, 'That is,' logically signals the clarification of the terms of the scientific debate introduced in the previous sentence by explaining the difference between dispersalists and vicariancists.",
-        "correct_answer": "D"
-      }
-    },
-    {
-      "id": "c966ad55",
-      "domain": "Craft and Structure",
-      "question": {
-        "choices": {
-          "A": "It suggests that Shakti feels uncomfortable near the river.",
-          "B": "It indicates that Shakti has lost her sense of direction in the woods.",
-          "C": "It emphasizes Shakti’s sense of belonging in the landscape.",
-          "D": "It conveys Shakti’s appreciation for her long-term friendships."
-        },
-        "question": "Which choice best describes the function of the underlined portion in the text as a whole?",
-        "paragraph": "The following text is from Srimati S varna Kumari Devi’s 1894 novel The F atal Garland  (translated by A. Christina Albers in 1910). Shakti is walking near a riverbank that she visited frequently during her childhood. She crossed the woods she knew so well. The trees seemed to extend their branches like welcoming arms. They greeted her as an old friend. Soon she reached the river-side.",
-        "explanation": "Choice C is the best answer because it most accurately describes how the underlined sentence functions in the text as a whole. The first sentence of the text states that Shakti knows the woods she is walking in well. The next sentence, which is underlined, emphasizes Shakti’s familiarity with, and sense of security within, the woods by describing how the tree branches are friendly and welcoming, as they are depicted as extending open arms to her. The remainder of the text also shows that Shakti is comfortable and content in the woods by describing her as “an old friend” of the trees. Thus, the function of the underlined portion is to emphasize Shakti’s sense of belonging in the wooded landscape that she visits.",
-        "correct_answer": "C"
-      }
-    },
-    {
-      "id": "3fc06a91",
-      "domain": "Information and Ideas",
-      "question": {
-        "choices": {
-          "A": "1900 with the employment by sector in 1950.",
-          "B": "1800 with the employment by sector in 2012.",
-          "C": "1900 with the employment by sector in 2012.",
-          "D": "1800 with the employment by sector in 1900."
-        },
-        "question": "Which choice most effectively uses data from the table to complete the statement?",
-        "paragraph": "Over the past two hundred years, the percentage of the population employed in the agricultural sector has declined in both France and the United States, while employment in the service sector has risen. However, this transition happened at very different rates in the two countries. This can be seen most clearly by comparing the employment by sector in both countries in ______",
-        "explanation": "Choice A is the best answer because it presents data from the table that most effectively completes the statement about the rates at which employment shifted in France and the United States. Comparing the data for 1900 and 1950 shows significant changes in both countries, with a greater rate of change in the US for both sectors.",
-        "correct_answer": "A"
-      }
-    },
-    {
-      "id": "f4fd123c",
-      "domain": "Standard English Conventions",
-      "question": {
-        "choices": {
-          "A": "promote",
-          "B": "are promoting",
-          "C": "promotes",
-          "D": "have promoted"
-        },
-        "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
-        "paragraph": "The African Games Co-production Market, one of over 180 annual international conferences supporting video game development, ______ the growth of the African gaming industry by helping start-up studios in Africa find partners.",
-        "explanation": "Choice C is the best answer. The subject of the sentence is 'The African Games Co-production Market.' That’s one market, so it’s a singular noun, which means it needs a singular verb. 'Promotes' is the only singular verb among the choices.",
-        "correct_answer": "C"
-      }
-    },
-    {
-      "id": "7d8e2b5f",
-      "domain": "Expression of Ideas",
-      "question": {
-        "choices": {
-          "A": "similarly,",
-          "B": "nevertheless,",
-          "C": "thus,",
-          "D": "for instance,"
-        },
-        "question": "Which choice provides the most appropriate transition between the sentences?",
-        "paragraph": "Most of the stars that have been observed in our galaxy are red giants, emitting a warm reddish glow. Recently, in 2021, astronomers discovered a star named XYZ-12, a white dwarf much smaller and cooler than red giants. Known as XYZ-12b, it is one of the dimmest stars ever observed.",
-        "explanation": "Choice B is the best answer. The word 'nevertheless' logically indicates that the information in the second sentence, about the star XYZ-12b being a white dwarf, contrasts with the previous information about red giants. Most observed stars in the galaxy are red giants, not white dwarfs. Choice A, C, and D are incorrect because they do not provide the appropriate contrast needed in this context.",
-        "correct_answer": "B"
-      }
-    },
-    {
-      "id": "757077f9",
-      "domain": "Craft and Structure",
-      "question": {
-        "choices": {
-          "A": "waive",
-          "B": "concede",
-          "C": "refute",
-          "D": "require"
-        },
-        "question": "Which choice completes the text with the most logical and precise word or phrase?",
-        "paragraph": "During a 2014 archaeological dig in Spain, Vicente Lull and his team uncovered the skeleton of a woman from El Algar, an Early Bronze Age society, buried with valuable objects signaling a high position of power. This finding may persuade researchers who have argued that Bronze Age societies were ruled by men to ______ that women may have also held leadership roles.",
-        "explanation": "Choice B is the best answer because it most logically completes the text’s discussion of the significance of the 2014 archaeological finding at El Algar. In this context, 'concede' means to admit something is true after first resisting that admission. The text indicates that some researchers believe 'Bronze Age societies were ruled by men.' But the Bronze Age burial of a woman at El Algar included 'valuable objects signaling a high position of power,' which would raise the possibility that 'women may have also held leadership roles.' Thus, the text is calling into question the notion that only men were leaders in these societies and speculating that people holding this view may reconsider their opinion.",
-        "correct_answer": "B"
-      }
-    },
-    {
-      "id": "A1B2C3D4",
-      "domain": "Standard English Conventions",
-      "question": {
-        "choices": {
-          "A": "that—",
-          "B": "that;",
-          "C": "that,",
-          "D": "that:"
-        },
-        "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
-        "paragraph": "Polyphenols are organic compounds ______ among their many roles, provide pigment that helps protect plants against ultraviolet radiation from sunlight.",
-        "explanation": "Choice C is the best answer. The convention being tested is the punctuation of a supplementary element within a sentence. The comma after 'that' pairs with the comma after 'roles' to separate the supplementary element 'among their many roles' from the rest of the sentence. This supplementary element functions to clarify that polyphenols have many roles, and the pair of commas indicates that this element could be removed without affecting the grammatical coherence of the sentence.",
-        "correct_answer": "C"
-      }
-    },
-    {
-      "id": "r3t5e7a",
-      "domain": "Expression of Ideas",
-      "question": {
-        "choices": {
-          "A": "additionally,",
-          "B": "ultimately,",
-          "C": "accordingly,",
-          "D": "consequently,"
-        },
-        "question": "Which choice completes the text with the most logical transition?",
-        "paragraph": "In 1815, while in exile in Jamaica, Venezuelan revolutionary Simón Bolívar penned a letter praising England’s republican government and expressing hope that Latin American nations seeking independence from Spain might achieve something similar. The letter was addressed to a local merchant, Henry Cullen; ______ though, Bolívar’s goal was to persuade political leaders from England and Europe to support his cause.",
-        "explanation": "Choice B is the best answer. 'Ultimately' means 'in the long run' or 'at the highest level.' Although Bolívar wrote to a local merchant, his ultimate goal was to send a message to political leaders in Europe. Therefore, 'ultimately' fits perfectly in this context.",
-        "correct_answer": "B"
-      }
-    },
-    {
-      "id": "e786d2a1",
-      "domain": "Craft and Structure",
-      "question": {
-        "choices": {
-          "A": "To highlight the impact of the Industrial Revolution on labor movements and the role of Amelia Sinclair in advocating for workers' rights",
-          "B": "To showcase how Amelia Sinclair utilized her political connections to secure better jobs for factory workers during the Industrial Revolution",
-          "C": "To illustrate the differences in working conditions between factories in urban and rural areas during the Industrial Revolution",
-          "D": "To provide an overview of the technological advancements that occurred during the Industrial Revolution and their impact on labor rights"
-        },
-        "question": "Which choice most accurately summarizes the main focus of the passage?",
-        "paragraph": "During the Industrial Revolution of 1760–1840, a key figure in the advancement of labor rights was activist and newspaper editor Amelia Sinclair. Sinclair played a vital role in advocating for fair wages and improved working conditions for factory workers. Many workers sought better treatment in factories due to harsh conditions and low pay. To assist in this cause, Sinclair actively campaigned for labor reforms and organized protests to raise awareness.",
-        "explanation": "Choice A is the correct answer as it best captures the main focus of the passage, which is to discuss Amelia Sinclair's crucial involvement in advancing labor rights during the Industrial Revolution. The passage highlights Sinclair's efforts in advocating for fair wages and improved working conditions for factory workers, emphasizing her role in the labor movement of that era.",
-        "correct_answer": "A"
-      }
-    },
-    {
-      "id": "7f3a2b9d",
-      "domain": "Information and Ideas",
-      "question": {
-        "choices": {
-          "A": "Confirming the cerebellum's role in motor coordination.",
-          "B": "Challenging widely accepted claims about the cerebellum's function.",
-          "C": "Uncovering additional functions of the cerebellum beyond motor regulation.",
-          "D": "Discussing the impact of technological advancements on cerebellum research."
-        },
-        "question": "What is the main focus of the recent neuroscience research discussed in the passage?",
-        "paragraph": "In recent years, advancements in neuroscience have expanded our understanding of the cerebellum, a brain structure traditionally associated with motor control in humans. Research by Ilaria Carta and colleagues has revealed a connection between the cerebellum and the ventral tegmental area (VTA), a center for motivation and reward processing.",
-        "explanation": "The recent neuroscience research discussed in the passage focuses on uncovering additional functions of the cerebellum beyond its traditional role in motor regulation. It highlights how the cerebellum is now recognized to also regulate emotion, social behavior, and has a connection to the ventral tegmental area for motivation and reward processing.",
-        "correct_answer": "C"
-      }
-    },
-    {
-      "id": "7f1df833",
-      "domain": "Standard English Conventions",
-      "question": {
-        "choices": {
-          "A": "bounds helped",
-          "B": "bounds, helping",
-          "C": "bounds that helped",
-          "D": "bounds to help"
-        },
-        "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
-        "paragraph": "In 1966, Emmett Ashford became the first African American to umpire a Major League Baseball game. His energetic gestures announcing when a player had struck out and his habit of barreling after a hit ball to see if it would land out of ______ transform the traditionally solemn umpire role into a dynamic one.",
-        "explanation": "Choice A is the best answer. The convention being tested is finite verb use in a main clause. A main clause requires a finite verb to perform the action of the subject (in this case, Ashford’s 'gestures' and 'habit'), and this choice supplies the finite past tense verb 'helped' to indicate what Ashford’s gestures and habit helped accomplish.",
-        "correct_answer": "A"
-      }
-    },
-    {
-      "id": "af89fa02",
-      "domain": "Expression of Ideas",
-      "question": {
-        "choices": {
-          "A": "therefore,",
-          "B": "likewise,",
-          "C": "however,",
-          "D": "for instance,"
-        },
-        "question": "Which choice completes the text with the most logical transition?",
-        "paragraph": "The Babylonian king Hammurabi achieved much during his forty-year reign. He conquered all of Mesopotamia and built Babylon into one of the most powerful cities of the ancient world. Today, ______ he is mainly remembered for a code of laws inscribed on a seven-foot-tall block of stone: the Code of Hammurabi.",
-        "explanation": "Choice C is the best answer. 'However' logically signals that the information in this sentence—that Hammurabi is mainly remembered for just a single achievement, the Code of Hammurabi—is contrary to what might be assumed from the previous information about Hammurabi’s many achievements.",
-        "correct_answer": "C"
-      }
-    },
-    {
-      "id": "A1B2C3",
-      "domain": "Craft and Structure",
-      "question": {
-        "choices": {
-          "A": "ordinary",
-          "B": "strange",
-          "C": "common",
-          "D": "unique"
-        },
-        "question": "Which word could best replace 'peculiar' in the paragraph?",
-        "paragraph": "In a quaint little town nestled in the mountains, there lived a mysterious old man who was known for his peculiar habits. Every morning, he could be seen walking to the market with his faithful companion, a mischievous black cat named Midnight.",
-        "explanation": "In this context, 'peculiar' means strange or unusual, which makes 'unique' the best replacement.",
-        "correct_answer": "D"
-      }
-    },
-    {
-      "id": "8a668840",
-      "domain": "Information and Ideas",
-      "question": {
-        "choices": {
-          "A": "The monthly hours of sunshine in both Anchorage and Fairbanks hold steady in June and July before beginning to decline in August.",
-          "B": "The monthly hours of sunshine in both Anchorage and Fairbanks increase from April to June and then decrease from June to September.",
-          "C": "Anchorage and Fairbanks both have less than 200 monthly hours of sunshine from April to September.",
-          "D": "Anchorage and Fairbanks both have more than 300 monthly hours of sunshine from April to June and less than 200 hours from July to September."
-        },
-        "question": "Which choice best describes data from the graph that support the student’s conclusion?",
-        "paragraph": "A student is researching monthly hours of sunshine in different cities in Alaska. When comparing trends in Anchorage and Fairbanks, the student concludes that the two cities show a similar pattern in the monthly hours of sunshine from April to September.",
-        "explanation": "The correct answer is B because it reflects the pattern of increasing sunshine hours from April to June followed by a decrease from June to September, which aligns with the student's conclusion about the similar trend in Anchorage and Fairbanks.",
-        "correct_answer": "B"
-      }
-    },
-    {
-      "id": "2ee50d41",
-      "domain": "Standard English Conventions",
-      "question": {
-        "choices": {
-          "A": "allows",
-          "B": "are allowing",
-          "C": "have allowed",
-          "D": "allow"
-        },
-        "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
-        "paragraph": "The classic children’s board game Chutes and Ladders is a version of an ancient Nepalese game, Paramapada Sopanapata. In both games, players encounter “good” or “bad” spaces while traveling along a path; landing on one of the good spaces ______ a player to skip ahead and arrive closer to the end goal.",
-        "explanation": "Choice A is the best answer. The convention being tested is subject–verb agreement. The singular verb “allows” agrees in number with the singular subject “landing.” Choices B, C, and D are incorrect because they do not agree in number with the singular subject.",
-        "correct_answer": "A"
-      }
-    }
-  ]
-}
+    "correct_answer": "A",
+    "explanation": "Choice A, \"Similarly\", is the best transition because it signals a parallel between Kidd's personal experiences and her fictional narratives, which is the main idea of the paragraph."
+  }
+},

@@ -1,6 +1,6 @@
 <script lang="ts">
   import { Accordion, AccordionItem, AppBar, AppRail, AppRailAnchor, AppRailTile, AppShell, ProgressBar, TreeView, TreeViewItem } from '@skeletonlabs/skeleton';
-  import { IconAlertTriangle, IconChecks, IconMessageReport } from '@tabler/icons-svelte';
+  import { IconAlertTriangle, IconArrowBack, IconChecks, IconListSearch, IconMessageReport } from '@tabler/icons-svelte';
   
   import { onMount, onDestroy } from 'svelte';
   
@@ -51,11 +51,15 @@
       <div class="card grid-cols-2 md:grid-cols-3 gap-4 variant-glass-surface mx-auto" style="height: auto; width: 800px; position:relative; top:10%;">
         <div class="card-content p-4">  
           <h class="h3"><b>Question #{english_question_data[question_id].id}</b></h> 
-          
-            <a type="button" style="position:relative; left:57%;" href="https://github.com/Anas099X/Omnibook/issues" class="btn btn-sm variant-filled-error">
+          <a type="button" style="position:relative; left:57%;" class="btn btn-sm variant-filled" href="/explore">
+            <span><IconArrowBack stroke={2} size="20"/></span>
+            <span> Return</span>
+          </a>
+            <a type="button" style="position:relative; left:31%;" href="https://github.com/Anas099X/Omnibook/issues" class="btn btn-sm variant-filled-error">
             <span><IconMessageReport stroke={1.5} size="20"/></span>
             <span>Report</span>
             </a>
+         
         
           <br>
           <br>
