@@ -31,11 +31,10 @@
     }
   }
 
-  function open_question(domain_id:any,question_id:any){
-    window.location.href = `${domain_id}/question/${question_id}`
-   
-
-  }
+  function open_question(domain_id: any, question_id: any) {
+  const url = `${domain_id}/question/${question_id}`;
+  window.open(url, '_blank', 'noopener noreferrer');
+}
   
   onMount(() => fetchData(0)); // Fetch data on component mount with initial page
   
@@ -101,7 +100,7 @@ function toggle_math(domain: string): void {
             <!-- svelte-ignore a11y-click-events-have-key-events -->
             {#each Object.entries(sat_domains_english) as [domainName, isEnabled]}
                 {#if isEnabled && data.domain === domainName}
-                <div class="card card-hover bg-surface-200 p-4 " on:click={() => open_question("sat_database",index + 1)} style="height:20vh">
+                <div class="card card-hover bg-surface-200 p-4 " on:click={() => open_question("english",index + 1)} style="height:20vh">
                   <section class="p-1">
                     <IconNotebook stroke={2} size=36 style="color: #FF7777"/>
                   </section>
@@ -121,7 +120,7 @@ function toggle_math(domain: string): void {
             <!-- svelte-ignore a11y-click-events-have-key-events -->
             {#each Object.entries(sat_domains_math) as [domainName, isEnabled]}
                 {#if isEnabled && data.domain === domainName}
-                <div class="card card-hover bg-surface-200 p-4 " on:click={() => open_question("sat_database",index + 1)} style="height:20vh">
+                <div class="card card-hover bg-surface-200 p-4 " on:click={() => open_question("math",index + 1)} style="height:20vh">
                   <section class="p-1">
                     <IconNotebook stroke={2} size=36 style="color: #FF7777" />
                   </section>
