@@ -1,7 +1,7 @@
 <script>
   import { initializeApp } from 'firebase/app';
   import { getAuth, sendEmailVerification, createUserWithEmailAndPassword } from 'firebase/auth';
-  import { getFirestore, collection, addDoc } from 'firebase/firestore';
+  import { getFirestore, doc, setDoc } from 'firebase/firestore';
 
   let email = '';
   let password = '';
@@ -9,13 +9,13 @@
   let desc = '';
 
   const firebaseConfig = {
-  apiKey: "AIzaSyDnbLx28r3PbTTWBUb1RwwfVe3xKFS6crY",
-  authDomain: "crucial-study-390519.firebaseapp.com",
-  projectId: "crucial-study-390519",
-  storageBucket: "crucial-study-390519.appspot.com",
-  messagingSenderId: "1048701385145",
-  appId: "1:1048701385145:web:531265aff5615610901e68"
-};
+    apiKey: "AIzaSyDnbLx28r3PbTTWBUb1RwwfVe3xKFS6crY",
+    authDomain: "crucial-study-390519.firebaseapp.com",
+    projectId: "crucial-study-390519",
+    storageBucket: "crucial-study-390519.appspot.com",
+    messagingSenderId: "1048701385145",
+    appId: "1:1048701385145:web:531265aff5615610901e68"
+  };
 
   const app = initializeApp(firebaseConfig);
   const auth = getAuth(app);
@@ -29,8 +29,9 @@
       await sendEmailVerification(userCredential.user);
       console.log('User created and verification email sent:', userCredential.user);
 
-      // Create a new document in the "users" collection with user data
-      const userDocRef = await addDoc(collection(db, "users"), {
+      // Create a new document in the "users" collection with user data, using uid as the document ID
+      const userDocRef = doc(db, "users", userCredential.user.uid);
+      await setDoc(userDocRef, {
         uid: userCredential.user.uid, // Firebase assigned user ID
         username,
         email, // Existing email variable
@@ -42,10 +43,6 @@
       // Display success message to the user
       alert('A verification email has been sent to your address. Please verify your email before signing in.');
 
-      // Clear form fields (optional)
-      email = '';
-      password = '';
-      username = '';
     } catch (error) {
       console.error('Sign Up Error:', error);
       // Display error message to the user
@@ -53,12 +50,10 @@
   }
 </script>
 
-<form on:submit={() => {
-  handleSignUp();
-}}>
+<form on:submit|preventDefault={handleSignUp}>
   <input type="text" bind:value={username} placeholder="Username" />
   <input type="email" bind:value={email} placeholder="Email" />
-  <input type="description" bind:value={desc} placeholder="Description" />
+  <input type="text" bind:value={desc} placeholder="Description" /> <!-- Changed to type="text" for description -->
   <input type="password" bind:value={password} placeholder="Password" />
   <button type="submit">Sign Up</button>
 </form>
