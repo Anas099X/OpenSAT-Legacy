@@ -1,106 +1,150 @@
 {
-  "id": "002dba45",
-  "domain": "Algebra",
+  "id": "A1B2C3",
+  "domain": "Problem Solving and Data Analysis",
   "question": {
-    "question": "Line  is defined by . Line  is perpendicular to line  in the xy-plane. What is the slope of line ?",
+    "question": "A store has a discount on a $50 item. After applying a 20% discount, how much does the item cost?",
     "choices": {
-      "A": ".1764",
-      "B": ".1765",
-      "C": "3/17",
-      "D": "0.176"
-    },
-    "correct_answer": "3/17",
-    "explanation": "The correct answer is . It’s given that line  is perpendicular to line  in the xy-plane. This means that the slope of\nline  is the negative reciprocal of the slope of line . The equation of line , , is written in slope-\nintercept form, where  is the slope of the line and  is the y-coordinate of the y-intercept of the line. It\nfollows that the slope of line  is . The negative reciprocal of a number is  divided by the number . Therefore,\nthe negative reciprocal of  is , or . Thus, the slope of line  is . Note that 3/17, .1764, .1765, and 0.176 are\nexamples of ways to enter a correct answer ."
-  }
-},{
-  "id": "",
-  "domain": "Algebra",
-  "question": {
-    "question": "The table gives the coordinates of two points on a line in the xy-plane. The y-intercept of the line is, where  and  are constants. What is the value of ?",
-    "choices": {
-      "A": "17",
-      "B": "22",
-      "C": "33",
-      "D": "44"
-    },
-    "correct_answer": "C",
-    "explanation": "The y-intercept is another point on the line. The slope computed using any pair of points from the line will be the same. The slope of a line, , between any two points,  and , on the line can be calculated using the slope formula, . It follows that the slope of the line with the given points from the table,  and  , is  , which is equivalent to  , or  . It's given that the  y -intercept of the line is  . Substituting  for  and the coordinates of the points  and  into the slope formula yields , which is equivalent to  , or . Multiplying both sides of this equation by  yields . Subtracting  from both sides of this equation yields . Dividing both sides of this equation by   yields . Therefore, the value of  is ."
-  }
-},{
-  "domain": "Algebra",
-  "question": {
-    "question": "If \n\n\nsatisfies the system of equations\nabove, what is the value of y ?",
-    "choices": {},
-    "correct_answer": "1.5",
-    "explanation": "The correct answer is 1.5. One method for solving the system of equations for y  is to add corresponding sides of the\ntwo equations. Adding the left-hand sides gives \n, or 4 y. Adding the right-hand sides yields\n. It follows that \n. Finally , dividing both sides of \n by 4 yields \n, or \n. Note that 3/2\nand 1.5 are examples of ways to enter a correct answer."
-  }
-},{
-  "domain": "Algebra",
-  "question": {
-    "question": "The system of equations above has solution ( x,\ny). What is the value of x ?",
-    "choices": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "correct_answer": "D",
-    "explanation": "Adding the corresponding sides of the two equations eliminates y and yields x = 4, as shown.\nIf ( x , y ) is a solution to the system, then ( x , y ) satisfies both equations in the system and any equation derived from\nthem. Therefore, .\nChoices A, B, and C are incorrect and may be the result of errors when solving the system."
-  }
-},{
-  "id": "88e13c8c",
-  "domain": "Algebra",
-  "question": {
-    "question": "The total cost , in dollars, to lease a car for  months from a particular car dealership is given by , where  is the monthly payment, in dollars. What is the total cost to lease a car when the monthly payment is ?",
-    "choices": {
-      "A": "500",
-      "B": "1000",
-      "C": "1500",
-      "D": "2000"
-    },
-    "correct_answer": "C",
-    "explanation": "Choice C is correct. It's given that  is the total cost, in dollars, to lease a car from this dealership with a monthly payment of  dollars. Therefore, the total cost, in dollars, to lease the car when the monthly payment is  is represented by the value of  when . Substituting  for  in the equation  yields , or . Thus, when the monthly payment is , the total cost to lease a car is  . "
-  }
-},{
-  "id": "3cdbf026",
-  "domain": "Algebra",
-  "question": {
-    "question": "The graph of the equation \ny = ax + k\nis a line in the xy-plane, where a and k are constants. If the line contains the points\n(0, 2) and (2, 6),\nwhat is the value of\nk?",
-    "choices": {
-      "A": "2",
-      "B": "4",
-      "C": "6",
-      "D": "8"
+      "A": "$40",
+      "B": "$35",
+      "C": "$30",
+      "D": "$25"
     },
     "correct_answer": "A",
-    "explanation": "Choice A is correct. The value of k can be found using the slope-intercept form of a linear equation, y = mx + b,\nwhere m is the slope and b is the y-coordinate of the y-intercept. The equation \ny = ax + k\ncan be rewritten in the form\ny = a(x) + k.\nOne of the given points, (0, 2), is the y-intercept. Thus, the y-coordinate of the y-intercept\nmust be equal to k. Multiplying both sides by k gives\nk(2) = 2k. Dividing both sides by 2 gives\nk = 1.\nChoices B, C, and D are incorrect and may result from errors made rewriting the given equation."
-  }
-},{
-  "id": "ff501705",
-  "domain": "Algebra",
-  "question": {
-    "question": "In the given system of equations,  is a constant. If the system has no solution, what is the value of ?",
-    "choices": {
-      "A": "2",
-      "B": "4",
-      "C": "6",
-      "D": "8"
-    },
-    "correct_answer": "C",
-    "explanation": "The correct answer is 6. A system of two linear equations in two variables,  and , has no solution if the lines represented by the equations in the xy -plane are parallel and distinct. Lines represented by equations in standard form,  and , are parallel if the coefficients for  and  in one equation are proportional to the corresponding coefficients in the other equation, meaning ; and the lines are distinct if the constants are not proportional, meaning  is not equal to   or . The first equation in the given system is . Multiplying each side of this equation by  yields . Adding  to each side of this equation yields , or . The second equation in the given system is . Multiplying each side of this equation by  yields . Subtracting  from each side of this equation yields . Subtracting  from each side of this equation yields . Therefore, the two equations in the given system, written in standard form, are   and . As previously stated, if this system has no solution, the lines represented by the equations in the xy -plane are parallel and distinct, meaning the proportion  , or  , is true and the proportion  is not true. The proportion  is not true. Multiplying each side of the true proportion, ,  by  yields . Therefore, if the system has no solution, then the value of  is . "
-  }
-},{
-  "id": "8c5e6702",
-  "domain": "Algebra",
-  "question": {
-    "question": "A window repair specialist charges $60 for the first two hours of repair plus an hourly fee for each additional hour. The total cost for 4 hours of repair is $100.\nWhich function gives the total cost, in dollars, for h hours of repair, where h > 2?",
-    "choices": {
-      "A": "f(h) = 60 + 20(h - 2)",
-      "B": "f(h) = 60 + 30(h - 2)",
-      "C": "f(h) = 60 + 25(h - 2)",
-      "D": "f(h) = 60 + 35(h - 2)"
-    },
-    "correct_answer": "A",
-    "explanation": "Let r represent the hourly fee for each additional hour after the first two hours.\nSince it’s given that h is the number of hours of repair, it follows that the charge generated by the hourly fee after the first two hours can be represented by the expression r(h - 2).\nTherefore, the total cost, in dollars, for h hours of repair is 60 + r(h - 2). It’s given that the total cost for 4 hours of repair is $100. Substituting 4 for h and 100 for f(h) into the equation 60 + r(h - 2) yields 60 + r(4 - 2) = 100, or 60 + 2r = 100.\nSubtracting 60 from both sides of this equation yields 2r = 40. Dividing both sides of this equation by 2 yields r = 20.\nSubstituting 20 for r in the equation 60 + r(h - 2) yields 60 + 20(h - 2), which is equivalent to 60 + 20h - 40, or 20h + 20. Therefore, the total cost, in dollars, for h hours of repair is 20h + 20."
+    "explanation": "A 20% discount on $50 is calculated as $50 * 0.20 = $10. Therefore, the discounted price is $50 - $10 = $40."
   }
 },
+{
+  "id": "D4E5F6",
+  "domain": "Problem Solving and Data Analysis",
+  "question": {
+    "question": "A car travels at a constant speed of 60 miles per hour. How far can it travel in 3 hours?",
+    "choices": {
+      "A": "120 miles",
+      "B": "180 miles",
+      "C": "240 miles",
+      "D": "300 miles"
+    },
+    "correct_answer": "B",
+    "explanation": "Distance = speed * time, so the car can travel 60 * 3 = 180 miles."
+  }
+},
+{
+  "id": "G7H8I9",
+  "domain": "Problem Solving and Data Analysis",
+  "question": {
+    "question": "If the average of five numbers is 20, what is their total sum?",
+    "choices": {
+      "A": "80",
+      "B": "90",
+      "C": "100",
+      "D": "110"
+    },
+    "correct_answer": "C",
+    "explanation": "If the average of five numbers is 20, then their total sum is 20 * 5 = 100."
+  }
+},
+{
+  "id": "J1K2L3",
+  "domain": "Problem Solving and Data Analysis",
+  "question": {
+    "question": "A rectangle has a length of 10 meters and a width of 5 meters. What is its area?",
+    "choices": {
+      "A": "30 square meters",
+      "B": "40 square meters",
+      "C": "50 square meters",
+      "D": "60 square meters"
+    },
+    "correct_answer": "C",
+    "explanation": "The area of a rectangle is length * width, so 10 * 5 = 50 square meters."
+  }
+},
+{
+  "id": "M4N5O6",
+  "domain": "Problem Solving and Data Analysis",
+  "question": {
+    "question": "If 25% of a number is 15, what is the number?",
+    "choices": {
+      "A": "45",
+      "B": "50",
+      "C": "55",
+      "D": "60"
+    },
+    "correct_answer": "D",
+    "explanation": "Let the number be x. Then 0.25x = 15. Solving for x, we get x = 15 / 0.25 = 60."
+  }
+},
+{
+  "id": "P7Q8R9",
+  "domain": "Problem Solving and Data Analysis",
+  "question": {
+    "question": "If a train travels 90 miles in 1.5 hours, what is its average speed in miles per hour?",
+    "choices": {
+      "A": "50",
+      "B": "55",
+      "C": "60",
+      "D": "65"
+    },
+    "correct_answer": "C",
+    "explanation": "Average speed = total distance / total time, so 90 / 1.5 = 60 miles per hour."
+  }
+},
+{
+  "id": "S1T2U3",
+  "domain": "Problem Solving and Data Analysis",
+  "question": {
+    "question": "A classroom has 12 boys and 18 girls. What fraction of the class are girls?",
+    "choices": {
+      "A": "2/3",
+      "B": "1/2",
+      "C": "3/4",
+      "D": "3/5"
+    },
+    "correct_answer": "A",
+    "explanation": "Total students = 12 + 18 = 30. Fraction of girls = 18 / 30 = 3 / 5."
+  }
+},
+{
+  "id": "V4W5X6",
+  "domain": "Problem Solving and Data Analysis",
+  "question": {
+    "question": "If a bag contains 3 red balls and 5 blue balls, what is the probability of picking a red ball?",
+    "choices": {
+      "A": "3/8",
+      "B": "5/8",
+      "C": "1/2",
+      "D": "3/5"
+    },
+    "correct_answer": "A",
+    "explanation": "Total balls = 3 + 5 = 8. Probability of picking a red ball = 3 / 8."
+  }
+},
+{
+  "id": "Y7Z8A9",
+  "domain": "Problem Solving and Data Analysis",
+  "question": {
+    "question": "If a student scores 75, 85, and 90 on three tests, what is the average score?",
+    "choices": {
+      "A": "80",
+      "B": "82",
+      "C": "83.33",
+      "D": "85"
+    },
+    "correct_answer": "C",
+    "explanation": "Average score = (75 + 85 + 90) / 3 = 250 / 3 â‰ˆ 83.33."
+  }
+},
+{
+  "id": "B1C2D3",
+  "domain": "Problem Solving and Data Analysis",
+  "question": {
+    "question": "If a car travels 150 miles on 5 gallons of gas, what is the car's fuel efficiency in miles per gallon?",
+    "choices": {
+      "A": "25",
+      "B": "30",
+      "C": "35",
+      "D": "40"
+    },
+    "correct_answer": "B",
+    "explanation": "Fuel efficiency = total distance / total gallons, so 150 / 5 = 30 miles per gallon."
+  }
+}

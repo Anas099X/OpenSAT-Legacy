@@ -4,7 +4,7 @@
   import 'katex/dist/katex.min.css'; // Ensure KaTeX CSS is loaded
   import markdownItKatex from 'markdown-it-katex';
 
-  let markdownContent: string = '';
+  export let markdownContent: string = '';
   let processedContent: string = '';
   let preview: HTMLDivElement;
 
@@ -18,7 +18,7 @@
 
   onMount(() => {
     // Optional initial content
-    markdownContent = '$4\\sqrt{2}$'
+    // markdownContent = '$4\\sqrt{2}$'
    
     processedContent = processMarkdown(markdownContent);
     preview.innerHTML = processedContent;

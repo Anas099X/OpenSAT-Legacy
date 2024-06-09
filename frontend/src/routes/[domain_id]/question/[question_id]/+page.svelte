@@ -19,9 +19,10 @@
    export let data 
      const {question_id} = data
      const {domain} = data
+     
 
 
-  let question_db_input: string = "sat_question_test"; // Set a specific type (string)
+  //let question_db_input: string = "sat_question_test"; // Set a specific type (string)
   let isFetchingData: boolean = false; // Flag for loading state
   
   async function fetchData(pageNumber: number) {
@@ -34,6 +35,7 @@
       const data = await response.json();
       english_question_data = data.english; // Adjust index based on page numbering
       math_question_data = data.math;
+      //console.log(math_question_data)
     } catch (error) {
       console.error('Error fetching data:', error);
       // Handle the error gracefully (e.g., display an error message)
@@ -57,7 +59,7 @@
     </svelte:fragment>
       {#if isFetchingData}
       <ProgressBar />
-      {:else if english_question_data}
+      {:else if english_question_data && domain == "english"}
       <div class="card grid-cols-2 md:grid-cols-3 gap-4 bg-surface-200 mx-auto" style="height: auto; width: auto; position:relative; top:4%;">
         <div class="card-content p-4">  
     
@@ -105,7 +107,7 @@
           </Accordion>
         </div>
       </div>
-      {:else if math_question_data}
+      {:else if math_question_data && domain == "math"}
       <div class="card grid-cols-2 md:grid-cols-3 gap-4 bg-surface-200 mx-auto" style="height: auto; width: auto; position:relative; top:4%;">
         <div class="card-content p-4">  
     
@@ -127,17 +129,17 @@
           <br>
           <hr class="!border-dashed" />
           <br>
-          <p>{math_question_data[question_id].question.paragraph}</p> 
+          <p><Math_syntax markdownContent={""} /></p> 
           <br>
-          <b><p>{math_question_data[question_id].question.question}</p></b>
+          <b><p><Math_syntax markdownContent={math_question_data[question_id].question.question}/></p></b>
           <br>
-          <p>A. {math_question_data[question_id].question.choices.A}</p>
+          <p>A. <Math_syntax markdownContent={math_question_data[question_id].question.choices.A}/></p>
           <br>
-          <p>B. {math_question_data[question_id].question.choices.B}</p>
+          <p>B. <Math_syntax markdownContent={math_question_data[question_id].question.choices.B}/></p>
           <br>
-          <p>C. {math_question_data[question_id].question.choices.C}</p>
+          <p>C. <Math_syntax markdownContent={math_question_data[question_id].question.choices.C}/></p>
           <br>
-          <p>D. {math_question_data[question_id].question.choices.D}</p>
+          <p>D. <Math_syntax markdownContent={math_question_data[question_id].question.choices.D}/></p>
           <br>
           <hr class="!border-dashed" />
           <Accordion>
@@ -146,7 +148,7 @@
               <svelte:fragment slot="summary"> Click to reveal the correct answer</svelte:fragment>
               <svelte:fragment slot="content"><b>Option {math_question_data[question_id].question.correct_answer} is the correct answer.</b>
               <br>
-              {math_question_data[question_id].question.explanation}
+              <Math_syntax markdownContent={math_question_data[question_id].question.explanation}/>
             </svelte:fragment>
             </AccordionItem>
             <!-- ... -->
@@ -170,7 +172,7 @@
     </svelte:fragment>
       {#if isFetchingData}
       <ProgressBar />
-      {:else if english_question_data}
+      {:else if english_question_data && domain == "english"}
       <div class="card grid-cols-2 md:grid-cols-3 gap-4 bg-surface-200 mx-auto" style="height: auto; width: 800px; position:relative; top:10%;">
         <div class="card-content p-4">  
           <h class="h3"><b>Question #{english_question_data[question_id].id}</b></h> 
@@ -214,7 +216,7 @@
           </Accordion>
         </div>
       </div>
-      {:else if math_question_data}
+      {:else if math_question_data && domain == "math"}
       <div class="card grid-cols-2 md:grid-cols-3 gap-4 bg-surface-200 mx-auto" style="height: auto; width: 800px; position:relative; top:10%;">
         <div class="card-content p-4">  
           <h class="h3"><b>Question #{math_question_data[question_id].id}</b></h> 
@@ -222,7 +224,7 @@
             <span><IconArrowBack stroke={2} size="20"/></span>
             <span> Return</span>
           </a>
-            <a type="button" style="position:relative; left:31%;" href="https://github.com/Anas099X/Omnibook/issues" class="btn btn-sm variant-filled-error">
+            <a type="button" style="position:relative; left:31%;" href="https://github.com/Anas099X/Omnibook/issues" class="btn btn-sm variant-filled-primary">
             <span><IconMessageReport stroke={1.5} size="20"/></span>
             <span>Report</span>
             </a>
@@ -232,17 +234,17 @@
           <br>
           <hr class="!border-dashed" />
           <br>
-          <p>{math_question_data[question_id].question.paragraph}</p> 
+          <p><Math_syntax markdownContent={""} /></p> 
           <br>
-          <b><p>{math_question_data[question_id].question.question}</p></b>
+          <b><p><Math_syntax markdownContent={math_question_data[question_id].question.question}/></p></b>
           <br>
-          <p>A. {math_question_data[question_id].question.choices.A}</p>
+          <p><Math_syntax markdownContent={"A. " +math_question_data[question_id].question.choices.A}/></p>
           <br>
-          <p>B. {math_question_data[question_id].question.choices.B}</p>
+          <p><Math_syntax markdownContent={"B. " +math_question_data[question_id].question.choices.B}/></p>
           <br>
-          <p>C. {math_question_data[question_id].question.choices.C}</p>
+          <p><Math_syntax markdownContent={"C. " +math_question_data[question_id].question.choices.C}/></p>
           <br>
-          <p>D. {math_question_data[question_id].question.choices.D}</p>
+          <p><Math_syntax markdownContent={"D. " +math_question_data[question_id].question.choices.D}/></p>
           <br>
           <hr class="!border-dashed" />
           <Accordion>
@@ -251,7 +253,7 @@
               <svelte:fragment slot="summary"> Click to reveal the correct answer</svelte:fragment>
               <svelte:fragment slot="content"><b>Option {math_question_data[question_id].question.correct_answer} is the correct answer.</b>
               <br>
-              {math_question_data[question_id].question.explanation}
+              <Math_syntax markdownContent={math_question_data[question_id].question.explanation}/>
             </svelte:fragment>
             </AccordionItem>
             <!-- ... -->

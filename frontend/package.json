@@ -36,10 +36,13 @@
   },
   "type": "module",
   "dependencies": {
+    "@firebase/auth": "^1.7.4",
+    "@firebase/firestore": "^4.6.3",
     "@tabler/icons-svelte": "^3.2.0",
     "@vercel/analytics": "^1.2.2",
     "chart.js": "^4.4.2",
     "d3": "^7.9.0",
+    "firebase": "^10.12.2",
     "fontawesome-svelte": "^2.0.1",
     "github-markdown-css": "^5.5.1",
     "katex": "^0.16.10",
