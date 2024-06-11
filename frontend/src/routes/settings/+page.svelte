@@ -5,7 +5,7 @@
 
   let user = null;
   let username = '';
-  let desc = '';
+  let description = '';
 
   const auth = getAuth();
   const db = getFirestore();
@@ -19,7 +19,7 @@
         if (userDocSnap.exists()) {
           console.log('User document found:', userDocSnap.data()); // Debug log
           username = userDocSnap.data().username;
-          desc = userDocSnap.data().desc;
+          description = userDocSnap.data().description;
         } else {
           console.error('User document not found!');
         }
@@ -48,4 +48,4 @@
 <h1>User Details</h1>
 <p>Email: {user?.email || 'Not logged in'}</p>
 <p>Username: {username || 'Not available'}</p>
-<p>Desc: {desc || 'Not available'}</p>
+<p>Desc: {description || 'Not available'}</p>
