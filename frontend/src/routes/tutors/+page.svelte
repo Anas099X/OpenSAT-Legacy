@@ -46,6 +46,7 @@
     <ul>
       {#each users as user}
         <li>{user.username} ({user.desc})</li>
+        <img src={user.banner}/>
       {/each}
     </ul>
   {/if}
