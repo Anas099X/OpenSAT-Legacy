@@ -1,7 +1,10 @@
 <script lang="ts">
+  import { AppBar, AppShell } from '@skeletonlabs/skeleton';
+  import { IconBrandGithub, IconSchool } from '@tabler/icons-svelte';
   import { initializeApp } from 'firebase/app';
   import { getAuth, sendEmailVerification, createUserWithEmailAndPassword } from 'firebase/auth';
   import { getFirestore, doc, setDoc } from 'firebase/firestore';
+  import { onMount } from 'svelte';
 
   let email = '';
   let password = '';
@@ -12,6 +15,8 @@
   let availability = '';
   let contact = '';
   let imageFile: File | null = null; // Store the selected image file
+  let imageError: string | null = null; // Store error message for image upload
+  let countries = [];
 
   const firebaseConfig = {
     apiKey: "AIzaSyDnbLx28r3PbTTWBUb1RwwfVe3xKFS6crY",
@@ -90,19 +95,87 @@
       // Display error message to the user
     }
   }
+
+  function handleFileChange(event: Event) {
+    const target = event.target as HTMLInputElement;
+    const file = target.files?.[0] || null;
+
+    if (file) {
+      const fileType = file.type.split('/')[0];
+      if (fileType !== 'image') {
+        imageError = 'Please select a valid image file.';
+        imageFile = null;
+      } else {
+        imageError = null;
+        imageFile = file;
+      }
+    }
+  }
+
+  // Fetch countries from the API
+  async function fetchCountries() {
+    try {
+      const response = await fetch('https://cdn.simplelocalize.io/public/v1/countries');
+      if (response.ok) {
+        countries = await response.json();
+      } else {
+        console.error('Failed to fetch countries');
+      }
+    } catch (error) {
+      console.error('Error fetching countries:', error);
+    }
+  }
+
+  onMount(() => {
+    fetchCountries();
+  });
 </script>
 
-<form on:submit|preventDefault={handleSignUp}>
-  <input type="text" bind:value={username} placeholder="Username" required />
-  <input type="email" bind:value={email} placeholder="Email" required />
-  <input type="text" bind:value={description} placeholder="Description" required />
-  <input type="password" bind:value={password} placeholder="Password" required />
-  <input type="file" accept="image/*" on:change={(e) => imageFile = e.target.files?.[0] || null} />
-  <input type="text" bind:value={contact} placeholder="Contact" required />
-  <input type="text" bind:value={country} placeholder="Country" required />
-  <input type="text" bind:value={availability} placeholder="Availability" required />
-  <button type="submit">Sign Up</button>
-</form>
+<AppShell>
+  <svelte:fragment slot="header">
+    <AppBar background="!bg-transparent">
+      <svelte:fragment slot="lead">
+        <IconSchool stroke={1.5} size="42" style="color: #FF7777" />
+        <h class="h4" style="position:relative; left:3.5%; color: #FF7777;"><b>OpenSAT</b></h>
+      </svelte:fragment>
+      <svelte:fragment slot="trail">
+        <a href="/" class="btn btn-sm variant-filled-primary" data-sveltekit-preload-data="hover">Home</a>
+        <a href="https://github.com/Anas099X/OpenSAT" class="btn btn-sm variant-filled-secondary" data-sveltekit-preload-data="hover"><IconBrandGithub /> Github</a>
+      </svelte:fragment>
+    </AppBar>
+  </svelte:fragment>
+
+  <form on:submit|preventDefault={handleSignUp}>
+    <input class="input" type="text" bind:value={username} placeholder="Username" required />
+    <input class="input" type="email" bind:value={email} placeholder="Email" required />
+    <textarea class="textarea" bind:value={description} placeholder="Description" required />
+    <input class="input" type="password" bind:value={password} placeholder="Password" required />
+    <input class="input" type="file" accept="image/*" on:change={handleFileChange} />
+    {#if imageError}
+      <p style="color: red;">{imageError}</p>
+    {/if}
+    <input class="input" type="text" bind:value={contact} placeholder="Contact" required />
+    <select class="input" bind:value={country} required>
+      <option value="" disabled selected>Select your country</option>
+      {#each countries as country}
+      {#if country.name == "Israel"}
+      <div></div>
+      {:else}
+      <option value={country.flag+" "+country.name}><small>{country.flag}</small> {country.name}</option>
+      {/if}
+      {/each}
+    </select>
+    <select class="select" bind:value={availability} required>
+      <option value="" disabled selected>Select Availability</option>
+      <option value="Online">Online</option>
+      <option value="Local">Local</option>
+      <option value="Online & Local">Online & Local</option>
+      
+    </select>
+    <button class="btn variant-filled-secondary" type="submit">Sign Up</button>
+  </form>
+  <slot />
+</AppShell>
 
 <style>
   form {
@@ -112,7 +185,7 @@
     max-width: 400px;
     margin: auto;
   }
-  input, button {
+  input, select, textarea, button {
     padding: 0.5rem;
     font-size: 1rem;
   }

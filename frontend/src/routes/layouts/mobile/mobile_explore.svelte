@@ -89,7 +89,7 @@ function toggle_math(domain: string): void {
 
 
       {#if isFetchingData}
-      <ProgressBar />
+      <ProgressBar meter="variant-filled-primary" track="!bg-transparent" />
       
         {:else if english_question_data}
         <div class="grid grid-cols-1 md:grid-cols-3 gap-3" style="position:relative; left:3%; width:95%; margin-top:2.5%">  
