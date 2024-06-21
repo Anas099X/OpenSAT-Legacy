@@ -58,7 +58,7 @@
       
     </svelte:fragment>
       {#if isFetchingData}
-      <ProgressBar />
+      <ProgressBar meter="variant-filled-primary" track="!bg-transparent" />
       {:else if english_question_data && domain == "english"}
       <div class="card grid-cols-2 md:grid-cols-3 gap-4 bg-surface-200 mx-auto" style="height: auto; width: auto; position:relative; top:4%;">
         <div class="card-content p-4">  
@@ -171,7 +171,7 @@
       
     </svelte:fragment>
       {#if isFetchingData}
-      <ProgressBar />
+      <ProgressBar meter="variant-filled-primary" track="!bg-transparent" />
       {:else if english_question_data && domain == "english"}
       <div class="card grid-cols-2 md:grid-cols-3 gap-4 bg-surface-200 mx-auto" style="height: auto; width: 800px; position:relative; top:10%;">
         <div class="card-content p-4">  
