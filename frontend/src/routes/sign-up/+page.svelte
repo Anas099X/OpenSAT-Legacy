@@ -165,7 +165,7 @@
       {/if}
       {/each}
     </select>
-    <select class="select" bind:value={availability} required>
+    <select class="input" bind:value={availability} required>
       <option value="" disabled selected>Select Availability</option>
       <option value="Online">Online</option>
       <option value="Local">Local</option>

@@ -1,4 +1,6 @@
 <script>
+// @ts-nocheck
+
     import { AppBar, AppShell, Avatar } from '@skeletonlabs/skeleton';
     import { IconBrandGithub, IconSchool } from '@tabler/icons-svelte';
   import { initializeApp } from 'firebase/app';
