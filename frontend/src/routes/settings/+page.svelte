@@ -123,19 +123,21 @@
   </svelte:fragment>
 
   <h1>User Details</h1>
-  <p>Email: {user?.email || 'Not logged in'}</p>
 
   <form on:submit|preventDefault={handleUpdate}>
-    <label for="username">Username:</label>
+    <label for="username">Username</label>
     <input class="input" id="username" type="text" bind:value={$username} placeholder="Username" required />
+    
+    <label for="username">Email</label>
+    <input class="input" id="username" type="text" placeholder="{user?.email}" disabled/>
 
-    <label for="description">Description:</label>
+    <label for="description">Description</label>
     <textarea class="textarea" id="description" bind:value={$description} placeholder="Description" required></textarea>
 
-    <label for="contact">Contact:</label>
+    <label for="contact">Contact</label>
     <input class="input" id="contact" type="text" bind:value={$contact} placeholder="Contact" required />
 
-    <label for="country">Country:</label>
+    <label for="country">Country</label>
     <select id="country" class="input" bind:value={$country} required>
       <option value="" disabled selected>Select your country</option>
       {#each countries as country}
@@ -145,10 +147,16 @@
       {/each}
     </select>
 
-    <label for="availability">Availability:</label>
-    <input class="input" id="availability" type="input" bind:value={$availability} placeholder="Availability" required />
+    <label for="availability">Availability</label>
+    <select class="input" bind:value={$availability} required>
+      <option value="" disabled selected>Select Availability</option>
+      <option value="Online">Online</option>
+      <option value="Local">Local</option>
+      <option value="Online & Local">Online & Local</option>
+      
+    </select>
 
-    <button class="variant-filled-secondary" type="submit">Update Details</button>
+    <button class=" btn variant-filled-secondary" type="submit">Update Details</button>
   </form>
   <slot />
 </AppShell>
