@@ -10,6 +10,7 @@
   let countries = [];
   let imageFile = null;
   let imageError = null;
+  let errorMessage = '';
   const username = writable('');
   const description = writable('');
   const country = writable('');
@@ -33,15 +34,18 @@
           contact.set(userData.contact);
         } else {
           console.error('User document not found!');
+          errorMessage = 'User data not found. Please try again later.';
         }
       } catch (error) {
         console.error('Error fetching user document:', error);
+        errorMessage = 'Failed to load user data. Please try again.';
       }
     }
   }
 
   async function handleUpdate(event) {
     event.preventDefault();
+    errorMessage = '';
     if (user?.uid) {
       try {
         const userDocRef = doc(db, "users", user.uid);
@@ -55,7 +59,7 @@
         alert('User details updated successfully!');
       } catch (error) {
         console.error('Error updating user document:', error);
-        alert('Failed to update user details. Please try again.');
+        errorMessage = 'Failed to update user details. Please try again.';
       }
     }
   }
@@ -107,7 +111,6 @@
   });
 </script>
 
-
 <AppShell>
   <svelte:fragment slot="header">
     <AppBar background="!bg-transparent">
@@ -122,55 +125,84 @@
     </AppBar>
   </svelte:fragment>
 
-  <h1>User Details</h1>
+  <div class="min-h-screen flex flex-col justify-center py-12 sm:px-6 lg:px-8">
+    <div class="sm:mx-auto sm:w-full sm:max-w-md">
+      <h2 class="mt-6 text-center text-3xl font-extrabold text-gray-900">
+        User Details
+      </h2>
+    </div>
 
-  <form on:submit|preventDefault={handleUpdate}>
-    <label for="username">Username</label>
-    <input class="input" id="username" type="text" bind:value={$username} placeholder="Username" required />
-    
-    <label for="username">Email</label>
-    <input class="input" id="username" type="text" placeholder="{user?.email}" disabled/>
+    <div class="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
+      <div class="py-8 px-4 shadow sm:rounded-lg sm:px-10" style="background-color:#f6f7f7">
+        <form on:submit={handleUpdate} class="space-y-6">
+          <div>
+            <label for="username" class="block text-sm font-medium text-gray-700">Username</label>
+            <input id="username" type="text" bind:value={$username} required
+              class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none">
+          </div>
 
-    <label for="description">Description</label>
-    <textarea class="textarea" id="description" bind:value={$description} placeholder="Description" required></textarea>
+          <div>
+            <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+            <input id="email" type="text" value={user?.email} disabled
+              class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm bg-gray-100">
+          </div>
 
-    <label for="contact">Contact</label>
-    <input class="input" id="contact" type="text" bind:value={$contact} placeholder="Contact" required />
+          <div>
+            <label for="description" class="block text-sm font-medium text-gray-700">Description</label>
+            <textarea id="description" bind:value={$description} required
+              class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none"></textarea>
+          </div>
 
-    <label for="country">Country</label>
-    <select id="country" class="input" bind:value={$country} required>
-      <option value="" disabled selected>Select your country</option>
-      {#each countries as country}
-        {#if country.name !== "Israel"}
-          <option value={country.flag + " " + country.name}>{country.flag} {country.name}</option>
+          <div>
+            <label for="contact" class="block text-sm font-medium text-gray-700">Contact</label>
+            <input id="contact" type="text" bind:value={$contact} required
+              class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none">
+          </div>
+
+          <div>
+            <label for="country" class="block text-sm font-medium text-gray-700">Country</label>
+            <select id="country" bind:value={$country} required
+              class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none">
+              <option value="" disabled selected>Select your country</option>
+              {#each countries as country}
+                {#if country.name !== "Israel"}
+                  <option value={country.flag + " " + country.name}>{country.flag} {country.name}</option>
+                {/if}
+              {/each}
+            </select>
+          </div>
+
+          <div>
+            <label for="availability" class="block text-sm font-medium text-gray-700">Availability</label>
+            <select id="availability" bind:value={$availability} required
+              class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none">
+              <option value="" disabled selected>Select Availability</option>
+              <option value="Online">Online</option>
+              <option value="Local">Local</option>
+              <option value="Online & Local">Online & Local</option>
+            </select>
+          </div>
+
+          <div>
+            <button type="submit"
+              class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white variant-filled-primary">
+              Update Details
+            </button>
+          </div>
+        </form>
+
+        {#if errorMessage}
+          <div class="mt-4 p-3 rounded-md bg-red-100 border border-red-400">
+            <p class="text-sm text-red-700">{errorMessage}</p>
+          </div>
         {/if}
-      {/each}
-    </select>
-
-    <label for="availability">Availability</label>
-    <select class="input" bind:value={$availability} required>
-      <option value="" disabled selected>Select Availability</option>
-      <option value="Online">Online</option>
-      <option value="Local">Local</option>
-      <option value="Online & Local">Online & Local</option>
-      
-    </select>
-
-    <button class=" btn variant-filled-secondary" type="submit">Update Details</button>
-  </form>
-  <slot />
+      </div>
+    </div>
+  </div>
 </AppShell>
 
 <style>
-  form {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    max-width: 400px;
-    margin: auto;
-  }
-  input, select, textarea, button {
-    padding: 0.5rem;
-    font-size: 1rem;
+  :global(body) {
+    background-color: #f6f7f7;
   }
 </style>
