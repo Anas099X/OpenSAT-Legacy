@@ -20,6 +20,7 @@
   const auth = getAuth(app);
 
   async function handleLogin() {
+    errorMessage = ''; // Clear any previous error messages
     try {
       const userCredential = await signInWithEmailAndPassword(auth, email, password);
       const user = userCredential.user;
@@ -42,17 +43,62 @@
       // Redirect or handle successful login here
     } catch (error) {
       console.error('Login Error:', error);
-      errorMessage = error.message;
+      if (error.code === 'auth/user-not-found' || error.code === 'auth/wrong-password') {
+        errorMessage = 'Invalid email or password. Please try again.';
+      } else if (error.code === 'auth/too-many-requests') {
+        errorMessage = 'Too many failed login attempts. Please try again later.';
+      } else {
+        errorMessage = 'An error occurred during sign-in. Please try again.';
+      }
     }
   }
 </script>
 
-<form on:submit|preventDefault={handleLogin}>
-  <input type="email" bind:value={email} placeholder="Email" required />
-  <input type="password" bind:value={password} placeholder="Password" required />
-  <a type="submit" href="/settings">Login</a>
-</form>
+<div class="min-h-screen flex flex-col justify-center py-12 sm:px-6 lg:px-8">
+  <div class="sm:mx-auto sm:w-full sm:max-w-md">
+    <h2 class="mt-6 text-center text-3xl font-extrabold text-gray-900">
+      Sign in to your account
+    </h2>
+  </div>
 
-{#if errorMessage}
-  <p style="color: red;">{errorMessage}</p>
-{/if}
+  <div class="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
+    <div class="py-8 px-4 shadow sm:rounded-lg sm:px-10" style="background-color:#f6f7f7">
+      <form on:submit|preventDefault={handleLogin} class="space-y-6">
+        <div>
+          <label for="email" class="block text-sm font-medium text-gray-700">
+            Email address
+          </label>
+          <div class="mt-1">
+            <input id="email" name="email" type="email" autocomplete="email" required
+              class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none"
+              bind:value={email} placeholder="Enter your email">
+          </div>
+        </div>
+
+        <div>
+          <label for="password" class="block text-sm font-medium text-gray-700">
+            Password
+          </label>
+          <div class="mt-1">
+            <input id="password" name="password" type="password" autocomplete="current-password" required
+              class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none"
+              bind:value={password} placeholder="Enter your password">
+          </div>
+        </div>
+
+        <div>
+          <button type="submit"
+            class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white variant-filled-primary">
+            Sign in
+          </button>
+        </div>
+      </form>
+
+      {#if errorMessage}
+        <div class="mt-4 p-3 rounded-md bg-red-100 border border-red-400">
+          <p class="text-sm text-red-700">{errorMessage}</p>
+        </div>
+      {/if}
+    </div>
+  </div>
+</div>

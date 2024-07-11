@@ -10,13 +10,14 @@
   let password = '';
   let username = '';
   let description = '';
-  let banner = ''; // Initially empty to store image URL
+  let banner = '';
   let country = '';
   let availability = '';
   let contact = '';
-  let imageFile: File | null = null; // Store the selected image file
-  let imageError: string | null = null; // Store error message for image upload
+  let imageFile: File | null = null;
+  let imageError: string | null = null;
   let countries = [];
+  let errorMessage = '';
 
   const firebaseConfig = {
     apiKey: "AIzaSyDnbLx28r3PbTTWBUb1RwwfVe3xKFS6crY",
@@ -31,7 +32,6 @@
   const auth = getAuth(app);
   const db = getFirestore(app);
 
-  // Replace with your bbimg API details
   const bbimgApiKey = '24192b2e63280714909800d28158a458';
   const bbimgApiUrl = 'https://api.imgbb.com/1/upload';
 
@@ -52,28 +52,25 @@
         console.log('Image uploaded successfully:', banner);
       } else {
         console.error('Image upload failed:', data.error.message);
-        // Handle upload error (e.g., display error message to user)
+        errorMessage = 'Image upload failed. Please try again.';
       }
     } catch (error) {
       console.error('Error uploading image:', error);
-      // Handle network or other errors
+      errorMessage = 'Error uploading image. Please try again.';
     }
   }
 
   async function handleSignUp(event: Event) {
-    event.preventDefault(); // Prevent form from submitting the default way
+    event.preventDefault();
+    errorMessage = '';
     try {
       if (imageFile) {
         await handleUploadImage(imageFile);
       }
 
       const userCredential = await createUserWithEmailAndPassword(auth, email, password);
-
-      // Send email verification after successful user creation
       await sendEmailVerification(userCredential.user);
-      console.log('User created and verification email sent:', userCredential.user);
 
-      // Create a new document in the "users" collection with user data, using uid as the document ID
       const userDocRef = doc(db, "users", userCredential.user.uid);
       await setDoc(userDocRef, {
         username,
@@ -85,14 +82,11 @@
         banner,
       });
 
-      console.log('User created, verification email sent, and data stored:', userDocRef);
-
-      // Display success message to the user
       alert('A verification email has been sent to your address. Please verify your email before signing in.');
 
     } catch (error) {
       console.error('Sign Up Error:', error);
-      // Display error message to the user
+      errorMessage = 'An error occurred during sign-up. Please try again.';
     }
   }
 
@@ -112,7 +106,6 @@
     }
   }
 
-  // Fetch countries from the API
   async function fetchCountries() {
     try {
       const response = await fetch('https://cdn.simplelocalize.io/public/v1/countries');
@@ -145,48 +138,99 @@
     </AppBar>
   </svelte:fragment>
 
-  <form on:submit|preventDefault={handleSignUp}>
-    <input class="input" type="text" bind:value={username} placeholder="Username" required />
-    <input class="input" type="email" bind:value={email} placeholder="Email" required />
-    <textarea class="textarea" bind:value={description} placeholder="Description" required />
-    <input class="input" type="password" bind:value={password} placeholder="Password" required />
-    <input class="input" type="file" accept="image/*" on:change={handleFileChange} />
-    {#if imageError}
-      <p style="color: red;">{imageError}</p>
-    {/if}
-    <input class="input" type="text" bind:value={contact} placeholder="Contact" required />
-    <select class="input" bind:value={country} required>
-      <option value="" disabled selected>Select your country</option>
-      {#each countries as country}
-      {#if country.name == "Israel"}
-      <div></div>
-      {:else}
-      <option value={country.flag+" "+country.name}><small>{country.flag}</small> {country.name}</option>
-      {/if}
-      {/each}
-    </select>
-    <select class="input" bind:value={availability} required>
-      <option value="" disabled selected>Select Availability</option>
-      <option value="Online">Online</option>
-      <option value="Local">Local</option>
-      <option value="Online & Local">Online & Local</option>
-      
-    </select>
-    <button class="btn variant-filled-secondary" type="submit">Sign Up</button>
-  </form>
-  <slot />
+  <div class="min-h-screen flex flex-col justify-center py-12 sm:px-6 lg:px-8">
+    <div class="sm:mx-auto sm:w-full sm:max-w-md">
+      <h2 class="mt-6 text-center text-3xl font-extrabold text-gray-900">
+        Create your account
+      </h2>
+    </div>
+
+    <div class="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
+      <div class="py-8 px-4 shadow sm:rounded-lg sm:px-10" style="background-color:#f6f7f7">
+        <form on:submit={handleSignUp} class="space-y-6">
+          <div>
+            <label for="username" class="block text-sm font-medium text-gray-700">Username</label>
+            <input id="username" type="text" bind:value={username} required
+              class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none">
+          </div>
+          
+          <div>
+            <label for="email" class="block text-sm font-medium text-gray-700">Email address</label>
+            <input id="email" type="email" bind:value={email} required
+              class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none">
+          </div>
+          
+          <div>
+            <label for="password" class="block text-sm font-medium text-gray-700">Password</label>
+            <input id="password" type="password" bind:value={password} required
+              class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none">
+          </div>
+          
+          <div>
+            <label for="description" class="block text-sm font-medium text-gray-700">Description</label>
+            <textarea id="description" bind:value={description} required
+              class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none"></textarea>
+          </div>
+          
+          <div>
+            <label for="image" class="block text-sm font-medium text-gray-700">Profile Image</label>
+            <input id="image" type="file" accept="image/*" on:change={handleFileChange}
+              class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none">
+            {#if imageError}
+              <p class="mt-2 text-sm text-red-600">{imageError}</p>
+            {/if}
+          </div>
+          
+          <div>
+            <label for="contact" class="block text-sm font-medium text-gray-700">Contact</label>
+            <input id="contact" type="text" bind:value={contact} required
+              class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none">
+          </div>
+          
+          <div>
+            <label for="country" class="block text-sm font-medium text-gray-700">Country</label>
+            <select id="country" bind:value={country} required
+              class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none">
+              <option value="" disabled selected>Select your country</option>
+              {#each countries as country}
+                {#if country.name !== "Israel"}
+                  <option value={country.flag+" "+country.name}>{country.flag} {country.name}</option>
+                {/if}
+              {/each}
+            </select>
+          </div>
+          
+          <div>
+            <label for="availability" class="block text-sm font-medium text-gray-700">Availability</label>
+            <select id="availability" bind:value={availability} required
+              class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none">
+              <option value="" disabled selected>Select Availability</option>
+              <option value="Online">Online</option>
+              <option value="Local">Local</option>
+              <option value="Online & Local">Online & Local</option>
+            </select>
+          </div>
+          
+          <div>
+            <button type="submit"
+              class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white variant-filled-primary">
+              Sign Up
+            </button>
+          </div>
+        </form>
+
+        {#if errorMessage}
+          <div class="mt-4 p-3 rounded-md bg-red-100 border border-red-400">
+            <p class="text-sm text-red-700">{errorMessage}</p>
+          </div>
+        {/if}
+      </div>
+    </div>
+  </div>
 </AppShell>
 
 <style>
-  form {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    max-width: 400px;
-    margin: auto;
-  }
-  input, select, textarea, button {
-    padding: 0.5rem;
-    font-size: 1rem;
+  :global(body) {
+    background-color: #f6f7f7;
   }
 </style>
