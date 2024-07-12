@@ -5,6 +5,7 @@
   import { getFirestore, doc, getDoc, updateDoc } from 'firebase/firestore';
   import { writable } from 'svelte/store';
   import { AppBar, AppShell } from '@skeletonlabs/skeleton';
+    import { initializeApp } from 'firebase/app';
 
   let user = null;
   let countries = [];
@@ -17,7 +18,17 @@
   const availability = writable('');
   const contact = writable('');
 
-  const auth = getAuth();
+  const firebaseConfig = {
+    apiKey: "AIzaSyDnbLx28r3PbTTWBUb1RwwfVe3xKFS6crY",
+    authDomain: "crucial-study-390519.firebaseapp.com",
+    projectId: "crucial-study-390519",
+    storageBucket: "crucial-study-390519.appspot.com",
+    messagingSenderId: "1048701385145",
+    appId: "1:1048701385145:web:531265aff5615610901e68"
+  };
+
+  const app = initializeApp(firebaseConfig);
+  const auth = getAuth(app);
   const db = getFirestore();
 
   async function fetchUserData(user) {

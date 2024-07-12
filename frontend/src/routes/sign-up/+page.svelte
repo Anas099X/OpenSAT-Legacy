@@ -7,6 +7,7 @@
   import { onMount } from 'svelte';
 
   let email = '';
+  let verified_tutor = false;
   let password = '';
   let username = '';
   let description = '';
@@ -14,9 +15,10 @@
   let country = '';
   let availability = '';
   let contact = '';
-  let imageFile: File | null = null;
-  let imageError: string | null = null;
+  let imageFile: File | '' = '';
+  let imageError: string | '' = '';
   let countries = [];
+  let gender = '';
   let errorMessage = '';
 
   const firebaseConfig = {
@@ -74,6 +76,8 @@
       const userDocRef = doc(db, "users", userCredential.user.uid);
       await setDoc(userDocRef, {
         username,
+        verified_tutor,
+        gender,
         email,
         description,
         availability,
@@ -85,22 +89,28 @@
       alert('A verification email has been sent to your address. Please verify your email before signing in.');
 
     } catch (error) {
-      console.error('Sign Up Error:', error);
+      if (error.code === "auth/email-already-in-use"){
+
+        errorMessage = 'Email is already in use!';
+      } else {
+        console.error('Sign Up Error:', error.code);
       errorMessage = 'An error occurred during sign-up. Please try again.';
+      }
+      
     }
   }
 
   function handleFileChange(event: Event) {
     const target = event.target as HTMLInputElement;
-    const file = target.files?.[0] || null;
+    const file = target.files?.[0] || '';
 
     if (file) {
       const fileType = file.type.split('/')[0];
       if (fileType !== 'image') {
         imageError = 'Please select a valid image file.';
-        imageFile = null;
+        imageFile = '';
       } else {
-        imageError = null;
+        imageError = '';
         imageFile = file;
       }
     }
@@ -183,7 +193,7 @@
           
           <div>
             <label for="contact" class="block text-sm font-medium text-gray-700">Contact</label>
-            <input id="contact" type="text" bind:value={contact} required
+            <input id="contact" placeholder="www.example.com" type="text" bind:value={contact} required
               class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none">
           </div>
           
@@ -197,6 +207,16 @@
                   <option value={country.flag+" "+country.name}>{country.flag} {country.name}</option>
                 {/if}
               {/each}
+            </select>
+          </div>
+
+          <div>
+            <label for="availability" class="block text-sm font-medium text-gray-700">Gender</label>
+            <select id="availability" bind:value={availability} required
+              class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none">
+              <option value="" disabled selected>Gender</option>
+              <option value="Online">♂️ Male</option>
+              <option value="Local">♀️ Female</option>
             </select>
           </div>
           

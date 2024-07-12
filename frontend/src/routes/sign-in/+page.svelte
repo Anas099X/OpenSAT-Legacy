@@ -2,6 +2,8 @@
   import { signInWithEmailAndPassword, sendEmailVerification } from 'firebase/auth';
   import { initializeApp } from 'firebase/app';
   import { getAuth } from 'firebase/auth';
+    import { AppBar, AppShell } from '@skeletonlabs/skeleton';
+    import { IconBrandGithub, IconSchool } from '@tabler/icons-svelte';
 
   let email = '';
   let password = '';
@@ -47,14 +49,28 @@
         errorMessage = 'Invalid email or password. Please try again.';
       } else if (error.code === 'auth/too-many-requests') {
         errorMessage = 'Too many failed login attempts. Please try again later.';
-      } else {
+      } else if (error.code === 'auth/too-many-requests') {
         errorMessage = 'An error occurred during sign-in. Please try again.';
+      } else {
+        errorMessage = error;
       }
     }
   }
 </script>
-
-<div class="min-h-screen flex flex-col justify-center py-12 sm:px-6 lg:px-8">
+<AppShell>
+  <svelte:fragment slot="header">
+    <AppBar background="!bg-transparent">
+      <svelte:fragment slot="lead">
+        <IconSchool stroke={1.5} size="42" style="color: #FF7777" />
+        <h class="h4" style="position:relative; left:3.5%; color: #FF7777;"><b>OpenSAT</b></h>
+      </svelte:fragment>
+      <svelte:fragment slot="trail">
+        <a href="/" class="btn btn-sm variant-filled-primary" data-sveltekit-preload-data="hover">Home</a>
+        <a href="https://github.com/Anas099X/OpenSAT" class="btn btn-sm variant-filled-secondary" data-sveltekit-preload-data="hover"><IconBrandGithub /> Github</a>
+      </svelte:fragment>
+    </AppBar>
+  </svelte:fragment>
+<div class=" flex flex-col justify-center py-12 sm:px-6 lg:px-8">
   <div class="sm:mx-auto sm:w-full sm:max-w-md">
     <h2 class="mt-6 text-center text-3xl font-extrabold text-gray-900">
       Sign in to your account
@@ -102,3 +118,4 @@
     </div>
   </div>
 </div>
+</AppShell>

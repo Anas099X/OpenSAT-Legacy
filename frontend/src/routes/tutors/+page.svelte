@@ -1,101 +1,96 @@
 <script>
-// @ts-nocheck
-
-    import { AppBar, AppShell, Avatar } from '@skeletonlabs/skeleton';
-    import { IconBrandGithub, IconSchool } from '@tabler/icons-svelte';
-  import { initializeApp } from 'firebase/app';
-  import { getFirestore, collection, getDocs } from 'firebase/firestore';
-  import { onMount } from 'svelte';
-
-  // Firebase configuration object
-  const firebaseConfig = {
-    apiKey: "AIzaSyDnbLx28r3PbTTWBUb1RwwfVe3xKFS6crY",
-    authDomain: "crucial-study-390519.firebaseapp.com",
-    projectId: "crucial-study-390519",
-    storageBucket: "crucial-study-390519.appspot.com",
-    messagingSenderId: "1048701385145",
-    appId: "1:1048701385145:web:531265aff5615610901e68"
-  };
-
-  // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-  const db = getFirestore(app);
-
-  let users = [];
-
-  async function fetchUsers() {
-    try {
-      const usersCollection = collection(db, 'users');
-      const snapshot = await getDocs(usersCollection);
-      users = snapshot.docs.map(doc => doc.data());
-      console.log(users); // Log the fetched user data
-    } catch (error) {
-      console.error('Error fetching users:', error);
-    }
-  }
-
-  onMount(() => {
-    fetchUsers();
-  });
-</script>
-
-
-
-<AppShell>
-	<svelte:fragment slot="header">
-    <AppBar background="!bg-transparent">
-      <svelte:fragment slot="lead"><IconSchool stroke={1.5} size="42" style="color: #FF7777"/><h class="h4" style="position:relative; left:3.5%; color: #FF7777;"><b>OpenSAT</b></h></svelte:fragment>
-     
-      <svelte:fragment slot="trail"><a href="/" class="btn btn-sm variant-filled-primary" data-sveltekit-preload-data="hover">Home</a><a href="https://github.com/Anas099X/OpenSAT" class="btn btn-sm variant-filled-secondary" data-sveltekit-preload-data="hover"><IconBrandGithub /> Github</a></svelte:fragment>
-    </AppBar>
-  </svelte:fragment>
-	<svelte:fragment slot="sidebarLeft">Sidebar Left</svelte:fragment>
-	<!-- (sidebarRight) -->
-	<!-- (pageHeader) -->
-
+  // @ts-nocheck
   
-    {#if users.length === 0}
-      <p>Loading users...</p>
-    {/if}
+      import { AppBar, AppShell, Avatar} from '@skeletonlabs/skeleton';
+      import { IconBrandGithub, IconSchool, IconMail, IconMessage, IconCurrentLocation} from '@tabler/icons-svelte';
+      import { initializeApp } from 'firebase/app';
+      import { getFirestore, collection, getDocs } from 'firebase/firestore';
+      import { onMount } from 'svelte';
   
-    {#if users.length > 0}
-    
-      <ul>
-        <div class="grid grid-cols-3 md:grid-cols-3 gap-3" style="position:relative; left:3%; height:auto; width:95%; margin-top:2.5%">  
-        {#each users as user}
+      // Firebase configuration object
+      const firebaseConfig = {
+          apiKey: "AIzaSyDnbLx28r3PbTTWBUb1RwwfVe3xKFS6crY",
+          authDomain: "crucial-study-390519.firebaseapp.com",
+          projectId: "crucial-study-390519",
+          storageBucket: "crucial-study-390519.appspot.com",
+          messagingSenderId: "1048701385145",
+          appId: "1:1048701385145:web:531265aff5615610901e68"
+      };
   
-        <a class="card card-hover overflow-hidden" href="/elements/cards">
-          <header>
-            <div class="p-4 flex justify-start items-center space-x-4"> 
-              <Avatar src={user.banner} width="w-12" /> <h3 class="h3" data-toc-ignore>{user.username}</h3>
-            </div>
-           
-          </header>
-          <div class="p-4 space-y-4">
-            <article>
-              <p>
-                {user.description}
-              </p>
-            </article>
-          </div>
-          <hr class="opacity-50" />
-          <footer class="p-4 flex justify-start items-center space-x-4">
-            
-            <div class="flex-auto flex justify-between items-center">
-              <h6 class="font-bold" data-toc-ignore>{user.availability}</h6>
-              {user.country}
-            </div>
-          </footer>
-        </a>
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const db = getFirestore(app);
   
-        {/each}
-        </div>
-      </ul>
-    {/if}
-
-	<slot />
-	<!-- ---- / ---- -->
-	<!-- (pageFooter) -->
-	<!-- (footer) -->
-</AppShell>
-
+      let users = [];
+  
+      async function fetchUsers() {
+          try {
+              const usersCollection = collection(db, 'users');
+              const snapshot = await getDocs(usersCollection);
+              users = snapshot.docs.map(doc => doc.data());
+              console.log(users); // Log the fetched user data
+          } catch (error) {
+              console.error('Error fetching users:', error);
+          }
+      }
+  
+      onMount(() => {
+          fetchUsers();
+      });
+  </script>
+  
+  <AppShell>
+      <svelte:fragment slot="header">
+          <AppBar background="bg-surface-100-800-token">
+              <svelte:fragment slot="lead">
+                  <IconSchool stroke={1.5} size="42" class="text-primary-500"/>
+                  <h class="h4" style="position:relative; left:3.5%; color: #FF7777;"><b>OpenSAT</b></h>
+              </svelte:fragment>
+              <svelte:fragment slot="trail">
+                  <a href="/" class="btn btn-sm variant-filled-primary" data-sveltekit-preload-data="hover">Home</a>
+                  <a href="https://github.com/Anas099X/OpenSAT" class="btn btn-sm variant-filled-secondary" data-sveltekit-preload-data="hover">
+                      <IconBrandGithub /> Github
+                  </a>
+              </svelte:fragment>
+          </AppBar>
+      </svelte:fragment>
+  
+      <div class="container mx-auto p-4">
+          {#if users.length === 0}
+              <p class="text-center">Loading users...</p>
+          {:else}
+              <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">  
+                  {#each users as user}
+                      {#if user.verified_tutor == true}
+                          <div class="card card-hover overflow-hidden variant-glass-primary">
+                              <header class="card-header flex items-center space-x-4 p-4">
+                                  <Avatar src={user.banner} width="w-16" border="border-4 border-primary-500" />
+                                  <div>
+                                      <h3 class="h3">{user.username}</h3>
+                                      <h3 class="h6"><b><div variant="filled">{user.availability}</div></h3>
+                                  </div>
+                              </header>
+                              <div class="p-4 space-y-4">
+                                  <p class="text-sm">{user.description}</p>
+                                  <div class="flex items-center space-x-2">
+                                      <IconMail size={18} />
+                                      <span class="text-sm">{user.email}</span>
+                                  </div>
+                                  <div class="flex items-center space-x-2">
+                                      
+                                      <span class="text-sm">{user.gender || 'Not specified'}</span>
+                                  </div>
+                              </div>
+                              <footer class="card-footer p-4 flex justify-between items-center">
+                                  <span class="text-sm font-bold">{user.country}</span>
+                                  <button class="btn btn-sm variant-filled-secondary"><IconMessage stroke={2} size="19" />Contact</button>
+                              </footer>
+                          </div>
+                      {/if}
+                  {/each}
+              </div>
+          {/if}
+      </div>
+  
+      <slot />
+  </AppShell>
