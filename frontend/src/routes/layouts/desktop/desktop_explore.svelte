@@ -78,7 +78,9 @@ function toggle_math(domain: string): void {
       <AppBar background="!bg-transparent">
         <svelte:fragment slot="lead"><IconSchool stroke={1.5} size="42" style="color: #FF7777"/><h class="h4" style="position:relative; left:3.5%; color: #FF7777;"><b>OpenSAT</b></h></svelte:fragment>
        
-        <svelte:fragment slot="trail"><a href="/" class="btn btn-sm variant-filled-primary" data-sveltekit-preload-data="hover">Home</a><a href="https://github.com/Anas099X/OpenSAT" class="btn btn-sm variant-filled-secondary" data-sveltekit-preload-data="hover"><IconBrandGithub /> Github</a></svelte:fragment>
+        <svelte:fragment slot="trail"><a href="/" class="btn btn-sm variant-filled-primary" data-sveltekit-preload-data="hover">Home</a>
+        <a href="/tutors" class="btn btn-sm variant-filled-primary " data-sveltekit-preload-data="hover">Tutors</a>
+        <a href="https://github.com/Anas099X/OpenSAT" class="btn btn-sm variant-filled-secondary" data-sveltekit-preload-data="hover"><IconBrandGithub /> Github</a></svelte:fragment>
       </AppBar>
       </svelte:fragment>
     <svelte:fragment slot="sidebarLeft">
@@ -163,7 +165,7 @@ function toggle_math(domain: string): void {
                   <h class="h4">Question #{data.id}</h>
                   <!-- svelte-ignore a11y-no-static-element-interactions -->
                   <!-- svelte-ignore a11y-click-events-have-key-events -->
-                  <footer class="p-4 flex justify-end items-end space-x-5"><small style="position:relative; left:8%;"><b>{data.domain}</b></small></footer>
+                  <footer class="p-4 flex justify-end items-end space-x-5"><small class="badge variant-filled-secondary text-sm" style="position:relative; left:8%;">{data.domain}</small></footer>
                 </div>
                 {/if}
                 {/each}
@@ -183,7 +185,7 @@ function toggle_math(domain: string): void {
                   <h class="h4">Question #{data.id}</h>
                   <!-- svelte-ignore a11y-no-static-element-interactions -->
                   <!-- svelte-ignore a11y-click-events-have-key-events -->
-                  <footer class="p-4 flex justify-end items-end space-x-5"><small style="position:relative; left:8%"><b>{data.domain}</b></small></footer>
+                  <footer class="p-4 flex justify-end items-end space-x-5"><small class="badge variant-filled-secondary" style="position:relative; left:8%"><b>{data.domain}</b></small></footer>
                 </div>
                 {/if}
                 {/each}

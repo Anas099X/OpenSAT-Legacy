@@ -11,8 +11,8 @@
         <h class="h4 ml-2 text-primary-500 font-bold text-glow">OpenSAT</h>
       </svelte:fragment>
       <svelte:fragment slot="trail">
-        <a href="/" class="btn btn-sm variant-filled-primary hover:scale-105 transition-transform" data-sveltekit-preload-data="hover">Home</a>
-        <a href="https://github.com/Anas099X/OpenSAT" class="btn btn-sm variant-filled-secondary hover:scale-105 transition-transform" data-sveltekit-preload-data="hover">
+        <a href="/tutors" class="btn btn-sm variant-filled-primary " data-sveltekit-preload-data="hover">Tutors</a>
+        <a href="https://github.com/Anas099X/OpenSAT" class="btn btn-sm variant-filled-secondary " data-sveltekit-preload-data="hover">
           <IconBrandGithub /> Github
         </a>
       </svelte:fragment>
