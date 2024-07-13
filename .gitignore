@@ -13,3 +13,5 @@ node_modules
 ai_test.py
 New AI model plan.txt
 /question generator
+googlekey
+frontend/src/routes/keys
