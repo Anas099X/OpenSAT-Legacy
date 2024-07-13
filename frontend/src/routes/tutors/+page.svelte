@@ -6,10 +6,11 @@
       import { initializeApp } from 'firebase/app';
       import { getFirestore, collection, getDocs } from 'firebase/firestore';
       import { onMount } from 'svelte';
+      import { FIREBASE_KEY } from '../keys/api_keys';
   
       // Firebase configuration object
       const firebaseConfig = {
-          apiKey: "AIzaSyDnbLx28r3PbTTWBUb1RwwfVe3xKFS6crY",
+          apiKey: FIREBASE_KEY,
           authDomain: "crucial-study-390519.firebaseapp.com",
           projectId: "crucial-study-390519",
           storageBucket: "crucial-study-390519.appspot.com",

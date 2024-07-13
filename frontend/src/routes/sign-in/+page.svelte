@@ -4,13 +4,14 @@
   import { getAuth } from 'firebase/auth';
     import { AppBar, AppShell } from '@skeletonlabs/skeleton';
     import { IconBrandGithub, IconSchool } from '@tabler/icons-svelte';
+    import { FIREBASE_KEY } from '../keys/api_keys';
 
   let email = '';
   let password = '';
   let errorMessage = '';
 
   const firebaseConfig = {
-    apiKey: "AIzaSyDnbLx28r3PbTTWBUb1RwwfVe3xKFS6crY",
+    apiKey: FIREBASE_KEY,
     authDomain: "crucial-study-390519.firebaseapp.com",
     projectId: "crucial-study-390519",
     storageBucket: "crucial-study-390519.appspot.com",

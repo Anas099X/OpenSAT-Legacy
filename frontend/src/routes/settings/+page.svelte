@@ -5,7 +5,8 @@
   import { getFirestore, doc, getDoc, updateDoc } from 'firebase/firestore';
   import { writable } from 'svelte/store';
   import { AppBar, AppShell } from '@skeletonlabs/skeleton';
-    import { initializeApp } from 'firebase/app';
+  import { initializeApp } from 'firebase/app';
+  import { FIREBASE_KEY } from '../keys/api_keys';
 
   let user = null;
   let countries = [];
@@ -19,7 +20,7 @@
   const contact = writable('');
 
   const firebaseConfig = {
-    apiKey: "AIzaSyDnbLx28r3PbTTWBUb1RwwfVe3xKFS6crY",
+    apiKey: FIREBASE_KEY,
     authDomain: "crucial-study-390519.firebaseapp.com",
     projectId: "crucial-study-390519",
     storageBucket: "crucial-study-390519.appspot.com",
