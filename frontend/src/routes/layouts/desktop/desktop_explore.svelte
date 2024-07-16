@@ -1,6 +1,6 @@
 <script lang="ts">
-  import { AppBar, AppRail, AppRailAnchor, AppRailTile, AppShell, ProgressBar, TreeView, TreeViewItem } from '@skeletonlabs/skeleton';
-  import { IconAdjustmentsSearch, IconBalloon, IconBrandGithub, IconCheck, IconFilter, IconFilterFilled, IconFlagCheck, IconNotebook, IconSchool } from '@tabler/icons-svelte';
+  import { AppBar, AppRail, AppRailAnchor, AppRailTile, AppShell, ProgressBar, ProgressRadial, TreeView, TreeViewItem } from '@skeletonlabs/skeleton';
+  import { IconAdjustmentsSearch, IconBalloon, IconBrandGithub, IconCheck, IconFilter, IconFilterFilled, IconFlagCheck, IconBooks, IconSchool } from '@tabler/icons-svelte';
   import { onMount, onDestroy } from 'svelte';
   
   let english_question_data: any;
@@ -147,7 +147,9 @@ function toggle_math(domain: string): void {
 
 
       {#if isFetchingData}
-      <ProgressBar meter="variant-filled-primary" track="!bg-transparent" />
+      <p style="display: flex; justify-content:center;">
+        <ProgressRadial stroke={50} meter="stroke-primary-500" track="stroke-primary-500/30" strokeLinecap="round" value={undefined} />
+      </p>
       
         {:else if english_question_data}
         <div class="grid grid-cols-1 md:grid-cols-3 gap-3" style="position:relative; left:3%; width:95%; margin-top:2.5%">  
@@ -160,7 +162,7 @@ function toggle_math(domain: string): void {
                 {#if isEnabled && data.domain === domainName}
                 <div class="card card-hover bg-surface-200 p-4 " on:click={() => open_question("english",index + 1)} style="height:20vh">
                   <section class="p-1">
-                    <IconNotebook stroke={2} size=36 style="color: #FF7777"/>
+                    <IconBooks stroke={2} size=36 style="color: #FF7777"/>
                   </section>
                   <h class="h4">Question #{data.id}</h>
                   <!-- svelte-ignore a11y-no-static-element-interactions -->
@@ -180,7 +182,7 @@ function toggle_math(domain: string): void {
                 {#if isEnabled && data.domain === domainName}
                 <div class="card card-hover bg-surface-200 p-4 " on:click={() => open_question("math",index + 1)} style="height:20vh">
                   <section class="p-1">
-                    <IconNotebook stroke={2} size=36 style="color: #FF7777" />
+                    <IconBooks stroke={2} size=36 style="color: #FF7777" />
                   </section>
                   <h class="h4">Question #{data.id}</h>
                   <!-- svelte-ignore a11y-no-static-element-interactions -->

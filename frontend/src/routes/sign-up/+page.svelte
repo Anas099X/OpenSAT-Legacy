@@ -86,9 +86,8 @@
         contact,
         banner,
       });
-
+      
       alert('A verification email has been sent to your address. Please verify your email before signing in.');
-
     } catch (error) {
       if (error.code === "auth/email-already-in-use"){
 
@@ -99,6 +98,7 @@
       }
       
     }
+    window.location.replace('/sign-in')
   }
 
   function handleFileChange(event: Event) {
@@ -212,8 +212,8 @@
           </div>
 
           <div>
-            <label for="availability" class="block text-sm font-medium text-gray-700">Gender</label>
-            <select id="availability" bind:value={availability} required
+            <label for="gender" class="block text-sm font-medium text-gray-700">Gender</label>
+            <select id="gender" bind:value={gender} required
               class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none">
               <option value="" disabled selected>Gender</option>
               <option value="Online">♂️ Male</option>
@@ -233,10 +233,11 @@
           </div>
           
           <div>
+            <!-- svelte-ignore a11y-missing-attribute -->
             <button type="submit"
               class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white variant-filled-primary">
               Sign Up
-            </button>
+          </button>
           </div>
         </form>
 
