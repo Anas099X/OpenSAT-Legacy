@@ -1,7 +1,7 @@
 <script>
   // @ts-nocheck
   
-      import { AppBar, AppShell, Avatar} from '@skeletonlabs/skeleton';
+      import { AppBar, AppShell, Avatar, ProgressRadial} from '@skeletonlabs/skeleton';
       import { IconBrandGithub, IconSchool, IconMail, IconMessage, IconCurrentLocation} from '@tabler/icons-svelte';
       import { initializeApp } from 'firebase/app';
       import { getFirestore, collection, getDocs } from 'firebase/firestore';
@@ -58,7 +58,9 @@
   
       <div class="container mx-auto p-4">
           {#if users.length === 0}
-              <p class="text-center">Loading users...</p>
+              <p style="display: flex; justify-content:center;">
+                <ProgressRadial stroke={50} meter="stroke-primary-500" track="stroke-primary-500/30" strokeLinecap="round" value={undefined} />
+              </p>
           {:else}
               <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">  
                   {#each users as user}
@@ -68,23 +70,23 @@
                                   <Avatar src={user.banner} width="w-16" border="border-4 border-primary-500" />
                                   <div>
                                       <h3 class="h3">{user.username}</h3>
-                                      <h3 class="h6"><b><div variant="filled">{user.availability}</div></h3>
+                                      <h3 class="text-sm"><b><div variant="filled">{user.availability}</div></b></h3>
                                   </div>
                               </header>
                               <div class="p-4 space-y-4">
-                                  <p class="text-sm">{user.description}</p>
+                                  <p class="text-lg">{user.description}</p>
                                   <div class="flex items-center space-x-2">
                                       <IconMail size={18} />
                                       <span class="text-sm">{user.email}</span>
                                   </div>
                                   <div class="flex items-center space-x-2">
                                       
-                                      <span class="text-sm">{user.gender || 'Not specified'}</span>
+                                      <span class="text-sm"><b>{user.gender || 'Not specified'}</b></span>
                                   </div>
                               </div>
                               <footer class="card-footer p-4 flex justify-between items-center">
                                   <span class="text-sm font-bold">{user.country}</span>
-                                  <button class="btn btn-sm variant-filled-secondary"><IconMessage stroke={2} size="19" />Contact</button>
+                                  <a class="btn btn-sm variant-filled-secondary" href={user.contact}><IconMessage stroke={2} size="19" />Contact</a>
                               </footer>
                           </div>
                       {/if}

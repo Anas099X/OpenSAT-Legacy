@@ -43,6 +43,7 @@
       }
 
       console.log('User logged in:', user);
+      window.location.replace('/settings')
       // Redirect or handle successful login here
     } catch (error) {
       console.error('Login Error:', error);
