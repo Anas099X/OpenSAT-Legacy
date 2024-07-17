@@ -5,7 +5,7 @@
   import { getAuth, sendEmailVerification, createUserWithEmailAndPassword } from 'firebase/auth';
   import { getFirestore, doc, setDoc } from 'firebase/firestore';
   import { onMount } from 'svelte';
-  import { FIREBASE_KEY } from '../keys/api_keys';
+  import { FIREBASE_KEY } from '../../keys/api_keys';
 
   let email = '';
   let verified_tutor = false;
@@ -98,7 +98,7 @@
       }
       
     }
-    window.location.replace('/sign-in')
+    window.location.replace('/tutors/sign-in')
   }
 
   function handleFileChange(event: Event) {

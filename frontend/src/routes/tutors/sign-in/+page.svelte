@@ -4,7 +4,7 @@
   import { getAuth } from 'firebase/auth';
     import { AppBar, AppShell } from '@skeletonlabs/skeleton';
     import { IconBrandGithub, IconSchool } from '@tabler/icons-svelte';
-    import { FIREBASE_KEY } from '../keys/api_keys';
+    import { FIREBASE_KEY } from '../../keys/api_keys';
 
   let email = '';
   let password = '';
@@ -43,7 +43,7 @@
       }
 
       console.log('User logged in:', user);
-      window.location.replace('/settings')
+      window.location.replace('/tutors/settings')
       // Redirect or handle successful login here
     } catch (error) {
       console.error('Login Error:', error);
