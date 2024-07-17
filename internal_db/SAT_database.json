@@ -1,151 +1,150 @@
 {
-  "id": "70ced8dc",
-  "domain": "Standard English Conventions",
+  "id": "A1B2C3",
+  "domain": "Problem Solving and Data Analysis",
   "question": {
-    "paragraph": "Books typically have a higher value when underlined and scribbled on by a previous owner if that owner was also a famous poet. Marginalia, left in the margins by former owners, can be of importance to literary scholars.",
-    "question": "Which choice best completes the first sentence?",
+    "question": "A store has a discount on a $50 item. After applying a 20% discount, how much does the item cost?",
     "choices": {
-      "A": "Value, but",
-      "B": "Value",
-      "C": "Value,",
-      "D": "Value but"
+      "A": "$40",
+      "B": "$35",
+      "C": "$30",
+      "D": "$25"
     },
     "correct_answer": "A",
-    "explanation": "Choice A is correct because it uses a comma and the coordinating conjunction \"but\" to join the two independent clauses and create a compound sentence."
-  }
-},{
-  "id": "pyiKfd",
-  "domain": "Expression of Ideas",
-  "question": {
-    "paragraph": "The noted astronomer, Tycho Brahe, was a brilliant observer who meticulously recorded his data. His assistant, Johannes Kepler, used Brahe’s data to formulate a set of laws describing planetary motion. These laws were later revised by Isaac Newton, who developed his own theory of gravity. Newton’s theory of gravity has been widely accepted, but the question remains whether Kepler’s laws are still valid.",
-    "question": "What is the main idea of this paragraph?",
-    "choices": {
-      "A": "Brahe’s data was used by Kepler to formulate laws describing planetary motion.",
-      "B": "Kepler’s laws are still valid, even though Newton’s theory of gravity has been widely accepted.",
-      "C": "Newton’s theory of gravity is based on Brahe’s data, which was meticulously recorded.",
-      "D": "Tycho Brahe was a brilliant astronomer who recorded his data meticulously."
-    },
-    "correct_answer": "A",
-    "explanation": "The paragraph describes how Tycho Brahe’s data was used by Johannes Kepler to formulate a set of laws describing planetary motion, which were later revised by Isaac Newton."
-  }
-},{
-  "id": "e3f745",
-  "domain": "Craft and Structure",
-  "question": {
-    "paragraph": "The artist, known for his use of vivid colors and bold patterns, has recently expanded his artistic repertoire to include sculptures. His new works explore the ____ of human relationships, using abstract shapes and mixed media to convey complex emotions.",
-    "question": "Which choice most logically completes the paragraph?",
-    "choices": {
-      "A": "complexity",
-      "B": "fragility",
-      "C": "depth",
-      "D": "intricacy"
-    },
-    "correct_answer": "C",
-    "explanation": "The paragraph describes the artist's exploration of human relationships in his new sculptures. Choice C, \"depth,\" best completes the paragraph by suggesting that the artist is delving into the multifaceted nature of human connections."
-  }
-},{
-  "id": "18l0e52m",
-  "domain": "Information and Ideas",
-  "question": {
-    "paragraph": "As the sun began to set, the clouds in the sky transformed into a breathtaking canvas of vibrant colors. The orange glow of the sun illuminated the clouds, making their edges appear as if they were lined with fire. The once-white clouds now resembled a kaleidoscope of shades, ranging from deep crimson to soft pinks and golden hues. As the sun continued to descend, the clouds seemed to dance and twirl, creating a mesmerizing spectacle that left onlookers in awe.",
-    "question": "Which choice best describes the main idea of the paragraph?",
-    "choices": {
-      "A": "The sunset creates a beautiful and colorful display in the sky.",
-      "B": "The clouds change shape and color as the sun sets.",
-      "C": "The sky is a canvas for the sun's artistry.",
-      "D": "The sunset is a reminder of the beauty of nature."
-    },
-    "correct_answer": "A",
-    "explanation": "The paragraph primarily focuses on the vibrant colors and captivating display created by the clouds during sunset."
-  }
-},{
-  "id": "f885b9",
-  "domain": "Standard English Conventions",
-  "question": {
-    "paragraph": "The small car swerved to ____ avoid hitting the construction barrels.",
-    "question": "Which choice completes the sentence so that it conforms to the conventions of standard English?",
-    "choices": {
-      "A": "it could",
-      "B": "it would",
-      "C": "that it could",
-      "D": "that it would"
-    },
-    "correct_answer": "C",
-    "explanation": "Choice C is the best answer. The sentence is in the past tense, so we need to use the past tense of the verb 'can', which is 'could'. We also need to use the infinitive 'to' before the verb 'avoid'. Therefore, the correct answer is 'that it could'."
-  }
-},{
-  "id": "660d50dc",
-  "domain": "Expression of Ideas",
-  "question": {
-    "paragraph": "Anne Tyler is an accomplished American novelist whose novels frequently explore the theme of family relationships. One of her works, Searching for Caleb, follows an elderly man's road trip across the country to visit his long-lost son. Searching for Caleb exhibits Tyler's signature style and focus. ______, it is a thoughtful and introspective work.",
-    "question": "Which choice most effectively completes the sentence?",
-    "choices": {
-      "A": "Furthermore",
-      "B": "However",
-      "C": "Therefore",
-      "D": "Despite this"
-    },
-    "correct_answer": "A",
-    "explanation": "Choice A is the best answer because it provides a logical transition from the first sentence to the second sentence. The first sentence introduces Anne Tyler and her writing style, and the second sentence provides more detail about one of her novels. Choice B does not make sense in the context of the passage, as it suggests a contrast between the two sentences. Choice C does not work well either, as it suggests a cause-and-effect relationship between the two sentences. Choice D does not fit, as it suggests that the fact that Searching for Caleb exhibits Tyler's signature style and focus is an obstacle to its being thoughtful and introspective."
-  }
-},{
-  "id": "5a5424bc",
-  "domain": "Craft and Structure",
-  "question": {
-    "paragraph": "The bustling city grew rapidly, its tall buildings piercing the sky like a thousand sharp needles. With each passing day, it transformed, becoming more modern and efficient, yet also losing its sense of intimacy and charm.",
-    "question": "What is the implied meaning of the phrase \"piercing the sky\" in the context of the paragraph?",
-    "choices": {
-      "A": "Rises high and majestic",
-      "B": "Causes pain and discomfort",
-      "C": "Protrudes in a hostile manner",
-      "D": "Possesses supernatural abilities"
-    },
-    "correct_answer": "A",
-    "explanation": "Within this urban landscape, the towering buildings are described as \"piercing the sky,\" suggesting their great height and ability to cut through the expanse above. This metaphorical use of \"piercing\" implies a sense of grandeur and dominance, as these buildings stretch towards the heavens."
-  }
-},{
-  "id": "c538954d",
-  "domain": "Information and Ideas",
-  "question": {
-    "paragraph": "The \"\"Butterfly Garden\"\" is a captivating 2015 novel by Dot Hutchison. In the novel, Hutchison expertly portrays the transformative journey of Serena Valentino, a young woman struggling to cope with a traumatic past: ______.",
-    "question": "Which quotation from \"\"The Butterfly Garden\"\" best illustrates the claim?",
-    "choices": {
-      "A": "Serena's nightmares were relentless, vivid recollections of the horrors she had endured, leaving her shattered and unable to find solace.",
-      "B": "Haunted by memories that refused to fade, Serena's spirit slowly withered and died, replaced by a hollow shell of her former self.",
-      "C": "Serena's unwavering determination to heal and reclaim her identity shone through the darkness, guiding her toward a brighter future.",
-      "D": "Finding sanctuary in the solace of nature, Serena discovered a glimmer of hope amidst the despair that threatened to consume her."
-    },
-    "correct_answer": "C",
-    "explanation": "Choice C is the best answer. By showing Serena's \"unwavering determination to heal and reclaim her identity,\" this choice effectively demonstrates her ability to overcome adversity and transform her life."
-  }
-},{
-  "id": "6j23971",
-  "domain": "Standard English Conventions",
-  "question": {
-    "paragraph": "Anyone who has spent an hour on an airplane these days will undoubtedly have seen the fantastic changes that have taken place in the way that passengers stay entertained during flights. In the past, a plastic bag of snacks, a paper-covered puzzle book, and a chorus of screaming children were the dismal norm. Now, it is hard to find a flight where every ______ is watching personal electronic devices.",
-    "question": "Which underlined portion is used incorrectly?",
-    "choices": {
-      "A": "entertained",
-      "B": "flight",
-      "C": "passenger",
-      "D": "is"
-    },
-    "correct_answer": "D",
-    "explanation": "The correct answer is D: “is”. The subject of the sentence is “every passenger”, which is plural, so the verb must be “are”, not “is”."
-  }
-},{
-  "id": "w3423r",
-  "domain": "Expression of Ideas",
-  "question": {
-    "paragraph": "Poets often infuse their work with personal experiences. Their characters' lives and interactions often parallel their own in many ways. In her collection of riveting short stories, \"The Night Remains\", Sue Monk Kidd explores the theme of nature as a sanctuary. _____ Throughout her collection, she draws on her own experiences in the natural world to craft her poignant tales.",
-    "question": "Which choice most logically completes the paragraph?",
-    "choices": {
-      "A": "Similarly",
-      "B": "Ultimately",
-      "C": "Alternatively",
-      "D": "Therefore"
-    },
-    "correct_answer": "A",
-    "explanation": "Choice A, \"Similarly\", is the best transition because it signals a parallel between Kidd's personal experiences and her fictional narratives, which is the main idea of the paragraph."
+    "explanation": "A 20% discount on $50 is calculated as $50 * 0.20 = $10. Therefore, the discounted price is $50 - $10 = $40."
   }
 },
+{
+  "id": "D4E5F6",
+  "domain": "Problem Solving and Data Analysis",
+  "question": {
+    "question": "A car travels at a constant speed of 60 miles per hour. How far can it travel in 3 hours?",
+    "choices": {
+      "A": "120 miles",
+      "B": "180 miles",
+      "C": "240 miles",
+      "D": "300 miles"
+    },
+    "correct_answer": "B",
+    "explanation": "Distance = speed * time, so the car can travel 60 * 3 = 180 miles."
+  }
+},
+{
+  "id": "G7H8I9",
+  "domain": "Problem Solving and Data Analysis",
+  "question": {
+    "question": "If the average of five numbers is 20, what is their total sum?",
+    "choices": {
+      "A": "80",
+      "B": "90",
+      "C": "100",
+      "D": "110"
+    },
+    "correct_answer": "C",
+    "explanation": "If the average of five numbers is 20, then their total sum is 20 * 5 = 100."
+  }
+},
+{
+  "id": "J1K2L3",
+  "domain": "Problem Solving and Data Analysis",
+  "question": {
+    "question": "A rectangle has a length of 10 meters and a width of 5 meters. What is its area?",
+    "choices": {
+      "A": "30 square meters",
+      "B": "40 square meters",
+      "C": "50 square meters",
+      "D": "60 square meters"
+    },
+    "correct_answer": "C",
+    "explanation": "The area of a rectangle is length * width, so 10 * 5 = 50 square meters."
+  }
+},
+{
+  "id": "M4N5O6",
+  "domain": "Problem Solving and Data Analysis",
+  "question": {
+    "question": "If 25% of a number is 15, what is the number?",
+    "choices": {
+      "A": "45",
+      "B": "50",
+      "C": "55",
+      "D": "60"
+    },
+    "correct_answer": "D",
+    "explanation": "Let the number be x. Then 0.25x = 15. Solving for x, we get x = 15 / 0.25 = 60."
+  }
+},
+{
+  "id": "P7Q8R9",
+  "domain": "Problem Solving and Data Analysis",
+  "question": {
+    "question": "If a train travels 90 miles in 1.5 hours, what is its average speed in miles per hour?",
+    "choices": {
+      "A": "50",
+      "B": "55",
+      "C": "60",
+      "D": "65"
+    },
+    "correct_answer": "C",
+    "explanation": "Average speed = total distance / total time, so 90 / 1.5 = 60 miles per hour."
+  }
+},
+{
+  "id": "S1T2U3",
+  "domain": "Problem Solving and Data Analysis",
+  "question": {
+    "question": "A classroom has 12 boys and 18 girls. What fraction of the class are girls?",
+    "choices": {
+      "A": "2/3",
+      "B": "1/2",
+      "C": "3/4",
+      "D": "3/5"
+    },
+    "correct_answer": "A",
+    "explanation": "Total students = 12 + 18 = 30. Fraction of girls = 18 / 30 = 3 / 5."
+  }
+},
+{
+  "id": "V4W5X6",
+  "domain": "Problem Solving and Data Analysis",
+  "question": {
+    "question": "If a bag contains 3 red balls and 5 blue balls, what is the probability of picking a red ball?",
+    "choices": {
+      "A": "3/8",
+      "B": "5/8",
+      "C": "1/2",
+      "D": "3/5"
+    },
+    "correct_answer": "A",
+    "explanation": "Total balls = 3 + 5 = 8. Probability of picking a red ball = 3 / 8."
+  }
+},
+{
+  "id": "Y7Z8A9",
+  "domain": "Problem Solving and Data Analysis",
+  "question": {
+    "question": "If a student scores 75, 85, and 90 on three tests, what is the average score?",
+    "choices": {
+      "A": "80",
+      "B": "82",
+      "C": "83.33",
+      "D": "85"
+    },
+    "correct_answer": "C",
+    "explanation": "Average score = (75 + 85 + 90) / 3 = 250 / 3 â‰ˆ 83.33."
+  }
+},
+{
+  "id": "B1C2D3",
+  "domain": "Problem Solving and Data Analysis",
+  "question": {
+    "question": "If a car travels 150 miles on 5 gallons of gas, what is the car's fuel efficiency in miles per gallon?",
+    "choices": {
+      "A": "25",
+      "B": "30",
+      "C": "35",
+      "D": "40"
+    },
+    "correct_answer": "B",
+    "explanation": "Fuel efficiency = total distance / total gallons, so 150 / 5 = 30 miles per gallon."
+  }
+}

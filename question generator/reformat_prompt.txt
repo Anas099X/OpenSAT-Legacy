@@ -26,7 +26,7 @@
   "domain": "",
   "question": {
     "paragraph": "",
-    "question": "",
+    
     "choices": {
       "A": "",
       "B": "",
@@ -43,3 +43,4 @@
 
 # Output Format
 - Json(in text format)
+
