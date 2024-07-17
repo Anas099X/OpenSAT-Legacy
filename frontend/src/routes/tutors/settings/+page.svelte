@@ -6,7 +6,7 @@
   import { writable } from 'svelte/store';
   import { AppBar, AppShell } from '@skeletonlabs/skeleton';
   import { initializeApp } from 'firebase/app';
-  import { FIREBASE_KEY } from '../keys/api_keys';
+  import { FIREBASE_KEY } from '../../keys/api_keys';
 
   let user = null;
   let countries = [];
