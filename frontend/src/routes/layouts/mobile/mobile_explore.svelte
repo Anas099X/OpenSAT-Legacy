@@ -107,7 +107,7 @@ function toggle_math(domain: string): void {
                   <h class="h3">Question #{data.id}</h>
                   <!-- svelte-ignore a11y-no-static-element-interactions -->
                   <!-- svelte-ignore a11y-click-events-have-key-events -->
-                  <footer class="p-4 flex justify-end items-end space-x-5"><small style="position:relative; left:8%"><b>{data.domain}</b></small></footer>
+                  <footer class="p-4 flex justify-end items-end space-x-5"><small class="badge variant-filled-secondary text-sm" style="position:relative; left:8%;">{data.domain}</small></footer>
                 </div>
                 {/if}
                 {/each}
@@ -127,7 +127,7 @@ function toggle_math(domain: string): void {
                   <h class="h4">Question #{data.id}</h>
                   <!-- svelte-ignore a11y-no-static-element-interactions -->
                   <!-- svelte-ignore a11y-click-events-have-key-events -->
-                  <footer class="p-4 flex justify-end items-end space-x-5"><small style="position:relative; left:8%"><b>{data.domain}</b></small></footer>
+                  <footer class="p-4 flex justify-end items-end space-x-5"><small class="badge variant-filled-secondary text-sm" style="position:relative; left:8%;">{data.domain}</small></footer>
                 </div>
                 {/if}
                 {/each}
