@@ -1,26 +1,15 @@
 <script>
   import { signInWithEmailAndPassword, sendEmailVerification } from 'firebase/auth';
-  import { initializeApp } from 'firebase/app';
-  import { getAuth } from 'firebase/auth';
-    import { AppBar, AppShell } from '@skeletonlabs/skeleton';
-    import { IconBrandGithub, IconSchool } from '@tabler/icons-svelte';
-    import { FIREBASE_KEY } from '../../keys/api_keys';
+  import { AppBar, AppShell } from '@skeletonlabs/skeleton';
+  import { IconBrandGithub, IconSchool } from '@tabler/icons-svelte';
+  import { auth, db, app } from '$lib/firebase';
+
 
   let email = '';
   let password = '';
   let errorMessage = '';
 
-  const firebaseConfig = {
-    apiKey: FIREBASE_KEY,
-    authDomain: "crucial-study-390519.firebaseapp.com",
-    projectId: "crucial-study-390519",
-    storageBucket: "crucial-study-390519.appspot.com",
-    messagingSenderId: "1048701385145",
-    appId: "1:1048701385145:web:531265aff5615610901e68"
-  };
-
-  const app = initializeApp(firebaseConfig);
-  const auth = getAuth(app);
+ 
 
   async function handleLogin() {
     errorMessage = ''; // Clear any previous error messages

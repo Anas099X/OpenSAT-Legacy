@@ -1,11 +1,10 @@
 <script lang="ts">
   import { AppBar, AppShell } from '@skeletonlabs/skeleton';
   import { IconBrandGithub, IconSchool } from '@tabler/icons-svelte';
-  import { initializeApp } from 'firebase/app';
   import { getAuth, sendEmailVerification, createUserWithEmailAndPassword } from 'firebase/auth';
   import { getFirestore, doc, setDoc } from 'firebase/firestore';
+  import { auth, db, app } from '$lib/firebase';
   import { onMount } from 'svelte';
-  import { FIREBASE_KEY } from '../../keys/api_keys';
 
   let email = '';
   let verified_tutor = false;
@@ -18,22 +17,12 @@
   let contact = '';
   let imageFile: File | '' = '';
   let imageError: string | '' = '';
-  let countries = [];
+  let countries = '';
   let gender = '';
   let errorMessage = '';
 
-  const firebaseConfig = {
-    apiKey: FIREBASE_KEY,
-    authDomain: "crucial-study-390519.firebaseapp.com",
-    projectId: "crucial-study-390519",
-    storageBucket: "crucial-study-390519.appspot.com",
-    messagingSenderId: "1048701385145",
-    appId: "1:1048701385145:web:531265aff5615610901e68"
-  };
 
-  const app = initializeApp(firebaseConfig);
-  const auth = getAuth(app);
-  const db = getFirestore(app);
+
 
   const bbimgApiKey = '24192b2e63280714909800d28158a458';
   const bbimgApiUrl = 'https://api.imgbb.com/1/upload';
