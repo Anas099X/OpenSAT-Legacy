@@ -3,24 +3,11 @@
   
       import { AppBar, AppShell, Avatar, ProgressRadial} from '@skeletonlabs/skeleton';
       import { IconBrandGithub, IconSchool, IconMail, IconMessage, IconCurrentLocation} from '@tabler/icons-svelte';
-      import { initializeApp } from 'firebase/app';
       import { getFirestore, collection, getDocs } from 'firebase/firestore';
       import { onMount } from 'svelte';
-      import { FIREBASE_KEY } from '../keys/api_keys';
+      import { auth, db, app } from '$lib/firebase';
   
-      // Firebase configuration object
-      const firebaseConfig = {
-          apiKey: FIREBASE_KEY,
-          authDomain: "crucial-study-390519.firebaseapp.com",
-          projectId: "crucial-study-390519",
-          storageBucket: "crucial-study-390519.appspot.com",
-          messagingSenderId: "1048701385145",
-          appId: "1:1048701385145:web:531265aff5615610901e68"
-      };
-  
-      // Initialize Firebase
-      const app = initializeApp(firebaseConfig);
-      const db = getFirestore(app);
+
   
       let users = [];
   
