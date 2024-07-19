@@ -33,7 +33,7 @@
 
   function open_question(domain_id: any, question_id: any) {
   const url = `${domain_id}/question/${question_id}`;
-  window.open(url, '_blank', 'noopener noreferrer');
+  window.location.replace(url)
 }
   
   onMount(() => fetchData(0)); // Fetch data on component mount with initial page
