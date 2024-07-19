@@ -50,7 +50,7 @@
   {#if isFetchingData}
     <ProgressBar meter="variant-filled-primary" track="!bg-transparent" />
   {:else if questionData}
-    <div class="flex justify-center relative top-[10%]">
+    <div class="flex justify-center relative top-[12%]">
       <div class="card bg-surface-200 max-w-[100vh]">
         <div class="card-content p-4">  
           <div class="flex justify-between flex-wrap">
